@@ -1,8 +1,5 @@
 # About BLOC
 
-## NO ICO?
-[BLOC](https://bloc.money) differentiates itself from others as there has been no initial coin offering made to fund and launch the project. As we believe that there are too many ico’s poppin out every day without real products, providing exceptional products and services are key principles enforcing the project to grow at an increasing rate. Therefore, the developing team invested themselves all their time and savings into the BLOC.
-
 ## BLOC Features
 We are trying to do things no cryptocurrency has everyone before. We already have online few exclusive tools such as the unique **BLOC** [JAVASCRIPT WEB MINER](https://bloc-mining.com) but also the **BLOC Wallet for iOS** [available on the App Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2) or [BLOC Wallet for Telegram](https://t.me/bloc_wallet_bot) which makes BLOC instantly available to over 200 million+ users worldwide. Discover the [BLOC Dashboard](https://dashboard.bloc.money) and join the AirDrop mission to grab your very 1st BLOC. What about making some passive income while sleeping with the [sleep mining](https://www.youtube.com/watch?v=WGVfNRHJ3ac). We are trying to build the most advanced ecosystem ever created for a cryptocurrency. Much more is coming soon. Feel free to visit our website [BLOC.MONEY](https://bloc.money) not to miss any news.
 

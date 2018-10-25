@@ -1,4 +1,4 @@
-![TurtleCoin Logo](images/turtlecoin_logo.png)
+![TurtleCoin Logo](images/bloc-logo-intro.png)
 
 # Welcome to BLOC Wiki
 
@@ -15,6 +15,6 @@ This wiki is the main source of documentation for newcomers to the TurtleCoin pr
 
 | **About BLOC** | **Wallets** | **Mining** | **Contributing** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
-| ![Logo](images/table_logo.png) | ![Wallets](images/table_wallet.png) | ![Mining](images/table_mine.png) | ![Dev](images/table_dev.png) |
-| [About BLOC](about/About-BLOC) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining BLOC](Getting-Started#mining) | [Contributing to BLOC](about/Contributing) |
+| ![Logo](images/bloc-coin-logo.png) | ![Wallets](images/wallet-title.svg) | ![Mining](images/mining-title.svg) | ![Dev](images/community-title.svg) |
+| [About BLOC](about/About-BLOC.md) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining BLOC](Getting-Started#mining) | [Contributing to BLOC](about/Contributing) |
 | Learn more about BLOC and the community | A guide on setting up a TurtleCoin wallet to start receiving some turtles! | A step-by-step guide to start mining BLOC | Information on contributing to BLOC

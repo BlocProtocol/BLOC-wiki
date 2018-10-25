@@ -1,31 +1,23 @@
-# Getting Started with TurtleCoin
+# Getting Started with BLOC
 
-## What is TurtleCoin?
+[BLOC](https://bloc.money) is a secure, private, decentralized, egalitarian, fungible and fast cryptocurrency with a focus on accessibility, security and simplicity. BLOC makes getting started with cryptocurrency easier than ever. Send money worldwide immediately and without costly intermediaries using the blockchain technology.
 
-TurtleCoin is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
+Below is essentially a checklist of tasks you have to do to get started with BLOC
 
-One of TurtleCoin's main goals is to make things as simple and as accessible as possible for everyday people, creating a cryptocurrency which is inviting, fun and friendly.
+## Setting up a new BLOC wallet
 
-
-
-Below is essentially a checklist of tasks you have to do to get started with TurtleCoin.
-
-## 1. Setting Up a New Wallet
-
-There are multiple types of wallets you can use with TurtleCoin.
+There are multiple type of wallets you can use with [BLOC](https://bloc.money)
 
 To view a list of them, their interface and a brief description, as a well as guides on how to use them, you can check [this guide](../guides/wallets/Making-a-Wallet).
 
-## 2. Start Mining TurtleCoin<a name="mining"></a>
+## Start mining BLOC
 
-Mining is essentially the process of using your computer to help verify and secure a cryptocurrency network, in our case, it is the TurtleCoin network. By doing this, you will be rewarded with TurtleCoin.
+Cryptocurrency mining includes two functions, namely: adding transactions to the blockchain (securing and verifying) and also releasing new currency. Mining needs a device such as a computer or mobile device and a special program to run. Once the miner is started you will get rewarded in [BLOC](https://bloc.money)
 
 If you want to learn about cryptocurrencies, mining is a great place to start!
 
-To view an in-depth guide on how to mine TurtleCoin, you can view [this guide](../guides/mining/Mining)
+To view an in-depth guide on how to mine [BLOC](https://bloc.money), you can view [this guide](../guides/mining/Mining)
 
-## 3. Socialize!<a name="socialize"></a>
+## Socialize
 
-We have an awesome community and would love for you to join in!
-
-You can join our [Discord](http://chat.turtlecoin.lol/) or come on over to our [subreddit!](https://reddit.com/r/trtl) We can't wait to see you :)
+Come and socialise with us! Check out our social networks to make sure you stay up to date and meet crypto enthusiast like you. This is the updated list of all the official links regarding the [BLOC](https://bloc.money) project.

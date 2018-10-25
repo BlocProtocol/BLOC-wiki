@@ -72,12 +72,14 @@ nav:
       - Getting Started: Getting-Started.md
       - Contributors: Contributors.md
     - About:
-      - About TurtleCoin: about/About-TurtleCoin.md
+      - About TurtleCoin: about/About-BLOC.md
+      - Specs: about/Specs.md
       - Background and History: about/Background-and-History.md
       - Our Community: about/Community.md
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
       - Timeline: about/Timeline.md
+      
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
     - Guides:

@@ -16,5 +16,5 @@ This wiki is the main source of documentation for newcomers to the TurtleCoin pr
 | **About BLOC** | **Wallets** | **Mining** | **Contributing** |
 |:----------------------:|:-------------:|:------------:|:------------------:|
 | ![Logo](images/index-bloc.png) | ![Wallets](images/index-wallet.png) | ![Mining](images/index-mining.png) | ![Dev](images/index-community.png) |
-| [About BLOC](about/About-BLOC.md) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining BLOC](Getting-Started#mining) | [Contributing to BLOC](about/Contributing) |
+| [About BLOC](about/index.md) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining BLOC](Getting-Started#mining) | [Contributing to BLOC](about/Contributing) |
 | Learn more about BLOC and the community | A guide on setting up a BLOC wallet to start receiving BLOC money! | A step-by-step guide to start mining BLOC | Information on contributing to BLOC

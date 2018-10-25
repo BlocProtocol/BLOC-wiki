@@ -231,32 +231,39 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 
 ### Viewing Wallet Balance
 
-Here's a quick image of BLOCWallet in action after using the backup balance:
-![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_backup.png)
+## Screenshot
 
-To view your wallet's balance; at the menu, type `balance` and press `enter`:
+Here's a quick image of BLOCWallet in action after using the balance command:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_balance.png)
+
+To view your wallet's balance; at the menu, type `balance` or `3` and press `enter`:
 
 ```
-[TRTL trtl]: balance
-Available balance: 1000.00 TRTL
-Locked (unconfirmed) balance: 100.00 TRTL
-Total balance: 1100.00 TRTL
-[TRTL trtl]:
+[BLOC JENNY]: balance
+Available balance: 1.0000 BLOC
+Locked (unconfirmed) balance: 0.0000 BLOC
+Total balance: 1.0000 BLOC
+[BLOC JENNY]:
 ```
 
-### Sending TurtleCoin Transactions<a name="tx-trtl"></a>
+### Sending BLOC Transactions<a name="tx-bloc"></a>
 
-To send Turtlecoin; at the Zedwallet menu:
+## Screenshot
 
-- Type: `transfer` and press `enter`
+Here's a quick image of BLOCWallet in action after using the transfer command:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_transfer.png)
 
-- Type/paste the address you want to send the TRTL to and press `enter`
+To send BLOC; at the BLOCWallet menu:
 
-- Type the amount of TRTL you want to send (like `100`) and press `enter`
+- Type: `transfer` or `7` and press `enter`
 
-- Press `enter` to use the default fee of 0.1 TRTL (or set it higher if you're sending a large amount of TRTL)
+- Type/paste the address you want to send the BLOC to and press `enter`
 
-- Enter the payment ID if the recipient has provided one. Check the [payment ID section](#tx-trtl-p-id) if you're not sure when/how to use it
+- Type the amount of BLOC you want to send (like `0.5`) and press `enter`
+
+- Press `enter` to use the default fee of 0.0001 BLOC (or set it higher if you're sending a large amount of BLOC)
+
+- Enter the payment ID if the recipient has provided one. Check the [payment ID section](#tx-bloc-p-id) if you're not sure when/how to use it
 
 - If you make a mistake or need to stop the transaction, type `cancel` at any time
 
@@ -266,52 +273,84 @@ To send Turtlecoin; at the Zedwallet menu:
 
 Depending on the amount you transfer, you may need to wait a while for confirmation.  If you have had too many small incoming transactions, or the amount you wish to send is too large; either break up your transfer into several smaller amounts, or optimise your wallet.
 
-Example:
-
-![transfer](guides/wallets/images/transfer-simple.png)
-
-
 #### Optimizing your Wallet
+
+## Screenshot
+
+Here's a quick image of BLOCWallet in action after using the optimize command:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_optimize.png)
 
 Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
 
 To optimize your wallet, type `optimize` and press `enter`:
 ```
-[TRTL trtl]: optimize
+[BLOC JENNY]: optimize
 Attempting to optimize your wallet to allow you to send large amounts at once. 
 This may take a very long time!
 Do you want to proceed? (Y/n): y
 Running optimization round 1...
 Full optimization completed!
-[TRTL trtl]: 
+[BLOC JENNY]: 
 ```
 
 When it is completed, it will print out a green message `Full optimization completed!`
 
-![optimize](guides/wallets/images/optimize-simple.png)
+#### Payment ID<a name="tx-bloc-p-id"></a>
 
-#### Payment ID<a name="tx-trtl-p-id"></a>
+## Screenshot
 
-Because transactions on the TurtleCoin blockchain are privatized, in some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
+Here's a quick image of BLOCWallet in action after using the optimize command:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_payment-id.png)
 
-**You need it if you're sending TRTL to an exchange, the tipbot or RainBorg**.
+Because transactions on the BLOC blockchain are privatized, in some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
+
+**You need it if you're sending BLOC to an exchange.
 
 To send a transaction with a payment ID, enter it when prompted to.
 
-![p-id](guides/wallets/images/p-id-simple.png)
-
 Note that typically, the service/recipient will generate and provide the required payment ID.
+```
+[BLOC JENNY]: transfer
+Note: You can type cancel at any time to cancel the transaction
+
+What address do you want to transfer to?: abLoc7qZYJd7cWysPQRivNNMQMFgkXNPgiQXN1i2twdUWvwr2XMbxsAbwdL3eJjCMSgs8oWyGx7pHCX8jWHrKi8Meap3gc5TujM
+
+How much BLOC do you want to send?: 0.1
+
+What fee do you want to use?
+Hit enter for the default fee of 0.0001 BLOC: 
+
+What payment ID do you want to use?
+These are usually used for sending to exchanges.
+Warning: If you were given a payment ID,
+you MUST use it, or your funds may be lost!
+Hit enter for the default of no payment ID: 399c9805d2fbcae432b83a62279e3e9f00a96d05ec7edc8f14599a91baaf1213
+
+Confirm Transaction?
+You are sending 0.1000 BLOC, with a network fee of 0.0001 BLOC,
+and a node fee of 0.0000 BLOC, 
+and a Payment ID of 399c9805d2fbcae432b83a62279e3e9f00a96d05ec7edc8f14599a91baaf1213
+
+FROM: JENNY.wallet
+TO: abLoc7qZYJd7cWysPQRivNNMQMFgkXNPgiQXN1i2twdUWvwr2XMbxsAbwdL3eJjCMSgs8oWyGx7pHCX8jWHrKi8Meap3gc5TujM
+
+Is this correct? (Y/n): y
+Enter password: ****
+Transaction has been sent!
+Hash: f1259467fe4c79c091c05f9fe335bda6f45ef8ac995e25a0909ca73a1b5973f8
+[BLOC JENNY]: 
+```
 
 ### Exiting the Wallet
 
-Wallets loaded into the *zedwallet* client must be synced with the blockchain in order to properly calculate balance, view transaction history, etc.
+Wallets loaded into the *BLOCWallet* client must be synced with the blockchain in order to properly calculate balance, view transaction history, etc.
 
-It is important to properly save the wallet data before exiting *zedwallet* so that the synchronized data is not lost.
+It is important to properly save the wallet data before exiting *BLOCWallet* so that the synchronized data is not lost.
 
-To save a wallet's data and exit; at the menu, type `exit` and press `enter`:
+To save a wallet's data and exit; at the menu, type `exit` or `5` and press `enter`:
 
 ```
-[TRTL trtl]: exit
+[BLOC JENNY]: exit
 Shutting down...
 Saving wallet file...
 Shutting down wallet interface...

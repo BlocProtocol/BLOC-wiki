@@ -40,11 +40,11 @@ unzip BLOC-...-linux.zip
 
 ## Screenshot
 
-Here's a quick image of BLOCd MAIN NET in action:
+Here's a quick image of **BLOCd MAIN NET** in action:
 
 ![BLOCd MAIN NET](/docs/images/guides/BLOCd/BLOC-MAINNET-3.0.0.1.png)
 
-Here's a quick image of BLOCd TEST NET in action:
+Here's a quick image of **BLOCd TEST NET** in action:
 
 ![BLOCd TEST NET](/docs/images/guides/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
 
@@ -90,7 +90,7 @@ BLOCWallet has a twin command system; a numerical shortcut for navigating the me
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully created a wallet:
+Here's a quick image of BLOCWallet in action after have successfully **created a wallet**:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
 
@@ -137,7 +137,7 @@ Use the status command to check the progress.
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully opened a wallet:
+Here's a quick image of BLOCWallet in action after have successfully **open a wallet**:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet.png)
 
@@ -186,7 +186,7 @@ Finished scanning blockchain!
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully typed address or 2:
+Here's a quick image of BLOCWallet in action after have successfully typed **address**:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_address.png)
 
 To view a wallet's public address; at the menu, type `address` or `2` and press `enter`.
@@ -201,7 +201,7 @@ abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the backup command:
+Here's a quick image of BLOCWallet in action after using the **backup** command:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_backup.png)
 
 Each BLOC  wallet is essentially, just a pair of keys (*View Key* and *Spend Key*) from which the public address is derived.
@@ -233,7 +233,7 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the balance command:
+Here's a quick image of BLOCWallet in action after using the **balance** command:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_balance.png)
 
 To view your wallet's balance; at the menu, type `balance` or `3` and press `enter`:
@@ -250,7 +250,7 @@ Total balance: 1.0000 BLOC
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the transfer command:
+Here's a quick image of BLOCWallet in action after using the **transfer** command:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_transfer.png)
 
 To send BLOC at the BLOCWallet menu:
@@ -277,7 +277,7 @@ Depending on the amount you transfer, you may need to wait a while for confirmat
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the optimize command:
+Here's a quick image of BLOCWallet in action after using the **optimize** command:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_optimize.png)
 
 Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
@@ -360,11 +360,6 @@ Bye.
 
 ### Recovering your Wallet
 
-## Screenshot
-
-Here's a quick image of BLOCWallet in action after using the key_restore command while restoring a wallet:
-![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
-
 #### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
 
 To restore a wallet using spend and view keys; at the menu type `key_restore` or `4` and press `enter`:
@@ -430,8 +425,8 @@ Finished scanning blockchain!
 ```
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the seed_restore command while restoring a wallet:
-![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
+Here's a quick image of BLOCWallet in action after using the **key_restore** command while restoring a wallet:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
 
 #### With mnemonic phrase (25 words)<a name="recover-seed"></a>
 
@@ -494,6 +489,10 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
+## Screenshot
+
+Here's a quick image of BLOCWallet in action after using the **seed_restore** command while restoring a wallet:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
 
 ### Other Commands
 

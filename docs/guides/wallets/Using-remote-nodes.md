@@ -47,7 +47,7 @@ Mac and Linux:
 
 Here's a quick image of `BLOCWallet` in action while connecting to a remote node that ask for extra fees:
 
-![blocwallet](/docs/images/guides/Wallets/bloc-wallet-connect-remote-node.png)
+![blocwallet](/docs/images/guides/Wallets//RemoteNode/bloc-wallet-connect-remote-node.png)
 
 
 ##Making a Script to Do it Automatically

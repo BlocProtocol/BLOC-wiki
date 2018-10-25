@@ -7,5 +7,5 @@
 * Why ? How ? How ? Created the BLOC. Checkout our [Background and history](about/Background-and-History.md)
 * Discover [The amazing BLOC community](Community.md)
 * Join the community and [Contribute to BLOC](Contributing.md)
-* [Technical Data](about/Technical-Data.md)
+* BLOC [Technical Data](about/Technical-Data.md)
 * [BLOC Timeline](about/Timeline.md)

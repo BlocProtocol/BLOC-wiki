@@ -253,7 +253,7 @@ Total balance: 1.0000 BLOC
 Here's a quick image of BLOCWallet in action after using the transfer command:
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_transfer.png)
 
-To send BLOC; at the BLOCWallet menu:
+To send BLOC at the BLOCWallet menu:
 
 - Type: `transfer` or `7` and press `enter`
 
@@ -299,8 +299,8 @@ When it is completed, it will print out a green message `Full optimization compl
 
 ## Screenshot
 
-Here's a quick image of BLOCWallet in action after using the optimize command:
-![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_payment-id.png)
+Here's a quick image of BLOCWallet in action after using the payment id option while sending a transaction:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_payement-id.png)
 
 Because transactions on the BLOC blockchain are privatized, in some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
 
@@ -360,9 +360,82 @@ Bye.
 
 ### Recovering your Wallet
 
-#### Private Spend and View Keys<a name="recover-spend-view-keys"></a>
+## Screenshot
 
-To restore a wallet using spend and view keys; at the menu type `seed_restore` and press `enter`:
+Here's a quick image of BLOCWallet in action after using the key_restore command while restoring a wallet:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
+
+#### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
+
+To restore a wallet using spend and view keys; at the menu type `key_restore` or `4` and press `enter`:
+
+```
+1	open                     Open a wallet already on your system
+ 2	create                   Create a new wallet
+ 3	seed_restore             Restore a wallet using a seed phrase of words
+ 4	key_restore              Restore a wallet using a view and spend key
+ 5	view_wallet              Import a view only wallet
+ 6	exit                     Exit the program
+
+What would you like to do?: key_restore
+Enter your private spend key: cda47a19e5d433060ab79c885817cd20fc394dc7043ac875678a3698804ede01
+Enter your private view key: e82ebf49b74fccd754e39ac3ca6fabca35277b012dfce0cf8921c216396b3108
+What would you like to call your new wallet?: JENNY
+Give your new wallet a password: ****
+Confirm your new password: ****
+What height would you like to begin scanning your wallet from?
+
+This can greatly speed up the initial wallet scanning process.
+
+If you do not know the exact height, err on the side of caution so transactions do not get missed.
+
+Hit enter for the sub-optimal default of zero: 
+
+Making initial contact with BLOCd.
+Please wait, this sometimes can take a long time...
+
+
+Your wallet abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27S3tBNEHaMkR6JhDsLt5 has been successfully imported!
+
+Scanning through the blockchain to find transactions that belong to you.
+Please wait, this will take some time.
+
+1 of 101848
+1 of 101848
+....
+101377 of 101850
+101575 of 101850
+101773 of 101850
+
+New transaction found!
+
+Incoming transfer:
+Hash: c4e2d9b972a2e70a209428fe5e6b367b632a3407f0d1486949ed8da75642cf10
+Block height: 101833
+Timestamp: 2018-10-25 14:29
+Amount: 1.0000 BLOC
+
+Finished scanning blockchain!
+
+ 1	advanced                 List available advanced commands
+ 2	address                  Display your payment address
+ 3	balance                  Display how much BLOC you have
+ 4	backup                   Backup your private keys and/or seed
+ 5	exit                     Exit and save your wallet
+ 6	help                     List this help message
+ 7	transfer                 Send BLOC to someone
+
+[BLOC JENNY]: 
+
+```
+## Screenshot
+
+Here's a quick image of BLOCWallet in action after using the seed_restore command while restoring a wallet:
+![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
+
+#### With mnemonic phrase (25 words)<a name="recover-seed"></a>
+
+To restore a wallet using spend and view keys; at the menu type `seed_restore` or `3` and press `enter`:
 
 ```
  1	open                     Open a wallet already on your system
@@ -372,67 +445,75 @@ To restore a wallet using spend and view keys; at the menu type `seed_restore` a
  5	view_wallet              Import a view only wallet
  6	exit                     Exit the program
 
-What would you like to do?: seed_restore
-Enter your private spend key: 41c834f7c26e12373e5c39a9c9b1f8beb665324ad0d098cabda1234567b5d30f
-Enter your private view key: df51e85dfa4fe48d0123475ec966124b1234c98abda6789060fe6d69b503490b
-What would you like to call your new wallet?: trtl2
-Give your new wallet a password: ***********
-Confirm your new password: ***********
+What would you like to do?: 3
+Enter your mnemonic phrase (25 words): jazz border dude orphans worry absorb slackens public drinks bovine evenings hurried roped jaws drinks snug directed pirate behind zero null cuisine agreed alchemy directed
+What would you like to call your new wallet?: JENNY
+Give your new wallet a password: ****
+Confirm your new password: ****
 What height would you like to begin scanning your wallet from?
 
 This can greatly speed up the initial wallet scanning process.
 
 If you do not know the exact height, err on the side of caution so transactions do not get missed.
 
-Hit enter for the sub-optimal default of zero: 748000
+Hit enter for the sub-optimal default of zero: 101000
 
-Making initial contact with TurtleCoind.
+Making initial contact with BLOCd.
 Please wait, this sometimes can take a long time...
 
 
-Your wallet TRTLuxqfDys1pfQ1omkHMVViY4sFh6My5Ff3HBY8XPp3cJBkEfD7romVyzKug3mb9NNR4A8kEjZxZ9CHUgWckBSpPfbxnWAQUGL has been successfully imported!
-
-Your TurtleCoind isn't fully synced yet!
-Until you are fully synced, you won't be able to send transactions,
-and your balance may be missing or incorrect!
+Your wallet abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27S3tBNEHaMkR6JhDsLt5 has been successfully imported!
 
 Scanning through the blockchain to find transactions that belong to you.
 Please wait, this will take some time.
 
+1 of 101852
+1 of 101852
+100882 of 101852
+101179 of 101852
+101575 of 101852
+
+New transaction found!
+
+Incoming transfer:
+Hash: c4e2d9b972a2e70a209428fe5e6b367b632a3407f0d1486949ed8da75642cf10
+Block height: 101833
+Timestamp: 2018-10-25 14:29
+Amount: 1.0000 BLOC
 
 Finished scanning blockchain!
 
  1	advanced                 List available advanced commands
  2	address                  Display your payment address
- 3	balance                  Display how much TRTL you have
+ 3	balance                  Display how much BLOC you have
  4	backup                   Backup your private keys and/or seed
  5	exit                     Exit and save your wallet
  6	help                     List this help message
- 7	transfer                 Send TRTL to someone
+ 7	transfer                 Send BLOC to someone
 
-[TRTL trtl2]: 
+[BLOC JENNY]: 
 
 ```
 
 ### Other Commands
 
-To see a list of additional commands not already covered; at the menu type `advanced` and press `enter`:
+To see a list of additional commands not already covered; at the menu type `advanced` or `1` and press `enter`:
 
 ```
  1	advanced                 List available advanced commands
  2	address                  Display your payment address
- 3	balance                  Display how much TRTL you have
+ 3	balance                  Display how much BLOC you have
  4	backup                   Backup your private keys and/or seed
  5	exit                     Exit and save your wallet
  6	help                     List this help message
- 7	transfer                 Send TRTL to someone
+ 7	transfer                 Send BLOC to someone
 
-[TRTL trtl]: advanced
+[BLOC JENNY]: advanced
 
  8	ab_add                   Add a person to your address book
  9	ab_delete                Delete a person in your address book
  10	ab_list                  List everyone in your address book
- 11	ab_send                  Send TRTL to someone in your address book
+ 11	ab_send                  Send BLOC to someone in your address book
  12	change_password          Change your wallet password
  13	make_integrated_address  Make a combined address + payment ID
  14	incoming_transfers       Show incoming transfers
@@ -451,14 +532,14 @@ To see a list of additional commands not already covered; at the menu type `adva
 To see the main menu of commands; type `help` and press `enter`:
 
 ```
-[TRTL trtl]: help
+[BLOC JENNY]: help
 
  1	advanced                 List available advanced commands
  2	address                  Display your payment address
- 3	balance                  Display how much TRTL you have
+ 3	balance                  Display how much BLOC you have
  4	backup                   Backup your private keys and/or seed
  5	exit                     Exit and save your wallet
  6	help                     List this help message
- 7	transfer                 Send TRTL to someone
+ 7	transfer                 Send BLOC to someone
 
 ```

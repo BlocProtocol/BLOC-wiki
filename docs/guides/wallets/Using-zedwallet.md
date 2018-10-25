@@ -1,14 +1,14 @@
-# Using Zedwallet
+# Using BLOCWallet Cli
 
 ## Screenshot
 
-Here's a quick image of zedwallet in action:
+Here's a quick image of BLOCWallet in action:
 
-![zedwallet](guides/wallets/images/screenshot_zedwallet.png)
+![blocwallet](/docs/images/guides/wallets/BlocWalet/BLOCWallet_v3.0.0.png)
 
 ## Downloading
 
-Binary distributions can be found: [here](https://github.com/turtlecoin/turtlecoin/releases/latest).
+Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
 
 Select the appropriate file for the target platform (Windows, Mac, Linux).
 
@@ -18,14 +18,14 @@ Binaries are provided in `.zip` format, while source code is provided in `.zip` 
 
 ### Installing on Windows
 
-Extract the *.zip* file (`turtlecoin-...-windows.zip`).
+Extract the *.zip* file (`BLOC-...-windows.zip`).
 
 ### Installing on Mac
 
 Extract the *.zip* file:
 
 ```bash
-unzip turtlecoin-...-mac.zip
+unzip BLOC-...-mac.zip
 ```
 
 ### Installing on Linux
@@ -33,48 +33,48 @@ unzip turtlecoin-...-mac.zip
 Extract the *.zip* file:
 
 ```bash
-unzip turtlecoin-...-linux.zip
+unzip BLOC-...-linux.zip
 ```
 
 ## Synchronizing the Blockchain
 
-Running `TurtleCoind` will start the *TurtleCoind* network daemon, which will connect to the network and begin downloading and verifying the TurtleCoin blockchain.  
+Running `BLOCd` will start the *BLOCd* network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
 
-Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 35 GB), and *TurtleCoind must verify every block*, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
+Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 4 GB), and *BLOCd must verify every block*, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
 
 ### Using Checkpoints
 
-In **versions 0.4.3+** you can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
+You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
 
 ### Windows
 
-Run the `TurtleCoind.exe` executable extracted from the Windows binary zip:
+Run the `BLOCd.exe` executable extracted from the Windows binary zip:
 
 ### Mac / Linux
 
-Run the `TurtleCoind` binary extracted from the `.zip` download:
+Run the `BLOCd` binary extracted from the `.zip` download:
 
 ```bash
-./TurtleCoind
+./BLOCd
 ```
 
-## Using Zedwallet
+## Using BLOCWallet
 
-With `TurtleCoind` still running in the background or another terminal/shell/command prompt, open zedwallet:
+With `BLOCd` still running in the background or another terminal/shell/command prompt, open BLOCWallet:
 
 #### Windows
 
-Run the `zedwallet.exe` executable from the extracted folder.
+Run the `BLOCWallet.exe` executable from the extracted folder.
 
 #### Mac / Linux
 
 ```bash
-./zedwallet
+./BLOCWallet
 ```
 
-### Using Zedwallet commands
+### Using BLOCWallet commands
 
-Zedwallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly.  The more you use Zedwallet the more typed commands you'll pick up.  This guide is written using the written commnand system.  Feel free to use the numbers associated with the command.
+BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly.  The more you use BLOCWallet the more typed commands you'll pick up.  This guide is written using the written commnand system.  Feel free to use the numbers associated with the command.
 
 ### Creating a Wallet
 

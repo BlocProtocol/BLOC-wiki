@@ -8,13 +8,13 @@ We are passionate about crypto currency and truly convinced that blockchain tech
 
 ## How the BLOC  was created ?
 
-As you may be aware, the CryptoNote white paper set out the initial specification for CryptoNote coins. The ByteCoin developers created the first implementation of this specification working closely with the CryptoNote developers, and this is what has become ByteCoin today. This was forked early on to become Bitmonero, and then Monero. The Monero developers have contributed back significant chunks of code to the original ByteCoin codebase, and of course, they maintain their own repositories and code.
+As you may be aware, the [Cryptnote White Paper](https://cryptonote.org/whitepaper.pdf) set out the initial specification for CryptoNote coins. The ByteCoin developers created the first implementation of this specification working closely with the CryptoNote developers, and this is what has become [ByteCoin](https://github.com/bcndev/bytecoin) today. This was forked early on to become Bitmonero, and then [Monero](https://github.com/monero-project/monero). The Monero developers have contributed back significant chunks of code to the original ByteCoin codebase, and of course, they maintain their own repositories and code.
 
-The ForkNote Project was created as a fork of ByteCoin, to create a way to fork ByteCoin, easily by separating the needed constants and strings out into a separate file.
+The [ForkNote Project](https://github.com/forknote/forknote) was created as a fork of [ByteCoin](https://github.com/bcndev/bytecoin), to create a way to fork [ByteCoin](https://github.com/bcndev/bytecoin), easily by separating the needed constants and strings out into a separate file.
 
-BLOC then forked the Forknote Project back in December 2017 and made our own changes for a public launch the 22th may 2018.
+BLOC then forked the [ForkNote Project](https://github.com/forknote/forknote) back in December 2017 and made our own changes for a public launch the 22th may 2018.
 
-While we were working on our project we discovered about TurtleCoin, another cryptocurrency based on CryptoNote with some similarity with BLOC. Like RockSteady (the founder of TurtleCoin) said:
+While we were working on our project we discovered about [TurtleCoin](https://github.com/turtlecoin/turtlecoin), another cryptocurrency based on [Cryptonote](https://github.com/cryptonotefoundation/cryptonote) with some similarity with [BLOC](https://bloc.money). Like RockSteady (the founder of TurtleCoin) said:
 
 ```
 Too many projects are bringing in too much funding despite most having no damn product. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
@@ -24,7 +24,7 @@ We have a strong belief in our no-funding strategy; if we make a cool product, t
 
 At [BLOC.MONEY](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.
 
-End of october we have migrated the core of TurtleCoin into [BLOC.MONEY](https://bloc.money) and made our own modifications which now make the BLOC 3.0, some of which were then contributed back to TurtleCoin and as a community, we’re keen on helping those who’ve helped us. We will be happy to provide our services and knowledge to the TurtleCoin project and support it along their road.
+End of october we have migrated the core of [TurtleCoin](https://github.com/turtlecoin/turtlecoin) into [BLOC.MONEY](https://github.com/furiousteam/BLOC) and made our own modifications which now make the BLOC 3.0, some of which were then contributed back to TurtleCoin and as a community, we’re keen on helping those who’ve helped us. We will be happy to provide our services and knowledge to the TurtleCoin project and support it along their road.
 
 ## Our background and history
 

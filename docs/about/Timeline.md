@@ -1,31 +1,41 @@
-# Timeline of TurtleCoin
+# Timeline of BLOC
 
-This is a timeline dedicated to important dates in the history of TurtleCoin.
+This is a timeline dedicated to important dates in the history of BLOC.
 
 - 2017 December
-     - **09:** TurtleCoin was created.
-
-- 2018 January
-     * **08:** The first official Twitter post was made
-     * **09:** The first medium article made its debut speaking on the economics of TurtleCoin
-     * **18:** TurtleCoin is listed on its first exchange :TradeOgre
-     * **25:** Rocksteady gives a very interesting interview on Kevin Rose's podcast Block Zero
-     * **26:** Turtle Coin Discord grows from 600 to over 2736 members.
-
-- 2018 February
-     * **05:** TurtleCoin is added to CoinGecko
-     * **06:** TurtleCoin is added to its second exchange thanks to Rocksteady
-
-- 2018 March
-     * **21:** Turtlecoin added on the CheddurTeam app
-     * **25:** TurtleCoin listed on Livecoinwatch.com
-
-- 2018 April
-     * **06:** TurtleCoin algo change
+     - **12:** BLOC was created.
 
 - 2018 May
-     * **14:** TurtleCoin community hits 10k members
-     * **17:** TurtleCoin wins award for best community
+     * **22:** BLOC is lanched
+     * **22:** BLOC explorer
+     * **22:** BLOC wallet for Windows, Mac and Linux
+     * **23:** BLOC Javascript web miner
+     * **24:** Bountry program launched
+     * **29:** BLOC Wallet bot + BLOC explorer BOT
 
 - 2018 June
-     * **01:** TurtleCoin blockchain surpassed 500k blocks
+     * **01:** Translating the BLOC ecocystem to French, Russian, Chinese
+
+- 2018 July
+     * **10:** BLOC listed on TradeOgre
+     * **10:** Flyboard world cup sponsoring
+     * **30:** Hardfork #welcome in Haven (ASIC resistant)
+
+- 2018 September
+     * **06:** BLOC Wallet Desktop mandatory update (wallet optimization, improved RPC commands)
+     * **06:** Asia mining Pool online
+     * **20:** BLOC is listed on LiveCoinWatch
+
+- 2018 October
+     * **3:** Introducing BLOC E-Commerce and Automated Services Solution’s (developer platform)
+     * **4:** Introducing innovative dashboard for BLOC.money cryptocurrency
+     * **5:** BLOC white paper is public
+     * **6:** BLOC.money is now listed on STEX.com Top 100 Cryptocurrencies exchange
+     * **6:** BLOC wallet for iPhone is available on the App store
+     * **12:** BLOC is listed on CoinGecko
+     * **12:** LiveCoinWatch post an article about BLOC
+     * **15:** CoinTelegraph post an article about BLOC
+     * **24:** BLOC is listed on CoinMarketCap
+
+- 2018 November
+     * **01:** 

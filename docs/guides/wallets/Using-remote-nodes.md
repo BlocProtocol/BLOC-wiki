@@ -2,25 +2,32 @@
 
 In case you don't want to download the blockchain and verify it everytime, you can instead use a Remote Node to quickly sync the blockchain.
 
-## Nest Wallet
+## Extra Fees for Remote Nodes
 
-Nest wallet automatically syncs from a [remote node](../Using-nest-wallet#synchronizing-the-blockchain)
+Remote nodes are run by anyone who like to support the BLOC and do an extra of passive income while hosting a BLOC public remote node on his computer or on a webserver. Remote nodes require some maintenance and updates that are managed by the node owner. Extra fees are usually required to process each transaction using this remote node. You will get the following message while connecting to a remote node using `BLOCWallet`:
 
-## zedwallet
+```
+You have connected to a node that charges a fee to send transactions.
+The fee for sending transactions is: 0.0005 BLOC per transaction. 
+If you don't want to pay the node fee, please relaunch BLOCWallet and specify a different node or run your own.
+```
+The fees are set by the node owner and can vary from one to another. These fees are different that the standard 0.0001 BLOC fee per transaction. It is added to it.
 
-1. Open up a command prompt window and navigate to the folder that contains *zedwallet*.
-2. Use the following command to start zedwallet  
+## BLOCWallet
+
+1. Open up a command prompt window and navigate to the folder that contains *BLOCWallet*.
+2. Use the following command to start BLOCWallet  
 
 ###Windows:
 
 ```
-zedwallet.exe --remote-daemon host:port
+BLOCWallet.exe --remote-daemon host:port
 ```
 
 ###Mac and Linux
 
 ```
-./zedwallet --remote-daemon host:port
+./BLOCWallet --remote-daemon host:port
 ```
 
 Replace `host:port` with values from one of the public remote daemons available below.
@@ -30,8 +37,18 @@ You can now follow your normal process to access your wallet.
 For example-
 
 ```
-zedwallet.exe --remote-daemon public.turtlenode.io:11898
+Windows:
+BLOCWallet.exe --remote-daemon bloc.cool:2086
+
+Mac and Linux:
+./BLOCWallet --remote-daemon bloc.cool:2086
 ```
+#### Screenshot
+
+Here's a quick image of `BLOCWallet` in action while connecting to a remote node that ask for extra fees:
+
+![blocwallet](/docs/images/guides/Wallets/bloc-wallet-connect-remote-node.png)
+
 
 ##Making a Script to Do it Automatically
 
@@ -39,7 +56,7 @@ zedwallet.exe --remote-daemon public.turtlenode.io:11898
 
 ```text
 @echo off
-zedwallet.exe --remote-daemon host:port
+BLOCWallet.exe --remote-daemon host:port
 pause
 ```
 
@@ -47,19 +64,16 @@ pause
 2. Save the filename as `start.bat` and save the file as `All files`.
 3. Double click on the file to start the daemon.
 
-####Known remote daemons
+## BLOC Electron Wallet
+
+BLOC Electron wallet automatically syncs from a [remote node](../Using-nest-wallet#synchronizing-the-blockchain)
+
+###Known remote daemons
 
 |         Host         | Port  |        Website        |
 | :------------------: | :---: | :-------------------: |
-| public.turtlenode.io | 11898 | https://turtlenode.io |
-| us-west.turtlenode.io | 11898 | https://turtlenode.io |
-| us-east.turtlenode.io | 11898 | https://turtlenode.io |
-| europe.turtlenode.io | 11898 | https://turtlenode.io |
-| asia.turtlenode.io | 11898 | https://turtlenode.io |
-| daemon.turtle.link | 11898 | https://turtle.link/ |
-| public.turtlenode.net | 11898 | https://turtlenode.net/ |
-| public.turtle-node.com | 11898 | https://turtle-node.com/ |
-| usa.turtle-node.com | 11898 | https://turtle-node.com/ |
-| eu.turtle-node.com | 11898 | https://turtle-node.com/ |
-| public.turtlenode.uk | 11898 | - |
-| turtle-node.me | 11898 | - |
+| bloc.cool | 2086 | https://bloc.money |
+| asia.node.bloc | 2086 | https://comingsoon.com |
+| usa.node.bloc | 2086 | https://comingsoon.com |
+| europe.node.bloc | 2086 | https://comingsoon.com |
+| america.node.bloc | 2086 | https://comingsoon.com |

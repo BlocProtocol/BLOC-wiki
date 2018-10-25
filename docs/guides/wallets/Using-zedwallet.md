@@ -2,7 +2,7 @@
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action:
+Here's a quick image of `BLOCWallet` in action:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
 
@@ -40,11 +40,11 @@ unzip BLOC-...-linux.zip
 
 #### Screenshot
 
-Here's a quick image of **BLOCd MAIN NET** in action:
+Here's a quick image of `BLOCd MAIN NET` in action:
 
 ![BLOCd MAIN NET](/docs/images/guides/BLOCd/BLOC-MAINNET-3.0.0.1.png)
 
-Here's a quick image of **BLOCd TEST NET** in action:
+Here's a quick image of `BLOCd TEST NET` in action:
 
 ![BLOCd TEST NET](/docs/images/guides/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
 
@@ -52,7 +52,7 @@ Running `BLOCd` will start the *BLOCd* network daemon, which will connect to the
 
 Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and *BLOCd must verify every block*, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
 
-### Using Checkpoints
+## Using Checkpoints
 
 You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
 
@@ -72,25 +72,25 @@ Run the `BLOCd` binary extracted from the `.zip` download:
 
 With `BLOCd` still running in the background or another terminal/shell/command prompt, open BLOCWallet:
 
-#### Windows
+### Windows
 
 Run the `BLOCWallet.exe` executable from the extracted folder.
 
-#### Mac / Linux
+### Mac / Linux
 
 ```bash
 ./BLOCWallet
 ```
 
-### Using BLOCWallet commands
+## Using BLOCWallet commands
 
 BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly.  The more you use BLOCWallet the more typed commands you'll pick up.  This guide is written using the written commnand system.  Feel free to use the numbers associated with the command.
 
-### Creating a Wallet
+## Creating a Wallet
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully **created a wallet**:
+Here's a quick image of BLOCWallet in action after have successfully `created a wallet`:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
 
@@ -133,11 +133,11 @@ Use the status command to check the progress.
 
 ```
 
-### Opening a Wallet
+## Opening a Wallet
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully **open a wallet**:
+Here's a quick image of BLOCWallet in action after have successfully `open a wallet`:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet.png)
 
@@ -182,11 +182,11 @@ Finished scanning blockchain!
 
 ```
 
-### Viewing Wallet Address
+## Viewing Wallet Address
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after have successfully typed **address**:
+Here's a quick image of BLOCWallet in action after have successfully typed `address`:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_address.png)
 
@@ -198,11 +198,11 @@ abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27
 [BLOC JENNY]: 
 ```
 
-### Exporting Keys
+## Exporting Keys
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **backup** command:
+Here's a quick image of BLOCWallet in action after using the `backup` command:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_backup.png)
 
@@ -214,7 +214,7 @@ In the event of a lost or corrupted wallet file, computer crash, etc., the *View
 **DO NOT SHARE IT WITH ANYONE**. **Anyone who has these can *access your funds* and has *complete control* over your wallet.**
 
 To print your keys; at the menu type `backup` or `4`and press `enter`.
-The *View Key* and *Spend Key* will appear. Copy them and store them **safely and securely**.
+The *View Key* and *Spend Key* will appear. Copy them and store them `safely and securely`.
 
 ```
 [BLOC JENNY]: backup
@@ -231,11 +231,11 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 
 ```
 
-### Viewing Wallet Balance
+## Viewing Wallet Balance
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **balance** command:
+Here's a quick image of BLOCWallet in action after using the `balance` command:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_balance.png)
 
@@ -249,11 +249,11 @@ Total balance: 1.0000 BLOC
 [BLOC JENNY]:
 ```
 
-### Sending BLOC Transactions<a name="tx-bloc"></a>
+## Sending BLOC Transactions<a name="tx-bloc"></a>
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **transfer** command:
+Here's a quick image of BLOCWallet in action after using the `transfer` command:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_transfer.png)
 
@@ -277,11 +277,11 @@ To send BLOC at the BLOCWallet menu:
 
 Depending on the amount you transfer, you may need to wait a while for confirmation.  If you have had too many small incoming transactions, or the amount you wish to send is too large; either break up your transfer into several smaller amounts, or optimise your wallet.
 
-#### Optimizing your Wallet
+## Optimizing your Wallet
 
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **optimize** command:
+Here's a quick image of BLOCWallet in action after using the `optimize` command:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_optimize.png)
 
@@ -300,7 +300,7 @@ Full optimization completed!
 
 When it is completed, it will print out a green message `Full optimization completed!`
 
-#### Payment ID<a name="tx-bloc-p-id"></a>
+## Payment ID<a name="tx-bloc-p-id"></a>
 
 #### Screenshot
 
@@ -347,7 +347,7 @@ Hash: f1259467fe4c79c091c05f9fe335bda6f45ef8ac995e25a0909ca73a1b5973f8
 [BLOC JENNY]: 
 ```
 
-### Exiting the Wallet
+## Exiting the Wallet
 
 Wallets loaded into the *BLOCWallet* client must be synced with the blockchain in order to properly calculate balance, view transaction history, etc.
 
@@ -364,9 +364,9 @@ Shutting down node connection...
 Bye.
 ```
 
-### Recovering your Wallet
+## Recovering your Wallet
 
-#### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
+### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
 
 To restore a wallet using spend and view keys; at the menu type `key_restore` or `4` and press `enter`:
 
@@ -431,11 +431,11 @@ Finished scanning blockchain!
 ```
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **key_restore** command while restoring a wallet:
+Here's a quick image of BLOCWallet in action after using the `key_restore` command while restoring a wallet:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
 
-#### With mnemonic phrase (25 words)<a name="recover-seed"></a>
+### With mnemonic phrase (25 words)<a name="recover-seed"></a>
 
 To restore a wallet using spend and view keys; at the menu type `seed_restore` or `3` and press `enter`:
 
@@ -498,11 +498,11 @@ Finished scanning blockchain!
 ```
 #### Screenshot
 
-Here's a quick image of BLOCWallet in action after using the **seed_restore** command while restoring a wallet:
+Here's a quick image of BLOCWallet in action after using the `seed_restore` command while restoring a wallet:
 
 ![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
 
-### Other Commands
+## Other Commands
 
 To see a list of additional commands not already covered; at the menu type `advanced` or `1` and press `enter`:
 
@@ -534,7 +534,7 @@ To see a list of additional commands not already covered; at the menu type `adva
  22	status                   Display sync status and network hashrate
 ```
 
-### Help
+## Help
 
 To see the main menu of commands; type `help` and press `enter`:
 

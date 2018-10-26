@@ -18,9 +18,12 @@ Website name : [BLOC.MONEY](https://bloc.money)
 * **45 Million**: BLOC coins are available for miners as reward for blockchain verification.
 
 * ASIC resistant
+* NiceHash resistant
 * Enhanced Privacy
 * Elastic Blocks
 * Fair Mining
+
+## Forked from
 
 * Originaly forked from the [ForkNote Project](https://github.com/forknote/forknote)
 * And [ByteCoin](https://github.com/bcndev/bytecoin)

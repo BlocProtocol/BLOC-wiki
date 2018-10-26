@@ -70,6 +70,9 @@ nav:
     - Home:
       - Home: index.md
       - Getting Started: Getting-Started.md
+      - About BLOC: about/index.md
+      - Developers: API/index.md
+      - Wallet: wallets/Making-a-Wallet.md
     - About:
       - Home: about/index.md
       - About BLOC: about/About-BLOC.md
@@ -94,7 +97,7 @@ nav:
         - Using Checkpoints: wallets/Using-checkpoints.md
         - Recovering your Wallet: wallets/recovering-your-wallet.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
-      - Making a Paper Wallet: wallets/Making-a-paper-wallet.md
+      - Paper Wallet: wallets/Making-a-paper-wallet.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Using trtlbot++: guides/Using-trtlbot-plus-plus.md

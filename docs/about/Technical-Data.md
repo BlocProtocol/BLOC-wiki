@@ -1,7 +1,7 @@
 # Technical Data
 
-Name: BLOC
-Website name : BLOC.MONEY
+Name: **BLOC**
+Website name : [BLOC.MONEY](https://bloc.money)
 
 * [Whitepaper](https://bloc.money/files/whitepaper/bloc-white-paper.pdf)
 * **TICKER**: BLOC

@@ -1,6 +1,5 @@
 # About BLOC
 
-## NO ICO?
 [BLOC](https://bloc.money) differentiates itself from others as there has been no initial coin offering made to fund and launch the project. As we believe that there are too many ico’s poppin out every day without real products, providing exceptional products and services are key principles enforcing the project to grow at an increasing rate. Therefore, the developing team invested themselves all their time and personnal savings and created the BLOC.
 
 * [About BLOC](About-BLOC.md)

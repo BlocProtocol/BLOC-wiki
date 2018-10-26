@@ -98,6 +98,7 @@ nav:
       - Timeline: about/Timeline.md
     - Developers:
       - Home: API/index.md
+      - Compiling from Source: API/Compiling-from-Source.md
       - Ressources: API/Resources.md
       - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
       - Daemon JSON RPC API: API/daemon-json-rpc-api.md
@@ -105,18 +106,17 @@ nav:
       - RPC Errors: API/rpc-api-error-conditions.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
-      - GUI Wallets:
-        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
+      - Paper Wallet: wallets/Making-a-paper-wallet.md
       - CLI Wallet:
         - BLOCWallet: wallets/Using-BLOCWallet.md
         - Using Checkpoints: wallets/Using-checkpoints.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
+      - GUI Wallets:
+        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
-      - Paper Wallet: wallets/Making-a-paper-wallet.md
+      
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
-      - Forking TurtleCoin: guides/Forking-Turtlecoin.md
       - Mining:
         - How to Mine abLoc: guides/mining/Mining.md
         - XMR-Stak: guides/mining/XMR-Stak-Guide.md
@@ -128,8 +128,6 @@ nav:
         - Mining on your Phone:
           - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
           - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
-    - Service Operators:
-      - Compiling from Source: guides/service-operators/Compiling-from-Source.md
     - For Developers:
       - Resources: developers/Resources.md
     - FAQ:

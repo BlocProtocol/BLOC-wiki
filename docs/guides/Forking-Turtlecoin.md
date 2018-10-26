@@ -1,6 +1,6 @@
 # Forking TurtleCoin
 
-So you want to fork TurtleCoin, huh?
+So you want to fork BLOC, huh?
 
 This guide will help you change the necessary sections of the code to set up your coin how you like it.
 
@@ -14,25 +14,28 @@ When you're poking around the codebase, you might see something like this:
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, 2019 The BLOC Developers
 //
 // Please see the included LICENSE file for more information.
 ```
 
-At the top of each file. We ask when you fork us to make sure you leave these license headers intact.
-When we're programming on codebases like this, we're standing upon the shoulders of giants,
-and it's both polite, and a legal requirement of the licenses used, to credit the other contributors to the code.
+As you may be aware, the [Cryptnote White Paper](https://cryptonote.org/whitepaper.pdf) set out the initial specification for CryptoNote coins. The ByteCoin developers created the first implementation of this specification working closely with the CryptoNote developers, and this is what has become [ByteCoin](https://github.com/bcndev/bytecoin) today. This was forked early on to become Bitmonero, and then [Monero](https://github.com/monero-project/monero). The Monero developers have contributed back significant chunks of code to the original ByteCoin codebase, and of course, they maintain their own repositories and code.
 
-As you may be aware, the CryptoNote white paper set out the initial specification for CryptoNote coins.
-The ByteCoin developers created the first implementation of this specification working closely with the CryptoNote developers,
-and this is what has become ByteCoin today.
-This was forked early on to become Bitmonero, and then Monero.
-The Monero developers have contributed back significant chunks of code to the original ByteCoin codebase,
-and of course, they maintain their own repositories and code.
+The [ForkNote Project](https://github.com/forknote/forknote) was created as a fork of [ByteCoin](https://github.com/bcndev/bytecoin), to create a way to fork [ByteCoin](https://github.com/bcndev/bytecoin), easily by separating the needed constants and strings out into a separate file.
 
-The ForkNote Project was created as a fork of ByteCoin, to create a way to fork ByteCoin, easily
-by separating the needed constants and strings out into a separate file.
+BLOC then forked the [ForkNote Project](https://github.com/forknote/forknote) back in December 2017 and made our own changes for a public launch the 22th may 2018.
 
-TurtleCoin then forked the Forknote Project and made our own changes, some of which were then contributed back to ForkNote.
+While we were working on our project we discovered about [TurtleCoin](https://github.com/turtlecoin/turtlecoin), another cryptocurrency based on [Cryptonote](https://github.com/cryptonotefoundation/cryptonote) with some similarity with [BLOC](https://bloc.money). Like RockSteady (the founder of TurtleCoin) said:
+
+```
+Too many projects are bringing in too much funding despite most having no damn product. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
+
+We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself
+```
+
+At [BLOC.MONEY](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.
+
+End of october we have migrated the core of [TurtleCoin](https://github.com/turtlecoin/turtlecoin) into [BLOC.MONEY](https://github.com/furiousteam/BLOC) and made our own modifications which now make the BLOC 3.0, some of which were then contributed back to TurtleCoin and as a community, we’re keen on helping those who’ve helped us. We will be happy to provide our services and knowledge to the TurtleCoin project and support it along their road.
 
 So, make sure if you're doing a find and replace that all of these lines remain intact.
 You can of course start adding your own copyright line, for example,
@@ -41,6 +44,7 @@ You can of course start adding your own copyright line, for example,
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, 2019 The BLOC Developers
 // Copyright (c) 2018, My Super Cool Coin Developers
 //
 // Please see the included LICENSE file for more information.
@@ -51,10 +55,10 @@ Ok, now we understand about licenses, let's get the code!
 
 ## The actual forking process
 
-* The easiest way to fork TurtleCoin, is to start by making a GitHub account.
+* The easiest way to fork BLOC, is to start by making a GitHub account.
 You can do this [here](https://github.com/join) if you don't have an account already.
 
-* Make sure you're signed in. Next, head over to the TurtleCoin repo, and hit `Fork` in the top right corner.
+* Make sure you're signed in. Next, head over to the BLOC repo, and hit `Fork` in the top right corner.
 
 * It should look something like this:
 

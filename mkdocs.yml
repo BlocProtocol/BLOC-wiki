@@ -84,7 +84,6 @@ nav:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - RainBorg? Wat Dat?: guides/RainBorg-Wat-Dat.md
       - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
       - Forking TurtleCoin: guides/Forking-Turtlecoin.md
       - Mining:
@@ -104,9 +103,8 @@ nav:
         - GUI Wallets:
           - Overview of GUI Wallets: guides/wallets/Making-a-GUI-Wallet.md
           - Nest Wallet: guides/wallets/Using-nest-wallet.md
-          - WinForms Wallet: guides/wallets/Using-winforms-wallet.md
         - CLI Wallet:
-          - zedwallet: guides/wallets/Using-zedwallet.md
+          - BLOCWallet: guides/wallets/Using-BLOCWallet.md
           - Using Checkpoints: guides/wallets/Using-checkpoints.md
         - Making a Paper Wallet: guides/wallets/Making-a-paper-wallet.md
         - Recovering your Wallet: guides/wallets/recovering-your-wallet.md
@@ -115,6 +113,5 @@ nav:
         - Smart Contracts: guides/crypto-funda/smart-contract.md
     - Service Operators:
       - Compiling from Source: guides/service-operators/Compiling-from-Source.md
-      - TurtleCoind behind HAProxy: guides/service-operators/TurtleCoind-behind-HAProxy.md
     - For Developers:
       - Resources: developers/Resources.md

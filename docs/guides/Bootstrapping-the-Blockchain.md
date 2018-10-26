@@ -60,7 +60,7 @@ This guide will help you install a recent copy of the blockchain. This should si
 2. Open `Finder`.
 
 3. Use the shortcut `Command + Shift + G` to bring up `Go to Folder`: 
-![gotofolder](images/boostrap-bloc-mac-1.png)
+![gotofolder](images//bootstrap/boostrap-bloc-mac-1.png)
 
 4. Delete the following if they exist: 
 

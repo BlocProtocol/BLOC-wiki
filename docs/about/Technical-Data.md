@@ -14,10 +14,14 @@ Website name : [BLOC.MONEY](https://bloc.money)
 * Our Proof Of Work algortyhm is designed to make low end and high end hardware mining roughly equally efficient and restrict ASIC mining
 * **BLOCK TIME**: 120 seconds
 * **BLOCKS PER DAY**: 720
-* **PREMINE**: 10% for core Development team, upcoming bounties and future developement
+* **PREMINE**: 5 Million BLOC (10% of total supply) for core Development team, upcoming bounties and future developement
 * **45 Million**: BLOC coins are available for miners as reward for blockchain verification.
 
 * ASIC resistant
 * Enhanced Privacy
 * Elastic Blocks
 * Fair Mining
+
+* Originaly forked from the [ForkNote Project](https://github.com/forknote/forknote)
+* And [ByteCoin](https://github.com/bcndev/bytecoin)
+* End of octover 2018: Core change to [TurtleCoin](https://github.com/turtlecoin/turtlecoin)

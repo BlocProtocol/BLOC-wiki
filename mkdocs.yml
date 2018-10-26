@@ -94,9 +94,13 @@ nav:
         - Using Checkpoints: wallets/Using-checkpoints.md
         - Recovering your Wallet: wallets/recovering-your-wallet.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
-      - Paper Wallet: wallets/Making-a-paper-wallet.md
-    - Mining:
-      - How to Mine abLoc: guides/mining/Mining.md
+      - Making a Paper Wallet: wallets/Making-a-paper-wallet.md
+    - Guides:
+      - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
+      - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
+      - Forking TurtleCoin: guides/Forking-Turtlecoin.md
+      - Mining:
+        - How to Mine abLoc: guides/mining/Mining.md
         - XMR-Stak: guides/mining/XMR-Stak-Guide.md
         - XMR-Stak on Linux: guides/mining/XMR-Stak-Linux-Guide.md
         - XMRig: guides/mining/XMRIG-Guide.md
@@ -106,10 +110,6 @@ nav:
         - Mining on your Phone:
           - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
           - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
-    - Guides:
-      - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
-      - Forking TurtleCoin: guides/Forking-Turtlecoin.md
     - Service Operators:
       - Compiling from Source: guides/service-operators/Compiling-from-Source.md
     - For Developers:

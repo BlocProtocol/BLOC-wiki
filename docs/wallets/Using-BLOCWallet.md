@@ -1,7 +1,5 @@
 # Using BLOCWallet Cli
 
-#### Screenshot
-
 Here's a quick image of `BLOCWallet` in action:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
@@ -37,8 +35,6 @@ unzip BLOC-...-linux.zip
 ```
 
 ## Synchronizing the Blockchain
-
-#### Screenshot
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
@@ -88,8 +84,6 @@ BLOCWallet has a twin command system; a numerical shortcut for navigating the me
 
 ## Creating a Wallet
 
-#### Screenshot
-
 Here's a quick image of BLOCWallet in action after have successfully `created a wallet`:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
@@ -132,10 +126,7 @@ Use the status command to check the progress.
 [BLOC JENNY]: 
 
 ```
-
 ## Opening a Wallet
-
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after have successfully `open a wallet`:
 
@@ -181,10 +172,7 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
-
 ## Viewing Wallet Address
-
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after have successfully typed `address`:
 
@@ -199,8 +187,6 @@ abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27
 ```
 
 ## Exporting Keys
-
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after using the `backup` command:
 
@@ -233,8 +219,6 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 
 ## Viewing Wallet Balance
 
-#### Screenshot
-
 Here's a quick image of BLOCWallet in action after using the `balance` command:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_balance.png)
@@ -250,8 +234,6 @@ Total balance: 1.0000 BLOC
 ```
 
 ## Sending BLOC Transactions<a name="tx-bloc"></a>
-
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after using the `transfer` command:
 
@@ -279,8 +261,6 @@ Depending on the amount you transfer, you may need to wait a while for confirmat
 
 ## Optimizing your Wallet
 
-#### Screenshot
-
 Here's a quick image of BLOCWallet in action after using the `optimize` command:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_optimize.png)
@@ -301,8 +281,6 @@ Full optimization completed!
 When it is completed, it will print out a green message `Full optimization completed!`
 
 ## Payment ID<a name="tx-bloc-p-id"></a>
-
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after using the payment id option while sending a transaction:
 
@@ -429,7 +407,6 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after using the `key_restore` command while restoring a wallet:
 
@@ -496,7 +473,6 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
-#### Screenshot
 
 Here's a quick image of BLOCWallet in action after using the `seed_restore` command while restoring a wallet:
 

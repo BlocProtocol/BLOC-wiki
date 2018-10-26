@@ -110,8 +110,8 @@ nav:
       - CLI Wallet:
         - BLOCWallet: wallets/Using-BLOCWallet.md
         - Using Checkpoints: wallets/Using-checkpoints.md
-        - Recovering your Wallet: wallets/recovering-your-wallet.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
+      - Recovering your Wallet: wallets/recovering-your-wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md

@@ -114,7 +114,7 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-    - BLOCd:
+    - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
     - Mining:
       - How to Mine abLoc: guides/mining/Mining.md

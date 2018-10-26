@@ -107,28 +107,25 @@ nav:
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
+      - Recovering your Wallet: wallets/recovering-your-wallet.md
       - CLI Wallet:
         - BLOCWallet: wallets/Using-BLOCWallet.md
         - Using Checkpoints: wallets/Using-checkpoints.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-      - Recovering your Wallet: wallets/recovering-your-wallet.md
-      
-    - Guides:
+    - BLOCd:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Mining:
-        - How to Mine abLoc: guides/mining/Mining.md
-        - XMR-Stak: guides/mining/XMR-Stak-Guide.md
-        - XMR-Stak on Linux: guides/mining/XMR-Stak-Linux-Guide.md
-        - XMRig: guides/mining/XMRIG-Guide.md
-        - Pools: guides/mining/Pools.md
-        - Cloud Mining: guides/mining/Cloud-Mining.md
-        - Mining with a SBC: guides/mining/Mining-with-SBC.md
-        - Mining on your Phone:
-          - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
-          - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
-    - For Developers:
-      - Resources: developers/Resources.md
+    - Mining:
+      - How to Mine abLoc: guides/mining/Mining.md
+      - XMR-Stak: guides/mining/XMR-Stak-Guide.md
+      - XMR-Stak on Linux: guides/mining/XMR-Stak-Linux-Guide.md
+      - XMRig: guides/mining/XMRIG-Guide.md
+      - Pools: guides/mining/Pools.md
+      - Cloud Mining: guides/mining/Cloud-Mining.md
+      - Mining with a SBC: guides/mining/Mining-with-SBC.md
+      - Mining on your Phone:
+        - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
+        - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md

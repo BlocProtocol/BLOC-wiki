@@ -11,6 +11,7 @@ repo_url: 'https://github.com/furiousteam/BLOC/wiki'
 # copyright
 copyright: 'Copyright 2018 TurtleCoin - Updated for BLOC by BLOC.MONEY Developers'
 
+
 # config
 theme:
   name: 'material'
@@ -30,6 +31,8 @@ theme:
   # 404 page
   static_templates:
     - 404.html
+  extra_css:
+  - 'stylesheets/extra.css'
 
 # customization
 extra:
@@ -38,6 +41,13 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/furiousteam'
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'twitter'
+      link: 'https://twitter.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/squidfunk'
 
 # extensions
 markdown_extensions:

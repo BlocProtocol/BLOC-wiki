@@ -4,7 +4,10 @@
 
 Here's a quick image of `BLOCWallet` in action:
 
-![blocwallet](/docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
+![blocwallet](docs/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
+![blocwallet](/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
+![blocwallet](images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
+![file explorer](images/bootstrap/file_explorer.jpg)
 
 ## Downloading
 

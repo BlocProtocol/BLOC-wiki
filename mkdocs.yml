@@ -49,6 +49,11 @@ extra:
     - type: 'linkedin'
       link: 'https://linkedin.com/in/squidfunk'
 
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
 # extensions
 markdown_extensions:
   - admonition

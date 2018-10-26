@@ -107,16 +107,16 @@ nav:
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
     - Mining:
-      - How to Mine abLoc: guides/mining/Mining.md
-      - XMR-Stak: guides/mining/XMR-Stak-Guide.md
-      - XMR-Stak on Linux: guides/mining/XMR-Stak-Linux-Guide.md
-      - XMRig: guides/mining/XMRIG-Guide.md
-      - Pools: guides/mining/Pools.md
-      - Cloud Mining: guides/mining/Cloud-Mining.md
-      - Mining with a SBC: guides/mining/Mining-with-SBC.md
+      - How to Mine abLoc: mining/Mining.md
+      - XMR-Stak: mining/XMR-Stak-Guide.md
+      - XMR-Stak on Linux: mining/XMR-Stak-Linux-Guide.md
+      - XMRig: mining/XMRIG-Guide.md
+      - Pools: mining/Pools.md
+      - Cloud Mining: mining/Cloud-Mining.md
+      - Mining with a SBC: mining/Mining-with-SBC.md
       - Mining on your Phone:
-        - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
-        - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
+        - How to Mine abLoc on your Phone: mining/mobile-mining/Mining-with-Phone.md
+        - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
     - Developers:

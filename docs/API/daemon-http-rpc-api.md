@@ -49,14 +49,6 @@ $config = [
 $blocd = new BLOCd($config);
 ```
 
-```python
-from turtlecoin import BLOCd
-
-rpc_host = 'localhost'
-rpc_port = 2086
-turtlecoind = BLOCd(rpc_host, rpc_port)
-```
-
 ```go
 import (
   "fmt"
@@ -120,17 +112,6 @@ daemon.getHeight().then((result) => {
 })
 ```
 
-```php
-<?php
-$response = $blocd->getHeight();
-echo $response;
-```
-
-```python
-response = turtlecoind.get_height()
-print(response)
-```
-
 ```go
 response := daemon.Height()
 fmt.Println(response)
@@ -176,11 +157,6 @@ daemon.getInfo().then((result) => {
 <?php
 $response = $blocd->getInfo();
 echo $response;
-```
-
-```python
-response = turtlecoind.get_info()
-print(response)
 ```
 
 ```go
@@ -277,11 +253,6 @@ $response = $blocd->getTransactions();
 echo $response;
 ```
 
-```python
-response = turtlecoind.get_transactions()
-print(response)
-```
-
 ```go
 Not Implemented
 ```
@@ -312,14 +283,6 @@ txs_as_hex   | array of hex values of missed transactions | array
 
 ```shell
 curl http://localhost:2086/getpeers
-```
-
-```javascript
-daemon.getPeers().then((result) => {
-  // do something
-}).catch((error) => {
-  // do something
-})
 ```
 
 ```php
@@ -381,11 +344,6 @@ daemon.feeInfo().then((result) => {
 <?php
 $response = $blocd->getFeeInfo();
 echo $response;
-```
-
-```python
-response = turtlecoind.get_fee_info()
-print(response)
 ```
 
 ```go

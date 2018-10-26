@@ -70,7 +70,6 @@ nav:
     - Home:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - Contributors: Contributors.md
     - About:
       - Home: about/index.md
       - About BLOC: about/About-BLOC.md
@@ -88,6 +87,16 @@ nav:
       - RPC Errors: API/rpc-api-error-conditions.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
+    - WALLETS:
+        - Making a Wallet: guides/wallets/Making-a-Wallet.md
+        - GUI Wallets:
+          - Overview of GUI Wallets: guides/wallets/Making-a-GUI-Wallet.md
+        - CLI Wallet:
+          - BLOCWallet: guides/wallets/Using-BLOCWallet.md
+          - Using Checkpoints: guides/wallets/Using-checkpoints.md
+        - Making a Paper Wallet: guides/wallets/Making-a-paper-wallet.md
+        - Recovering your Wallet: guides/wallets/recovering-your-wallet.md
+        - Using Remote Nodes: guides/wallets/Using-remote-nodes.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
@@ -103,16 +112,6 @@ nav:
         - Mining on your Phone:
           - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
           - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
-      - Wallets:
-        - Making a Wallet: guides/wallets/Making-a-Wallet.md
-        - GUI Wallets:
-          - Overview of GUI Wallets: guides/wallets/Making-a-GUI-Wallet.md
-        - CLI Wallet:
-          - BLOCWallet: guides/wallets/Using-BLOCWallet.md
-          - Using Checkpoints: guides/wallets/Using-checkpoints.md
-        - Making a Paper Wallet: guides/wallets/Making-a-paper-wallet.md
-        - Recovering your Wallet: guides/wallets/recovering-your-wallet.md
-        - Using Remote Nodes: guides/wallets/Using-remote-nodes.md
     - Service Operators:
       - Compiling from Source: guides/service-operators/Compiling-from-Source.md
     - For Developers:

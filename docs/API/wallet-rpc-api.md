@@ -17,10 +17,6 @@ npm install bloc-rpc
 composer require furiousteam/BLOC-rpc-php
 ```
 
-```python
-pip3 install turtlecoin
-```
-
 ```go
 go get github.com/furiousteam/BLOC-rpc-go
 ```
@@ -36,9 +32,9 @@ http://localhost:8070/json_rpc
 > Configuration and instantiation
 
 ```javascript
-const TurtleService = require('bloc-rpc').TurtleService
+const BlocService = require('bloc-rpc').BlocService
 
-const service = new TurtleService({
+const service = new BlocService({
   host: '127.0.0.1', // ip address or hostname of the turtle-service host
   port: 8070, // what port is turtle-service running on
   timeout: 2000, // request timeout
@@ -58,7 +54,7 @@ const service = new TurtleService({
 
 ```php
 <?php
-use BLOC\TurtleService;
+use BLOC\BlocService;
 
 $config = [
     'rpcHost'     => 'http://localhost',
@@ -66,17 +62,7 @@ $config = [
     'rpcPassword' => 'passw0rd',
 ];
 
-$blocService = new TurtleService($config);
-```
-
-```python
-from turtlecoin import Walletd
-
-rpc_host = 'localhost'
-rpc_port = 8070
-rpc_password = 'passw0rd'
-
-walletd = Walletd(rpc_password, rpc_host, rpc_port)
+$blocService = new BlocService($config);
 ```
 
 ```go
@@ -127,12 +113,6 @@ service.reset({
 $viewSecretKey = 'xxxxx...';
 $response = $blocService->reset($viewSecretKey);
 echo $response;
-```
-
-```python
-view_secret_key = 'xxxxx...'
-response = walletd.reset(view_secret_key)
-print(response)
 ```
 
 ```go
@@ -197,11 +177,6 @@ $response = $blocService->save();
 echo $response;
 ```
 
-```python
-response = walletd.save()
-print(response)
-```
-
 ```go
 response, err := service.Save()
 if err != nil {
@@ -246,11 +221,6 @@ service.getViewKey().then((result) => {
 <?php
 $response = $blocService->getViewKey();
 echo $response;
-```
-
-```python
-response = walletd.get_view_key()
-print(response)
 ```
 
 ```go
@@ -307,12 +277,6 @@ service.getSpendKeys({
 $address = 'abLocxxxx...';
 $response = $blocService->getSpendKeys($address);
 echo $response;
-```
-
-```python
-address = 'abLocxxxx...'
-response = walletd.get_spend_keys(address)
-print(response)
 ```
 
 ```go
@@ -378,12 +342,6 @@ $response = $blocService->getMnemonicSeed($address);
 echo $response;
 ```
 
-```python
-address = 'abLocxxxx...'
-response = walletd.get_mnemonic_seed(address)
-print(response)
-```
-
 ```go
 address := "abLocxxxx..."
 response, err := service.GetMnemonicSeed(address)
@@ -446,11 +404,6 @@ $response = $blocService->getStatus();
 echo $response;
 ```
 
-```python
-response = walletd.get_status()
-print(response)
-```
-
 ```go
 response, err := service.GetStatus()
 if err != nil {
@@ -508,11 +461,6 @@ service.getAddresses().then((result) => {
 <?php
 $response = $blocService->getAddresses();
 echo $response;
-```
-
-```python
-response = walletd.get_addresses()
-print(response)
 ```
 
 ```go
@@ -576,13 +524,6 @@ $response = $blocService->createAddress($secretSpendKey, $publicSpendKey);
 echo $response;
 ```
 
-```python
-spend_secret_key = ''
-spend_public_key = ''
-response = walletd.create_address(spend_secret_key, spend_public_key)
-print(response)
-```
-
 ```go
 spendSecretKey := ""
 spendPublicKey := ""
@@ -642,14 +583,6 @@ $response = $blocService->deleteAddress($address);
 echo $response;
 ```
 
-```python
-address = 'abLocxxxx...'
-response = walletd.delete_address(address)
-
-# If the delete was successful, response will be True
-print(response)
-```
-
 ```go
 address := "abLocxxxx..."
 response, err := service.DeleteAddress(address)
@@ -704,12 +637,6 @@ service.getBalance({
 $address = 'abLocxxxx...';
 $response = $blocService->getBalance($address);
 echo $response;
-```
-
-```python
-address = 'abLocxxxx...'
-response = walletd.get_balance(address)
-print(response)
 ```
 
 ```go
@@ -778,13 +705,6 @@ $firstBlockIndex = 0;
 $blockCount = 3;
 $response = $blocService->getBlockHashes($firstBlockIndex, $blockCount);
 echo $response;
-```
-
-```python
-first_block_index = 0
-block_count = 3
-response = walletd.get_block_hashes(first_block_index, block_count)
-print(response)
 ```
 
 ```go
@@ -863,16 +783,6 @@ $response = $blocService->getTransactionHashes(
 );
 
 echo $response;
-```
-
-```python
-block_count = 100000
-block_hash = '6c285...'
-addresses = []
-payment_id = ''
-
-response = walletd.get_transaction_hashes(addresses, block_hash, block_count, payment_id)
-print(response)
 ```
 
 ```go
@@ -970,16 +880,6 @@ $response = $blocService->getTransactions(
 );
 
 echo $response;
-```
-
-```python
-block_count = 100000
-block_hash = '6c285...'
-addresses = []
-payment_id = ''
-
-response = walletd.get_transactions(addresses, block_hash, block_count, payment_id)
-print(response)
 ```
 
 ```go
@@ -1116,12 +1016,6 @@ $response = $blocService->getUnconfirmedTransactionHashes($addresses);
 echo $response;
 ```
 
-```python
-addresses = []
-response = walletd.get_unconfirmed_transaction_hashes(addresses)
-print(response)
-```
-
 ```go
 addresses := []string{"abLocxxxx..."}
 response, err := service.GetUnconfirmedTransactionHashes(addresses)
@@ -1187,12 +1081,6 @@ service.getTransaction({
 $transactionHash = '55a23...';
 $response = $blocService->getTransaction($transactionHash);
 echo $response;
-```
-
-```python
-transaction_hash = '55a23...'
-response = walletd.get_transaction(transaction_hash)
-print(response)
 ```
 
 ```go
@@ -1304,25 +1192,6 @@ $response = $blocService->sendTransaction(
 echo $response;
 ```
 
-```python
-anonymity = 3
-fee = 10
-addresses = []
-unlock_time = 0
-extra = ''
-payment_id = ''
-change_address = 'abLocyyyy...'
-
-transfers = [
-    {"address" : "abLocxxxx...", "amount" : 5000},
-]
-
-response = walletd.send_transaction(
-    transfers, anonymity, fee, addresses, change_address, extra, payment_id, unlock_time
-)
-print(response)
-```
-
 ```go
 addresses := []string{"abLocyyyy..."} // can be empty
 unlockTime := 0
@@ -1423,25 +1292,6 @@ $response = $blocService->createDelayedTransaction(
 echo $response;
 ```
 
-```python
-anonymity = 3
-fee = 10
-addresses = []
-unlock_time = 0
-extra = ''
-payment_id = ''
-change_address = 'abLocyyyy...'
-
-transfers = [
-    {"address" : "abLocxxxx...", "amount" : 5000},
-]
-
-response = walletd.create_delayed_transaction(
-    transfers, anonymity, fee, addresses, change_address, extra, payment_id, unlock_time
-)
-print(response)
-```
-
 ```go
 addresses := []string{"abLocyyyy..."} // can be empty
 unlockTime := 0
@@ -1523,11 +1373,6 @@ $response = $blocService->getDelayedTransactionHashes();
 echo $response;
 ```
 
-```python
-response = walletd.get_delayed_transaction_hashes()
-print(response)
-```
-
 ```go
 response, err := service.GetDelayedTransactionHashes()
 if err != nil {
@@ -1580,14 +1425,6 @@ service.deleteDelayedTransaction({
 $transactionHash = 'b3e37...';
 $response = $blocService->deleteDelayedTransaction($transactionHash);
 echo $response;
-```
-
-```python
-transaction_hash = '50d83...'
-response = walletd.delete_delayed_transaction(transaction_hash)
-
-# If delete is successful, the response will be True
-print(response)
 ```
 
 ```go
@@ -1644,14 +1481,6 @@ $transactionHash = 'c37cd...';
 $response = $blocService->sendDelayedTransaction($transactionHash);
 
 echo $response;
-```
-
-```python
-transaction_hash = '50d83...'
-response = walletd.send_delayed_transaction(transaction_hash)
-
-# If transaction is sent successful, the response will be True
-print(response)
 ```
 
 ```go
@@ -1711,16 +1540,6 @@ $destinationAddress = 'abLoczzzz...';
 $response = $blocService->sendFusionTransaction($threshold, $anonymity, $addresses, $destinationAddress);
 
 echo $response;
-```
-
-```python
-threshold = 1000000
-anonymity = 3
-addresses = ['abLocxxxx...', 'abLocyyyy...']
-destination_address = 'abLoczzzz...'
-response = walletd.send_fusion_transaction(threshold, anonymity, addresses, destination_address)
-
-print(response)
 ```
 
 ```go
@@ -1799,13 +1618,6 @@ $response = $blocService->estimateFusion($threshold, $addresses);
 echo $response;
 ```
 
-```python
-threshold = 1000000
-addresses = ['abLocxxxx...', 'abLocyyyy...']
-response = walletd.estimate_fusion(threshold, addresses)
-print(response)
-```
-
 ```go
 threshold := 1000000
 addresses := []string{"abLocxxxx...","abLocyyyy..."}
@@ -1871,13 +1683,6 @@ $response = $blocService->createIntegratedAddress($address, $paymentId);
 echo $response;
 ```
 
-```python
-address = 'abLocxxxx...'
-payment_id = '7FE73BD90EF05DEA0B5C15FC78696619C50DD5F2BA628F2FD16A2E3445B1922F'
-response = walletd.create_integrated_address(address, payment_id)
-print(response)
-```
-
 ```go
 address := "abLocxxxx..."
 paymentID := "7FE73BD90EF05DEA0B5C15FC78696619C50DD5F2BA628F2FD16A2E3445B1922F"
@@ -1933,11 +1738,6 @@ service.getFeeInfo().then((result) => {
 $response = $blocService->getFeeInfo();
 
 echo $response;
-```
-
-```python
-response = walletd.get_fee_info()
-print(response)
 ```
 
 ```go

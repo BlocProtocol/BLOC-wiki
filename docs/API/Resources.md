@@ -2,13 +2,6 @@
 
 Technical resources to start building on BLOC.
 
-# BLOC API
-
-* [Daemon HTTP RPC API](daemon-http-rpc-api.md)
-* [Daemon JSON RPC API](daemon-json-rpc-api.md)
-* [Wallet RPC API](wallet-rpc-api.md)
-* [RPC Errors](rpc-api-error-conditions.md)
-
 ## Wallet RPC API Clients
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc)

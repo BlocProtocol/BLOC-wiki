@@ -17,10 +17,6 @@ npm install bloc-rpc
 composer require furiousteam/BLOC-rpc-php
 ```
 
-```python
-pip3 install turtlecoin
-```
-
 ```go
 go get github.com/furiousteam/BLOC-rpc-go
 ```
@@ -35,13 +31,6 @@ http://localhost:2086/json_rpc
 
 > Configuration and Instantiation
 
-```python
-from turtlecoin import BLOCd
-
-rpc_host = 'localhost'
-rpc_port = 2086
-turtlecoind = BLOCd(rpc_host, rpc_port)
-```
 
 ```javascript
 const BLOCd = require('bloc-rpc').BLOCd
@@ -135,11 +124,6 @@ $response = $blocd->getBlockCount();
 echo $response;
 ```
 
-```python
-response = turtlecoind.get_block_count()
-print(response)
-```
-
 ```go
 response := daemon.GetBlockCount()
 fmt.Println(response)
@@ -190,12 +174,6 @@ daemon.getBlockHash({
 $height = 123456;
 $response = $blocd->getBlockHash($height);
 echo $response;
-```
-
-```python
-height = 123456
-response = turtlecoind.get_block_hash(height)
-print(response)
 ```
 
 ```go
@@ -251,14 +229,6 @@ $reserveSize = 200;
 $address = 'abLocxxxx...';
 $response = $blocd->getBlockTemplate($reserveSize, $address);
 echo $response;
-```
-
-```python
-reserve_size = 200
-wallet_address = 'abLocxxxx...'
-
-response = turtlecoind.get_block_template(reserve_size, wallet_address)
-print(response)
 ```
 
 ```go
@@ -326,12 +296,6 @@ $response = $blocd->submitBlock($blockBlob);
 echo $response;
 ```
 
-```python
-block_blob = '0100b...'
-response = turtlecoind.submit_block(block_blob)
-print(response)
-```
-
 ```go
 blockBlob := "0100b..."
 response := daemon.SubmitBlock(blockBlob)
@@ -382,11 +346,6 @@ daemon.getLastBlockHeader().then((result) => {
 <?php
 $response = $blocd->getLastBlockHeader();
 echo $response;
-```
-
-```python
-response = turtlecoind.get_last_block_header()
-print(response)
 ```
 
 ```go
@@ -463,12 +422,6 @@ daemon.getBlockHeaderByHash({
 $hash = '30706...';
 $response = $blocd->getBlockHeaderByHash($hash);
 echo $response;
-```
-
-```python
-hash = '30706...'
-response = turtlecoind.get_block_header_by_hash(hash)
-print(response)
 ```
 
 ```go
@@ -554,12 +507,6 @@ $response = $blocd->getBlockHeaderByHeight($height);
 echo $response;
 ```
 
-```python
-height = 123456
-response = turtlecoind.get_block_header_by_height(height)
-print(response)
-```
-
 ```go
 height := 123456
 response := daemon.GetBlockHeaderByHeight(height)
@@ -640,11 +587,6 @@ $response = $blocd->getCurrencyId();
 echo $response;
 ```
 
-```python
-response = turtlecoind.get_currency_id()
-print(response)
-```
-
 ```go
 response := daemon.GetCurrencyID()
 fmt.Println(response)
@@ -692,12 +634,6 @@ daemon.getBlocks({
 $height = 500000;
 $response = $blocd->getBlocks($height);
 echo $response;
-```
-
-```python
-height = 500000
-response = turtlecoind.get_blocks(height)
-print(response)
 ```
 
 ```go
@@ -770,12 +706,6 @@ daemon.getBlock({
 $hash = '980ff...';
 $response = $blocd->getBlock($hash);
 echo $response;
-```
-
-```python
-hash = '980ff...'
-response = turtlecoind.get_block(hash)
-print(response)
 ```
 
 ```go
@@ -890,12 +820,6 @@ daemon.getTransaction({
 $hash = '702ad...';
 $response = $blocd->getTransaction($hash);
 echo $response;
-```
-
-```python
-hash = '702ad...'
-response = turtlecoind.get_transaction(hash)
-print(response)
 ```
 
 ```go
@@ -1022,11 +946,6 @@ daemon.getTransactionPool().then((transactions) => {
 <?php
 $response = $blocd->getTransactionPool();
 echo $response;
-```
-
-```python
-response = turtlecoind.get_transaction_pool()
-print(response)
 ```
 
 ```go

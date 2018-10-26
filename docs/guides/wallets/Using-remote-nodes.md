@@ -146,13 +146,3 @@ BLOC Electron wallet automatically syncs from a [remote node](../Using-nest-wall
 | usa.node.bloc | 2086 | https://comingsoon.com |
 | europe.node.bloc | 2086 | https://comingsoon.com |
 | america.node.bloc | 2086 | https://comingsoon.com |
-
-## Known remote daemons
-
-|         Host         | Port  |        Website        |
-| :------------------: | :---: | :-------------------: |
-| bloc.cool | 2086 | https://bloc.money |
-| asia.node.bloc | 2086 | https://comingsoon.com |
-| usa.node.bloc | 2086 | https://comingsoon.com |
-| europe.node.bloc | 2086 | https://comingsoon.com |
-| america.node.bloc | 2086 | https://comingsoon.com |

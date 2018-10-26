@@ -98,9 +98,9 @@ All of the constants in CryptoNoteConfig.h and most of the code, that refers to 
 **What does this mean?**
 
 Well, if we're talking about TurtleCoin, we have 2 decimal places.
-That means, to get the atomic units of an amount of TRTL, we need to multiply the amount by 100, or 10^2.
+That means, to get the atomic units of an amount of abLoc, we need to multiply the amount by 100, or 10^2.
 
-If we have 10.23 TRTL, this is 1023 in atomic units. Atomic units have no decimal point,
+If we have 10.23 abLoc, this is 1023 in atomic units. Atomic units have no decimal point,
 and so can be represented as an integer, in the code.
 Some different currencies have a special name for their atomic units, to make it easier to talk about.
 In Bitcoin, this is called a *satoshi*, and in TurtleCoin, it is called a *shell*.
@@ -110,27 +110,27 @@ In Bitcoin, this is called a *satoshi*, and in TurtleCoin, it is called a *shell
 Computers are unable to accurately store floating point numbers (or, numbers with a decimal point),
 and so performing math on them is often problematic.
 
-For example, let's say we want to split 10.00 TRTL between 3 people.
+For example, let's say we want to split 10.00 abLoc between 3 people.
 If you perform `10.00 / 3` in a programming language, you will probably see a result similar to `3.3333333333333335`.
 Where did that 5 come from?! The computer is incapable of storing this number to its full amount of decimal places.
 
 **How do we fix this?**
 
 Now, let's demonstrate how we can solve this issue, with *atomic units*.
-Again, we have 10.00 TRTL, and we want to split it between 3 people.
+Again, we have 10.00 abLoc, and we want to split it between 3 people.
 Recall that to get the number of atomic units, we need to multiply by 100.
 So, we have a value of 1000 in atomic units. Now we can perform *integer division* instead.
 Let's perform `1000 / 3` - make sure you are using *integral division* in your programming language -
 and you should get a result of `333`.
 
-That's correct, each person can only get 333 units, or, if we want to convert back to TRTL, 3.33 TRTL.
-You might have noticed we're missing one atomic unit, or 0.01 TRTL.
+That's correct, each person can only get 333 units, or, if we want to convert back to abLoc, 3.33 abLoc.
+You might have noticed we're missing one atomic unit, or 0.01 abLoc.
 We have to use remainders when dealing with atomic values, as one atomic unit cannot be split down anymore.
 
 So, the code might look something like this, when using atomic units.
 
 ```cpp
-/* 10.00 TRTL in atomic units */
+/* 10.00 abLoc in atomic units */
 float trtl = 10.00;
 int shells = static_cast<int>(trtl) * 100;
 
@@ -139,9 +139,9 @@ int numPeople = 3;
 int shellsPerPerson = shells / numPeople;
 int remainder = shells % numPeople;
 
-std::cout << "Splitting " << trtl << " TRTL" between << numPeople << " gives "
-          << (shellsPerPerson / 100) << " TRTL each, with " << (remainder / 100)
-          << " TRTL spare." << std::endl;
+std::cout << "Splitting " << trtl << " abLoc" between << numPeople << " gives "
+          << (shellsPerPerson / 100) << " abLoc each, with " << (remainder / 100)
+          << " abLoc spare." << std::endl;
 ```
 
 Usually, we will *always* use atomic units in our code,
@@ -160,7 +160,7 @@ Note that there is also a CMakeLists.txt in the root directory, this is not the 
 The lines we want to be changing are at the very bottom of the file.
 
 ```
-set_property(TARGET Daemon PROPERTY OUTPUT_NAME "TurtleCoind")
+set_property(TARGET Daemon PROPERTY OUTPUT_NAME "BLOCd")
 set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
 set_property(TARGET PaymentGateService PROPERTY OUTPUT_NAME "walletd")
 set_property(TARGET PoolWallet PROPERTY OUTPUT_NAME "poolwallet")
@@ -177,7 +177,7 @@ Save the file, and recompile.
 ## Changing version numbers
 
 Another boring one - changing the version numbers. This is the thing that
-appears when you start up TurtleCoind, e.g. `Welcome to TurtleCoin v0.6.4.1264`
+appears when you start up BLOCd, e.g. `Welcome to TurtleCoin v0.6.4.1264`
 
 Open up `src/version.h.in`.
 
@@ -229,7 +229,7 @@ If you wanted blocks to be every 2 minutes, you would set this to be:
 
 #### `const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 3914525;`<br/>
 
-This defines what the addresses will start with. In TurtleCoin, this decodes to `TRTL`.
+This defines what the addresses will start with. In TurtleCoin, this decodes to `abLoc`.
 
 So how do we get this prefix? We can use this [handy tool](https://cryptonotestarter.org/tools.html).
 
@@ -239,7 +239,7 @@ Scroll down to the prefix generator, and enter your desired address prefix.
 Note that some characters are disabled, so you may not be able to get the perfect prefix.
 For example, `aPPLE` is allowed, but `APPLE` isn't.
 
-You may note that TRTL's prefix is a number, while the output of this generator is not.
+You may note that abLoc's prefix is a number, while the output of this generator is not.
 These values are in hex format, and will automatically be decoded into a number when compiled,
 though you can use any standard hexadecimal to decimal converter to change the prefix into a number if you prefer.
 
@@ -267,7 +267,7 @@ to 10.
 #### `const uint64_t MONEY_SUPPLY = UINT64_C(100000000000000);`<br/>
 
 This line is a pretty significant one. It determines the max supply of coins your cryptocurrency will have.
-In TurtleCoin, this is 1 trillion TRTL, but as previously mentioned, all these values are in *atomic units*,
+In TurtleCoin, this is 1 trillion abLoc, but as previously mentioned, all these values are in *atomic units*,
 so this value also includes the amount after the decimal point.
 Thus, this value is 1 trillion * 100, as TurtleCoin has 2 places after the decimal point.
 
@@ -319,8 +319,8 @@ If we wanted a fast emission, we could set this to a value like 21.
 #### `const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 2;`<br/>
 
 This value defines how many numbers there are after the decimal point in your currency.
-In TurtleCoin, this value is 2, so we have amounts like 10.23 TRTL.
-If we set this to 6, we would have an amount like 10.234567 TRTL instead.
+In TurtleCoin, this value is 2, so we have amounts like 10.23 abLoc.
+If we set this to 6, we would have an amount like 10.234567 abLoc instead.
 Remember, as previously mentioned, this affects your money supply and other parameters which depend upon atomic units.
 
 - `const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 6;`<br/>
@@ -428,7 +428,7 @@ you can set the upgrade height to `std::numeric_limits<uint32_t>::max()`
 
 #### `const uint64_t FORK_HEIGHTS[] =`<br/>
 
-This variable is used by the `status` command in zedwallet and TurtleCoind to notify users when a fork is upcoming,
+This variable is used by the `status` command in zedwallet and BLOCd to notify users when a fork is upcoming,
 or their software is outdated. We suggest you set up some regular forks ahead of time,
 if you then need to update the software this will let users know when to expect this.
 
@@ -520,8 +520,8 @@ to help decentralize your coin.
 - ```
   const char* const SEED_NODES[] =
   {
-      "111.111.111.111:11897",
-      "222.222.222.222:11897",
+      "111.111.111.111:2082",
+      "222.222.222.222:2082",
   };
   ```
   <br/>
@@ -552,7 +552,7 @@ e.g.
 
 - `const uint64_t GENESIS_BLOCK_REWARD = UINT64_C(100);`
 
-As always, this value is in *atomic units*. The above code would premine 1 TRTL, assuming 2 decimal places are being used.
+As always, this value is in *atomic units*. The above code would premine 1 abLoc, assuming 2 decimal places are being used.
 
 Next, compile your code.
 
@@ -569,7 +569,7 @@ Replacing <premine wallet address> with the address you just generated.
 For example:
 
 ```
-TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW
+BLOCd --print-genesis-tx --genesis-block-reward-address abLocv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW
 ```
 
 This will print out a long hash. Take this hash, and replace the value of
@@ -590,7 +590,7 @@ Next up to modify is WalletConfig.h, located in `src/zedwallet/WalletConfig.h`
 
 These fields are all pretty well documented already, but we'll go over them anyway.<br/>
 
-#### `const std::string addressPrefix = "TRTL";`<br/>
+#### `const std::string addressPrefix = "abLoc";`<br/>
 
 This value is used to check inputted addresses are correct.
 This value corresponds to the value you chose for your address prefix earlier,
@@ -601,17 +601,17 @@ in `const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX =`
 
 
 
-#### `const std::string ticker = "TRTL";`<br/>
+#### `const std::string ticker = "abLoc";`<br/>
 
 This refers to the 'short name' your coin has, which is often used as a ticker on exchanges.
-For example, in TurtleCoin this is TRTL, in Monero this is XMR, and in Bitcoin this is BTC.
+For example, in TurtleCoin this is abLoc, in Monero this is XMR, and in Bitcoin this is BTC.
 
 - `const std::string ticker = "APPLE";`<br/>
 
 
 
 
-#### `const std::string daemonName = "TurtleCoind";`<br/>
+#### `const std::string daemonName = "BLOCd";`<br/>
 
 This variable determines what the name of your daemon is.
 We'll talk about changing the names of the executables generated in the `CmakeLists.txt` section.
@@ -736,7 +736,7 @@ If you are unable to connect to the seed nodes,
 you will see something like `Failed to connect to seed nodes` in your daemon output.
 
 Ensure your firewalls are not preventing the daemon connection,
-you may need to open the p2p and RPC ports for the daemon, which by default are 11898 and 11897.
+you may need to open the p2p and RPC ports for the daemon, which by default are 2086 and 2082.
 
 If your daemons are now talking to each other, you can start mining, and launch your blockchain!
 
@@ -750,7 +750,7 @@ there is not much point in that yet!
 E.g.
 
 ```
-./miner --threads 8 --log-level 3 --address TRTLuyTvsJZjAsbtgbYmZeV1pb43dXqcv1jNdYNwokv8GUa1ZbYzivzg2gEgXeAfUqJF12APf3Rq89UneaQKiZ1nGW1vYqkGb8Y
+./miner --threads 8 --log-level 3 --address abLocuyTvsJZjAsbtgbYmZeV1pb43dXqcv1jNdYNwokv8GUa1ZbYzivzg2gEgXeAfUqJF12APf3Rq89UneaQKiZ1nGW1vYqkGb8Y
 ```
 
 If you've done this correctly, you should see output like this:

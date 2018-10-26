@@ -20,32 +20,32 @@ Simply participate in the chat and let RainBorg take care of the details, she kn
 
 Because it is fun and promotes an active community; it is another way that this project is different.
 
-## So where do the TRTL's come from?
+## So where do the abLoc's come from?
 
-They come from all the generous people in the community. There is a pool of TRTL, the pool is filled up by anyone that wants to contribute. You could be a contributor! It is anonymous and 100% philanthropic.
+They come from all the generous people in the community. There is a pool of abLoc, the pool is filled up by anyone that wants to contribute. You could be a contributor! It is anonymous and 100% philanthropic.
 
-The only way it stops being anonymous is if you post in chat and disclose your donation.   `ha, just sent 350k TRTL to RainBorg, megatip time yo!`
+The only way it stops being anonymous is if you post in chat and disclose your donation.   `ha, just sent 350k abLoc to RainBorg, megatip time yo!`
 
 ## Give me details!
 
 Right, to get started, simply register your wallet with [trtlbot++](../Using-trtlbot-plus-plus#registering-your-wallet).
 
-Go to the  `#bots` channel in the [Discord server](http://chat.turtlecoin.lol/), type `.registerwallet TRTL...`, and replace `TRTL...` with your wallet address.
+Go to the  `#bots` channel in the [Discord server](http://chat.turtlecoin.lol/), type `.registerwallet abLoc...`, and replace `abLoc...` with your wallet address.
 
 For example, you would type:
 
 ```
-.registerwallet TRTLv3pFrFm2yk4cYNtKf5fxV1b594tNrZfEV2CYWJsTSqr9BWoWMrUNpQaeD9StrzQrxpRQKPCdd1FfvT6D6dAg4pY6iB7sqsG
+.registerwallet abLocv3pFrFm2yk4cYNtKf5fxV1b594tNrZfEV2CYWJsTSqr9BWoWMrUNpQaeD9StrzQrxpRQKPCdd1FfvT6D6dAg4pY6iB7sqsG
 ```
 
 That's it, you're in, now start chatting with your fellow Turtles.
 
 ## To contribute to the tip rain pool
 
-Send TRTL to this address
+Send abLoc to this address
 
 ```
-TRTLv12WtKJAzTNtxSkbcXf7mjeVApSqRYACtoJE2X52UBSce7qGAQ1JQgG3MmArnZSbkJXKqBXiPX2Mno7xD4tqD3p8SySoBc5
+abLocv12WtKJAzTNtxSkbcXf7mjeVApSqRYACtoJE2X52UBSce7qGAQ1JQgG3MmArnZSbkJXKqBXiPX2Mno7xD4tqD3p8SySoBc5
 ```
 
 With this Payment ID **!! IMPORTANT !!**
@@ -74,7 +74,7 @@ The tips are sent out to turtles in these channels.
   - \#dev_marketing *(spread the word!)*
 
 
-## Chatting right? So no chat = no TRTL?
+## Chatting right? So no chat = no abLoc?
 
 Pretty much.  
 
@@ -85,13 +85,13 @@ Pretty much.
     - It's simple.  
 
 
-### Hold up, I was active like 2mins ago then all these others got TRTL and I didn't
+### Hold up, I was active like 2mins ago then all these others got abLoc and I didn't
 
 Well, let's break this down then. You WERE active *(past tense)*, and the other people who ARE active got the rain and you didn't because of the way the chatting window works.  
 
 They were active during the time RainBorg was raining down on the active Turtles. Active Turtles win, that's the game. Be a good active Turtle and she will share her tips with you!
 
-## OK OK, so how do I get all the TRTLs? SPAM? EXILE!
+## OK OK, so how do I get all the abLocs? SPAM? EXILE!
 
 This is not how it works or why it was set up... gaming the system or attempting to game the system could land you on the exile list.  
 
@@ -116,14 +116,14 @@ They look something like this:
 
 > **TUT TUT**
 >
-> Huzzah, 500 TRTL just rained on 4 chatty turtles in #general, they each got 125 TRTL!
+> Huzzah, 500 abLoc just rained on 4 chatty turtles in #general, they each got 125 abLoc!
 >
 > ![turt in rain](images/rainborg/rainborg-rain.png)
 
 ## Wow? Megatip wat?
 
 When an operator runs a megatip command, RainBorg splits the amount between all [tippable channels](#which-channels-does-this-work-with), and the amount in the command is split across all the active members in the eligible channels, who were in the list to get tipped originally.  
-It is divided equally, so if person A and B are talking in \#general, and person B and C were talking in \#help, and there was a 400 megatip, 100 TRTL would go to A and C, and 200 TRTL would go to B(100 TRTL for each channel)
+It is divided equally, so if person A and B are talking in \#general, and person B and C were talking in \#help, and there was a 400 megatip, 100 abLoc would go to A and C, and 200 abLoc would go to B(100 abLoc for each channel)
 
 ## Anything not covered here?
 

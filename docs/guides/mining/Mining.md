@@ -48,4 +48,4 @@ You may view a comprehensive list of pools [here](../Pools).
 
 ## Have Questions or Need Help?
 
-Check out our [Discord](http://chat.turtlecoin.lol) or [subreddit](https://www.reddit.com/r/TRTL/) to get in touch.
+Check out our [Discord](http://chat.turtlecoin.lol) or [subreddit](https://www.reddit.com/r/abLoc/) to get in touch.

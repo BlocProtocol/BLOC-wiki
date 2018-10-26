@@ -2,12 +2,12 @@
 
 ## Registering your Wallet
 
-Go to the `#bots` channel in the [Discord server](http://chat.turtlecoin.lol), and type `.registerwallet TRTL...`, and replace `TRTL...` with your wallet address.
+Go to the `#bots` channel in the [Discord server](http://chat.turtlecoin.lol), and type `.registerwallet abLoc...`, and replace `abLoc...` with your wallet address.
 
 For example, you would type-
 
 ```
-.registerwallet TRTLv3pFrFm2yk4cYNtKf5fxV1b594tNrZfEV2CYWJsTSqr9BWoWMrUNpQaeD9StrzQrxpRQKPCdd1FfvT6D6dAg4pY6iB7sqsG
+.registerwallet abLocv3pFrFm2yk4cYNtKf5fxV1b594tNrZfEV2CYWJsTSqr9BWoWMrUNpQaeD9StrzQrxpRQKPCdd1FfvT6D6dAg4pY6iB7sqsG
 ```
 
 ## Depositing Turtle
@@ -49,13 +49,13 @@ When the bot receives the payment, it will send you a PM letting you know. Now y
 
 ## Checking your Balance
 
-Before you can tip, you need to know your balance. Your balance is the amount of TRTL you have in your tipjar wallet to tip to others.
+Before you can tip, you need to know your balance. Your balance is the amount of abLoc you have in your tipjar wallet to tip to others.
 
 To check your balance, type `.balance`. trtlbot++ will PM you with how much balance you have remaining in your tipjar wallet.
 
 ![balance](images/trtlbot-plus-plus/balance.png)
 
-If it shows `0.00`, then make sure you have [deposited](#depositing-turtle) some TRTL and it has [been received](#expected-results)
+If it shows `0.00`, then make sure you have [deposited](#depositing-turtle) some abLoc and it has [been received](#expected-results)
 
 ## Tipping People
 To tip someone, type `.tip 12345 @person`.
@@ -63,10 +63,10 @@ To tip someone, type `.tip 12345 @person`.
 Replace `12345` with how much you want to tip the person.  
 Replace `@person` with whom you want to tip it to.
 
-For example, `.tip 1 @RockSteady#7588` will tip the user called "RockSteady"  1 TRTL.
+For example, `.tip 1 @RockSteady#7588` will tip the user called "RockSteady"  1 abLoc.
 
-*The minimum you can send is 0.01 TRTL, and the bot will take an extra 0.1 TRTL on top of what you tipped to account for fees
-So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the full 1 TRTL reaches the recipient*
+*The minimum you can send is 0.01 abLoc, and the bot will take an extra 0.1 abLoc on top of what you tipped to account for fees
+So if you tipped 1 abLoc, 1.1 abLoc will be pulled from your account so that the full 1 abLoc reaches the recipient*
 
 ### Adding a Message when Tipping
 
@@ -81,7 +81,7 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
 
 
 
-   will **not** send RockSteady 1 TRTL.
+   will **not** send RockSteady 1 abLoc.
 
    ---
 
@@ -94,7 +94,7 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
   .tip 1 @RockSteady#7588
   ```
 
-  will **not** send RockSteady 1 TRTL.
+  will **not** send RockSteady 1 abLoc.
 
   ---
 
@@ -107,7 +107,7 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
 
 
 
-   **will** send RockSteady 1 TRTL
+   **will** send RockSteady 1 abLoc
 
    ---
 
@@ -118,7 +118,7 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
 
   hey
   ```
-  **will** send RockSteady 1 TRTL.
+  **will** send RockSteady 1 abLoc.
 
   ---
 
@@ -129,7 +129,7 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
   .tip  1 hey @RockSteady#7588
   ```
 
-   **will** send RockSteady 1 TRTL.
+   **will** send RockSteady 1 abLoc.
 
   ---
 
@@ -145,13 +145,13 @@ So if you tipped 1 TRTL, 1.1 TRTL will be pulled from your account so that the f
 
 ### Tipping with Emojis
 
-Reacting with the emoji ![99](images/trtlbot-plus-plus/almost100.png) on someone's message will tip them 99 TRTL.
+Reacting with the emoji ![99](images/trtlbot-plus-plus/almost100.png) on someone's message will tip them 99 abLoc.
 
 If someone has tipped someone, then reacting with ![tip](images/trtlbot-plus-plus/rsz_tip.png) on the message on which they tipped the person (`.tip 1 @RockSteady#7588`) will send the recipient (in this case, RockSteady) the same amount he was originally tipped (in this case, 1).    
-So the recipient (RockSteady) gets 2 TRTL.
+So the recipient (RockSteady) gets 2 abLoc.
 
-Reacting with ![tip](images/trtlbot-plus-plus/rsz_tip.png) on a message where in a person was tipped with the emoji ![99](images/trtlbot-plus-plus/almost100.png) will **not** tip the original poster of the message 99 TRTL.  
-You *can* react with the emoji ![99](images/trtlbot-plus-plus/almost100.png) (again) however, to tip the person 99 TRTL.
+Reacting with ![tip](images/trtlbot-plus-plus/rsz_tip.png) on a message where in a person was tipped with the emoji ![99](images/trtlbot-plus-plus/almost100.png) will **not** tip the original poster of the message 99 abLoc.  
+You *can* react with the emoji ![99](images/trtlbot-plus-plus/almost100.png) (again) however, to tip the person 99 abLoc.
 
 ### Tipping Multiple People
 
@@ -159,9 +159,9 @@ The syntax for tipping multiple people is- `.tip 1 <@person1 @person2>`
 
 For example, `.tip 1 @RockSteady#7588 @bebop#2640`
 
-This will tip RockSteady *and* bebop 1 TRTL **each** (it will not divide the 1 TRTL in between the 2).
+This will tip RockSteady *and* bebop 1 abLoc **each** (it will not divide the 1 abLoc in between the 2).
 
-The bot will still pull a fee of 0.1 TRTL extra from your balance.
+The bot will still pull a fee of 0.1 abLoc extra from your balance.
 
 This can be used to tip - so far - an unlimited amount of people, given that you have enough balance.  
 The bot will PM you after it has sent the payments to everyone, letting you know the TX Hash, your updated balance, and how many people it sent it to, along with the number of -
@@ -176,12 +176,12 @@ However, it will not let you know whose wallet has not been registered, simply t
 
 ### Where Do These Tips Go?
 
-When you tip someone, the desired amount plus 0.1 TRTL is pulled from your tipjar wallet balance and sent to the recipient's registered wallet (if he has not registered a wallet, he cannot receive tips).
+When you tip someone, the desired amount plus 0.1 abLoc is pulled from your tipjar wallet balance and sent to the recipient's registered wallet (if he has not registered a wallet, he cannot receive tips).
 
-When you get tipped, the sender sends the desired amount plus 0.1 TRTL, pulled from his tipjar wallet balance, directly to your registered wallet (if you haven't registered a wallet, you can't receive tips).  
+When you get tipped, the sender sends the desired amount plus 0.1 abLoc, pulled from his tipjar wallet balance, directly to your registered wallet (if you haven't registered a wallet, you can't receive tips).  
 It also reacts to the message on which the person was tipped (`.tip 1 @RockSteady#7588`) with ![moneywings](images/trtlbot-plus-plus/rsz_money_with_wings.png).
 
-It *does not* send the TRTL to your tipjar balance. It sends it *directly* to your **wallet**.  
+It *does not* send the abLoc to your tipjar balance. It sends it *directly* to your **wallet**.  
 
 However, you can redirect tips that you receive from others with `.redirecttips` to have tips go directly to your tip balance (you still have to have registered a wallet however)
 
@@ -213,8 +213,8 @@ trtlbot++ isn't just a tip bot, it's so much more! Here's a table of it's other 
 | height | `.height` | Returns current blockchain height. |
 | difficulty | `.difficulty` | Returns current network difficulty. |
 | supply | `.supply` | Returns current circulating supply. |
-| faucet |  `.faucet` | Returns information about current amount of TRTL in the faucet's wallet. |
-| updatewallet | `.updatewallet TRTL...` | Updates your currently registered wallet address in case of a change(is not a replacement for `.registerwallet TRTL...` ). |
+| faucet |  `.faucet` | Returns information about current amount of abLoc in the faucet's wallet. |
+| updatewallet | `.updatewallet abLoc...` | Updates your currently registered wallet address in case of a change(is not a replacement for `.registerwallet abLoc...` ). |
 | wallet | `.wallet @<user>` | PM's you with the wallet address of the user tagged(`.wallet @Sajo8#2953`). If you type only `.wallet` it will PM you with your own wallet address. |
 | marketcap | `.mcap` | Returns current Market Cap. Cannot be used in the main TurtleCoin Discord, only in the [Market one](https://discord.gg/HS7kn3d). |
 | price | `.price` | Returns current price. Cannot be used in the main TurtleCoin Discord, only in the [Market one](https://discord.gg/HS7kn3d). |

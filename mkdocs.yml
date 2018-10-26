@@ -21,8 +21,8 @@ theme:
   logo: 'images/logo.png'
   favicon: 'images/fav.png'
   palette:
-    primary: 'green'
-    accent: 'light green'
+    primary: 'Blue'
+    accent: 'light blue'
   language: 'en'
   direction: 'ltr'
   feature:
@@ -79,7 +79,13 @@ nav:
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
       - Timeline: about/Timeline.md
-      
+    - API:
+      - Home: API/index.md
+      - Ressources: API/Resources.md
+      - Wallet RPC API: API/wallet-rpc-api.md
+      - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
+      - Daemon JSON RPC API: API/daemon-json-rpc-api.md
+      - RPC Errors: API/rpc-api-error-conditions.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
     - Guides:
@@ -87,7 +93,7 @@ nav:
       - Using trtlbot++: guides/Using-trtlbot-plus-plus.md
       - Forking TurtleCoin: guides/Forking-Turtlecoin.md
       - Mining:
-        - How to Mine TRTL: guides/mining/Mining.md
+        - How to Mine abLoc: guides/mining/Mining.md
         - XMR-Stak: guides/mining/XMR-Stak-Guide.md
         - XMR-Stak on Linux: guides/mining/XMR-Stak-Linux-Guide.md
         - XMRig: guides/mining/XMRIG-Guide.md
@@ -95,7 +101,7 @@ nav:
         - Cloud Mining: guides/mining/Cloud-Mining.md
         - Mining with a SBC: guides/mining/Mining-with-SBC.md
         - Mining on your Phone:
-          - How to Mine TRTL on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
+          - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
           - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
       - Wallets:
         - Making a Wallet: guides/wallets/Making-a-Wallet.md

@@ -5,30 +5,30 @@
 ## Setup
 
 - Right click [this link](https://github.com/turtlecoin/checkpoints/raw/master/checkpoints.csv) and choose `Save link as...` to download checkpoints.csv
-- Place checkpoints.csv in the same folder as your daemon(TurtleCoind) and wallet(zedwallet).
+- Place checkpoints.csv in the same folder as your daemon(BLOCd) and wallet(zedwallet).
 - You can get them both [from here](http://latest.turtlecoin.lol) if you don't have them already.
 
-- Make sure you shut down any GUI wallets, or any other instances of TurtleCoind.
+- Make sure you shut down any GUI wallets, or any other instances of BLOCd.
 
 ## Usage
 
 ### Windows
 
-- First, open a command prompt in the same directory as TurtleCoind.
-- This can easily be done by moving to the TurtleCoind directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
+- First, open a command prompt in the same directory as BLOCd.
+- This can easily be done by moving to the BLOCd directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
 
 ![Opening cmd](images/opening-cmd.png)
-- Finally, type `TurtleCoind.exe --load-checkpoints checkpoints.csv` in the command prompt.
+- Finally, type `BLOCd.exe --load-checkpoints checkpoints.csv` in the command prompt.
 
 ### Linux, Mac
 
-- First, open a command prompt in the same directory as TurtleCoind.
+- First, open a command prompt in the same directory as BLOCd.
 - You can use the `cd` command to change to this directory. For example, `cd Downloads/turtlecoin-v0.7.0`
-- Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with TurtleCoind in, and try right clicking, to see if you can open a terminal there:
+- Alternatively, your file manager may provide the ability to open a terminal in your current directory. Navigate to the folder with BLOCd in, and try right clicking, to see if you can open a terminal there:
 
 ![Opening terminal](images/open-term.png)
 
-- Finally, type `./TurtleCoind --load-checkpoints checkpoints.csv` in the terminal.
+- Finally, type `./BLOCd --load-checkpoints checkpoints.csv` in the terminal.
 
 ## Expected Output
 
@@ -36,12 +36,12 @@ If you did the steps correctly, you should see something like this output.
 
 ```
 2018-May-13 11:58:39.654478 INFO    Welcome to TurtleCoin v0.5.0.1260 ()
-2018-May-13 11:58:39.654914 INFO    Module folder: TurtleCoind
+2018-May-13 11:58:39.654914 INFO    Module folder: BLOCd
 2018-May-13 11:58:39.655249 INFO    Loading Checkpoints for faster initial sync...
 2018-May-13 11:58:40.854979 INFO    Loaded 435695 checkpoints from checkpoints.csv
 ```
 
-- TurtleCoind will then start syncing from checkpoints.
+- BLOCd will then start syncing from checkpoints.
 - If you are using the CLI wallet, then you can just wait for it to finish syncing, and open your wallet(leave the daemon open!).
 - If you are using a GUI wallet, let it finish syncing, close it down by typing `exit` in the window, then open your GUI wallet.
 
@@ -78,26 +78,26 @@ If you did the steps correctly, you should see something like this output.
 ```
 
 - If you see output like the above, it means the file isn't present in the directory you are in.
-- Make sure you have placed the `checkpoints.csv` file in the same directory as TurtleCoind.
+- Make sure you have placed the `checkpoints.csv` file in the same directory as BLOCd.
 
-### TurtleCoind.exe is not recognized / No such file or directory
+### BLOCd.exe is not recognized / No such file or directory
 
 ```
-C:\Users\gentoo>TurtleCoind.exe --load-checkpoints checkpoints.csv
-'TurtleCoind.exe' is not recognized as an internal or external command,
+C:\Users\gentoo>BLOCd.exe --load-checkpoints checkpoints.csv
+'BLOCd.exe' is not recognized as an internal or external command,
 operable program or batch file.
 ```
 
-`bash: ./TurtleCoind: No such file or directory`
+`bash: ./BLOCd: No such file or directory`
 
-- If you see output like one of the above, it means your terminal isn't in the same folder as the TurtleCoind program.
+- If you see output like one of the above, it means your terminal isn't in the same folder as the BLOCd program.
 - You can type `pwd` (or `dir` on Windows) to see what folder you are currently in.
 - Try following the steps above to get into the right folder, then try again.
-- If you type `ls`(or `dir` on Windows), you should see the TurtleCoind program, if you are in the correct folder:
+- If you type `ls`(or `dir` on Windows), you should see the BLOCd program, if you are in the correct folder:
 
 ```
 [turtlecoin-v0.7.0]λ ls
-miner  poolwallet  simplewallet  TurtleCoind  walletd
+miner  poolwallet  simplewallet  BLOCd  walletd
 ```
 
 ### IO error
@@ -109,5 +109,5 @@ miner  poolwallet  simplewallet  TurtleCoind  walletd
 ```
 
 - If you see output like the above, something else has got the database open already.
-- Make sure you have closed down any other TurtleCoind's, GUI wallets, and walletd.
+- Make sure you have closed down any other BLOCd's, GUI wallets, and walletd.
 - Use a task manager to help you find any which might be running in the background, then try again.

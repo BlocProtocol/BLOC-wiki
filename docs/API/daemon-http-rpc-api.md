@@ -292,7 +292,7 @@ echo $response;
 ```
 
 ```python
-response = turtlecoind.get_peers()
+response = blocd.get_peers()
 print(response)
 ```
 

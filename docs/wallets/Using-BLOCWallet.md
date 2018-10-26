@@ -3,7 +3,7 @@
 #### Screenshot
 
 Here's a quick image of `BLOCWallet` in action:
-![blocwallet](/images/guides/Wallets/BlocWallet/BLOCWallet_v3.0.0.png)
+![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
 
 ## Downloading
 

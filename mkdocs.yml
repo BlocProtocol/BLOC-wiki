@@ -96,14 +96,6 @@ nav:
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
       - Timeline: about/Timeline.md
-    - Developers:
-      - Home: API/index.md
-      - Compiling from Source: API/Compiling-from-Source.md
-      - Ressources: API/Resources.md
-      - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
-      - Daemon JSON RPC API: API/daemon-json-rpc-api.md
-      - Wallet RPC API: API/wallet-rpc-api.md
-      - RPC Errors: API/rpc-api-error-conditions.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
@@ -114,8 +106,6 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-    - Guides:
-      - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
     - Mining:
       - How to Mine abLoc: guides/mining/Mining.md
       - XMR-Stak: guides/mining/XMR-Stak-Guide.md
@@ -127,5 +117,15 @@ nav:
       - Mining on your Phone:
         - How to Mine abLoc on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
         - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
+    - Guides:
+      - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
+    - Developers:
+      - Home: API/index.md
+      - Compiling from Source: API/Compiling-from-Source.md
+      - Ressources: API/Resources.md
+      - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
+      - Daemon JSON RPC API: API/daemon-json-rpc-api.md
+      - Wallet RPC API: API/wallet-rpc-api.md
+      - RPC Errors: API/rpc-api-error-conditions.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md

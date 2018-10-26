@@ -14,4 +14,4 @@ The previous version of BLOC Wallet for desktop computer available for Windows, 
 
 Here's a quick image of BLOC Wallet for Desktop 2.0.2 in action
 
-![blocwallet](/docs/images/guides/Wallets/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)
+![blocwallet](/images/guides/Wallets/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)

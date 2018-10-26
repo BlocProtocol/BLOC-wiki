@@ -88,15 +88,15 @@ nav:
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
     - WALLETS:
-      - Making a Wallet: /wallets/Making-a-Wallet.md
+      - Making a Wallet: wallets/Making-a-Wallet.md
       - GUI Wallets:
-        - Overview of GUI Wallets: /wallets/Making-a-GUI-Wallet.md
+        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
       - CLI Wallet:
-        - BLOCWallet: /wallets/Using-BLOCWallet.md
-        - Using Checkpoints: /wallets/Using-checkpoints.md
-        - Making a Paper Wallet: /wallets/Making-a-paper-wallet.md
-        - Recovering your Wallet: /wallets/recovering-your-wallet.md
-        - Using Remote Nodes: /wallets/Using-remote-nodes.md
+        - BLOCWallet: wallets/Using-BLOCWallet.md
+        - Using Checkpoints: wallets/Using-checkpoints.md
+        - Making a Paper Wallet: wallets/Making-a-paper-wallet.md
+        - Recovering your Wallet: wallets/recovering-your-wallet.md
+        - Using Remote Nodes: wallets/Using-remote-nodes.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Using trtlbot++: guides/Using-trtlbot-plus-plus.md

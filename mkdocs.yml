@@ -1,15 +1,15 @@
 # proj info
-site_name: 'TurtleCoin Wiki'
-site_description: 'Wiki for TurtleCoin'
-site_author: 'TurtleCoin'
-site_url: https://docs.turtlecoin.lol/
+site_name: 'BLOC.MONEY Wiki'
+site_description: 'Wiki for BLOC'
+site_author: 'BLOC.MONEY'
+site_url: https://wiki.bloc.money/
 
 # repo
-repo_name: 'turtlecoin/sajodocs'
-repo_url: 'https://github.com/turtlecoin/sajodocs'
+repo_name: 'furiousteam/BLOC-wiki'
+repo_url: 'https://github.com/furiousteam/BLOC/wiki'
 
 # copyright
-copyright: 'Copyright 2018 TurtleCoin'
+copyright: 'Copyright 2018 TurtleCoin - Updated for BLOC by BLOC.MONEY Developers'
 
 # config
 theme:
@@ -37,7 +37,7 @@ extra:
     language: 'en'
   social:
     - type: 'github'
-      link: 'https://github.com/turtlecoin'
+      link: 'https://github.com/furiousteam'
 
 # extensions
 markdown_extensions:
@@ -96,21 +96,17 @@ nav:
         - Mining with a SBC: guides/mining/Mining-with-SBC.md
         - Mining on your Phone:
           - How to Mine TRTL on your Phone: guides/mining/mobile-mining/Mining-with-Phone.md
-          - Using Tony Monero: guides/mining/mobile-mining/Using-Tony-Monero.md
           - Using AA Miner: guides/mining/mobile-mining/Using-AA-Miner.md
       - Wallets:
         - Making a Wallet: guides/wallets/Making-a-Wallet.md
         - GUI Wallets:
           - Overview of GUI Wallets: guides/wallets/Making-a-GUI-Wallet.md
-          - Nest Wallet: guides/wallets/Using-nest-wallet.md
         - CLI Wallet:
           - BLOCWallet: guides/wallets/Using-BLOCWallet.md
           - Using Checkpoints: guides/wallets/Using-checkpoints.md
         - Making a Paper Wallet: guides/wallets/Making-a-paper-wallet.md
         - Recovering your Wallet: guides/wallets/recovering-your-wallet.md
         - Using Remote Nodes: guides/wallets/Using-remote-nodes.md
-      - CryptoCurrency Fundamentals:
-        - Smart Contracts: guides/crypto-funda/smart-contract.md
     - Service Operators:
       - Compiling from Source: guides/service-operators/Compiling-from-Source.md
     - For Developers:

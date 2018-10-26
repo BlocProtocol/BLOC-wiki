@@ -1,16 +1,17 @@
 # Setting up a GUI Wallet
 
-There are two types of GUI Wallets which are being actively developed and maintained as of right now. We will focus on both of them.
+## [BLOC Electron Wallet](https://github.com/furiousteam/BLOC-Electron-Wallet)
 
-## [Nest Wallet](https://github.com/turtlecoin/turtle-wallet-go)
+We are working on a new GUI Wallet compatible with the new BLOC v3.0. It will be available soon.
 
-The Nest Wallet is a TurtleCoin Wallet written in GoLang for MacOS, Linux and Windows. It is mainly developed and maintained by woodyjon
+Setup guide is coming soon [here](#)
 
-You can view a guide for setting it up [here](../Using-nest-wallet).
+## BLOC Wallet Client 2.0.2 with miner built-in (https://github.com/BLOC-bloc-wallet)
 
+The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. This version is no more compatible since the BLOC 3.0.
 
-#### [WinForms Wallet](https://github.com/turtlecoin/turtle-wallet-winforms) [DEFUNCT]
+#### Screenshot
 
-~~The WinForms wallet is a TurtleCoin Wallet written in C# for Windows and Linux through Mono. It is mainly developed and maintained by jerme404~~
+Here's a quick image of BLOC Wallet for Desktop 2.0.2 in action
 
-~~You can view a guide for setting it up [here](../Using-winforms-wallet).~~
+![blocwallet](/docs/images/guides/Wallets/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)

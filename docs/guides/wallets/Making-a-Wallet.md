@@ -10,13 +10,13 @@ The main purpose of a paper wallet is to quickly create a wallet to start receiv
 
 **You will not be able to spend or send your funds to other people until you set up a CLI, GUI, Mobile, Telegram or Web Wallet.**
 
-To view a guide on how to make a paper wallet, you can go [here](../Making-a-paper-wallet).
+To view a guide on how to make a paper wallet, you can go [here](../#).
 
 ## BLOCWallet (CLI Wallet)
 
 The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. However, it is currently the most stable and gets the newest updates first.
 
-If you would like to use BLOCWallet, you can check out [this guide](../Using-zedwallet).
+If you would like to use BLOCWallet, you can check out [this guide](../Using-BLOCWallet).
 
 ## BLOC Wallet for iPad & iPhone
 
@@ -28,7 +28,7 @@ If you prefer to use a GUI wallet, there is currently one which is being maintai
 
 ##### 1. [BLOC Electron Wallet](https://github.com/furiousteam/BLOC-Electron-Wallet)
 
-If you would like to setup a GUI wallet, you can take a look at [this guide](../Making-a-GUI-Wallet).
+If you would like to setup a GUI wallet, you can take a look at [this guide](../#).
 
 ## Telegram Wallet
 

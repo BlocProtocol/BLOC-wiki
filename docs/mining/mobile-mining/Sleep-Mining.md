@@ -35,39 +35,3 @@ With the actual massive development going on here at BLOC and with the upcoming 
 **Start sleep mining with BLOC today**
 
 [BLOC](https://bloc.money) is the new Era of cryptocurrency. The world most advanced cryptocurrency ecosystem created without an Initial Coin Offering.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*Currently only available on Android version 4.1(Jelly Bean, year 2012) and newer*
-
-To mine TurtleCoin on your mobile phone, you can use either of these two apps(Tony Monero is recommended, however):
-
-1.  [Tony Monero](../Using-Tony-Monero)
-2.  [AA Miner](../Using-AA-Miner)

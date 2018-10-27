@@ -45,7 +45,7 @@ If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](
 
 BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices. [Check out the Telegram BLOC Wallet](https://t.me/bloc_wallet_bot)
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-Telegram-Wallet).
+If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-Telegram-Wallet.md).
 
 ## Web Wallet
 

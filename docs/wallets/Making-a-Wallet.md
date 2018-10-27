@@ -28,13 +28,9 @@ If you would like to use BLOC Wallet for iOS, you can check out [this guide](../
 
 ### BLOC Electron Wallet (Coming soon)
 
-[BLOC 3.0 Electron Wallet on GitHub](https://github.com/furiousteam/BLOC-Electron-Wallet)
-
 If you would like to use the BLOC Electron Wallet, you can take a look at [this guide](../#).
 
 ### BLOC Wallet Client 2.0.2
-
-[BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
 
 The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**

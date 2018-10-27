@@ -1,4 +1,4 @@
-# In-browser javascript web miner for BLOC.MONEY
+# BLOC in-browser javascript web miner
 
 [BLOC](https://bloc.money) Web Mining was designed and built to allow users to easily start mining the cryptocurrency Ƀ BLOC. In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining cryptocurrencies with your computer.
 

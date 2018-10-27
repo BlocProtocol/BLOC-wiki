@@ -1,6 +1,10 @@
-# Developer Resources
+# Developer Ressources
 
-Technical resources to start building on BLOC.
+Technical ressources to start building on [BLOC](https://bloc.money).
+
+## Source code
+
+* [Source Code](https://github.com/furiousteam/BLOC)
 
 ## Wallet RPC API Clients
 

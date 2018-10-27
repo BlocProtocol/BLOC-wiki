@@ -8,13 +8,11 @@ Unless you know what you are doing, please ***only*** download from the links be
 
 There are currently a few different ways in which you can start mining BLOC:
 
-### In-browser javascript web miner for BLOC.MONEY
-
-[In-browser BLOC javascript web miner](https://bloc-mining.com)
+### [In-browser BLOC javascript web miner](https://bloc-mining.com)
 
 Easy to use in-browser miner was designed to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money) - BLOC.MONEY
 
-If you would like to use the **WEB Miner**, you can check out [this guide](../mining/Mining-with-web-miner.md).
+If you would like to use the WEB Miner, you can check out [this guide](../mining/Mining-with-web-miner.md).
 
 ### 1. [XMR-Stak](https://github.com/fireice-uk/xmr-stak)
 

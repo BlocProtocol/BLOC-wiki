@@ -1,13 +1,13 @@
 # What is the BLOC Dasboard ?
 
-We want to make [BLOC](https://bloc.money) crypto currency easy to use and understand for everyone. As we just started our journey to change the way we pay and get paid the dashboard is one of the feature that you don’t want to miss for your favorite crypto currency [BLOC](https://bloc.money).
+We want to make [BLOC](https://bloc.money) crypto currency easy to use and understand for everyone. As we just started our journey to change the way we pay and get paid the dashboard is one of the feature that you don’t want to miss for your favorite crypto currency **BLOC**.
 
-Manage and organise your [BLOC](https://bloc.money) life easily with everything BLOC in one place.
+Manage and organise your **BLOC** life easily with the [BLOC Dashboard](https://dashboard.bloc.money).
 
 ## Clean and effective
-Every single website or application from the [BLOC](https://bloc.money) ecosystem is handcrafted by our team from scratch. We take a different approach from other crypto currencies by inovating new kind of tools to improve the BLOC ecosystem.
+Every single website or application from the **BLOC** ecosystem is handcrafted by our team from scratch. We take a different approach from other crypto currencies by inovating new kind of tools to improve the BLOC ecosystem.
 
-Find on your dashboard everything you want to know about the [BLOC](https://bloc.money) in one single click. Stay connected with the latest news and video from our Youtube channel and latest tweets. There is also a short but most important informations about the BLOC network and the current version of the BLOC wallet in use. Some of the problems coming from other crypto currencies is miss-informations. The dashboard guarantee you to keep up to date with our community.
+Find on your dashboard everything you want to know about the **BLOC** in one single click. Stay connected with the latest news and video from our Youtube channel and latest tweets. There is also a short but most important informations about the BLOC network and the current version of the BLOC wallet in use. Some of the problems coming from other crypto currencies is miss-informations. The dashboard guarantee you to keep up to date with our community.
 
 [![DASHBOARD 1](images/presentation/dashboard1.png)](https://dashboard.bloc.money)
 
@@ -43,7 +43,7 @@ View our latest post from [BLOC](https://twitter.com/bloc_money), read the lates
 In the cryptocurrency world, Airdrop refers to the free distribution of small amounts of a certain virtual currency tokens to its community members either for free or for performing small tasks.
 
 To qualify for the free gift, you need to perform certain tasks that include liking our social profiles or posting on social media forums, we have setup few different missions.
-Airdrop can be viewed as a promotional activity to bootstrap the [BLOC](https://bloc.money) project. Its aim is to spread awareness about the cryptocurrency project [BLOC](https://bloc.money), and to get the maximum people in the game.
+Airdrop can be viewed as a promotional activity to bootstrap the [BLOC](https://bloc.money) project. Its aim is to spread awareness about the cryptocurrency project **BLOC**, and to get the maximum people in the game.
 
 The Airdrop can be claimed only one time per account and per mission. Only one account per person is allowed. Airdrops are executed in real time 24/7 and the reward is sent instantly to your [BLOC Dashboard account](https://dashboard.bloc.money).
 
@@ -53,7 +53,7 @@ The Airdrop can be claimed only one time per account and per mission. Only one a
 
 [![DASHBOARD 7](images/presentation/dashboard7.png)](https://dashboard.bloc.money)
 
-The automated affiliate program from BLOC is very easy to use. Webmasters just have to place the [BLOC.MONEY'S](https://bloc.money) banner ads or buttons on their own Web site.
+The automated affiliate program from BLOC is very easy to use. Webmasters just have to place the **BLOC** banner ads or buttons on their own Web site.
 
 Webmasters will receive a referral fee or commission for each registered account coming from the affiliated link. (The account needs to be verified and validate at least 1 AirDrop mission.
 

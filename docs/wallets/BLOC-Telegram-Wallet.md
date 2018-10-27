@@ -1,6 +1,6 @@
 # BLOC Telegram Wallet
 
-One of our goal at [BLOC](https://bloc.money) is to provide a complete ecosystem around the BLOC to be able to access, use, spend the BLOC anywhere, anytime. Within the last 30 days, [Telegram](https://t.me/bloc_money) was used by 200,000,000 people. This is an insane number by any standards. If Telegram were a country, it would have been the sixth largest country in the world.
+One of our goal at [BLOC](https://bloc.money) is to provide a complete ecosystem around the **BLOC** to be able to access, use, spend the **BLOC** anywhere, anytime. Within the last 30 days, [Telegram](https://t.me/bloc_money) was used by 200,000,000 people. This is an insane number by any standards. If Telegram were a country, it would have been the sixth largest country in the world.
 
 This is why we have worked hard to bring the best of BLOC.MONEY on Telegram and we are happy to release the new [Telegram BLOC Wallet](https://t.me/bloc_wallet_bot) instantly available to all Telegram users worldwide. Telegram (so the BLOC Wallet) is available for Android, Apple iPhone & iPad, Windows Phone, Web browser, MacOS, Linux, Windows …
 

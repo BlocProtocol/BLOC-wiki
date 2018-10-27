@@ -4,7 +4,7 @@
 
 ## Why the BLOC ?
 
-We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exlusive mining tools to offer an egalitarian money distribution. We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself. Own a part of history, deal with BLOC.money, a new era for cryptocurrencies.
+We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exlusive mining tools to offer an egalitarian money distribution. We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself. Own a part of history, deal with **BLOC**, a new era for cryptocurrencies.
 
 ## How the BLOC  was created ?
 
@@ -19,7 +19,7 @@ While we were working on our project we discovered about [TurtleCoin](https://gi
 ```
 Too many projects are bringing in too much funding despite most having no damn product. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
 
-We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself
+We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself.
 ```
 
 At [BLOC.MONEY](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.

@@ -4,7 +4,7 @@ In case you have lost your wallet, but still have either your private spend and 
 
 ## Private Spend and View Keys
 
-Guides for recovering your [BLOC](https://bloc.money) Wallet with your private spend and view keys-
+Guides for recovering your **BLOC** Wallet with your private spend and view keys-
 
 ### CLI Wallet<a name="keys-cli-wallet"></a>
 

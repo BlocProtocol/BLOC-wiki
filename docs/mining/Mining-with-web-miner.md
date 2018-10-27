@@ -2,13 +2,13 @@
 
 [BLOC](https://bloc.money) Web Mining was designed and built to allow users to easily start mining the cryptocurrency Ƀ BLOC. In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining cryptocurrencies with your computer.
 
-Easy to use in-browser miner was designed to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money) - BLOC.MONEY
+Easy to use in-browser miner was designed to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ **BLOC** - BLOC.MONEY
 
-Developing [BLOC](https://bloc.money) globally is one of our TOP priority. We want everyone from every country to be able access and enjoy the [BLOC](https://bloc.money).
+Developing **BLOC** globally is one of our TOP priority. We want everyone from every country to be able access and enjoy the **BLOC**.
 
 ## Easy cryptocurrency mining
 
-Our [BLOC-MINING.com](https://bloc-mining.com) based GUI was created to allow everyone to get involved in the mining of the crypto currency Ƀ [BLOC](https://bloc.money). Mining can be fun and a great hobby, not to mention you’re rewarded with Crypto Currencies for your computer solving transactions. With our browser based miner application you can mine [BLOC](https://bloc.money) from almost any device that has a Web browser.
+Our [BLOC-MINING.com](https://bloc-mining.com) based GUI was created to allow everyone to get involved in the mining of the crypto currency Ƀ **BLOC**. Mining can be fun and a great hobby, not to mention you’re rewarded with Crypto Currencies for your computer solving transactions. With our browser based miner application you can mine **BLOC** from almost any device that has a Web browser.
 
 ## Clean interface
 
@@ -27,7 +27,7 @@ Or you can create your wallet by visiting [this guide](../wallets/Making-a-Walle
 
 ![BLOC WEB MINER](images/webminer/ADDRESS.png)
 
-Copy, paste, and double check your wallet address into the above form. Your [BLOC](https://bloc.money) wallet address must start with `abLoc`
+Copy, paste, and double check your wallet address into the above form. Your **BLOC** wallet address must start with `abLoc`
 
 ### Select your mining intensity from the dropdown list
 
@@ -46,7 +46,7 @@ Since the webserver of the [WebMiner](https://bloc-mining.com) is hosted in Euro
 
 ![BLOC WEB MINER](images/webminer/RUNNING.png)
 
-Click on the power button to start mining. As long as you keep the miner browser window open the miner will utilize the computer’s CPU power to solve transactions and reward you with the Crypto Currency Ƀ [BLOC](https://bloc.money).
+Click on the power button to start mining. As long as you keep the miner browser window open the miner will utilize the computer’s CPU power to solve transactions and reward you with the Crypto Currency **BLOC**.
 
 ### Check your hashrate and payouts
 
@@ -61,7 +61,7 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * Scroll down to `Your Stats & Payment History`
 ![BLOC WEB MINER](images/webminer/CHECK.png)
 
-* Enter your [BLOC](https://bloc.money) address
+* Enter your **BLOC** address
 * Click search
 * All your payments will be displayed here
 

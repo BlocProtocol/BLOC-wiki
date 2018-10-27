@@ -44,7 +44,7 @@ Once you have installed Telegram go to the [Telegram BLOC Wallet](https://t.me/b
 
 ### Affiliates
 
-![BLOC Wallet Telegram](images/Telegram-BLOC-Wallet/AFFILIATE.png)
+![BLOC Wallet Telegram](images/Telegram-BLOC-Wallet/AFFILIATES.png)
 
 **Affiliates:** [Telegram BLOC Wallet](https://t.me/bloc_wallet_bot) use different fees as other BLOC wallet. Each transaction sent from the Ƀ BLOC Telegram Wallet cost 0.0003 BLOC per transaction
 
@@ -73,7 +73,7 @@ Send BLOC: Send BLOC anytime, anywhere from almost any device in few seconds.
 
 ### Wallet Settings
 
-![BLOC Wallet Telegram](images/Telegram-BLOC-Wallet/SETTING.png)
+![BLOC Wallet Telegram](images/Telegram-BLOC-Wallet/SETTINGS.png)
 
 Because privacy and security is one of the most important thing for us. You can easily export the private keys of your [Telegram BLOC Wallet](https://t.me/bloc_wallet_bot) using the `Export Key` button, it will generate and display your **BLOC Wallet address, Public Spend Key, Private Spend Key and the View Secret Key**. Using this private keys you will be able to restore your wallet on any official BLOC wallet client. There is also an option to delete your BLOC Wallet from Telegram. Your BLOC address will be permanently deleted from the [Telegram BLOC Wallet](https://t.me/bloc_wallet_bot) and a new address will be generated. Dont forget to save your private keys to restore your wallet at any time.
 

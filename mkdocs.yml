@@ -124,6 +124,7 @@ nav:
       - Mining on your Phone:
         - How to Mine abLoc on your Phone: mining/mobile-mining/Mining-with-Phone.md
         - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
+        - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Bounty Programm: guides/Bounty-Program.md

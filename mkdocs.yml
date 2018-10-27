@@ -116,15 +116,15 @@ nav:
     - Mining:
       - What is Mining ?: mining/What-is-mining.md
       - How to Mine BLOC: mining/How-to-mine-BLOC.md
-      - XMR-Stak: mining/XMR-Stak-Guide.md
-      - XMR-Stak on Linux: mining/XMR-Stak-Linux-Guide.md
-      - XMRig: mining/XMRIG-Guide.md
-      - Pools: mining/Pools.md
-      - Cloud Mining: mining/Cloud-Mining.md
-      - Mining with a SBC: mining/Mining-with-SBC.md
+      - Mining Pools: mining/Pools.md
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
+      - XMR-Stak: mining/XMR-Stak-Guide.md
+      - XMR-Stak on Linux: mining/XMR-Stak-Linux-Guide.md
+      - XMRig: mining/XMRIG-Guide.md
+      - Cloud Mining: mining/Cloud-Mining.md
+      - Mining with a SBC: mining/Mining-with-SBC.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md

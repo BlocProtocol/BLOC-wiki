@@ -36,7 +36,7 @@ Please follow [this guide](../Mining-with-SBC) to mine with a SBC/Rasperry Pi.
 
 Please follow [this guide](../mobile-mining/Mining-with-Phone) to mine with your mobile phone.
 
-#### BLOC Wallet Desktop Client 2.0.2
+### BLOC Wallet Desktop Client 2.0.2
 
 [BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
 

@@ -9,3 +9,6 @@ To help contribute and improve the [BLOC](https://bloc.money) project, you can:
 * Join our [Discord Channel](https://discord.gg/5Buudya) to meet developers around the BLOC
 * Participate to the [BOUNTY Program](/guides/Bounty-Program.md) to earn some BLOC while promoting the project.
 * Participate to the [BOUNTY Program](./guides/Bounty-Program.md) to earn some BLOC while promoting the project.
+* Participate to the [BOUNTY Program](.guides/Bounty-Program.md) to earn some BLOC while promoting the project.
+* Participate to the [BOUNTY Program](./guides/Bounty-Program.md) to earn some BLOC while promoting the project.
+* Participate to the [BOUNTY Program](../guides/Bounty-Program.md) to earn some BLOC while promoting the project.

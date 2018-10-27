@@ -122,8 +122,7 @@ nav:
     - Guides:
       - Bounty Programm: guides/Bounty-Program.md
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Dashboard: guides/Dashboard.md
-        - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
+      - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
     - Developers:
       - Home: API/index.md
       - Compiling from Source: API/Compiling-from-Source.md

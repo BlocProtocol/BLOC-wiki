@@ -8,7 +8,7 @@ You need to have Telegram installed on your device. If you do not have Telegram 
 
 ### Monitored by Jenny
 
-Jenny from the BLOC is a Telegram bot programmed to manage different things at the BLOC. She will guide you to make sure you follow the correct process and unlock the rewards.
+Jenny from the BLOC is a Telegram bot programmed to manage different tasks at the BLOC. She will guide you to make sure you follow the correct process and unlock the rewards.
 
 
 ## Follow this guide

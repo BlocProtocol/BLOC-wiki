@@ -1,10 +1,16 @@
-# Start Mining TurtleCoin
+# What is mining ?
 
-Mining is essentially the process of using your computer to help verify and secure a cryptocurrency network, in our case, it is the TurtleCoin network. By doing this, you will be rewarded with some TurtleCoin.
+Cryptocurrency mining includes two functions, namely: adding transactions to the blockchain (securing and verifying) and also releasing new currency. Mining needs a device such as a computer or mobile device and a special program, which helps miners compete with their peers in solving complicated mathematical problems.
 
-If you want to learn about cryptocurrencies, mining is a great place to start!
+Mining is the process of adding transaction records to cryptocurency public ledger of past transactions. This ledger of past transactions is called the block chain as it is a chain of blocks. Mining is so called because it resembles the mining of other commodities: it requires exertion and it slowly makes new currency available at a rate that resembles the rate at which commodities like gold are mined from the ground.
 
-## How to Mine TurtleCoin?<a name="how-to-mine"></a>
+If you want to learn about cryptocurrencies, mining is a great place to start!. Start mining [BLOC](https://bloc.money) today and get rewarded in [BLOC.MONEY](https://bloc.money)
+
+## Egalitarian Proof of Work
+
+An amazing feature that balance the low end hardware, middle and high end hardware. That means that even if you use a smartphone or a normal computer or any other low end hardware, you will be able to mine the [BLOC](https://bloc.money) with the same probabilty of coin reward. On top of that we have updated the core of BLOC.money to be ASIC resistant using the latest Cryptonight haven algorythm which is a variant of Monero. Everyone can mine the [BLOC](https://bloc.money) with a true egalitarian proof of work (POW) and fair money distribution.
+
+## How to Mine BLOC?<a name="how-to-mine"></a>
 
 **Please note:** Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.
 
@@ -12,7 +18,7 @@ It is **likely** you will need to add exceptions and exclusions to your antiviru
 
 Unless you know what you are doing, please ***only*** download from the links below.
 
-There are currently a few different ways in which you can start mining TurtleCoin:
+There are currently a few different ways in which you can start mining BLOC:
 
 ### 1. [XMR-Stak](https://github.com/fireice-uk/xmr-stak)
 

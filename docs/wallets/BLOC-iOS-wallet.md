@@ -31,11 +31,11 @@ Introducing the first [BLOC Wallet for iOS](https://itunes.apple.com/us/app/bloc
 
 View a complete history of your BLOC transactions
 
-## NEWS
+### NEWS
 
 Stay connected with the BLOC community
 
-### More coming soon
+## More coming soon
 
 We had to remove the mining features built in the original BLOC app to be able to distribute the BLOC app on the official app store. It is very important for the BLOC to make the installation very easy and accessible to the most potential users.
 

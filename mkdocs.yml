@@ -102,6 +102,8 @@ nav:
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
+      - iPhone & iPad BLOC Wallet: wallets/BLOC-IOS-wallet.md
+      - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
       - CLI Wallet:
         - BLOCWallet: wallets/Using-BLOCWallet.md
@@ -109,7 +111,6 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-      - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
     - Mining:
       - How to Mine abLoc: mining/Mining.md
       - XMR-Stak: mining/XMR-Stak-Guide.md

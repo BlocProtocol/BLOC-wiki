@@ -5,7 +5,7 @@ This wiki is the main source of documentation for newcomers to the [BLOC](https:
 ## What is BLOC?
 **[BLOC.MONEY](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **[BLOC](https://bloc.money)** is a fully decentralized cryptocurrency - Egalitarian Proof Of Work with Cryptonight Haven algorithm & ASIC resistant- based on open source Cryptonote technology using low & fix rate fees per transaction allows to send money worldwide immediately and without costly intermediaries using the blockchain technology.
 
-Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractice and fun to use. BLOC is the cryptocurrency for the people by the people with respect of your privacy. Nobody can seize your [BLOC.MONEY](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank.
+Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractice and fun to use. **BLOC** is the cryptocurrency for the people by the people with respect of your privacy. Nobody can seize your [BLOC.MONEY](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. **You are your own bank**.
 
 ## Quick Navigation
 

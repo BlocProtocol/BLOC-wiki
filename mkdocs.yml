@@ -96,8 +96,9 @@ nav:
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
       - Branding: about/Branding.md
-      - Sponsoring: about/Sponsoring.md
-      - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
+      - Sponsoring:
+        - Sponsoring: about/Sponsoring.md
+        - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
       - Timeline: about/Timeline.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md

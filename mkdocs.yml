@@ -123,9 +123,10 @@ nav:
         - How to Mine abLoc on your Phone: mining/mobile-mining/Mining-with-Phone.md
         - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
     - Guides:
-      - Bounty Programm: guides/Bounty-Program.md
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
+      - Dashboard: guides/dashboard.md
+        - Bounty Programm: guides/Bounty-Program.md
+        - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
     - Developers:
       - Home: API/index.md
       - Compiling from Source: API/Compiling-from-Source.md

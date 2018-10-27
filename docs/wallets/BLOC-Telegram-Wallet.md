@@ -10,19 +10,19 @@ You need to have Telegram installed on your device. If you do not have Telegram 
 
 ## Features
 
-✅ Create your Ƀ BLOC address 
-⚖️ Check your Ƀ BLOC balance
-⬇️ Receive Ƀ BLOC
-⬆️ Send Ƀ BLOC
-🤖 Decentralized
-🌐 Worldwide & for everyone
-🏪 Online 24/7
-🛡️ Fast & Secure transfers
-⛔️ Private payments
-🅿️ Fixrate & low transactions fees Ƀ 0.0003 BLOC
-🔐 Export your wallet using private keys
-⛏ Start mining using your wallet
-💠 Powered by blockchain technology
+* ✅ Create your Ƀ BLOC address 
+* ⚖️ Check your Ƀ BLOC balance
+* ⬇️ Receive Ƀ BLOC
+* ⬆️ Send Ƀ BLOC
+* 🤖 Decentralized
+* 🌐 Worldwide & for everyone
+* 🏪 Online 24/7
+* 🛡️ Fast & Secure transfers
+* ⛔️ Private payments
+* 🅿️ Fixrate & low transactions fees Ƀ 0.0003 BLOC
+* 🔐 Export your wallet using private keys
+* ⛏ Start mining using your wallet
+* 💠 Powered by blockchain technology
 
 ## Guide
 

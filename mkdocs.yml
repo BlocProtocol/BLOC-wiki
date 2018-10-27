@@ -106,7 +106,7 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-      - Telegram Wallet: wallets/telegram-wallet.md
+      - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
     - Mining:
       - How to Mine abLoc: mining/Mining.md
       - XMR-Stak: mining/XMR-Stak-Guide.md

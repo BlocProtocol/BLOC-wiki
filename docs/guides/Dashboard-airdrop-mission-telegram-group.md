@@ -49,7 +49,7 @@ Jenny from the BLOC is a Telegram bot programmed to manage different things at t
     ![AirDrop Mission Telegram 9](images/airdrop/telegram/9.png)
 
 
-8. Go back to your dashboard account.
+8. Go back to your [Dashboard Account](https://t.me/bloc_money)
 
     Verify that your reward has been claimed. You should see it like this:
 

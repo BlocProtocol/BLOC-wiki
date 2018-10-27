@@ -81,7 +81,7 @@ Because privacy and security is one of the most important thing for us. You can 
 
 ![BLOC Wallet Telegram](images/Telegram-BLOC-Wallet/WEB_MINING.png)
 
-This is another great feature to allow you easy mining from any device directly from your Telegram wallet. Simply click `Start Mining` button. Since the webserver of the [WebMiner](https://bloc-mining.com) is hosted in Europe, we have selected by default the [BLOC-MINING Pool Europe](https://bloc-mining.eu). Follow the link, it will open your web browser on the [WebMiner](https://bloc-mining.com) with already pre-configured settings ready to mine the [BLOC](https://bloc.money) in no time. All you have to do is to **SWITCH ON** the mining button once you arrive on the [BLOC-MINING.com](https://bloc-mining.com) website.
+This is another great feature to allow you easy mining from any device directly from your Telegram wallet. Simply click `Start Mining` button. Since the webserver of the [WebMiner](https://bloc-mining.com) is hosted in Europe, we have selected by default the [BLOC-MINING Pool Europe](https://bloc-mining.eu). Follow the link, it will open your web browser on the [WebMiner](https://bloc-mining.com) with already pre-configured settings and your BLOC address ready to mine the [BLOC](https://bloc.money) in no time. All you have to do is to **SWITCH ON** the mining button once you arrive on the [BLOC-MINING.com](https://bloc-mining.com) website.
 
 ### Help
 

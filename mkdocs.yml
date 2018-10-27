@@ -122,8 +122,7 @@ nav:
       - Cloud Mining: mining/Cloud-Mining.md
       - Mining with a SBC: mining/Mining-with-SBC.md
       - Mining on your Phone:
-        - How to Mine abLoc on your Phone: mining/mobile-mining/Mining-with-Phone.md
-        - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
+        - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md

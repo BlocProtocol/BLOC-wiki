@@ -2,10 +2,7 @@
 
 Introducing Sleep Mining for [BLOC](https://bloc.money) — Make extra cash while you are sleeping using your mobile phone
 
-Cryptocurrency mining includes two functions, namely: adding transactions to the blockchain (securing and verifying) and also releasing new currency. Individual blocks added by miners should contain a proof-of-work, or PoW. Mining needs a device such as a computer or mobile device and a special program, which helps miners compete with their peers in solving complicated mathematical problems.
-
 [![SLEEP MINING](images/sleep-mining.jpg)](https://www.youtube.com/watch?v=WGVfNRHJ3ac)
-
 
 [BLOC](https://bloc.money) cryptocurrency has amazing an feature that balance the low end, middle and high end hardware while mining.That means that even if you use a smartphone or a normal computer or any other low end hardware, you will be able to mine the [BLOC.MONEY](https://bloc.money) with the same probabilty of coin reward.
 

@@ -22,7 +22,7 @@ If you would like to use BLOCWallet, you can check out [this guide](../Using-BLO
 
 The 1st BLOC wallet for iOS with a focus on accessibility, security and simplicity. BLOC wallet makes getting started with BLOC easier than ever. [Download from the Apple Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2) Android version is coming before the end of this year (2018).
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-iOS-wallet.md).
+If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-iOS-wallet).
 
 ## Graphical Wallet (GUI Wallet)
 
@@ -36,7 +36,7 @@ If you would like to use the BLOC Electron Wallet, you can take a look at [this 
 
 BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices. [Check out the Telegram BLOC Wallet](https://t.me/bloc_wallet_bot)
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-Telegram-Wallet.md).
+If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-Telegram-Wallet).
 
 ## Web Wallet
 

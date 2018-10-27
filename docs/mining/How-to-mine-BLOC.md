@@ -36,6 +36,14 @@ Please follow [this guide](../Mining-with-SBC) to mine with a SBC/Rasperry Pi.
 
 Please follow [this guide](../mobile-mining/Mining-with-Phone) to mine with your mobile phone.
 
+#### BLOC Wallet Desktop Client 2.0.2
+
+[BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
+
+The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. **This version is no more compatible since the BLOC 3.0**
+
+If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2).
+
 ## Pools
 
 You may view a comprehensive list of pools [here](../Pools).

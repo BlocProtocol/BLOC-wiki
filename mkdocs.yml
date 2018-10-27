@@ -85,12 +85,15 @@ nav:
     - Home:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - BLOC Features: about/index.md
+      - BLOC Features: about/Home.md
+      - Wallets: wallets/Making-a-wallet.md
+      - Mining: mining/What-is-mining.md
+      - Guides: guides/dashboard.md
       - Developers: API/index.md
-      - Wallet: wallets/Making-a-Wallet.md
+      - FAQ: Frequently-Asked-Questions.md
     - About:
-      - Home: about/index.md
-      - Features: about/About-BLOC.md
+      - Home: about/Home.md
+      - Features: about/Features.md
       - Background and History: about/Background-and-History.md
       - Our Community: about/Community.md
       - Contributing: about/Contributing.md

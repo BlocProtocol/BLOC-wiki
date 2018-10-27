@@ -1,4 +1,4 @@
-# How to Bootstrap the BLOC Blockchain
+# Bounty Program
 
 We are pleased to announce the [BLOC.MONEY](https://bloc.money) bounty program OPEN. Be involved with the BLOC project and the community & get rewarded in BLOC. The bounty listing will be updated regulary with new task/reward so don’t forget to check out [The BOUNTY page](https://bloc.money/bounty) on the official website regulary.
 

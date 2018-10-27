@@ -28,7 +28,7 @@ If you would like to use BLOC Wallet for iOS, you can check out [this guide](../
 
 ### BLOC Electron Wallet (Coming soon)
 
-. [BLOC Electron Wallet](https://github.com/furiousteam/BLOC-Electron-Wallet)
+[BLOC 3.0 Electron Wallet on GitHub](https://github.com/furiousteam/BLOC-Electron-Wallet)
 
 If you would like to use the BLOC Electron Wallet, you can take a look at [this guide](../#).
 

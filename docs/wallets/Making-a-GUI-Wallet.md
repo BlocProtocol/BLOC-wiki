@@ -1,6 +1,8 @@
 # Setting up a GUI Wallet
 
-## [BLOC Electron Wallet](https://github.com/furiousteam/BLOC-Electron-Wallet)
+## BLOC Electron Wallet
+
+[BLOC 3.0 Electron Wallet on GitHub](https://github.com/furiousteam/BLOC-Electron-Wallet)
 
 We are working on a new GUI Wallet compatible with the new BLOC v3.0. It will be available soon.
 
@@ -15,7 +17,7 @@ The previous version of BLOC Wallet for desktop computer available for Windows, 
 
 If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../BLOC-GUI-Desktop-Wallet-V2).
 
-#### Screenshot
+### Screenshot
 
 Here's a quick image of BLOC Wallet for Desktop 2.0.2 in action
 

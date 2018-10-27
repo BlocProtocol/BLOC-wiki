@@ -2,13 +2,22 @@
 
 Join us on the official BLOC [Telegram Group](https://t.me/bloc_money) and receive 0.2 BLOC
 
-## Guide
+## Requirements
+
+You need to have Telegram installed on your device. If you do not have Telegram yet you can go on the official [Telegram website](https://telegram.org) to find out more details and download the application. Telegram messages are heavily encrypted and cloud based. Telegram is fast, free, powerful and secure with endless possiblity.
+
+### Monitored by Jenny
+
+Jenny from the BLOC is a Telegram bot programmed to manage different things at the BLOC. She will guide you to make sure you follow the correct process and unlock the rewards.
+
+
+## Follow this guide
 1. Click on the button `Not claimed` under the Telegram Airdrop Mission.
     ![AirDrop Mission Telegram 1](images/airdrop/telegram/airdrop-telegram-group-1.png)
 
-2. Open File Explorer and type `%APPDATA%\BLOC` and hit enter.
+2. Click `SEND MESSAGE`
 
-    ![file explorer](images/bootstrap/file_explorer.jpg)
+    ![AirDrop Mission Telegram 2](images/airdrop/telegram/2.png)
 
     !!! note
         If the folder doesn't exist, just go to `%APPDATA%` instead and create a folder named `BLOC`.

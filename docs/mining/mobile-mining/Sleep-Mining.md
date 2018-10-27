@@ -32,6 +32,6 @@ Since you are reading this now, remember back in 2009 the price of 1 BTC. Not mu
 
 With the actual massive development going on here at BLOC and with the upcoming products and services being launched such as Paychange and Traakx in the near future, we can except the BLOC price to reach new high. This means even more money while you are sleeping. Right now this is the best time to start mining BLOC so you can get a massive profit in the coming months or years. BLOC has 50.000.000 total supply. Everyone wants 1 BLOC, this is the chance of a lifetime.
 
-**Start sleep mining with BLOC today**
+## Start sleep mining with BLOC today
 
-[BLOC](https://bloc.money) is the new Era of cryptocurrency. The world most advanced cryptocurrency ecosystem created without an Initial Coin Offering.
+[BLOC](https://bloc.money) is the new Era of cryptocurrency. Building the world most advanced cryptocurrency ecosystem created without an Initial Coin Offering.

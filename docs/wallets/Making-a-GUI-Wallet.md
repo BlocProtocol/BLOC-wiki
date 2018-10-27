@@ -8,7 +8,7 @@ Setup guide is coming soon [here](#)
 
 ## BLOC Wallet Client 2.0.2 with miner built-in (https://github.com/BLOC-bloc-wallet)
 
-The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. This version is no more compatible since the BLOC 3.0.
+The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. **This version is no more compatible since the BLOC 3.0**
 
 #### Screenshot
 

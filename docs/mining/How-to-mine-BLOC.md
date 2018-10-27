@@ -46,6 +46,7 @@ If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](
 
 ## Pools
 
+You may view a comprehensive list of pools [here](../mining/Pools.md).
 You may view a comprehensive list of pools [here](../mining/Pools).
 
 ## Have Questions or Need Help?

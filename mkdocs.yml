@@ -96,10 +96,10 @@ nav:
       - Contributing: about/Contributing.md
       - Technical Data: about/Technical-Data.md
       - Branding: about/Branding.md
+      - Timeline: about/Timeline.md
       - Sponsoring:
         - Sponsoring: about/Sponsoring.md
         - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
-      - Timeline: about/Timeline.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
@@ -127,7 +127,8 @@ nav:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Bounty Programm: guides/Bounty-Program.md
       - Dashboard:
-        - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
+        - Presentation: guides/dashboard/dashboard.md
+        - Telegram Airdrop Mission: guides/dashboard/Dashboard-airdrop-mission-telegram-group.md
     - Developers:
       - Home: API/index.md
       - Compiling from Source: API/Compiling-from-Source.md

@@ -42,12 +42,11 @@ Please follow [this guide](../mobile-mining/Mining-with-Phone) to mine with your
 
 The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. **This version is no more compatible since the BLOC 3.0**
 
-If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2).
+If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2.md).
 
 ## Pools
 
 You may view a comprehensive list of pools [here](../mining/Pools.md).
-You may view a comprehensive list of pools [here](../mining/Pools).
 
 ## Have Questions or Need Help?
 

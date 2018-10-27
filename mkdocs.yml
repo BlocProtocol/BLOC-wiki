@@ -106,6 +106,7 @@ nav:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
+      - Telegram Wallet: wallets/telegram-wallet.md
     - Mining:
       - How to Mine abLoc: mining/Mining.md
       - XMR-Stak: mining/XMR-Stak-Guide.md
@@ -119,6 +120,8 @@ nav:
         - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
+      - Dashboard: guides/Dashboard.md
+      - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
     - Developers:
       - Home: API/index.md
       - Compiling from Source: API/Compiling-from-Source.md

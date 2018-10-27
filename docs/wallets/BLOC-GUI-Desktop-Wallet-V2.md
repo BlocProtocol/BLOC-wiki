@@ -1,6 +1,7 @@
 # How to use the BLOC Wallet for Desktop
 
-The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. **This version is no more compatible since the BLOC 3.0**
+The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
+**This version is no more compatible since the BLOC 3.0**
 
 * [BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
 
@@ -62,8 +63,6 @@ The BLOCK Explorer shows you blocks details from the blockchain including the tr
 
 Contacts is a simple but easy feature to add your friends and family address so you don’t have to remember it
 
-![blocwallet](images/BLOC-gui-wallet/2.0.2/WALLET2.png)
-
 ### Mining
 
 The mining part allow you to select your favorite mining pool following your location. We have 3 different officials mining pool with different servers to offer a better connectivity located in [Europe](https://bloc-mining.asia) (Finland), We have one in [North America](https://bloc-mining.us) (San fransisco) and another one in [Asia](https://bloc-mining.asia) (Singapore). You can simply drag and drop your favorite mining pool on the top list.
@@ -80,6 +79,8 @@ Scroll down and paste your address from your BLOC wallet and click the search ic
 We can see there the total hashes submitted including the pending balance. It still shows 0 right now because blocks from the blockchain require 50 confirmations for the mining reward to be distributed. As we know the block time is 2 minutes so this means we will be able to see the first pending balance in about 2 hours if blocks are found of course from this pool.
 
 Ok so i left my MacBook pro mining for about 12 hours. We can see that i already received a payment from the mining pool, its’s here about 1 BLOC’. And i still have 0.2 something in the pending balance because im still mining. 
+
+![blocwallet](images/BLOC-gui-wallet/2.0.2/WALLET2.png)
 
 Let’s check out the transaction in the wallet.
 

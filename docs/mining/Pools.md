@@ -4,6 +4,8 @@ A mining pool is a joined group of cryptocurrency miners who share their process
 
 So unless you want to solo mine, which is unfeasible for many people, you will need a pool to mine towards. Make sure to choose the one closest to you!
 
+[![MINING BLOC](images/mining-pools/miningpool1.png)](https://bloc.money/mining)
+
 ## BLOC Mining Network
 
 You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website.
@@ -16,9 +18,6 @@ Built and maintain by the official [BLOC Team](https://bloc.money/mining)
 
 Built and maintain by the [Community](https://bloc.money/mining)
 
-## BLOC Mining Network
-
-[![MINING BLOC](images/mining-pools/miningpool1.png)](https://bloc.money/mining)
 [![MINING BLOC NETWORK](images/mining-pools/miningpool2.png)](https://bloc.money/mining)
 
 ## Definition of Fees
@@ -38,7 +37,3 @@ Therefore, the pool operator will take 0.02 abLoc for himself.
 Do you have a mining Pool for BLOC ?
 Would you like to be added to the official mining pools list on the BLOC MONEY website [here](https://bloc.money/mining) ?
 Just contact us using our social media accounts or simply by email.
-
-## Definition of Different Types of Methods
-
-There is different type of pool method while mining cryptocurrency. Make sure you are aware of the settings used by the pool you are mining from .

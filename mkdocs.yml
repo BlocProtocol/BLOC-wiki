@@ -102,7 +102,7 @@ nav:
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
-      - iPhone & iPad BLOC Wallet: wallets/BLOC-IOS-wallet.md
+      - iPhone & iPad BLOC Wallet: wallets/BLOC-iOS-wallet.md
       - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
       - CLI Wallet:

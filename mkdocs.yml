@@ -114,7 +114,8 @@ nav:
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
     - Mining:
-      - How to Mine abLoc: mining/Mining.md
+      - What is Mining ?: mining/What-is-mining.md
+      - How to Mine BLOC: mining/How-to-mine-BLOC.md
       - XMR-Stak: mining/XMR-Stak-Guide.md
       - XMR-Stak on Linux: mining/XMR-Stak-Linux-Guide.md
       - XMRig: mining/XMRIG-Guide.md

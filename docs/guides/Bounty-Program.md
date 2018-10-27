@@ -2,7 +2,7 @@
 
 We are pleased to announce the [BLOC.MONEY](https://bloc.money) bounty program OPEN. Be involved with the BLOC project and the community & get rewarded in BLOC. The bounty listing will be updated regulary with new task/reward so don’t forget to check out [The BOUNTY page](https://bloc.money/bounty) on the official website regulary.
 
-## BOUNTY Details
+## Bounty Details
 
 ### Type
 
@@ -13,7 +13,7 @@ Right now we are offering 2 types of bounty:
 
 ### Task & Reward
 
-Most of the bounty programm right now is simple task like writing a blog post about [BLOC.MONEY](https://bloc.money). Posting a video on Youtube or simple translation services. Make sure to check [The BOUNTY page](https://bloc.money/bounty) daily not miss any bounty mission.
+Most of the bounty programm right now is simple task like writing a blog post about BLOC. Posting a video on Youtube or simple translation services. Make sure to check [The BOUNTY page](https://bloc.money/bounty) daily not miss any bounty mission.
 
 ## How to claim a bounty
 

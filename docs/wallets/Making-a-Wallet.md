@@ -16,13 +16,13 @@ To view a guide on how to make a paper wallet, you can go [here](../#).
 
 The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. However, it is currently the most stable and gets the newest updates first.
 
-If you would like to use BLOCWallet, you can check out [this guide](../Using-BLOCWallet).
+If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet).
 
 ## BLOC Wallet for iPad & iPhone
 
 The 1st BLOC wallet for iOS with a focus on accessibility, security and simplicity. BLOC wallet makes getting started with BLOC easier than ever. [Download from the Apple Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2) Android version is coming before the end of this year (2018).
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-iOS-wallet).
+If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-iOS-wallet).
 
 ## Graphical Wallet (GUI Wallet)
 
@@ -39,13 +39,13 @@ If you would like to use the BLOC Electron Wallet, you can take a look at [this 
 The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**
 
-If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../BLOC-GUI-Desktop-Wallet-V2).
+If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2).
 
 ## Telegram Wallet
 
 BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices. [Check out the Telegram BLOC Wallet](https://t.me/bloc_wallet_bot)
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../BLOC-Telegram-Wallet).
+If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-Telegram-Wallet).
 
 ## Web Wallet
 

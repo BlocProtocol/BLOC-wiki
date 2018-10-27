@@ -1,3 +1,143 @@
+body {
+	background-color: #09234f;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.first-main-bg {
+	background: url("../img/first-main-bg.jpg") repeat-y top center;
+}
+.second-main-bg {
+	background: url("../img/second-main-bg.png") no-repeat top center;
+}
+
+/* reset bootstrap */
+body {
+	color: #fff;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+.wrap {
+	word-wrap: break-word;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix
+    margin-right:-4px; */
+    text-align: center;
+}
+.vcenter {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.vcenter span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-brand {
+	height: auto;
+	padding: 16px 0 8px 20px;
+}
+.navbar-default .navbar-brand {
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 30px;
+	color: #eee;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #d5d7dc;
+	font-size: 16px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #fff;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a > img {
+	margin-left: 10px;
+}
+.dropdown-menu {
+	border: none;
+	background-color: transparent;
+	box-shadow: none;
+	padding: 0;
+}
+.dropdown-toggle img {
+	margin-left: 25px;
+}
+.dropdown-toggle .caret {
+	margin-right: 10px;
+}
+.dropdown-menu > li > a {
+	color: #fff;
+}
+@media (min-width: 768px) {
+	.navbar-right .dropdown-left {
+		right: auto;
+		left: 0;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		text-align: left;
+		padding-left: 15px;
+	}
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border: none;
+	box-shadow: none;
+}
+@media (max-width: 992px) {
+	.navbar-default .navbar-nav > li > a {
+		line-height: 20px;
+	}
+}
+
+
 .footer {
 	text-align: center;
 	padding-bottom: 100px;
@@ -59,4 +199,45 @@
 .tooltip-inner {
 	color: #000;
 	background-color: #fff;
+}
+
+@media (max-width: 767px) {
+	* {
+	  /* These are technically the same, but use both */
+	  overflow-wrap: break-word;
+	  word-wrap: break-word;
+	  -ms-word-break: break-all;
+	  /* This is the dangerous one in WebKit, as it breaks things wherever */
+	  word-break: break-all;
+	  /* Instead use this non-standard one: */
+	  word-break: break-word;
+	  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+	  -ms-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -webkit-hyphens: auto;
+	  hyphens: auto;
+	}
+}
+
+.toc {
+	padding-top: 80px;
+	margin-bottom: 50px;
+}
+.toc h1 {
+	font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 80px 0;
+}
+.toc h2 {
+	font-size: 24px;
+	color: #01dee1;
+}
+.toc h3 {
+	font-size: 18px;
+}
+.toc p,
+.toc li {
+	opacity: 0.8;
 }

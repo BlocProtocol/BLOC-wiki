@@ -2,11 +2,17 @@
 
 Daemon HTTP RPC is a HTTP server which provides additional information regarding Network and Daemon connections.
 
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+
 Currently we support the following official client bindings:
 
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc)
 * [PHP](https://github.com/furiousteam/BLOC-rpc-php)
 * [Go](https://github.com/furiousteam/BLOC-rpc-go)
+
+
 
 ```php
 composer require furiousteam/BLOC-rpc-php
@@ -384,6 +390,6 @@ Also of note, TurtleCoin developers have altered and adapted the content to suit
 
 _TurtleCoin developers 2018_
 
-Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the TurtleCoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
+Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the [TurtleCoin](https://turtlecoin.lol) development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
 
 _BLOC developers 2018_

@@ -4,7 +4,11 @@ Technical ressources to start building on [BLOC](https://bloc.money).
 
 ## Source code
 
-* [Source Code](https://github.com/furiousteam/BLOC)
+* [Source Code](https://github.com/furiousteam/BLOC.git)
+
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
 ## Wallet RPC API Clients
 

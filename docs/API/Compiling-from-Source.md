@@ -1,11 +1,20 @@
 # Compiling from Source
 
-The instructions for in the README.md cover common platforms for compiling from source, it would be impractical to include them all. So this page exists to capture the other platforms/distros that BLOC has been successfully compiled on.  
+The instructions for in the [README.md](https://github.com/furiousteam/BLOC/blob/master/README.md) of [BLOC](https://bloc.money) cover common platforms for compiling from source, it would be impractical to include them all. So this page exists to capture the other platforms/distros that BLOC has been successfully compiled on.  
+
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+
+## Source code
+
+* [Source Code](https://github.com/furiousteam/BLOC.git)
+
 Please add to it if your environment is not covered, thanks!
 
 ## CentOS 7
 
-BLOC build on CENTOS 7 or RHEL 7 with DEVTOOLS 7
+**BLOC** build on CENTOS 7 or RHEL 7 with DEVTOOLS 7
 
 ```
 $ sudo yum groupinstall 'Development Tools'
@@ -37,6 +46,7 @@ $ sudo yum install python-devel -y
 ```
 
 ### Install boost 1.62 or above version 
+
 Version 1.62 successfully build with gcc 7  
 
 ```
@@ -49,6 +59,7 @@ $ ./b2
 ```
 
 ### Get BLOC source and Compile
+
 ```
 $ cd ..
 
@@ -60,4 +71,3 @@ $ export CXXFLAGS="-std=gnu++11"
 $ cmake3 .. -DBOOST_ROOT=~/boost_1_62_0
 $ make
 ```
-

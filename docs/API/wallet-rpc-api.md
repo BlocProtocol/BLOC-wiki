@@ -1,12 +1,15 @@
 # Wallet RPC API
 
-TurtleCoin RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for TurtleCoin payment operations and address management.
+[BLOC](https://bloc.money) RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for **BLOC**** payment operations and address management.
+
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
 Currently we support the following official client bindings:
 
 * [JavaScript](https://www.npmjs.com/package/bloc-rpc)
 * [PHP](https://github.com/furiousteam/BLOC-rpc-php)
-
 * [Go](https://github.com/furiousteam/BLOC-rpc-go)
 
 ```javascript
@@ -35,20 +38,20 @@ http://localhost:8070/json_rpc
 const BlocService = require('bloc-rpc').BlocService
 
 const service = new BlocService({
-  host: '127.0.0.1', // ip address or hostname of the turtle-service host
-  port: 8070, // what port is turtle-service running on
+  host: '127.0.0.1', // ip address or hostname of the bloc-service host
+  port: 8070, // what port is bloc-service running on
   timeout: 2000, // request timeout
   ssl: false, // whether we need to connect using SSL/TLS
-  rpcPassword: 'changeme', // must be set to the password used to run turtle-service
+  rpcPassword: 'inblocwetrust', // must be set to the password used to run bloc-service
 
   // RPC API default values
   defaultMixin: false, // the default mixin to use for transactions, the default setting is false which means we don't have a default value
-  defaultFee: 0.1, // the default transaction fee for transactions
+  defaultFee: 1, // the default transaction fee for transactions
   defaultBlockCount: 1, // the default number of blocks when blockCount is required
-  decimalDivisor: 100, // Currency has many decimal places?
+  decimalDivisor: 1000, // Currency has many decimal places?
   defaultFirstBlockIndex: 1, // the default first block index we will use when it is required
   defaultUnlockTime: 0, // the default unlockTime for transactions
-  defaultFusionThreshold: 10000000, // the default fusionThreshold for fusion transactions
+  defaultFusionThreshold: 1, // the default fusionThreshold for fusion transactions
 })
 ```
 
@@ -1783,6 +1786,6 @@ Also of note, TurtleCoin developers have altered and adapted the content to suit
 
 _TurtleCoin developers 2018_
 
-Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the TurtleCoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
+Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the [TurtleCoin](https://turtlecoin.lol) development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
 
 _BLOC developers 2018_

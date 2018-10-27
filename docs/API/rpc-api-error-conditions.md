@@ -1,8 +1,9 @@
 # RPC Errors
-Here are some common error messages with BLOCd and Walletd spit out, why they occured and how to fix them.  
+
+Here are some common error messages with **BLOCd** and **bloc-service** spit out, why they occured and how to fix them.  
 Listed are also some possible alternative errors which they could spit out.
 
-* `https://github.com/turtlecoin/turtlecoin/blob/master/src/Wallet/WalletErrors.h`
+* `https://github.com/furiousteam/BLOC/blob/master/src/Wallet/WalletErrors.h`
 
 ## BAD_ADDRESS / Bad address
 >**Possible Alternative Error:**
@@ -12,7 +13,7 @@ Listed are also some possible alternative errors which they could spit out.
 This error can happen when an address you supply is invalid, or the address field in your request is improperly formatted.
 
 **Solution:**
-First make sure that the address you are attempting to send to is a valid 99 character long abLoc address, or 236 character integrated address. Next, make sure that your request is properly formatted - for instance, in a SendTransaction request where you are sending from multiple addresses, the address field must be an array of strings, and the address field within the transfers array must be a single string.
+First make sure that the address you are attempting to send to is a valid 99 character long **abLoc** address, or 236 character integrated address. Next, make sure that your request is properly formatted - for instance, in a SendTransaction request where you are sending from multiple addresses, the address field must be an array of strings, and the address field within the transfers array must be a single string.
 
 ## WRONG_AMOUNT / Wrong amount
 >**Possible Alternative Error:**
@@ -73,7 +74,7 @@ Enter the correct password! Import via keys if you cannot remember it.
 >Transaction is too large to fit in a block, try reducing the amount you are sending
 
 **Description:**
-This is caused when the transaction size (in bytes, not amount), is too large to fit into a block. Currently this limit is around 125k bytes, and the size of transactions is based upon how many key images you need to supply for the transaction - each key image comes from a previous transaction, and so if you have lots of small payments, your transactions will need a lot of key images to sum to the desired amount.
+This is caused when the transaction size (in bytes, not amount), is too large to fit into a block. The size of transactions is based upon how many key images you need to supply for the transaction - each key image comes from a previous transaction, and so if you have lots of small payments, your transactions will need a lot of key images to sum to the desired amount.
 
 **Solution:**
 You can either:  
@@ -150,13 +151,13 @@ Delete the blockchain db, delete the .wallet file, import your keys, and resync 
 
 ## FEE_TOO_SMALL / Transaction fee is too small
 >**Possible Alternative Error:**
->Transaction fee lower than minimum of 0.1 abLoc.
+>Transaction fee lower than minimum of 0.0001 BLOC
 
 **Description:**
 This occurs if the transaction fee is below the minimum allowed.
 
 **Solution:**
-Make sure the fee used is at least 0.1 abLoc, or 10 in atomic units.
+Make sure the fee used is at least 0.0001 BLOC, or 1 in atomic units.
 
 ## KEY_GENERATION_ERROR / Cannot generate new key
 >**Possible Alternative Error:**
@@ -303,7 +304,7 @@ Make sure your anonymity value is within the allowed limits.
 >Mixin is below minimum allowed threshold of \<x\>
 
 **Description:**
-This occurs when your anonymity value is above the minimum allowed. You can check the current mixin limits by viewing their values in CryptoNoteConfig.h. Currently, the minimum allowed mixin is 0. This will change to 7 at block 620k.
+This occurs when your anonymity value is above the minimum allowed. You can check the current mixin limits by viewing their values in CryptoNoteConfig.h. Currently, the minimum allowed mixin is 0 and the maximum mixin is 10. This might change soon.
 
 **Solution:**
 Make sure your anonymity value is withing the allowed limits.
@@ -319,9 +320,9 @@ When using integrated addresses, if a payment ID is specified, it must match the
 Only send to one integrated address at once, and don't include a payment ID, to avoid confusion.
 
 
-**Turtlecoind Errors**  
-* `https://github.com/turtlecoin/turtlecoin/blob/master/src/NodeRpcProxy/NodeErrors.h`  
-* `https://github.com/turtlecoin/turtlecoin/blob/master/src/InProcessNode/InProcessNodeErros.h`
+**BLOCd Errors**  
+* `https://github.com/furiousteam/BLOC/blob/master/src/NodeRpcProxy/NodeErrors.h`  
+* `https://github.com/furiousteam/BLOC/blob/master/src/InProcessNode/InProcessNodeErros.h`
 
 ## NOT_INITIALIZED / Object was not initialized
 >**Possible Alternative Error:**
@@ -380,4 +381,3 @@ BLOCd is not open / not responding.
 **Description:** -
 
 **Solution:** -
-

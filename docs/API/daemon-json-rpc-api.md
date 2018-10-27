@@ -2,6 +2,10 @@
 
 Daemon JSON RPC is a HTTP server which provides JSON 2.0 RPC interface for interacting with Daemon and Block Explorer.
 
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+
 Currently we support the following official client bindings:
 
 * [JavaScript](https://www.npmjs.com/package/bloc-rpc)
@@ -1003,6 +1007,6 @@ Also of note, TurtleCoin developers have altered and adapted the content to suit
 
 _TurtleCoin developers 2018_
 
-Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the TurtleCoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
+Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the [TurtleCoin](https://turtlecoin.lol) development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
 
 _BLOC developers 2018_

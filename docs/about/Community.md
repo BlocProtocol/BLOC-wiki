@@ -11,6 +11,9 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 ### Downloads
 
 * BLOC Wallet for iOS [available on the App Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
+
+### BLOC Dasboard
+
 * Everything BLOC in one place on the [BLOC Dashboard](https://dashboard.bloc.money)
 
 ### Social Networks
@@ -24,12 +27,6 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 * Join our [Discord Channel](https://discord.gg/5Buudya)
 * Watch our videos and subscribe our [Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
 * Read our latest news from our [Medium Blog](https://medium.com/@bloc.money)
-
-### Mining Pools
-
-* [EUROPE](https://bloc-mining.eu)
-* [NORTH AMERICA](https://bloc-mining.us)
-* [ASIA](https://bloc-mining.asia)
 
 ### Ecosystem
 

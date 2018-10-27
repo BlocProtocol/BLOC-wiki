@@ -85,12 +85,12 @@ nav:
     - Home:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - About BLOC: about/index.md
+      - BLOC Features: about/index.md
       - Developers: API/index.md
       - Wallet: wallets/Making-a-Wallet.md
     - About:
       - Home: about/index.md
-      - About BLOC: about/About-BLOC.md
+      - Features: about/About-BLOC.md
       - Background and History: about/Background-and-History.md
       - Our Community: about/Community.md
       - Contributing: about/Contributing.md

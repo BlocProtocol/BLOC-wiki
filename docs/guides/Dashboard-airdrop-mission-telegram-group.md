@@ -13,101 +13,48 @@ Jenny from the BLOC is a Telegram bot programmed to manage different things at t
 
 ## Follow this guide
 1. Click on the button `Not claimed` under the Telegram Airdrop Mission.
+    
     ![AirDrop Mission Telegram 1](images/airdrop/telegram/airdrop-telegram-group-1.png)
 
 2. Click `SEND MESSAGE`
 
     ![AirDrop Mission Telegram 2](images/airdrop/telegram/2.png)
 
-    !!! note
-        If the folder doesn't exist, just go to `%APPDATA%` instead and create a folder named `BLOC`.
+3.  You should be redirected to the following chat session on Telegram.
+
+    ![AirDrop Mission Telegram 3](images/airdrop/telegram/3.png)
+
+    Click on the `START` button to initiate the chat with Jenny.
+
+4.  ![AirDrop Mission Telegram 4](images/airdrop/telegram/4.png)
+
+    You should see a confirmation that you have successfully connected your Telegram account with Jenny.
+
+5.  To claim your reward you need to click on `@bloc_money` to join the group and receive 0.2 BLOC.
+
+    ![AirDrop Mission Telegram 5](images/airdrop/telegram/5.png)
+
+6. Click JOIN GROUP
+
+    ![AirDrop Mission Telegram 6](images/airdrop/telegram/6.png)
+
+    You should see a confirmation that you have successfully joined the group.
+
+    In the same time you should have received a confirmation from Jenny about your reward has been successfully claimed. As follow:
+
+    ![AirDrop Mission Telegram 7](images/airdrop/telegram/7.png)
+
+7. Join our Telegram Channel. Click `@bloc_money_channel` to join the channel. There is no reward to join the channel but it's always good to subscribe if you would like to stay up to date with the BLOC.
+
+    ![AirDrop Mission Telegram 9](images/airdrop/telegram/9.png)
 
 
-3. Delete the following if they exist:
-    * blockindexes.bin
-    * blocks.bin
-    * "DB" folder
+8. Go back to your dashboard account.
 
+    Verify that your reward has been claimed. You should see it like this:
 
-    ---
-    
-    **Note**: In case it is unable to delete the files due to them being used by some other program, follow these steps:
-    
-    * Open Task Manager with the shortcut `Ctrl + Shift+ Escape`.
-      
-    * Click on `Processes`.
-      
-    * Click on `Image Name`.
-      
-    * Scroll to the bottom.
-      
-    * Click on `bloc-service.exe`
-      
-    * Click on `End Process`.
-      
-    * Click on `End Process` again.
-      
-    * Try to delete them again.
-    
-    ![closewallet](images/bootstrap/close_walletd.png)
-    
-    ---
+    ![AirDrop Mission Telegram 8](images/airdrop/telegram/8.png)
 
+### Troubleshooting
 
-4. [Download](#) the latest snapshot of the blockchain.
-
-5. Move the two new downloaded files to the `%APPDATA%\BLOC` folder.
-
-6. Start `BLOCd.exe` or the GUI wallet like you normally do.
-
-7. See [Expected Results](#ExpectedResults) section below.
-
-
-
-## Mac & Linux
-1. Make sure `BLOCd`, `bloc-service`, and/or the GUI wallet are not running.
-
-2. Open `Finder`.
-
-3. Use the shortcut `Command + Shift + G` to bring up `Go to Folder`: 
-![gotofolder](images/bootstrap/boostrap-bloc-mac-1.png)
-
-4. Delete the following if they exist: 
-
-    * blockindexes.bin 
-
-    * blocks.bin 
-
-    * "DB" folder 
-
-
-5. [Download](#) the latest snapshot of the blockchain.
-
-6. Move the two new downloaded files, `blockindexes.bin` and `blocks.bin` into the `~/.BLOC/` folder.
-
-7. Start `BLOCd` or the GUI like you normally do.
-
-8. See the [Expected Results](#ExpectedResults) section below.
-
-## Expected Results if Done Correctly <a name="ExpectedResults"></a>
-
-When you start `BLOCd` you should see this. Note that the blocksize (100246) in this example will be a different number:
-```
-2018-Feb-01 18:43:37.216471 INFO    Initializing core...
-2018-Feb-01 18:43:37.225492 INFO    Importing blocks from blockchain storage
-2018-Feb-01 18:43:37.741587 INFO    Imported block with index 1000 / 100246
-2018-Feb-01 18:43:38.258202 INFO    Imported block with index 2000 / 100246
-2018-Feb-01 18:43:38.928033 INFO    Imported block with index 3000 / 100246
-2018-Feb-01 18:43:39.454094 INFO    Imported block with index 4000 / 100246
-2018-Feb-01 18:43:40.142969 INFO    Imported block with index 5000 / 100246
-2018-Feb-01 18:43:40.830674 INFO    Imported block with index 6000 / 100246
-```
-
-After it completes it will start syncing incrementally like so:
-```
-2018-Feb-01 18:47:48.075930 INFO    Imported block with index 100000 / 100246
-2018-Feb-01 18:47:48.860470 INFO    Core initialized OK
-2018-Feb-01 18:47:48.860470 INFO    Initializing p2p server...
-```
-
-If you are using the GUI wallet, you can instead view the progress by opening `walletd.log` and scrolling to the bottom.
+If for any reason you were not able to claim your reward it can be because Jenny or Telegram itself is offline or any other reason. You can try again later. If the problem persist please contact us so we can investigate the issue.

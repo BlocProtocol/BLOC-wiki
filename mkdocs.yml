@@ -124,8 +124,8 @@ nav:
         - Using AA Miner: mining/mobile-mining/Using-AA-Miner.md
     - Guides:
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
-      - Dashboard: guides/dashboard.md
-        - Bounty Programm: guides/Bounty-Program.md
+      - Bounty Programm: guides/Bounty-Program.md
+      - Dashboard: guides/dashboard/dashboard.md
         - Telegram Airdrop Mission: guides/Dashboard-airdrop-mission-telegram-group.md
     - Developers:
       - Home: API/index.md

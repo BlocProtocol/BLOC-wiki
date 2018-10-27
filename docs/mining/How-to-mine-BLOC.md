@@ -8,6 +8,14 @@ Unless you know what you are doing, please ***only*** download from the links be
 
 There are currently a few different ways in which you can start mining BLOC:
 
+### In-browser javascript web miner for BLOC.MONEY
+
+[In-browser BLOC javascript web miner](https://bloc-mining.com)
+
+Easy to use in-browser miner was designed to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money) - BLOC.MONEY
+
+If you would like to use the **WEB Miner**, you can check out [this guide](../mining/Mining-with-web-miner.md).
+
 ### 1. [XMR-Stak](https://github.com/fireice-uk/xmr-stak)
 
 XMR-Stak is a unified miner, which means the same program will be used to mine with both your CPU and your GPU. It will automatically detect your hardware and adjust the settings accordingly.
@@ -36,11 +44,12 @@ Please follow [this guide](../Mining-with-SBC) to mine with a SBC/Rasperry Pi.
 
 Please follow [this guide](../mobile-mining/Mining-with-Phone) to mine with your mobile phone.
 
-### BLOC Wallet Desktop Client 2.0.2
+### BLOC Desktop Client Wallet & Mining 2.0.2
 
 [BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
 
-The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux. **This version is no more compatible since the BLOC 3.0**
+The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
+**This version is no more compatible since the BLOC 3.0**
 
 If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2.md).
 

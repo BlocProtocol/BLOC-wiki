@@ -95,3 +95,54 @@ I hope you enjoy this video. Thank you for watching. Don’t forget to click the
 If you are mining, it is highly recommended to enable wallet optimization (Settings > Preferences > Wallet Optimization) because you will be more prone to transition getting stuck if you’re wallet isn’t optimized. Transaction size increases if you have many small transactions amount on your wallet, and try to send a big amount in one transaction.
 
 ![blocwallet](images/BLOC-gui-wallet/2.0.2/WALLET1.png)
+
+## Save your wallet
+
+There are different methods to save and back your wallet with the BLOC Wallet Desktop 2.0.2
+
+### 1. Export key (Best Solution)
+
+This is maybe the best solution and the most safe. You need to have your wallet open and unlocked.
+
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-1.png)
+
+* Select the Top menu `File`
+* Then select `Export Key`
+
+This windows appears:
+
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-2.png)
+
+* MAKE SURE YOU SAVE THIS COMPLETE LONG TEXT VALUE SOMEWHERE SAFE.
+* This are the private keys of your wallet.
+
+It looks like this:
+
+`BDCE6A63B860BECEE399D739865A341F9EA101A78F7F46E3D619F7BB4E8FEDBB2F84F5F8E2D1D7F96DFD36209CF0CEEAFAB3AAFA06E84332A63B89892F3A00EE5C47394D5566C56CDE815DA2429C8C8CF80038CD948AD3A5A418E8B016DF160E3D9CAE15706DB0985297545DDA412AF2C90E94EB0989FBC60EFA860D6860750F`
+
+Let's understand the private keys
+
+1. Copy and paste the key into a text editor.
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-3.png)
+
+2. Select the entire key and convert it to lowercase.
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-4.png)
+
+You should obtain a result like this:
+
+`bdce6a63b860becee399d739865a341f9ea101a78f7f46e3d619f7bb4e8fedbb2f84f5f8e2d1d7f96dfd36209cf0ceeafab3aafa06e84332a63b89892f3a00ee5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e3d9cae15706db0985297545dda412af2c90e94eb0989fbc60efa860d6860750f`
+
+Understanding the key:
+
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-6.png)
+Private spend key: (this is 64 digits before the last 64 digits of the key)
+5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
+
+
+![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-5.png)
+Private view key: (this is the last 64 digits of the long key)
+3d9cae15706db0985297545dda412af2c90e94eb0989fbc60efa860d6860750f
+
+Once again. **Make sure you save this details**. This are the **ONLY way to recover your wallet using the blockchain**. This is **much better than to save a wallet file** than can be corrupt with time, or not updated with new version or whatever the reason. **The keys are the ONLY sure 100% garanteed solution to recover your wallet**
+
+Now that you have this 2 keys you will be able to use your wallet with the new **BLOC v3.0**

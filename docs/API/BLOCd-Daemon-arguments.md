@@ -297,7 +297,7 @@ Server: CryptoNote-based HTTP server
 ### --genesis-block-reward-address arg
 
 * Premine wallet address
-* Use this method if you like to generate a premine wallet into your new created cryptocurrency
+* Use this method combined with the previous one if you like to generate a premine wallet into your new created cryptocurrency
 * More details can be found in the CryptoNoteConfig.h
 
 #### Exemple
@@ -310,6 +310,152 @@ Server: CryptoNote-based HTTP server
 
 ![--help](images/BLOCd/command-line-options/genesis-block-reward-address.png)
 
+
+### load-checkpoints arg (=default) <default|filename>
+
+* Use builtin default checkpoints
+* Or use checkpoint csv file for faster initial blockchain sync
+
+#### Exemple
+
+```
+./BLOCd --load-checkpoints=checkpoints.csv
+```
+
+**Expected results**
+
+[Cick here](../using-check-points-with-BLOCd.md).
+
+
+### --fee-address arg
+
+* This is a new feature implemented in BLOC v3.0
+* Read more about [Nodes Fees](../wallets/Using-remote-nodes.md).
+* Sets fee address for light wallets that use the daemon
+* Make sure you combine this argument with --fee-amount
+
+#### Exemple
+
+```
+./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
+```
+
+
+### --fee-amount arg (=0)
+
+* This is a new feature implemented in BLOC v3.0
+* Read more about [Nodes Fees](../wallets/Using-remote-nodes.md).
+* Sets fee amount for light wallets that use the daemon
+* Make sure you combine this argument with --fee-address
+* Remember we are using Atomic Units
+* --fee-amount=1 means 0.0001 BLOC fees will be sent to the --fee-address specified
+* --fee-amount=1000 means 1 BLOC fees will be sent to the -fee-address specified
+
+#### Exemple
+
+```
+./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR --fee-amount=1
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/fee-amount.png)
+
+
+### --rpc-bind-ip arg (=127.0.0.1)
+
+* Interface for RPC service
+* Started by default on 127.0.0.1 when running ./BLOCd
+* If you want to use local only : 127.0.0.1
+* if you want to open to public : 0.0.0.0
+* More details about the [HTTP RPC API](../daemon-http-rpc-api.md)
+* More details about the [JSON RPC API](../daemon-json-rpc-api.md)
+
+#### Exemple
+
+```
+(Public)
+./BLOCd --rpc-bind-ip=0.0.0.0
+
+(Local)
+./BLOCd --rpc-bind-ip=127.0.0.1
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/rpc-bind-ip.png)
+
+
+### --rpc-bind-port arg (=2086)
+
+* Port for the RPC service
+* Started by default on 2086 when running ./BLOCd
+* You can change this port here
+* More details about the [HTTP RPC API](../daemon-http-rpc-api.md)
+* More details about the [JSON RPC API](../daemon-json-rpc-api.md)
+
+#### Exemple
+
+```
+./BLOCd --rpc-bind-port=10000
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/rpc-bind-port.png)
+
+
+### --p2p-bind-ip arg (=0.0.0.0) 
+
+* Interface for p2p network protocol
+* Started by default on 0.0.0.0 when running ./BLOCd
+* If you want to use local only : 127.0.0.1
+* if you want to open to public : 0.0.0.0
+
+#### Exemple
+
+```
+(Public)
+./BLOCd --p2p-bind-ip=0.0.0.0
+
+(Local)
+./BLOCd --p2p-bind-ip=127.0.0.1
+```
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/p2p-bind-ip.png)
+
+
+### --p2p-bind-port arg (=2082)
+
+* Port for p2p network protocol
+* Started by default on 2082 when running ./BLOCd
+* You can change this port here
+
+#### Exemple
+
+```
+./BLOCd --p2p-bind-port=3000
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/p2p-bind-port.png)
+
+
+### --p2p-external-port arg (=0)
+
+* External port for p2p network protocol (if port forwarding used with NAT)
+
+#### Exemple
+
+```
+./BLOCd --p2p-external-port=5000
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/p2p-external-port.png)
 
 
 

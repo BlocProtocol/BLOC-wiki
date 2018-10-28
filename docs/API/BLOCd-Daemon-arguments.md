@@ -183,8 +183,8 @@ Remark: Make sure you have created the folder you want to use before start BLOCd
 
 ![--help](images/BLOCd/command-line-options/log-file.png)
 
-* File created next to BLOCd:
-![--help](images/BLOCd/command-line-options/log-file.png)
+File created next to BLOCd:
+![--help](images/BLOCd/command-line-options/testlog.png)
 
 
 

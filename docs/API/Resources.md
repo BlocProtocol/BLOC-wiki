@@ -19,6 +19,10 @@ Technical ressources to start building on [BLOC](https://bloc.money).
 
 See [Wallet RPC API](wallet-rpc-api.md) for usage.
 
+## BLOCd Command Line and Options
+
+* See [Daemon HTTP RPC API](BLOCd-Daemon-arguments.md)
+
 ## BLOCd RPC Clients
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.

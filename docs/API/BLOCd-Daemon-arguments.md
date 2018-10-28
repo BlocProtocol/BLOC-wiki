@@ -1,3 +1,32 @@
+# What is BLOCd
+
+A daemon is a program that runs in the background. The BLOC wallet requires a node (running "BLOCd") to connect to. That process, "BLOCd", is the daemon. It can run on your computer or on a remote computer. Think of a daemon as a service. Its doing stuff in the background so you can do stuff in the foreground.
+
+BLOC Daemon (BLOCd) is responsible for any communication with the network.
+
+* Mining
+* Interaction with the blockchain, e.g. blocks relaying, getting info about the block, etc.
+* Peer list look up
+* Connections look up
+* Transaction pool information and relaying
+
+## Source code
+
+* [Source Code](https://github.com/furiousteam/BLOC.git)
+
+## Errors
+
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+
+## BLOCd RPC Clients
+
+* [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.
+* [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC  Project. This entire project uses Javascript Promises to make things fast, easy, and safe.
+* [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOC RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
+* [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
+
+See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daemon-json-rpc-api.md) for usage.
+
 # BLOCd Command line options
 
 The following exemples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
@@ -94,7 +123,7 @@ fee-amount=5
 rpc-bind-ip=0.0.0.0
 enable_blockexplorer=yes
 ```
-[Download Example](images/BLOCd/command-line-options/BLOC.conf).
+[Download Example](images/BLOCd/command-line-options/BLOC.conf)
 
 **Expected results**
 
@@ -589,23 +618,6 @@ Server: CryptoNote-based HTTP server
 ```
 ./BLOCd --db-read-cache-size=10
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-[BLOC](https://bloc.money) believes that the cryptocurrency era will require a broader development community than just a few leading crypto platforms. For this reason, **BLOC** is providing an open platform that enables companies to build their own products using **BLOC API**. It is very easy to integrate **BLOC** payment into your website/ecommerce/phisical store/application.
-
-**BLOC** has unfolded and advanced a set of key methods to portray universal and integrated access to act as an alternative or replace the current banking system in regards to the expensive and restricted POS contactless terminals.
-
-We also have some specific language bindings to make integration easier. You can find more details on the [Ressources page](../API/Resources.md).
 
 ## BLOC-DEVELOPER
 

@@ -1,3 +1,7 @@
+Q: If I'm running light GUI wallet connected to remote node - do I have to start deamon to transact?
+A: Connecting to a remote node/daemon is a replacement for running one locally.
+
+
 # Frequently Asked Questions
 
 ## Mining and XMR-Stak

@@ -458,6 +458,127 @@ Server: CryptoNote-based HTTP server
 ![--help](images/BLOCd/command-line-options/p2p-external-port.png)
 
 
+### --allow-local-ip
+
+* Allow local ip add to peer list, mostly in debug purposes
+
+#### Exemple
+
+```
+./BLOCd --allow-local-ip
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/allow-local-ip.png)
+
+
+### --add-peer arg
+
+* Manually add peer to local peerlist
+
+#### Exemple
+
+```
+./BLOCd --add-peer=PEER.IP.ADDRESS
+```
+
+
+### --add-priority-node arg
+
+* Specify list of peers to connect to and attempt to keep the connection open
+
+#### Exemple
+
+```
+./BLOCd --add-priority-node=NODE.IP.ADDRESS
+```
+
+
+### --add-exclusive-node arg
+
+* Specify list of peers to connect to only.
+* If this option is given the options add-priority-node and seed-node are ignored
+
+#### Exemple
+
+```
+./BLOCd --add-exclusive-node=NODE.IP.ADDRESS
+```
+
+
+### --seed-node arg
+
+* Connect to a node to retrieve peer addresses, and disconnect
+
+#### Exemple
+
+```
+./BLOCd --seed-node=NODE.IP.ADDRESS
+```
+
+
+### --hide-my-port
+
+* Do not announce yourself as peerlist candidate
+
+#### Exemple
+
+```
+./BLOCd --hide-my-port
+```
+
+
+### --db-threads arg (=2)
+
+* Number of background threads used for compaction and flush
+* Default is 2
+
+#### Exemple
+
+```
+./BLOCd --db-threads=2
+```
+
+
+### --db-max-open-files arg (=100)
+
+* Number of open files that can be used by the DB
+* Default is 100
+
+#### Exemple
+
+```
+./BLOCd --db-max-open-files=100
+```
+
+
+### --db-write-buffer-size arg (=256)
+
+* Size of data base write buffer in megabytes
+* Default is 256
+
+#### Exemple
+
+```
+./BLOCd --db-write-buffer-size=256
+```
+
+
+### --db-read-cache-size arg (=10)
+
+* Size of data base read cache in megabytes
+* Default is 10
+
+#### Exemple
+
+```
+./BLOCd --db-read-cache-size=10
+```
+
+
+
+
 
 
 

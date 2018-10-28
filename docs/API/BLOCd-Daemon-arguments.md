@@ -184,10 +184,55 @@ Remark: Make sure you have created the folder you want to use before start BLOCd
 ![--help](images/BLOCd/command-line-options/log-file.png)
 
 File created next to BLOCd:
+
 ![--help](images/BLOCd/command-line-options/testlog.png)
 
 
+### --log-level arg (=2)
 
+* Specify another log file than the original one created by BLOCd with a level 2
+* There is 5 different level. The higher you choose, the more details you get.
+* Log level must be 0...5
+
+#### Exemple
+
+```
+./BLOCd --log-level=2
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/log-level.png)
+
+#### TIPS
+
+You can combine --log-file and --log-level together
+
+#### Exemple
+
+```
+./BLOCd --log-file=test.log --log-level=2
+```
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/log-level-combine.png)
+
+
+### --no-console
+
+* Disable the BLOCd daemon console.
+* Can be usefull in case you do not want to allow anyone to run commands through the BLOCd daemon
+* As you can see on the screenshot, nothing happen when running the 'help' command
+
+#### Exemple
+
+```
+./BLOCd --no-console
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/no-console.png)
 
 
 

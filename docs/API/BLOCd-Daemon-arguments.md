@@ -291,7 +291,7 @@ Server: CryptoNote-based HTTP server
 
 **Expected results**
 
-![--help](images/BLOCd/command-line-options/print-genesic-tx.png)
+![--help](images/BLOCd/command-line-options/print-genesis-tx.png)
 
 
 ### --genesis-block-reward-address arg

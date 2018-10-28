@@ -21,7 +21,7 @@ See [Wallet RPC API](wallet-rpc-api.md) for usage.
 
 ## BLOCd Command Line and Options
 
-* See [Daemon HTTP RPC API](BLOCd-Daemon-arguments.md)
+* See [BLOCd Command Line and Options](BLOCd-Daemon-arguments.md)
 
 ## BLOCd RPC Clients
 

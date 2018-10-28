@@ -14,7 +14,7 @@ To view a guide on how to make a paper wallet, you can go [here](../#).
 
 ## BLOCWallet (CLI Wallet)
 
-The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. However, it is currently the most stable and gets the newest updates first.
+The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
 If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet.md).
 
@@ -25,6 +25,8 @@ The 1st BLOC wallet for iOS with a focus on accessibility, security and simplici
 If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-iOS-wallet.md).
 
 ## Graphical Wallet (GUI Wallet)
+
+GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface.
 
 ### BLOC Electron Wallet (Coming soon)
 

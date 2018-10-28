@@ -243,7 +243,7 @@ File created next to BLOCd:
 
 **Expected results**
 
-![--help](images/BLOCd/command-line-options/no-console.png)
+![--help](images/BLOCd/command-line-options/enable-cors.png)
 
 **Response Headers**
 ```

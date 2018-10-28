@@ -75,7 +75,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 **Expected results**
 
-![--help](images/BLOCd/command-line-options/config-file.png)
+![--help](images/BLOCd/command-line-options/CONF.png)
 
 
 ## Create .CONF file
@@ -97,9 +97,7 @@ enable_blockexplorer=yes
 
 **Expected results**
 
-![--help](images/BLOCd/CONF.png)
-
-![--help](images/BLOCd/CONF2.png)
+![--help](images/BLOCd/command-line-options/CONF2.png)
 
 
 ## Command line options and settings options

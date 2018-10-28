@@ -85,7 +85,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd
 
-#### Exemple
+#### Example
 
 ```
 enable-cors=*
@@ -94,6 +94,7 @@ fee-amount=5
 rpc-bind-ip=0.0.0.0
 enable_blockexplorer=yes
 ```
+[Download Example](images/BLOCd/command-line-options/BLOC.conf).
 
 **Expected results**
 

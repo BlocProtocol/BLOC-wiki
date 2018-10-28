@@ -204,19 +204,6 @@ File created next to BLOCd:
 
 ![--help](images/BLOCd/command-line-options/log-level.png)
 
-#### TIPS
-
-You can combine --log-file and --log-level together
-
-#### Exemple
-
-```
-./BLOCd --log-file=test.log --log-level=2
-```
-**Expected results**
-
-![--help](images/BLOCd/command-line-options/log-level-combine.png)
-
 
 ### --no-console
 

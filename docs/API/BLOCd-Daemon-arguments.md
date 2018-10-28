@@ -222,6 +222,27 @@ File created next to BLOCd:
 ![--help](images/BLOCd/command-line-options/no-console.png)
 
 
+### --testnet
+
+* Used to deploy test nets. Checkpoints and hardcoded seeds are ignored, network id is changed. Use it with --data-dir flag. The wallet must be launched with --testnet flag.
+* We are not using this function since BLOC has a dedicated [TESTNET](../API/BLOC-TESTNET.md)
+
+
+### --enable-cors arg
+
+* Adds header 'Access-Control-Allow-Origin' to the daemon's RPC responses. Uses the
+* Uses the value as domain
+* Use * for all
+
+#### Exemple
+
+```
+./BLOCd --enable-cors
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/no-console.png)
 
 
 

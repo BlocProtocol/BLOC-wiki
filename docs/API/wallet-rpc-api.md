@@ -1523,7 +1523,7 @@ In case of success returns an empty JSON object.
 ## sendFusionTransaction
 
 ```shell
-curl -d '{"jsonrpc":"2.0","id":1,"password":"passw0rd","method":"sendFusionTransaction","params":{"threshold":1000000,"anonymity":3,"addresses":["abLocxxxx...","abLocyyyy..."],"destinationAddress":"abLoczzzz..."}}' http://localhost:8070/json_rpc
+curl -d '{"jsonrpc":"2.0","id":1,"password":"passw0rd","method":"sendFusionTransaction","params":{"threshold":1000000,"anonymity":0,"addresses":["abLocxxxx...","abLocyyyy..."],"destinationAddress":"abLoczzzz..."}}' http://localhost:8070/json_rpc
 ```
 
 ```javascript
@@ -1536,8 +1536,8 @@ service.sendFusionTransaction({
 
 ```php
 <?php
-$threshold = 1000000;
-$anonymity = 3;
+$threshold = 1;
+$anonymity = 0;
 $addresses = ['abLocxxxx...', 'abLocyyyy...'];
 $destinationAddress = 'abLoczzzz...';
 $response = $blocService->sendFusionTransaction($threshold, $anonymity, $addresses, $destinationAddress);
@@ -1546,7 +1546,7 @@ echo $response;
 ```
 
 ```go
-threshold := 1000000
+threshold := 1
 addresses := []string{"abLocxxxx...", "abLocyyyy..."}
 destinationAddress := "abLoczzzz..."
 response, err := service.SendfusionTransaction(threshold, addresses, destinationAddress)
@@ -1603,7 +1603,7 @@ curl -d '{"jsonrpc":"2.0","id":1,"password":"passw0rd","method":"estimateFusion"
 
 ```javascript
 service.estimateFusion({
-  threshold: 100000000,
+  threshold: 1,
   addresses:[
     'abLocv1pacKFJk9QgSmzk2LJWn14JGmTKzReFLz1RgY3K9Ryn7783RDT2TretzfYdck5GMCGzXTuwKfePWQYViNs4avKpnUbrwfQ'
   ]

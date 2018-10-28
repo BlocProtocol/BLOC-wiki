@@ -30,5 +30,3 @@ Def. : "being something (such as money) of such a nature that one part or quanti
 
 ### Double spending
 Nobody is able to spend the same [BLOC](https://bloc.money) money twice — even if all his signatures are anonymous. Every signature contains a key image — a kind of fingerprint of the secret key. It is based on a one-way cryptographic function; this implies that given only the key image it is impossible to restore the corresponding secret key. These key images are used to prevent double-spending.
-
-This is the core implementation of [BLOC.MONEY](https://bloc.money). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of **BLOC** that uses the protocol and network in a compatible manner.

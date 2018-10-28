@@ -2,6 +2,11 @@
 
 The following exemples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
 
+**BLOCd Screenshot**
+
+![--help](images/BLOCd/command-line-options/BLOCd.png)
+
+
 ## Command line options:
 
 This is the command line options available since the BLOCd v3.0
@@ -77,19 +82,29 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 * Create a txt file with your favorite text editor and open it.
 * Check all your required parameters and enter them like in this exemple
+* You need to type the arguments without the '--'
+* Place this file next to BLOCd
 
 #### Exemple
 
 ```
-rpc-bind-ip=127.0.0.1
+enable-cors=*
+fee-address=abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27S3tBNEHaMkR6JhDsLt5
+fee-amount=5
+rpc-bind-ip=0.0.0.0
+enable_blockexplorer=yes
 ```
 
 **Expected results**
 
-![--help](images/BLOCd/conf.png)
+![--help](images/BLOCd/CONF.png)
+
+![--help](images/BLOCd/CONF2.png)
 
 
 ## Command line options and settings options
+
+![--help](images/BLOCd/command-line-options/help.png)
 
 This is the command line options available since the BLOCd v3.0
 

@@ -217,6 +217,14 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 
 ```
 
+### 25 Word Mnemonic Seed phrase not showing ?!
+
+![blocwallet](images/BlocWallet/backup-old.png)
+
+* You may wonder why you do not see the new 25 Word Mnemonic Seed phrase while typing `backup` your wallet ?
+* The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
+* You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
+
 ## Viewing Wallet Balance
 
 Here's a quick image of BLOCWallet in action after using the `balance` command:
@@ -478,6 +486,38 @@ Here's a quick image of BLOCWallet in action after using the `seed_restore` comm
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
 
+## Open a wallet file generated using the BLOC Wallet Desktop v2.0.2
+
+Restore your wallet file from the previous [BLOC Wallet Desktop v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
+
+* Follow the standard procedure explained on this page and launch the new BLOCWallet v3.0 Client
+
+* Copy/Paste the wallet file near the BLOCWallet:
+![blocwallet](images/BlocWallet/restore-file.png)
+
+* Open BLOCWallet
+
+![blocwallet](images/BlocWallet/restore-file-2.png)
+
+* Select Option: 1 (Open)
+* Enter the name of your wallet file without the extension. Here: MYWALLET
+* Enter the password
+
+![blocwallet](images/BlocWallet/restore-file-3.png)
+
+* Your wallet has been successfully synchronised.
+* You can trype `balance` to check the balance of your wallet
+
+![blocwallet](images/BlocWallet/restore-file-4.png)
+
+### 25 Word Mnemonic Seed phrase not showing ?!
+
+![blocwallet](images/BlocWallet/backup-old.png)
+
+* You may wonder why you do not see the new 25 Word Mnemonic Seed phrase while typing `backup` your wallet ?
+* The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
+* You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
+
 ## Other Commands
 
 To see a list of additional commands not already covered; at the menu type `advanced` or `1` and press `enter`:
@@ -526,3 +566,4 @@ To see the main menu of commands; type `help` and press `enter`:
  7	transfer                 Send BLOC to someone
 
 ```
+

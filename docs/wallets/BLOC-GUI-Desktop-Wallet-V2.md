@@ -146,3 +146,33 @@ Private view key: (this is the last 64 digits of the long key)
 Once again. **Make sure you save this details**. This are the **ONLY way to recover your wallet using the blockchain**. This is **much better than to save a wallet file** than can be corrupt with time, or not updated with new version or whatever the reason. **The keys are the ONLY sure 100% garanteed solution to recover your wallet**
 
 Now that you have this 2 keys you will be able to use your wallet with the new **BLOC v3.0**
+
+### Backup wallet file
+
+Once you have saved your wallet using the 1st method you can also save your wallet file.
+To do this:
+
+![Backup Key](images/BLOC-gui-wallet/2.0.2/backup-keys-1.png)
+
+* Select the Top menu `File`
+* Then select `Backup Wallet`
+
+This windows appears:
+
+![Backup Key](images/BLOC-gui-wallet/2.0.2/backup-keys-2.png)
+
+* Enter the name of your wallet
+* Select the folder where to save your wallet
+
+![Backup Key](images/BLOC-gui-wallet/2.0.2/backup-keys-3.png)
+
+* Your wallet file has been saved.
+
+**NOTE**: If your wallet contain a password make SURE you have saved this password somewhere. You will not be able to open a wallet file password protected if you do not know the password.
+
+**NOTE2**: Make sure you have save your wallet file using the first method aswell.
+
+**IMPORTANT** 
+
+* Your wallet file from the BLOC Desktop Wallet v2.0.2 is compatible **ONLY** with the native new command line [BLOCWallet v3.0](../wallets/Using-BLOCWallet.md)
+* You will not be able to open your wallet file with the new BLOC V3.0 Desktop Wallet.

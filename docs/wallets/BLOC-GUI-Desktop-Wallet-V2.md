@@ -176,3 +176,8 @@ This windows appears:
 
 * Your wallet file from the BLOC Desktop Wallet v2.0.2 is compatible **ONLY** with the native new command line [BLOCWallet v3.0](../wallets/Using-BLOCWallet.md)
 * You will not be able to open your wallet file with the new BLOC V3.0 Desktop Wallet.
+
+**NEXT ?**
+
+* Create a new wallet format on the BLOC V3.0
+* Open your wallet file with the new [BLOCWallet v3.0](../wallets/Using-BLOCWallet.md) command line and then transfer the BLOC.MONEY to your new abLoc address.

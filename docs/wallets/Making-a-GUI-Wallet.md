@@ -17,4 +17,4 @@ If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](
 
 Here's a quick image of BLOC Wallet for Desktop 2.0.2 in action
 
-![blocwallet](images/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)
+[![BLOC Wallet Desktop 2.0.2](images/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)](../BLOC-GUI-Desktop-Wallet-V2)

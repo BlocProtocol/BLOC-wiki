@@ -25,7 +25,7 @@ Display the help message and configuration settings.
 
 **Expected results**
 
-![--help](images/BLOCd/command-line-options.png)
+![--help](images/BLOCd/command-line-options/help.png)
 
 
 ### --version
@@ -40,7 +40,7 @@ Display the version information
 
 **Expected results**
 
-![--help](images/BLOCd/version.png)
+![--help](images/BLOCd/command-line-options/version.png)
 
 
 ### --os-version
@@ -55,7 +55,7 @@ Display the operating system version information
 
 **Expected results**
 
-![--help](images/BLOCd/os-version.png)
+![--help](images/BLOCd/command-line-options/os-version.png)
 
 
 ### --config-file arg (=BLOC.conf)
@@ -70,7 +70,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 **Expected results**
 
-![--help](images/BLOCd/os-version.png)
+![--help](images/BLOCd/command-line-options/config-file.png)
 
 
 ## How to create a configuration file .CONF
@@ -81,7 +81,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 #### Exemple
 
 ```
-./BLOCd --config-file=BLOC.conf
+rpc-bind-ip=127.0.0.1
 ```
 
 **Expected results**

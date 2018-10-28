@@ -230,22 +230,85 @@ File created next to BLOCd:
 
 ### --enable-cors arg
 
-* Adds header 'Access-Control-Allow-Origin' to the daemon's RPC responses. Uses the
+* Adds header 'Access-Control-Allow-Origin' to the daemon's RPC responses.
 * Uses the value as domain
 * Use * for all
 
 #### Exemple
 
 ```
-./BLOCd --enable-cors
+./BLOCd --enable-cors=*
+./BLOCd --enable-cors=yourdomain.com
 ```
 
 **Expected results**
 
 ![--help](images/BLOCd/command-line-options/no-console.png)
 
+**Response Headers**
+```
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 123
+Content-Type: application/json
+Server: CryptoNote-based HTTP server
+
+or
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: yourdomain.com
+Content-Length: 123
+Content-Type: application/json
+Server: CryptoNote-based HTTP server
+```
+
+### --enable_blockexplorer
+
+* To enable block explorer API access (like for getblocks, gettransactionpool, etc.)
+
+#### Exemple
+
+```
+./BLOCd --enable_blockexplorer
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/enable-bloc-explorer.png)
 
 
+### --print-genesis-tx
+
+* Prints genesis' block tx hex to insert it to config and exits
+* Use this method if you like to fork BLOC to generate a new 'GENESIS_COINBASE_TX_HEX' and create your own cryptocurrency
+* More details can be found in the CryptoNoteConfig.h
+
+#### Exemple
+
+```
+./BLOCd --print-genesis-tx
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/print-genesic-tx.png)
+
+
+### --genesis-block-reward-address arg
+
+* Premine wallet address
+* Use this method if you like to generate a premine wallet into your new created cryptocurrency
+* More details can be found in the CryptoNoteConfig.h
+
+#### Exemple
+
+```
+./BLOCd --print-genesis-tx --genesis-block-reward-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
+```
+
+**Expected results**
+
+![--help](images/BLOCd/command-line-options/genesis-block-reward-address.png)
 
 
 

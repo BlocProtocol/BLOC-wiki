@@ -74,14 +74,14 @@ Run the `BLOCd` binary extracted from the `.zip` download:
 
 Once **BLOCd** has been successfully synchronised we are ready to operate with **bloc-service**
 
-The following exemples are made using a Linux system but the concept is the same for all the OS supported by the **bloc-service**.
+The following examples are made using a Linux system but the concept is the same for all the OS supported by the **bloc-service**.
 
 bloc-service screenshot:
 
 ![--help](images/bloc-service/help.png)
 
 
-## **Command line options:**
+## **Command line options**
 
 This is the command line options available since the bloc-service v3.0
 
@@ -122,7 +122,7 @@ This is the command line options available since the bloc-service v3.0
   --scan-height arg                  The height to begin scanning a wallet from
 ```
 
-## **Remote Node options:**
+## **Remote Node options**
 
 ```
 Remote Node Options:
@@ -134,7 +134,7 @@ Remote Node Options:
 
 Display the help message and configuration settings.
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --help
@@ -149,7 +149,7 @@ Display the help message and configuration settings.
 
 Specify a configuration file to start bloc-service. This is much more simple to use if you have a particular configuration and you do not want to type all the arguments while launching bloc-service.
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --config=myconf.conf
@@ -159,7 +159,7 @@ Specify a configuration file to start bloc-service. This is much more simple to 
 
 Display the current version of bloc-service
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --version
@@ -185,7 +185,7 @@ All the following command line options and arguments must be used when start **b
 * if you want to open to public : 0.0.0.0d)
 * More details about the [JSON bloc-service API](../wallet-rpc-api.md)
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --bind-address=127.0.0.1 --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
@@ -198,7 +198,7 @@ All the following command line options and arguments must be used when start **b
 * You can change the port here for ex 8071
 * More details about the [JSON bloc-service API](../wallet-rpc-api.md)
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --bind-port=8071 --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
@@ -208,7 +208,7 @@ All the following command line options and arguments must be used when start **b
 
 Setup the rpc password to connect to bloc-service
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
@@ -219,7 +219,7 @@ Setup the rpc password to connect to bloc-service
 * Enable legacy mode (no password for RPC). 
 * **WARNING: INSECURE. USE ONLY AS A LAST RESORT.**
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-legacy-security
@@ -240,7 +240,7 @@ Setup the rpc password to connect to bloc-service
 * Generate a new container file with one wallet and exit.
 * This function works only coupled with `--container-file` and `--container-password`
 
-#### Exemple
+#### Example
 
 ```
 ./bloc-service  --container-file=mycontainer --container-password=mypassword --generate-container 
@@ -250,11 +250,147 @@ Setup the rpc password to connect to bloc-service
 
 ![generate-container](images/bloc-service/generate-container.png)
 
+### --address
+
+Start `bloc-service` to display the 1st wallet address in the container and exit
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --address
+```
+
+**Expected results**
+
+![--address](images/bloc-service/load-wallet-and-exit.png)
+
+
+### --log-level
+
+* Specify another log file than the original one created by BLOCd with a level 2
+* There is 5 different level. The higher you choose, the more details you get.
+* Log level must be 0...5
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --log-level=5
+```
+
+**Expected results**
+
+![--log-level](images/bloc-service/load-wallet-and-exit.png)
+
+
+### --log-file
+
+* Specify another log file than the original one created by BLOCd named (BLOCd.log)
+* The specified log file will be created in the same folder where BLOCd was started
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --log-file=testme.log
+```
+
+**Expected results**
+
+![--log-file](images/bloc-service/--log-file.png)
+
+
+### --SYNC_FROM_ZERO
+
+Re-synchronize the wallet from block 0.
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --SYNC_FROM_ZERO
+```
+
+**Expected results**
+
+![--SYNC_FROM_ZERO](images/bloc-service/SYNC_FROM_ZERO.png)
+
+
+### --enable-cors arg
+
+* Adds header 'Access-Control-Allow-Origin' to the bloc-service's RPC responses.
+* Uses the value as domain
+* Use * for all
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --enable-cors=*
+```
+
+**Expected results**
+
+![--SYNC_FROM_ZERO](images/bloc-service/enable-cors.png)
+
+
+### --scan-height arg
+
+The height to begin scanning for transactions at. This can greatly speed up wallet syncing time.
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --scan-height=100000
+```
+
+**Expected results**
+
+![--scan-height](images/bloc-service/scan-height.png)
+
+
+### --daemon-address arg (=127.0.0.1)
+### --daemon-port arg (=2086)
+
+Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
+
+* For local daemons use localhost or 127.0.0.1 as an IP address.
+* For remote daemons specify the remote daemon IP address.
+* Default BLOC daemon port is 2086 (for rpc calls).
+
+Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=IP.OF.YOUR.DAEMON --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword
+```
+
+**Expected results**
+
+![--remote-node](images/bloc-service/remote-node.png)
+
+
+### --daemon
+
+bloc-service RPC wallet can be started in both daemon and console modes. 
+
+* Daemon mode - **bloc-service** RPC Wallet is launched in the background, while you can continue to work with a console window. 
+* Console mode - **bloc-service** RPC Wallet is launched and prints log messages on the screen.
+* BLOC RPC wallet starts in console mode by default.
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --daemon --bind-address=0.0.0.0 --bind-port=2053 --rpc-password=RPCpassword
+```
+
+**Expected results**
+
+![--daemon](images/bloc-service/--daemon.png)
+
+
 
 ## **Create .CONF file**
 
 * Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this exemple
+* Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
 
 **Expected results**
@@ -377,7 +513,7 @@ rpc-password = RPCpassword
 If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the . [Wallet manuals available](../wallet/Making-a-Wallet.md).
 
 * Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this exemple
+* Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd
 * Save it under the name `myconf.conf`
@@ -435,7 +571,7 @@ Example:
 If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
 
 * Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this exemple
+* Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd
 * Save it under the name `mycontainer.conf`
@@ -486,30 +622,6 @@ Example:
 ![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
 
 
-### --address
-
-Start `bloc-service` to display the 1st wallet address in the container and exit
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --address
-```
-
-**Expected results**
-
-![wallet ready for bloc-service](images/bloc-service/load-wallet-and-exit.png)
-
-
-### --log-level
-
-Start `bloc-service` to display the 1st wallet address in the container and exit
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --address
-```
-
-**Expected results**
-
-![wallet ready for bloc-service](images/bloc-service/load-wallet-and-exit.png)
 
 
 

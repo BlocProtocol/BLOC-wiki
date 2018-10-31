@@ -30,7 +30,7 @@ See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daem
 
 ## **BLOCd Command line options**
 
-The following exemples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
+The following examples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
 
 BLOCd Screenshot:
 
@@ -52,7 +52,7 @@ This is the command line options available since the BLOCd v3.0
 
 Display the help message and configuration settings.
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --help
@@ -67,7 +67,7 @@ Display the help message and configuration settings.
 
 Display the version information
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --version
@@ -82,7 +82,7 @@ Display the version information
 
 Display the operating system version information
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --os-version
@@ -97,7 +97,7 @@ Display the operating system version information
 
 Specify a configuration file to start BLOCd. This is much more simple to use if you have a particular configuration and you do not want to type all the arguments while launching BLOCd.
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --config-file=BLOC.conf
@@ -111,7 +111,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 ## Create .CONF file
 
 * Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this exemple
+* Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd
 
@@ -195,7 +195,7 @@ This is the command line options available since the BLOCd v3.0
 * The data directory contains the blockchain files from BLOC.
 * Creating a new empty data directory will resynch the blockchain from 0.
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --data-dir=/home/bloc/.MYFOLDER
@@ -217,7 +217,7 @@ Remark: Make sure you have created the folder you want to use before start BLOCd
 * Specify another log file than the original one created by BLOCd named (BLOCd.log)
 * The specified log file will be created in the same folder where BLOCd was started
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --log-file=test.log
@@ -238,7 +238,7 @@ File created next to BLOCd:
 * There is 5 different level. The higher you choose, the more details you get.
 * Log level must be 0...5
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --log-level=2
@@ -255,7 +255,7 @@ File created next to BLOCd:
 * Can be usefull in case you do not want to allow anyone to run commands through the BLOCd daemon
 * As you can see on the screenshot, nothing happen when running the 'help' command
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --no-console
@@ -278,7 +278,7 @@ File created next to BLOCd:
 * Uses the value as domain
 * Use * for all
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --enable-cors=*
@@ -310,7 +310,7 @@ Server: CryptoNote-based HTTP server
 
 * To enable block explorer API access (like for getblocks, gettransactionpool, etc.)
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --enable_blockexplorer
@@ -327,7 +327,7 @@ Server: CryptoNote-based HTTP server
 * Use this method if you like to fork BLOC to generate a new 'GENESIS_COINBASE_TX_HEX' and create your own cryptocurrency
 * More details can be found in the CryptoNoteConfig.h
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --print-genesis-tx
@@ -344,7 +344,7 @@ Server: CryptoNote-based HTTP server
 * Use this method combined with the previous one if you like to generate a premine wallet into your new created cryptocurrency
 * More details can be found in the CryptoNoteConfig.h
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --print-genesis-tx --genesis-block-reward-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
@@ -360,7 +360,7 @@ Server: CryptoNote-based HTTP server
 * Use builtin default checkpoints
 * Or use checkpoint csv file for faster initial blockchain sync
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --load-checkpoints=checkpoints.csv
@@ -378,7 +378,7 @@ Server: CryptoNote-based HTTP server
 * Sets fee address for light wallets that use the daemon
 * Make sure you combine this argument with --fee-amount
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
@@ -395,7 +395,7 @@ Server: CryptoNote-based HTTP server
 * --fee-amount=1 means 0.0001 BLOC fees will be sent to the --fee-address specified
 * --fee-amount=1000 means 1 BLOC fees will be sent to the -fee-address specified
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR --fee-amount=1
@@ -415,7 +415,7 @@ Server: CryptoNote-based HTTP server
 * More details about the [HTTP RPC API](../daemon-http-rpc-api.md)
 * More details about the [JSON RPC API](../daemon-json-rpc-api.md)
 
-#### Exemple
+#### Example
 
 ```
 (Public)
@@ -438,7 +438,7 @@ Server: CryptoNote-based HTTP server
 * More details about the [HTTP RPC API](../daemon-http-rpc-api.md)
 * More details about the [JSON RPC API](../daemon-json-rpc-api.md)
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --rpc-bind-port=10000
@@ -456,7 +456,7 @@ Server: CryptoNote-based HTTP server
 * If you want to use local only : 127.0.0.1
 * if you want to open to public : 0.0.0.0
 
-#### Exemple
+#### Example
 
 ```
 (Public)
@@ -476,7 +476,7 @@ Server: CryptoNote-based HTTP server
 * Started by default on 2082 when running ./BLOCd
 * You can change this port here
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --p2p-bind-port=3000
@@ -491,7 +491,7 @@ Server: CryptoNote-based HTTP server
 
 * External port for p2p network protocol (if port forwarding used with NAT)
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --p2p-external-port=5000
@@ -506,7 +506,7 @@ Server: CryptoNote-based HTTP server
 
 * Allow local ip add to peer list, mostly in debug purposes
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --allow-local-ip
@@ -521,7 +521,7 @@ Server: CryptoNote-based HTTP server
 
 * Manually add peer to local peerlist
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --add-peer=PEER.IP.ADDRESS
@@ -532,7 +532,7 @@ Server: CryptoNote-based HTTP server
 
 * Specify list of peers to connect to and attempt to keep the connection open
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --add-priority-node=NODE.IP.ADDRESS
@@ -544,7 +544,7 @@ Server: CryptoNote-based HTTP server
 * Specify list of peers to connect to only.
 * If this option is given the options add-priority-node and seed-node are ignored
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --add-exclusive-node=NODE.IP.ADDRESS
@@ -555,7 +555,7 @@ Server: CryptoNote-based HTTP server
 
 * Connect to a node to retrieve peer addresses, and disconnect
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --seed-node=NODE.IP.ADDRESS
@@ -566,7 +566,7 @@ Server: CryptoNote-based HTTP server
 
 * Do not announce yourself as peerlist candidate
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --hide-my-port
@@ -578,7 +578,7 @@ Server: CryptoNote-based HTTP server
 * Number of background threads used for compaction and flush
 * Default is 2
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --db-threads=2
@@ -590,7 +590,7 @@ Server: CryptoNote-based HTTP server
 * Number of open files that can be used by the DB
 * Default is 100
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --db-max-open-files=100
@@ -602,7 +602,7 @@ Server: CryptoNote-based HTTP server
 * Size of data base write buffer in megabytes
 * Default is 256
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --db-write-buffer-size=256
@@ -614,7 +614,7 @@ Server: CryptoNote-based HTTP server
 * Size of data base read cache in megabytes
 * Default is 10
 
-#### Exemple
+#### Example
 
 ```
 ./BLOCd --db-read-cache-size=10

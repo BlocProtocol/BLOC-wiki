@@ -10,15 +10,15 @@ BLOC Daemon (BLOCd) is responsible for any communication with the network.
 * Connections look up
 * Transaction pool information and relaying
 
-## Source code
+## **Source code**
 
 * [Source Code](https://github.com/furiousteam/BLOC.git)
 
-## Errors
+## **Errors**
 
 * Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
-## BLOCd RPC Clients
+## **BLOCd RPC Clients**
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC  Project. This entire project uses Javascript Promises to make things fast, easy, and safe.
@@ -28,16 +28,16 @@ BLOC Daemon (BLOCd) is responsible for any communication with the network.
 See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daemon-json-rpc-api.md) for usage.
 
 
-# BLOCd Command line options
+## **BLOCd Command line options**
 
 The following exemples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
 
-**BLOCd Screenshot**
+BLOCd Screenshot:
 
 ![--help](images/BLOCd/command-line-options/BLOCd.png)
 
 
-## Command line options:
+### Command line options:
 
 This is the command line options available since the BLOCd v3.0
 

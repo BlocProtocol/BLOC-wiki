@@ -142,6 +142,7 @@ nav:
       - Home: API/index.md
       - Ressources: API/Resources.md
       - Compiling from Source: API/Compiling-from-Source.md
+      - BLOC-service commands: API/BLOC-service.md
       - BLOCd Command Line Options: API/BLOCd-Daemon-arguments.md
       - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
       - Daemon JSON RPC API: API/daemon-json-rpc-api.md

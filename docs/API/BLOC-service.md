@@ -44,6 +44,8 @@ unzip BLOC-...-linux.zip
 Here's a quick image of `BLOCd MAIN NET` in action:
 
 ![BLOCd MAIN NET](images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
+![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
+![BLOCd MAIN NET](/wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
 
 Here's a quick image of `BLOCd TEST NET` in action:
 

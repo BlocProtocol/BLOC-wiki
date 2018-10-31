@@ -43,13 +43,11 @@ unzip BLOC-...-linux.zip
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
-![BLOCd MAIN NET](images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
 ![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
-![BLOCd MAIN NET](/wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
 
 Here's a quick image of `BLOCd TEST NET` in action:
 
-![BLOCd TEST NET](images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
+![BLOCd TEST NET](../wallets/images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
 
 Running `BLOCd` will start the **BLOCd** network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
 

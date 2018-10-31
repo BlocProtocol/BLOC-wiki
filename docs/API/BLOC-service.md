@@ -290,7 +290,11 @@ rpc-password = RPCpassword
 
 ## Generate a new wallet
 
-To start using **bloc-service** you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**. To generate a new container you should run the following command:
+To start using **bloc-service** you must first generate a container.
+Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them.
+**Make sure to backup this file regularly**.
+
+To generate a new container you should run the following command:
 
 ```
 ./bloc-service --container-file=mycontainer --container-password=mypassword --generate-container 

@@ -1,7 +1,7 @@
 # What is BLOC-Service
 
 This section describes **BLOC** integration process into your service with **BLOC e-commerce** solution called **bloc-service**.
-**bloc-service** is the substitue of old **walletd** a HTTP server which provides JSON 2.0 RPC interface for **BLOC** payment operations and address management. **bloc-service** allows you to accept incoming payments, generate an address for each user via a robust API and much more features explained as follow.
+bloc-service is the substitue of old **walletd** a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management. **bloc-service** allows you to accept incoming payments, generate an address for each user via a robust API and much more features explained as follow.
 
 ## **Getting ready**
 
@@ -9,7 +9,7 @@ To start integration process you should follow this easy steps:
 
 ## **Downloading**
 
-If you wish to compile **bloc-service** and **BLOCd** yourself you can download the [Source Code](https://github.com/furiousteam/BLOC.git)
+If you wish to compile **bloc-service** and **BLOCd** yourself you can download the [source Code](https://github.com/furiousteam/BLOC.git).
 
 Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
 
@@ -19,11 +19,11 @@ Binaries are provided in `.zip` format, while source code is provided in `.zip` 
 
 ## **Installing**
 
-### **Installing on Windows**
+### Installing on Windows
 
 Extract the *.zip* file (`BLOC-...-windows.zip`).
 
-### **Installing on Mac**
+### Installing on Mac
 
 Extract the *.zip* file:
 
@@ -31,7 +31,7 @@ Extract the *.zip* file:
 unzip BLOC-...-mac.zip
 ```
 
-### **Installing on Linux**
+### Installing on Linux
 
 Extract the *.zip* file:
 
@@ -53,15 +53,15 @@ Running `BLOCd` will start the **BLOCd** network daemon, which will connect to t
 
 Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
 
-### **Using Checkpoints**
+### Using Checkpoints
 
 You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
 
-### **Windows**
+### Windows
 
 Run the `BLOCd.exe` executable extracted from the Windows binary zip:
 
-### **Mac / Linux**
+### Mac / Linux
 
 Run the `BLOCd` binary extracted from the `.zip` download:
 

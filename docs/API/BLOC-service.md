@@ -279,7 +279,7 @@ Start `bloc-service` to display the 1st wallet address in the container and exit
 
 **Expected results**
 
-![--log-level](images/bloc-service/load-wallet-and-exit.png)
+![--log-level](images/bloc-service/--log-level.png)
 
 
 ### --log-file
@@ -327,7 +327,7 @@ Re-synchronize the wallet from block 0.
 
 **Expected results**
 
-![--SYNC_FROM_ZERO](images/bloc-service/enable-cors.png)
+![--enable-cors](images/bloc-service/--enable-cors.png)
 
 
 ### --scan-height arg
@@ -342,7 +342,7 @@ The height to begin scanning for transactions at. This can greatly speed up wall
 
 **Expected results**
 
-![--scan-height](images/bloc-service/scan-height.png)
+![--scan-height](images/bloc-service/--scan-height.png)
 
 
 ### --daemon-address arg (=127.0.0.1)

@@ -151,6 +151,12 @@ Use the following command to start **bloc-service** RPC Wallet with a remote con
 
 **Expected results**
 
+```
+You have connected to a node that charges a fee to send transactions.
+The fee for sending transactions is: 0.0005 BLOC per transaction. 
+If you don't want to pay the node fee, please relaunch BLOCWallet and specify a different node or run your own.
+```
+
 ![--remote-node](images/bloc-service/remote-node.png)
 
 

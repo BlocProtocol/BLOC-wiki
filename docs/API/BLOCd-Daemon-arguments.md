@@ -32,6 +32,59 @@ See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daem
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
 
+```
+Command line options and settings options:
+  --data-dir arg (=/home/bloc/.BLOC)  Specify data directory
+  --log-file arg
+  --log-level arg (=2)
+  --no-console                        Disable daemon console commands
+  --testnet                           Used to deploy test nets. Checkpoints and
+                                      hardcoded seeds are ignored, network id 
+                                      is changed. Use it with --data-dir flag. 
+                                      The wallet must be launched with 
+                                      --testnet flag.
+  --enable-cors arg                   Adds header 'Access-Control-Allow-Origin'
+                                      to the daemon's RPC responses. Uses the 
+                                      value as domain. Use * for all
+  --enable_blockexplorer              Enable blockchain explorer RPC
+  --print-genesis-tx                  Prints genesis' block tx hex to insert it
+                                      to config and exits
+  --genesis-block-reward-address arg
+  --load-checkpoints arg (=default)   <default|filename> Use builtin default 
+                                      checkpoints or checkpoint csv file for 
+                                      faster initial blockchain sync
+  --fee-address arg                   Sets fee address for light wallets that 
+                                      use the daemon.
+  --fee-amount arg (=0)               Sets the fee amount for the light wallets
+                                      that use the daemon.
+  --rpc-bind-ip arg (=127.0.0.1)      Interface for RPC service
+  --rpc-bind-port arg (=2086)         Port for RPC service
+  --p2p-bind-ip arg (=0.0.0.0)        Interface for p2p network protocol
+  --p2p-bind-port arg (=2082)         Port for p2p network protocol
+  --p2p-external-port arg (=0)        External port for p2p network protocol 
+                                      (if port forwarding used with NAT)
+  --allow-local-ip                    Allow local ip add to peer list, mostly 
+                                      in debug purposes
+  --add-peer arg                      Manually add peer to local peerlist
+  --add-priority-node arg             Specify list of peers to connect to and 
+                                      attempt to keep the connection open
+  --add-exclusive-node arg            Specify list of peers to connect to only.
+                                      If this option is given the options 
+                                      add-priority-node and seed-node are 
+                                      ignored
+  --seed-node arg                     Connect to a node to retrieve peer 
+                                      addresses, and disconnect
+  --hide-my-port                      Do not announce yourself as peerlist 
+                                      candidate
+  --db-threads arg (=2)               Nuber of background threads used for 
+                                      compaction and flush
+  --db-max-open-files arg (=100)      Number of open files that can be used by 
+                                      the DB
+  --db-write-buffer-size arg (=256)   Size of data base write buffer in 
+                                      megabytes
+  --db-read-cache-size arg (=10)      Size of data base read cache in megabytes
+```
+
 BLOCd Screenshot:
 
 ![--help](images/BLOCd/command-line-options/BLOCd.png)

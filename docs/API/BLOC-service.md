@@ -58,17 +58,19 @@ Because the blockchain is constantly growing, the file size always increases (th
 
 You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
 
-### Windows
+## **Errors**
 
-Run the `BLOCd.exe` executable extracted from the Windows binary zip:
+* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
-### Mac / Linux
+## **bloc-service RPC Clients**
 
-Run the `BLOCd` binary extracted from the `.zip` download:
+* [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the bloc-service RPC interface.
+* [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC Project. This entire project uses Javascript Promises to make things fast, easy, and safe.
+* [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOC RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
+* [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
 
-```bash
-./BLOCd
-```
+See [bloc-service RPC API](wallet-rpc-api.md) for usage.
+
 
 ## **Ready to work with bloc-service**
 
@@ -129,6 +131,30 @@ Remote Node Options:
   --daemon-address arg (=localhost)  daemon address
   --daemon-port arg (=2086)          daemon port
 ```
+
+### --daemon-address arg (=127.0.0.1)
+### --daemon-port arg (=2086)
+
+Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
+
+* For local daemons use localhost or 127.0.0.1 as an IP address.
+* For remote daemons specify the remote daemon IP address.
+* Default BLOC daemon port is 2086 (for rpc calls).
+
+Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=IP.OF.YOUR.DAEMON --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword
+```
+
+**Expected results**
+
+![--remote-node](images/bloc-service/remote-node.png)
+
+
+## **Command line Options**
 
 ### --help
 
@@ -343,28 +369,6 @@ The height to begin scanning for transactions at. This can greatly speed up wall
 **Expected results**
 
 ![--scan-height](images/bloc-service/--scan-height.png)
-
-
-### --daemon-address arg (=127.0.0.1)
-### --daemon-port arg (=2086)
-
-Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
-
-* For local daemons use localhost or 127.0.0.1 as an IP address.
-* For remote daemons specify the remote daemon IP address.
-* Default BLOC daemon port is 2086 (for rpc calls).
-
-Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
-
-**Example**
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=IP.OF.YOUR.DAEMON --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword
-```
-
-**Expected results**
-
-![--remote-node](images/bloc-service/remote-node.png)
 
 
 ### --daemon

@@ -52,11 +52,11 @@ Here's a quick image of `BLOCd TEST NET` in action:
 
 Running `BLOCd` will start the **BLOCd** network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
 
-Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
+Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../BLOC-servic#remote-node-options). 
 
 ### Using Checkpoints
 
-You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
+You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../API/Using-checkpoints-for-BLOCd.md) to learn more.
 
 ## **Errors**
 

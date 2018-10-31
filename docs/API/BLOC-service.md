@@ -169,10 +169,17 @@ Display the current version of bloc-service
 ![--help](images/bloc-service/--version.png)
 
 
+## Command line arguments
+
+All the following command line options and arguments must be used when start **bloc-service**
+
+* You can use them directly in the command line and provided examples
+* Or you can use them in the config file which is the best option
+
 ### --bind-address arg (=127.0.0.1)
 
 * Interface for bloc-service RPC
-* Started by default on 127.0.0.1 when running `./bloc-service --config=mycontainer.conf`
+* Started by default on 127.0.0.1 when running either you specified it `./bloc-service --config=myconf.conf`
 * If you want to use local only : 127.0.0.1
 * if you want to open to public : 0.0.0.0d)
 * More details about the [JSON bloc-service API](../wallet-rpc-api.md)
@@ -180,20 +187,20 @@ Display the current version of bloc-service
 #### Exemple
 
 ```
-./bloc-service --config=mycontainer.conf --bind-address=127.0.0.1
+./bloc-service --bind-address=127.0.0.1 --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
 ```
 
 ### --bind-port arg (=8070)
 
 * Port for bloc-service RPC
-* Started by default on 8070 when running `./bloc-service --config=mycontainer.conf`
-* You can change the port here
+* Started by default on 8070 when running either you specified it `./bloc-service --config=myconf.conf`
+* You can change the port here for ex 8071
 * More details about the [JSON bloc-service API](../wallet-rpc-api.md)
 
 #### Exemple
 
 ```
-./bloc-service --config=mycontainer.conf --bind-port=8070
+./bloc-service --bind-port=8071 --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
 ```
 
 ### --rpc-password
@@ -203,7 +210,7 @@ Setup the rpc password to connect to bloc-service
 #### Exemple
 
 ```
-./bloc-service --config=mycontainer.conf --rpc-password=RPCpassword
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
 ```
 
 ### --rpc-legacy-security arg (=8070)
@@ -214,7 +221,7 @@ Setup the rpc password to connect to bloc-service
 #### Exemple
 
 ```
-./bloc-service --config=mycontainer.conf --rpc-legacy-security
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-legacy-security
 ```
 
 ### --container-file=(arg)
@@ -248,12 +255,10 @@ Setup the rpc password to connect to bloc-service
 * Create a txt file with your favorite text editor and open it.
 * Check all your required parameters and enter them like in this exemple
 * You need to type the arguments without the '--'
-* Place this file next to BLOCd
-* Save it under the name `mycontainer.conf`
 
 **Expected results**
 
-![conf](images/bloc-service/conf.png)
+![conf](images/bloc-service/myconf.png)
 
 #### Example
 
@@ -263,10 +268,14 @@ container-password = mypassword
 daemon-address = 127.0.0.1
 daemon-port = 2086
 bind-port = 8070
-bind-address = 0.0.0.0
+bind-address = 127.0.0.1
 rpc-password = RPCpassword
 ```
-![Download Example](images/bloc-service/mycontainer.conf)
+
+[Download Example](images/bloc-service/myconf.conf)
+
+* Place this file next to BLOCd
+* Save it under the name `myconf.conf`
 
 **Expected results**
 
@@ -307,19 +316,24 @@ If the operation was successful you will get a corresponding message with your n
 * The command below launches **bloc-service** RPC Wallet with a specific config file:
 
 ```
-./bloc-service --config=mycontainer.conf
+./bloc-service --config=myconf.conf
 ```
 
-* You may specify BLOC config directly through console arguments. Here is the same example as above in console: 
+* You may specify BLOC config directly through console arguments. Here is the same config file as above in console: 
 
 ```
-./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=127.0.0.1 --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword 
+./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=127.0.0.1 --daemon-port=2086 --bind-address=127.0.0.1 --bind-port=8070 --rpc-password=RPCpassword 
 ```
 
 **Expected results**
 
+Start with command line:
+
 ![start bloc-service](images/bloc-service/start.png)
 
+Start with myconf.conf:
+
+![start bloc-service](images/bloc-service/start-conf.png)
 
 ## Restore a existing BLOC wallet with bloc-service
 
@@ -332,6 +346,7 @@ If you were using Walletd that come with the previous version of BLOC, the previ
 * Copy the your previous configuration file `yourfile.conf` and copy the acual container file `mycontainer`
 * Paste this 2 files next to the new `bloc-service` and `BLOCd`
 * Open `yourfile.conf` 
+* Make sure you remove this line `testnet = no` we are not using this field anymore
 * Edit like this:
 
 ```
@@ -339,12 +354,14 @@ container-file = mycontainer
 container-password = mypassword
 daemon-port = 2086
 bind-port = 8070
-bind-address = 0.0.0.0
+bind-address = 127.0.0.1
 rpc-password = RPCpassword
 ```
 * Save the file
 * Start `bloc-service` using this configuration file
-* Your wallet and sub-wallets are now restored
+* ```./bloc-service --config=myconf.conf```
+* Please wait until the synchronisation is complete
+* Your wallet is ready to be used with the **bloc-service** RPC API.
 
 **Expected results**
 
@@ -359,14 +376,14 @@ If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know 
 * Check all your required parameters and enter them like in this exemple
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd
-* Save it under the name `mycontainer.conf`
+* Save it under the name `myconf.conf`
 
 ```
 container-file = mycontainer
 container-password = mypassword
 daemon-port = 2086
 bind-port = 8070
-bind-address = 0.0.0.0
+bind-address = 127.0.0.1
 rpc-password = RPCpassword
 ```
 * Save the file
@@ -392,16 +409,22 @@ Example:
 * Start `bloc-service` using your configuration file
 
 ```
-./bloc-service --config=mycontainer.conf
+./bloc-service --config=myconf.conf
 ```
 
 * Your wallet is now loaded
 * Please wait until the synchronisation is complete
+
+**Expected results**
+
+![wallet loading after restore private key](images/bloc-service/wallet-loading-after-restore-private-key.png)
+
+
 * Your wallet is ready to be used with the **bloc-service** RPC API.
 
 **Expected results**
 
-![wallet ready for bloc-service](images/bloc-service/wallet-ready-bloc-service-restore-prviate-keys.png)
+![wallet ready after restore private key](images/bloc-service/wallet-ready-after-restore-prviate-keys.png)
 
 
 ### Using your mnemonic-seed
@@ -445,7 +468,7 @@ Example:
 * Start `bloc-service` using your configuration file
 
 ```
-./bloc-service --config=mycontainer.conf
+./bloc-service --config=myconf.conf
 ```
 * Your wallet is now loaded
 * Please wait until the synchronisation is complete
@@ -466,7 +489,7 @@ Example:
 Start `bloc-service` to display the 1st wallet address in the container and exit
 
 ```
-./bloc-service --container-file=mycontainer --container-password=mypassword --address --rpc-password=RPCpassword
+./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword --address
 ```
 
 **Expected results**

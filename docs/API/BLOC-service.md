@@ -229,12 +229,12 @@ Setup the rpc password to connect to bloc-service
 * Container file is the only file that stores all data required to run your bloc-service. It contains user addresses and private keys required to operate them.
 * This function works only coupled with `--container-password` and `--generate-container`
 
-**### --container-password=(arg)**
+### --container-password=(arg)
 
 * Container password file is the only file that stores all data required to run your bloc-service. It contains user addresses and private keys required to operate them.
 * This function works only coupled with `--container-file` and `--generate-container`
 
-**### --generate-container**
+### --generate-container
 
 * Generate a new container file with one wallet and exit.
 * This function works only coupled with `--container-file` and `--container-password`
@@ -250,7 +250,7 @@ Setup the rpc password to connect to bloc-service
 ![generate-container](images/bloc-service/generate-container.png)
 
 
-**## Create .CONF file**
+## **Create .CONF file**
 
 * Create a txt file with your favorite text editor and open it.
 * Check all your required parameters and enter them like in this exemple
@@ -281,14 +281,14 @@ rpc-password = RPCpassword
 
 ![conf](images/bloc-service/CONF2.png)
 
-#### Notes
+**Notes**
 
 * Config file path is relative to current working directory, not server root.
 * Options `container-file` and `container-password` should ALWAYS be set (in either command line or config file mode).
 * Options `container-file` and `log-file` options are relative to `server-root`. `server-root` default is the current working directory.
 
 
-**## Generate a new wallet**
+## **Generate a new wallet**
 
 To start using **bloc-service** you must first generate a container.
 Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them.
@@ -313,7 +313,7 @@ To generate a new container you should run the following command:
 If the operation was successful you will get a corresponding message with your new **BLOC** address. At the same time **bloc-service** will save your container on the local disk (in the same folder where **bloc-service** is located and shut down.
 
 
-**## Start** **bloc-service**
+## **Start bloc-service**
 
 * To start **bloc-service** RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use `--config` option further.
 * The command below launches **bloc-service** RPC Wallet with a specific config file:
@@ -338,7 +338,7 @@ Start with myconf.conf:
 
 ![start bloc-service](images/bloc-service/start-conf.png)
 
-## Restore a existing BLOC wallet with bloc-service##
+## **Restore a existing BLOC wallet with bloc-service**##
 
 We have different option to recover a wallet using **bloc-service**
 
@@ -407,7 +407,6 @@ Example:
 
 ![start bloc-service](images/bloc-service/restore-using-private-keys.png)
 
-#### Start bloc-service
 
 * Start `bloc-service` using your configuration file
 
@@ -466,7 +465,6 @@ Example:
 
 ![start bloc-service](images/bloc-service/restore-using-mnemonic-seed.png)
 
-#### Start bloc-service
 
 * Start `bloc-service` using your configuration file
 
@@ -487,7 +485,7 @@ Example:
 ![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
 
 
-#### Load wallet and exit
+### Load wallet and exit
 
 Start `bloc-service` to display the 1st wallet address in the container and exit
 

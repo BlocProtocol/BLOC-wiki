@@ -17,7 +17,7 @@ Select the appropriate file for the target platform (Windows, Mac, Linux).
 
 Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
 
-**## Installing**
+## **Installing**
 
 ### Installing on Windows
 
@@ -39,7 +39,7 @@ Extract the *.zip* file:
 unzip BLOC-...-linux.zip
 ```
 
-**## Synchronizing the Blockchain**
+## **Synchronizing the Blockchain**
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
@@ -69,7 +69,7 @@ Run the `BLOCd` binary extracted from the `.zip` download:
 ./BLOCd
 ```
 
-**## Ready to work with bloc-service**
+## **Ready to work with bloc-service**
 
 Once **BLOCd** has been successfully synchronised we are ready to operate with **bloc-service**
 
@@ -80,7 +80,7 @@ The following exemples are made using a Linux system but the concept is the same
 ![--help](images/bloc-service/help.png)
 
 
-**## Command line options:**
+## **Command line options:**
 
 This is the command line options available since the bloc-service v3.0
 
@@ -121,7 +121,7 @@ This is the command line options available since the bloc-service v3.0
   --scan-height arg                  The height to begin scanning a wallet from
 ```
 
-**## Remote Node options:**
+## **Remote Node options:**
 
 ```
 Remote Node Options:
@@ -169,14 +169,14 @@ Display the current version of bloc-service
 ![--help](images/bloc-service/--version.png)
 
 
-**## Command line arguments**
+## **Command line arguments**
 
 All the following command line options and arguments must be used when start **bloc-service**
 
 * You can use them directly in the command line and provided examples
 * Or you can use them in the config file which is the best option
 
-**### --bind-address arg (=127.0.0.1)**
+### --bind-address arg (=127.0.0.1)**
 
 * Interface for bloc-service RPC
 * Started by default on 127.0.0.1 when running either you specified it `./bloc-service --config=myconf.conf`
@@ -203,7 +203,7 @@ All the following command line options and arguments must be used when start **b
 ./bloc-service --bind-port=8071 --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
 ```
 
-**### --rpc-password**
+### --rpc-password
 
 Setup the rpc password to connect to bloc-service
 
@@ -213,7 +213,7 @@ Setup the rpc password to connect to bloc-service
 ./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-password=RPCpassword
 ```
 
-**### --rpc-legacy-security arg (=8070)**
+### --rpc-legacy-security arg (=8070)
 
 * Enable legacy mode (no password for RPC). 
 * **WARNING: INSECURE. USE ONLY AS A LAST RESORT.**
@@ -224,7 +224,7 @@ Setup the rpc password to connect to bloc-service
 ./bloc-service --container-file=mycontainer --container-password=mypassword --rpc-legacy-security
 ```
 
-**### --container-file=(arg)**
+### --container-file=(arg)
 
 * Container file is the only file that stores all data required to run your bloc-service. It contains user addresses and private keys required to operate them.
 * This function works only coupled with `--container-password` and `--generate-container`

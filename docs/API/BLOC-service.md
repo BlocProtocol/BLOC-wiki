@@ -19,11 +19,11 @@ Binaries are provided in `.zip` format, while source code is provided in `.zip` 
 
 ## **Installing**
 
-### Installing on Windows
+### **Installing on Windows**
 
 Extract the *.zip* file (`BLOC-...-windows.zip`).
 
-### Installing on Mac
+### **Installing on Mac**
 
 Extract the *.zip* file:
 
@@ -31,7 +31,7 @@ Extract the *.zip* file:
 unzip BLOC-...-mac.zip
 ```
 
-### Installing on Linux
+### **Installing on Linux**
 
 Extract the *.zip* file:
 
@@ -53,15 +53,15 @@ Running `BLOCd` will start the **BLOCd** network daemon, which will connect to t
 
 Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
 
-### Using Checkpoints
+### **Using Checkpoints**
 
 You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints) to learn more.
 
-### Windows
+### **Windows**
 
 Run the `BLOCd.exe` executable extracted from the Windows binary zip:
 
-### Mac / Linux
+### **Mac / Linux**
 
 Run the `BLOCd` binary extracted from the `.zip` download:
 

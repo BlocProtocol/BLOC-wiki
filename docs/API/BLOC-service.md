@@ -3,11 +3,11 @@
 This section describes **BLOC** integration process into your service with **BLOC e-commerce** solution called **bloc-service**.
 **bloc-service** is the substitue of old **walletd** a HTTP server which provides JSON 2.0 RPC interface for **BLOC** payment operations and address management. **bloc-service** allows you to accept incoming payments, generate an address for each user via a robust API and much more features explained as follow.
 
-**## Getting ready**
+## **Getting ready**
 
 To start integration process you should follow this easy steps:
 
-**## Downloading**
+## **Downloading**
 
 If you wish to compile **bloc-service** and **BLOCd** yourself you can download the [Source Code](https://github.com/furiousteam/BLOC.git)
 
@@ -338,12 +338,11 @@ Start with myconf.conf:
 
 ![start bloc-service](images/bloc-service/start-conf.png)
 
-
-**## Restore a existing BLOC wallet with bloc-service##**
+## Restore a existing BLOC wallet with bloc-service##
 
 We have different option to recover a wallet using **bloc-service**
 
-**### Using a old Walletd container file**
+### Using a old Walletd container file
 
 If you were using Walletd that come with the previous version of BLOC, the previous container file is compatible with the new version. This is the step to follow:
 
@@ -361,7 +360,6 @@ bind-port = 8070
 bind-address = 127.0.0.1
 rpc-password = RPCpassword
 ```
-
 * Save the file
 * Start `bloc-service` using this configuration file
 * ```./bloc-service --config=myconf.conf```
@@ -373,7 +371,7 @@ rpc-password = RPCpassword
 ![start bloc-service](images/bloc-service/restore-old-wallet-file.png)
 
 
-**### Using your private spend key and view key**
+### Using your private spend key and view key
 
 If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the . [Wallet manuals available](../wallet/Making-a-Wallet.md).
 
@@ -409,6 +407,8 @@ Example:
 
 ![start bloc-service](images/bloc-service/restore-using-private-keys.png)
 
+#### Start bloc-service
+
 * Start `bloc-service` using your configuration file
 
 ```
@@ -430,7 +430,7 @@ Example:
 ![wallet ready after restore private key](images/bloc-service/wallet-ready-after-restore-prviate-keys.png)
 
 
-**### Using your mnemonic-seed**
+### Using your mnemonic-seed
 
 If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
 
@@ -466,6 +466,8 @@ Example:
 
 ![start bloc-service](images/bloc-service/restore-using-mnemonic-seed.png)
 
+#### Start bloc-service
+
 * Start `bloc-service` using your configuration file
 
 ```
@@ -485,7 +487,7 @@ Example:
 ![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
 
 
-**## Load wallet and exit**
+#### Load wallet and exit
 
 Start `bloc-service` to display the 1st wallet address in the container and exit
 

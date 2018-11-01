@@ -138,6 +138,7 @@ Open an existing wallet file **created by BLOCWallet v3.0**. BLOCWallet v3.0 als
 
 * .wallet file created by the [BLOC Desktop Wallet & Mining Client v2](../Using-BLOCWallet#bloc-desktop-2.0.2)
 * .wallet file created by the previous BLOC Simple Wallet v2
+* Place the .wallet file near BLOCWallet and open it.
 
 Here's a quick image of BLOCWallet in action after have successfully `open a wallet`:
 
@@ -216,7 +217,7 @@ Here's a quick image of BLOCWallet in action after using the `backup` command:
 **DO NOT SHARE IT WITH ANYONE**. **Anyone who has these can *access your funds* and has *complete control* over your wallet.**
 
 To print your keys; at the menu type `backup` or `4`and press `enter`.
-The *View Key* and *Spend Key* will appear. Copy them and store them `safely and securely`.
+The *View Key* , *Spend Key* and *Mnemonic Seed*  will appear. Copy them and store them `safely and securely`.
 
 ```
 [BLOC JENNY]: backup
@@ -284,8 +285,8 @@ Depending on the amount you transfer, you may need to wait a while for confirmat
 
 ## **optimize** your Wallet
 
-Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
-It is strongly recommended to optimize your wallet, specially if you are mining BLOC and receiving a lot of small transactions.
+* Optimizing your wallet consists to create Fusion transactions.
+* Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once! It is strongly recommended to optimize your wallet, specially if you are mining BLOC and receiving a lot of small transactions.
 
 Here's a quick image of BLOCWallet in action after using the `optimize` command:
 
@@ -640,7 +641,7 @@ Use this option to display all your contacts present into your BLOCWallet addres
 
 Here's a quick image of BLOCWallet in action after have successfully typed `ab_list`:
 
-![blocwallet](images/BlocWallet/ab_delete.png)
+![blocwallet](images/BlocWallet/ab_list.png)
 
 To delete a person from your address book; at the menu, type `ab_list` or `10` and press `enter`.
 

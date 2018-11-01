@@ -1,20 +1,18 @@
 # Using BLOCWallet Cli
 
-The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
+The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
 Here's a quick image of `BLOCWallet` in action:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
 
-## Downloading
+## **Downloading**
 
-Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
+* Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
+* Select the appropriate file for the target platform (Windows, Mac, Linux).
+* Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
 
-Select the appropriate file for the target platform (Windows, Mac, Linux).
-
-Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
-
-## Installing
+## **Installing**
 
 ### Installing on Windows
 
@@ -36,7 +34,7 @@ Extract the *.zip* file:
 unzip BLOC-...-linux.zip
 ```
 
-## Synchronizing the Blockchain
+## **Synchronizing the Blockchain**
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
@@ -50,7 +48,7 @@ Running `BLOCd` will start the *BLOCd* network daemon, which will connect to the
 
 Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and *BLOCd must verify every block*, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../Using-remote-nodes). 
 
-## Using Checkpoints
+## **Using Checkpoints**
 
 You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints-for-BLOCd.md) to learn more.
 
@@ -66,7 +64,7 @@ Run the `BLOCd` binary extracted from the `.zip` download:
 ./BLOCd
 ```
 
-## Using BLOCWallet
+## **Using BLOCWallet**
 
 With `BLOCd` still running in the background or another terminal/shell/command prompt, open BLOCWallet:
 
@@ -80,11 +78,14 @@ Run the `BLOCWallet.exe` executable from the extracted folder.
 ./BLOCWallet
 ```
 
-## Using BLOCWallet commands
+## **Using BLOCWallet commands**
 
-BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly.  The more you use BLOCWallet the more typed commands you'll pick up.  This guide is written using the written commnand system.  Feel free to use the numbers associated with the command.
+BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly. The more you use BLOCWallet the more typed commands you'll pick up. This guide is written using the written commnand system. Feel free to use the numbers associated with the command.
 
-## Creating a Wallet
+## **Creating a Wallet**
+
+Create your personnal BLOC Wallet address with Private spend key, Private view key and Mnemonic seed. Everything you need to control your money.
+Make sure you save this data because if you lose these keys your wallet cannot be recreated!
 
 Here's a quick image of BLOCWallet in action after have successfully `created a wallet`:
 
@@ -128,7 +129,12 @@ Use the status command to check the progress.
 [BLOC JENNY]: 
 
 ```
-## Opening a Wallet
+## **Opening a Wallet**
+
+Open an existing wallet file **created by BLOCWallet v3.0**. BLOCWallet also supports the following :
+
+* .wallet file created by the [BLOC Desktop Wallet & Mining Client v2](../BLOC-GUI-Desktop-Wallet-V2.md)
+* .wallet file created by the BLOC Simple Wallet v2
 
 Here's a quick image of BLOCWallet in action after have successfully `open a wallet`:
 
@@ -174,7 +180,12 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
-## Viewing Wallet Address
+## **Viewing Wallet Address**
+
+Display the BLOC address used by this wallet.
+
+* MAIN NET BLOC address start with `abLoc`
+* TEST NET BLOC address start with `TbLoc`
 
 Here's a quick image of BLOCWallet in action after have successfully typed `address`:
 
@@ -188,16 +199,16 @@ abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27
 [BLOC JENNY]: 
 ```
 
-## Exporting Keys
+## **Exporting Keys**
+
+Each BLOC wallet is essentially, just a pair of keys (*View Key* and *Spend Key*) from which the public address is derived.
+It is **very** important to export these keys and back them up somewhere that is safe and secure (meaning somewhere reliable/permanent that no one else can access).
+
+In the event of a lost or corrupted wallet file, computer crash, etc., the *View Key* and *Spend Key* are the only way to restore a wallet and recover the funds it holds.
 
 Here's a quick image of BLOCWallet in action after using the `backup` command:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_backup.png)
-
-Each BLOC  wallet is essentially, just a pair of keys (*View Key* and *Spend Key*) from which the public address is derived.
-It is **very** important to export these keys and back them up somewhere that is safe and secure (meaning somewhere reliable/permanent that no one else can access).
-
-In the event of a lost or corrupted wallet file, computer crash, etc., the *View Key* and *Spend Key* are the only way to restore a wallet and recover the funds it holds.
 
 **DO NOT SHARE IT WITH ANYONE**. **Anyone who has these can *access your funds* and has *complete control* over your wallet.**
 
@@ -227,7 +238,11 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 * The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
 * You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
 
-## Viewing Wallet Balance
+## **Viewing Wallet Balance**
+
+* Available balance is the funds that are available for transactions.
+* Locked amount shows the funds that are not yet available (unconfirmed transactions, the coins you've mined, time-locked transaction)
+* Total
 
 Here's a quick image of BLOCWallet in action after using the `balance` command:
 
@@ -243,7 +258,9 @@ Total balance: 1.0000 BLOC
 [BLOC JENNY]:
 ```
 
-## Sending BLOC Transactions<a name="tx-bloc"></a>
+## **Sending BLOC Transactions**<a name="tx-bloc"></a>
+
+Send funds from your wallet to your friends, family or for business.
 
 Here's a quick image of BLOCWallet in action after using the `transfer` command:
 
@@ -252,19 +269,12 @@ Here's a quick image of BLOCWallet in action after using the `transfer` command:
 To send BLOC at the BLOCWallet menu:
 
 - Type: `transfer` or `7` and press `enter`
-
 - Type/paste the address you want to send the BLOC to and press `enter`
-
 - Type the amount of BLOC you want to send (like `0.5`) and press `enter`
-
 - Press `enter` to use the default fee of 0.0001 BLOC (or set it higher if you're sending a large amount of BLOC)
-
 - Enter the payment ID if the recipient has provided one. Check the [payment ID section](#tx-bloc-p-id) if you're not sure when/how to use it
-
 - If you make a mistake or need to stop the transaction, type `cancel` at any time
-
 - Confirm that the details are correct and enter `y`. If something is amiss, enter `n` and follow the steps again
-
 - Enter your password
 
 Depending on the amount you transfer, you may need to wait a while for confirmation.  If you have had too many small incoming transactions, or the amount you wish to send is too large; either break up your transfer into several smaller amounts, or optimise your wallet.

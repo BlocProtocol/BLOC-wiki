@@ -12,7 +12,9 @@ Also known as your address or wallet address . An example address looks like thi
 
 ## Payment id
 
-When someone sends you funds, they can specify a payment ID of their or your choice. Because BLOC's privacy protections usually prevent you from knowing the source of funds that you receive, the payment ID can be used by the sender to identify themselves to you.
+When someone sends you funds, they can specify a payment ID of their or your choice. Because BLOC's privacy protections usually prevent you from knowing the source of funds that you receive, the payment ID can be used by the sender to identify themselves to you. The payment ID must contain a 64 HEX string. You can use this website to generate a custom [64 HEX payement ID](https://www.browserling.com/tools/random-hex)
+
+* Example: 4126541177d951210fa7d8f8bfabcd76b3a839724248f1b3404e5785fa506e62
 
 ## Integrated payment address
 

@@ -1,14 +1,17 @@
 # Using BLOCWallet Cli
 
-The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
+The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface.
 
-Here's a quick image of `BLOCWallet` in action:
+However, it is currently the **most stable** and **gets the newest updates first**.
+
+Here's a quick image of [BLOCWallet](https://bloc.money/download)
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
 
 ## **Downloading**
 
-* Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
+* Binary distributions can be found: [GitHub](https://github.com/furiousteam/BLOC/releases/latest).
+* Also available on our [Website](https://bloc.money/download).
 * Select the appropriate file for the target platform (Windows, Mac, Linux).
 * Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
 
@@ -80,7 +83,7 @@ Run the `BLOCWallet.exe` executable from the extracted folder.
 
 ## **Using BLOCWallet commands**
 
-BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly. The more you use BLOCWallet the more typed commands you'll pick up. This guide is written using the written commnand system. Feel free to use the numbers associated with the command.
+**BLOCWallet has a twin command system**; a *numerical shortcut* for navigating the menu, and *typed commands* you can access directly. The more you use BLOCWallet the more typed commands you'll pick up. This guide is written using the written commnand system. Feel free to use the numbers associated with the command.
 
 ## **Create** a Wallet
 
@@ -712,10 +715,10 @@ Your password has been changed!
 
 ## **make_integrated_address** from your wallet
 
-Integrated address is just your normal address with some extra data bundled with it (the 64-bit payment ID). To make it easier for other people to send you funds with a payment ID that you require, you can generate an integrated address to send to them which contains both your public address and the payment ID you request them to use. Read more about the [Integrated Address](../Glossary.md#integrated-address)
+Integrated address is just your normal address with some extra data bundled with it (the 64-bit payment ID). To make it easier for other people to send you funds with a payment ID that you require, you can generate an integrated address to send to them which contains both your public address and the payment ID you request them to use. Read more about the [Integrated Address](../guides/Glossary.md#integrated-address)
 
 Before you generate your integrated address you need to copy your BLOC address that will be used to bundle the payment ID.
-You also need to generate a payment id of your choice of you can use [Payement ID](../Glossary.md#payment-id)
+You also need to generate a payment id of your choice of you can use [Payement ID](../guides/Glossary.md#payment-id)
 
 Here's a quick image of BLOCWallet in action after have successfully typed `make_integrated_address`:
 

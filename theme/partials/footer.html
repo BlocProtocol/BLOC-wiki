@@ -1,72 +1,82 @@
-{% import "partials/language.html" as lang with context %}
-<footer class="md-footer">
-  {% if page.previous_page or page.next_page %}
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        {% if page.previous_page %}
-          <a href="{{ page.previous_page.url }}" title="{{ page.previous_page.title }}" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  {{ lang.t("footer.previous") }}
+<style>
+  .md-typeset ul li, .md-typeset ol li {
+      margin-bottom: 0.5em;
+      margin-left: 1.25em;
+      float: left;
+      list-style: none;
+      text-align: center;
+  }
+  </style>
+  {% import "partials/language.html" as lang with context %}
+  <footer class="md-footer">
+    {% if page.previous_page or page.next_page %}
+      <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+          {% if page.previous_page %}
+            <a href="{{ page.previous_page.url }}" title="{{ page.previous_page.title }}" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span class="md-footer-nav__direction">
+                    {{ lang.t("footer.previous") }}
+                  </span>
+                  {{ page.previous_page.title }}
                 </span>
-                {{ page.previous_page.title }}
-              </span>
-            </div>
-          </a>
-        {% endif %}
-        {% if page.next_page %}
-          <a href="{{ page.next_page.url }}" title="{{ page.next_page.title }}" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  {{ lang.t("footer.next") }}
+              </div>
+            </a>
+          {% endif %}
+          {% if page.next_page %}
+            <a href="{{ page.next_page.url }}" title="{{ page.next_page.title }}" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span class="md-footer-nav__direction">
+                    {{ lang.t("footer.next") }}
+                  </span>
+                  {{ page.next_page.title }}
                 </span>
-                {{ page.next_page.title }}
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        {% endif %}
-      </nav>
-    </div>
-  {% endif %}
-   <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        {% if config.copyright %}
-          <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
-          </div>
-        {% endif %}	
-        in BLOC we trust.
-        <br> <br>
-        <div class="copy">
-          <ul class="list-unstyled list-inline network"><li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  .MONEY</p></a></li><li><a href="https://bloc-explorer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocexplorer.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  EXPLORER</p></a></li><li><a href="https://bloc-mining.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocwebmining.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  MINING</p></a></li><li><a href="https://bloc-mining.us/" target="_blank"><img src="https://bloc.money/img/footer/network/blocus.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  N.AMERICA</p></a></li><li><a href="https://bloc-mining.eu/" target="_blank"><img src="https://bloc.money/img/footer/network/bloceu.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  EUROPE</p></a></li><li><a href="https://bloc-mining.asia/" target="_blank"><img src="https://bloc.money/img/footer/network/blocasia.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  ASIA</p></a></li>	<li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-  DEVELOPER</p></a></li></ul>
-        </div>
-        <br> <br>
-        Documents released under the 
-        <a href="https://opensource.org/licenses/MIT"> MIT License </a>
-       <br>
-       BLOC released under the <a href="https://www.gnu.org/licenses/gpl-3.0.html"> GNU General Public V3 License </a>
-          <br> <br>
-          <a href="https://github.com/furiousteam/bloc-wiki"> Help improve these documents! </a>
+              </div>
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+              </div>
+            </a>
+          {% endif %}
+        </nav>
       </div>
-      {% block social %}
-        {% include "partials/social.html" %}
-      {% endblock %}
-    </div>
-</div>
-</footer> 
+    {% endif %}
+     <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          {% if config.copyright %}
+            <div class="md-footer-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}	
+          in BLOC we trust.
+          <br> <br>
+          <div class="copy">
+            <ul class="list-unstyled list-inline network"><li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    .MONEY</p></a></li><li><a href="https://bloc-explorer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocexplorer.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    EXPLORER</p></a></li><li><a href="https://bloc-mining.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocwebmining.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    MINING</p></a></li><li><a href="https://bloc-mining.us/" target="_blank"><img src="https://bloc.money/img/footer/network/blocus.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    N.AMERICA</p></a></li><li><a href="https://bloc-mining.eu/" target="_blank"><img src="https://bloc.money/img/footer/network/bloceu.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    EUROPE</p></a></li><li><a href="https://bloc-mining.asia/" target="_blank"><img src="https://bloc.money/img/footer/network/blocasia.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    ASIA</p></a></li>	<li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
+    DEVELOPER</p></a></li></ul>
+          </div>
+          <br> <br>
+          Documents released under the 
+          <a href="https://opensource.org/licenses/MIT"> MIT License </a>
+         <br>
+         BLOC released under the <a href="https://www.gnu.org/licenses/gpl-3.0.html"> GNU General Public V3 License </a>
+            <br> <br>
+            <a href="https://github.com/furiousteam/bloc-wiki"> Help improve these documents! </a>
+        </div>
+        {% block social %}
+          {% include "partials/social.html" %}
+        {% endblock %}
+      </div>
+  </div>
+  </footer> 
+  

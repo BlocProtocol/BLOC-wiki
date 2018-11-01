@@ -131,10 +131,10 @@ Use the status command to check the progress.
 ```
 ## **Opening a Wallet**
 
-Open an existing wallet file **created by BLOCWallet v3.0**. BLOCWallet also supports the following :
+Open an existing wallet file **created by BLOCWallet v3.0**. BLOCWallet v3.0 also supports the following :
 
-* .wallet file created by the [BLOC Desktop Wallet & Mining Client v2](../BLOC-GUI-Desktop-Wallet-V2.md)
-* .wallet file created by the BLOC Simple Wallet v2
+* .wallet file created by the [BLOC Desktop Wallet & Mining Client v2](../Using-BLOCWallet#bloc-desktop-2.0.2)
+* .wallet file created by the previous BLOC Simple Wallet v2
 
 Here's a quick image of BLOCWallet in action after have successfully `open a wallet`:
 
@@ -279,13 +279,14 @@ To send BLOC at the BLOCWallet menu:
 
 Depending on the amount you transfer, you may need to wait a while for confirmation.  If you have had too many small incoming transactions, or the amount you wish to send is too large; either break up your transfer into several smaller amounts, or optimise your wallet.
 
-## Optimizing your Wallet
+## **Optimizing your Wallet**
+
+Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
+It is strongly recommended to optimize your wallet, specially if you are mining BLOC and receiving a lot of small transactions.
 
 Here's a quick image of BLOCWallet in action after using the `optimize` command:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_optimize.png)
-
-Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
 
 To optimize your wallet, type `optimize` and press `enter`:
 ```
@@ -300,15 +301,15 @@ Full optimization completed!
 
 When it is completed, it will print out a green message `Full optimization completed!`
 
-## Payment ID<a name="tx-bloc-p-id"></a>
+## **Payment ID**<a name="tx-bloc-p-id"></a>
+
+Because transactions on the BLOC blockchain are privatized, in some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
+
+**You need it if you're sending BLOC to an exchange**
 
 Here's a quick image of BLOCWallet in action after using the payment id option while sending a transaction:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_payement-id.png)
-
-Because transactions on the BLOC blockchain are privatized, in some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
-
-**You need it if you're sending BLOC to an exchange.
 
 To send a transaction with a payment ID, enter it when prompted to.
 
@@ -345,11 +346,15 @@ Hash: f1259467fe4c79c091c05f9fe335bda6f45ef8ac995e25a0909ca73a1b5973f8
 [BLOC JENNY]: 
 ```
 
-## Exiting the Wallet
+## **Exiting the Wallet**
 
 Wallets loaded into the *BLOCWallet* client must be synced with the blockchain in order to properly calculate balance, view transaction history, etc.
 
 It is important to properly save the wallet data before exiting *BLOCWallet* so that the synchronized data is not lost.
+
+Here's a quick image of BLOCWallet in action after using the `exit` option while closing BLOCWallet :
+
+![blocwallet](images/BlocWallet/exit.png)
 
 To save a wallet's data and exit; at the menu, type `exit` or `5` and press `enter`:
 
@@ -362,9 +367,15 @@ Shutting down node connection...
 Bye.
 ```
 
-## Recovering your Wallet
+## **Recovering your Wallet**
+
+Recovering your wallet on BLOC is easy and fast.
 
 ### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
+
+Here's a quick image of BLOCWallet in action after using the `key_restore` command while restoring a wallet:
+
+![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
 
 To restore a wallet using spend and view keys; at the menu type `key_restore` or `4` and press `enter`:
 
@@ -392,7 +403,6 @@ Hit enter for the sub-optimal default of zero:
 
 Making initial contact with BLOCd.
 Please wait, this sometimes can take a long time...
-
 
 Your wallet abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27S3tBNEHaMkR6JhDsLt5 has been successfully imported!
 
@@ -428,11 +438,11 @@ Finished scanning blockchain!
 
 ```
 
-Here's a quick image of BLOCWallet in action after using the `key_restore` command while restoring a wallet:
-
-![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
-
 ### With mnemonic phrase (25 words)<a name="recover-seed"></a>
+
+Here's a quick image of BLOCWallet in action after using the `seed_restore` command while restoring a wallet:
+
+![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
 
 To restore a wallet using spend and view keys; at the menu type `seed_restore` or `3` and press `enter`:
 
@@ -494,17 +504,14 @@ Finished scanning blockchain!
 
 ```
 
-Here's a quick image of BLOCWallet in action after using the `seed_restore` command while restoring a wallet:
-
-![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_seed_restore.png)
-
-## Open a wallet file generated using the BLOC Wallet Desktop v2.0.2
+## **Open a old wallet file BLOC Wallet v2.0.2 <a name="bloc-desktop-2.0.2"></a>
 
 Restore your wallet file from the previous [BLOC Wallet Desktop v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
 * Follow the standard procedure explained on this page and launch the new BLOCWallet v3.0 Client
 
 * Copy/Paste the wallet file near the BLOCWallet:
+
 ![blocwallet](images/BlocWallet/restore-file.png)
 
 * Open BLOCWallet

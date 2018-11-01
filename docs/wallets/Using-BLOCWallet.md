@@ -82,7 +82,7 @@ Run the `BLOCWallet.exe` executable from the extracted folder.
 
 BLOCWallet has a twin command system; a numerical shortcut for navigating the menu, and typed commands you can access directly. The more you use BLOCWallet the more typed commands you'll pick up. This guide is written using the written commnand system. Feel free to use the numbers associated with the command.
 
-## **Creating a Wallet**
+## **Create** a Wallet
 
 Create your personnal BLOC Wallet address with Private spend key, Private view key and Mnemonic seed. Everything you need to control your money.
 Make sure you save this data because if you lose these keys your wallet cannot be recreated!
@@ -129,7 +129,7 @@ Use the status command to check the progress.
 [BLOC JENNY]: 
 
 ```
-## **Opening a Wallet**
+## **Open** a Wallet
 
 Open an existing wallet file **created by BLOCWallet v3.0**. BLOCWallet v3.0 also supports the following :
 
@@ -180,7 +180,7 @@ Finished scanning blockchain!
 [BLOC JENNY]: 
 
 ```
-## **Viewing Wallet Address**
+## Viewing Wallet **address**
 
 Display the BLOC address used by this wallet.
 
@@ -509,7 +509,7 @@ Finished scanning blockchain!
 
 ```
 
-## **Open a old wallet file BLOC Wallet v2.0.2 <a name="bloc-desktop-2.0.2"></a>
+## **Open a old wallet file BLOC Wallet v2.0.2** <a name="bloc-desktop-2.0.2"></a>
 
 BLOCWallet is capable to restore and open the wallet file from the previous version of the [BLOC Wallet Desktop v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
@@ -542,7 +542,7 @@ BLOCWallet is capable to restore and open the wallet file from the previous vers
 * The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
 * You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
 
-## ** Other Commands**
+## **Other Commands**
 
 To see a list of additional commands not already covered; at the menu type `advanced` or `1` and press `enter`:
 

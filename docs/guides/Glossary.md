@@ -10,13 +10,15 @@ Also known as your address or wallet address . An example address looks like thi
 
 **TEST NET:** TbLoc4j9YWbi4RJie7w13WSJ4akG4c5Fxc8bgX5QPiENQYYjriYjesRdbPWix7qKSUUBK4oRcJHG4J519686WaLy131qpCxBq2q
 
-## Payment id
+## Payment id <a name="payment-id">
 
-When someone sends you funds, they can specify a payment ID of their or your choice. Because BLOC's privacy protections usually prevent you from knowing the source of funds that you receive, the payment ID can be used by the sender to identify themselves to you. The payment ID must contain a 64 HEX string. You can use this website to generate a custom [64 HEX payement ID](https://www.browserling.com/tools/random-hex)
+When someone sends you funds, they can specify a payment ID of their or your choice. Because BLOC's privacy protections usually prevent you from knowing the source of funds that you receive, the payment ID can be used by the sender to identify themselves to you. The payment ID must contain a 64 HEX string. You can use this website to generate a custom [64 HEX payement ID](https://www.browserling.com/tools/random-hex).
+
+In some situations a payment ID is necessary for the recipient to be able to determine where the payment came from, for instance when depositing to an exchange or other service.
 
 * Example: 4126541177d951210fa7d8f8bfabcd76b3a839724248f1b3404e5785fa506e62
 
-## Integrated payment address
+## Integrated payment address <a name="integrated-address">
 
 Integrated address is just your normal address with some extra data bundled with it (the 64-bit payment ID). To make it easier for other people to send you funds with a payment ID that you require, you can generate an integrated address to send to them which contains both your public address and the payment ID you request them to use.
 

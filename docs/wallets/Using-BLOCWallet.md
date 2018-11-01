@@ -199,7 +199,7 @@ abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27
 [BLOC JENNY]: 
 ```
 
-## **Exporting Keys**
+## **backup** your wallet private keys
 
 Each BLOC wallet is essentially, just a pair of keys (*View Key* and *Spend Key*) from which the public address is derived.
 It is **very** important to export these keys and back them up somewhere that is safe and secure (meaning somewhere reliable/permanent that no one else can access).
@@ -238,7 +238,7 @@ jazz border dude orphans worry absorb slackens public drinks bovine evenings hur
 * The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
 * You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
 
-## **Viewing Wallet Balance**
+## Viewing Wallet **balance**
 
 * Available balance is the funds that are available for transactions.
 * Locked amount shows the funds that are not yet available (unconfirmed transactions, the coins you've mined, time-locked transaction)
@@ -258,7 +258,7 @@ Total balance: 1.0000 BLOC
 [BLOC JENNY]:
 ```
 
-## **Sending BLOC Transactions**<a name="tx-bloc"></a>
+##  **transfer** BLOC to someone**<a name="tx-bloc"></a>
 
 Send funds from your wallet to your friends, family or for business.
 
@@ -279,7 +279,7 @@ To send BLOC at the BLOCWallet menu:
 
 Depending on the amount you transfer, you may need to wait a while for confirmation.  If you have had too many small incoming transactions, or the amount you wish to send is too large; either break up your transfer into several smaller amounts, or optimise your wallet.
 
-## **Optimizing your Wallet**
+## **optimize** your Wallet
 
 Fusion transactions take all your (small) incoming payments and combine them into bigger ones, allowing you to send huge sums at once!
 It is strongly recommended to optimize your wallet, specially if you are mining BLOC and receiving a lot of small transactions.
@@ -346,7 +346,7 @@ Hash: f1259467fe4c79c091c05f9fe335bda6f45ef8ac995e25a0909ca73a1b5973f8
 [BLOC JENNY]: 
 ```
 
-## **Exiting the Wallet**
+## **exit** the Wallet
 
 Wallets loaded into the *BLOCWallet* client must be synced with the blockchain in order to properly calculate balance, view transaction history, etc.
 

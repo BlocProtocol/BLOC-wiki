@@ -373,6 +373,8 @@ Recovering your wallet on BLOC is easy and fast.
 
 ### With Private Spend and View Keys<a name="recover-spend-view-keys"></a>
 
+That method use the Private Spend key and the Private View key to restore you wallet. You must be in possession of this key if you created a BLOC Wallet.
+
 Here's a quick image of BLOCWallet in action after using the `key_restore` command while restoring a wallet:
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0_open_wallet_key_restore.png)
@@ -380,7 +382,7 @@ Here's a quick image of BLOCWallet in action after using the `key_restore` comma
 To restore a wallet using spend and view keys; at the menu type `key_restore` or `4` and press `enter`:
 
 ```
-1	open                     Open a wallet already on your system
+ 1	open                     Open a wallet already on your system
  2	create                   Create a new wallet
  3	seed_restore             Restore a wallet using a seed phrase of words
  4	key_restore              Restore a wallet using a view and spend key
@@ -439,6 +441,9 @@ Finished scanning blockchain!
 ```
 
 ### With mnemonic phrase (25 words)<a name="recover-seed"></a>
+
+* The 25 Word Mnemonic Seed phrase was implemented early november 2018
+* You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet if you want to use the mnemonic phrase feature.
 
 Here's a quick image of BLOCWallet in action after using the `seed_restore` command while restoring a wallet:
 
@@ -506,7 +511,7 @@ Finished scanning blockchain!
 
 ## **Open a old wallet file BLOC Wallet v2.0.2 <a name="bloc-desktop-2.0.2"></a>
 
-Restore your wallet file from the previous [BLOC Wallet Desktop v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
+BLOCWallet is capable to restore and open the wallet file from the previous version of the [BLOC Wallet Desktop v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
 * Follow the standard procedure explained on this page and launch the new BLOCWallet v3.0 Client
 
@@ -537,7 +542,7 @@ Restore your wallet file from the previous [BLOC Wallet Desktop v2.0.2](../BLOC-
 * The 25 Word Mnemonic Seed phrase was implemented after you created this wallet. This is why you do not see the 25 Word Mnemonic seed.
 * You will need to create a new wallet to be able to use the 25 Word Mnemonic seed and send your BLOC to your new wallet
 
-## Other Commands
+## ** Other Commands**
 
 To see a list of additional commands not already covered; at the menu type `advanced` or `1` and press `enter`:
 
@@ -569,7 +574,7 @@ To see a list of additional commands not already covered; at the menu type `adva
  22	status                   Display sync status and network hashrate
 ```
 
-## Help
+## **Help**
 
 To see the main menu of commands; type `help` and press `enter`:
 

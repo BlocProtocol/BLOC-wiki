@@ -719,7 +719,7 @@ You also need to generate a payment id of your choice of you can use [Payement I
 
 Here's a quick image of BLOCWallet in action after have successfully typed `make_integrated_address`:
 
-![blocwallet](images/BlocWallet/integrated_address.png)
+![blocwallet](images/BlocWallet/integrated-address.png)
 
 To generate a integrated address; at the menu, type `make_integrated_address` or `13` and press `enter`.
 
@@ -893,7 +893,7 @@ Use this function if you would like to send all funds available in your wallet t
 
 Here's a quick image of BLOCWallet in action after have successfully typed `send_all`:
 
-![blocwallet](images/BlocWallet/send-all.png)
+![blocwallet](images/BlocWallet/send_all.png)
 
 To view the status of your wallet; at the menu, type `send_all` or `21` and press `enter`.
 
@@ -985,7 +985,7 @@ Finished scanning blockchain!
 
 Reset done and wallet synchronised:
 
-![blocwallet](images/BlocWallet/reset1.png)
+![blocwallet](images/BlocWallet/reset-done.png)
 
 
 ## **Help**

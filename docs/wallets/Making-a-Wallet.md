@@ -1,4 +1,4 @@
-# Making a BLOC Wallet
+# **Making a BLOC Wallet**
 
 There are multiple different types of wallets you can choose to use for [BLOC](https://bloc.money), paper wallets, [CLI Wallet](../wallets/Using-BLOCWallet.md), GUI wallets, [iOS Wallet](../wallets/BLOC-iOS-wallet.md), [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md) and Web Wallets (under development).
 

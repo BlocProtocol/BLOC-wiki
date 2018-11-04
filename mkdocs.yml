@@ -127,7 +127,7 @@ nav:
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
       - Mining with XMR-stak: 
         - What is XMR-stak: mining/XMR-Stak-index.md
-        - Mining on Windows: mining/XMR-windows-Guide.md
+        - Mining on Windows: mining/XMR-Stak-windows-Guide.md
         - Mining on Linux: mining/XMR-Stak-Linux-Guide.md
       - XMRig: mining/XMRIG-Guide.md
       - Cloud Mining: mining/Cloud-Mining.md

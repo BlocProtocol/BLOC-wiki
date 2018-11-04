@@ -139,11 +139,11 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 
     This is how it looks :
 
-    ![XMR-STAK API Hashrate](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
+    ![XMR-STAK API Hashrate](images/XMR-STAK-api/XMR-API-hashrate.png)
 
-    ![XMR-STAK API Results](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
+    ![XMR-STAK API Results](images/XMR-STAK-api/XMR-API-results.png)
 
-    ![XMR-STAK API Connection](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
+    ![XMR-STAK API Connection](images/XMR-STAK-api/XMR-API-connection.png)
 
 2.  
    ```

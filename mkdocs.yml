@@ -121,11 +121,11 @@ nav:
       - What is Mining ?: mining/What-is-mining.md
       - How to Mine BLOC: mining/How-to-mine-BLOC.md
       - Mining Pools: mining/Pools.md
-      - Web Miner: mining/Mining-with-web-miner.md
+      - in-browser Miner: mining/Mining-with-web-miner.md
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
-      - XMR-Stak: 
+      - Mining with XMR-Stak: 
         - Mining on Windows: mining/XMR-Stak-Guide.md
         - Mining on Linux: mining/XMR-Stak-Linux-Guide.md
       - XMRig: mining/XMRIG-Guide.md

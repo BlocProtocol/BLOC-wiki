@@ -1,6 +1,6 @@
 # **How to Set Up XMR-Stak on Mac OS**
 
-Native binaries on linux are not available for XMR-stak.
+Native binaries on Mac OS are not available for XMR-stak.
 You will need to compile yourself, follow these instructions:
 
 ## **Make sure you have a wallet**
@@ -12,7 +12,7 @@ If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) s
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
 If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.
 
-## **Mac OS**<a name="ubuntu-16-04"></a>
+## **Mac OS**</a>
 
 ### Dependencies
 
@@ -97,17 +97,17 @@ Assuming you already have [Homebrew](https://brew.sh/) installed, the installati
 
     `cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF`
 
-    Example configuration on Linux for CPU mining only:
+    Example configuration on Mac OS for GPU mining with nVidia:
 
     * CMAKE_BUILD_TYPE = Release
     * MICROHTTPD_ENABLE = ON (*Enable HTML reports*)
     * OpenSSL_ENABLE = ON (*Mine from pool using https*)
     * XMR-STAK_COMPILE = generic (Use the binary on all CPU's with sse2)
-    * OpenCL_ENABLE = OFF
-    * CUDA_ENABLE = ON
-    * CUDA_COMPILER = nvcc
+    * OpenCL_ENABLE = OFF (not an AMD)
+    * CUDA_ENABLE = ON (Nvidia)
+    * CUDA_COMPILER = nvcc (Compiler)
 
-    `cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOpenSSL_ENABLE=ON -DCMAKE_BUILD_TYPE=Release -DMICROHTTPD_ENABLE=ON -DXMR-STAK_COMPILE=generic -DOpenCL_ENABLE=OFF -DCUDA_ENABLE=ON -DCUDA_COMPILER=clang`
+    `cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOpenSSL_ENABLE=ON -DCMAKE_BUILD_TYPE=Release -DMICROHTTPD_ENABLE=ON -DXMR-STAK_COMPILE=generic -DOpenCL_ENABLE=OFF -DCUDA_ENABLE=ON -DCUDA_COMPILER=nvcc`
 
 8.  Finish building it-
 
@@ -131,7 +131,7 @@ Assuming you already have [Homebrew](https://brew.sh/) installed, the installati
 
 13. If you see something like this, that means it’s working and you are mining BLOC!
 
-![XMR-STAK mining BLOC](images/XMR-STAK-mac/XMR-stak-mac-mining-cpu.png)
+![XMR-STAK mining BLOC](images/XMR-stak-mac/XMR-stak-mac-mining-cpu.png)
 
 ## **XMR-Stak Setup and Configuration**<a name="setup-and-config"></a>
 
@@ -226,15 +226,15 @@ To check the hashrate and results in xmr stak you have 2 options. Command line o
 
 * Type `h` in the command line window to display your hashrate
 
-![hashrate](images/XMR-STAK-api/hashrate.png)
+![hashrate](images/XMR-stak-mac/hashrate.png)
 
 * Type `r` to display the share results.
 
-![results](images/XMR-STAK-api/results.png)
+![results](images/XMR-stak-mac/result.png)
 
 * Type `c` to display the connection details.
 
-![connection](images/XMR-STAK-api/connection.png)
+![connection](images/XMR-stak-mac/connection.png)
 
 ### HTML Reports
 
@@ -244,11 +244,11 @@ To check the hashrate and results in xmr stak you have 2 options. Command line o
 
 This is how it looks :
 
-![XMR-STAK API Hashrate](images/XMR-STAK-api/XMR-API-hashrate.png)
+![XMR-STAK API Hashrate](images/XMR-STAK-api/hashrate-mac.png)
 
-![XMR-STAK API Results](images/XMR-STAK-api/XMR-API-results.png)
+![XMR-STAK API Results](images/XMR-STAK-api/result-mac.png)
 
-![XMR-STAK API Connection](images/XMR-STAK-api/XMR-API-connection.png)
+![XMR-STAK API Connection](images/XMR-STAK-api/connection-mac.png)
 
 ## **How to check your payouts**
 

@@ -130,7 +130,9 @@ nav:
         - Mining on Windows: mining/XMR-Stak-windows-Guide.md
         - Mining on Linux: mining/XMR-Stak-Linux-Guide.md
         - Mining on Mac OS: mining/XMR-Stak-Mac-Guide.md
-      - XMRig: mining/XMRIG-Guide.md
+      - Mining with XMRIG:
+        - What is XMRIG: mining/XMRIG-Guide.md
+        - Mining on Linux: mining/XMRIG-Guide-linux.md
       - Cloud Mining: mining/Cloud-Mining.md
       - Mining with a SBC: mining/Mining-with-SBC.md
     - Guides:

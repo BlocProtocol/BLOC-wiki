@@ -4,7 +4,7 @@ Cryptocurrency mining includes two functions, namely: adding transactions to the
 
 Mining is the process of adding transaction records to cryptocurency public ledger of past transactions. This ledger of past transactions is called the block chain as it is a chain of blocks. Mining is so called because it resembles the mining of other commodities: it requires exertion and it slowly makes new currency available at a rate that resembles the rate at which commodities like gold are mined from the ground.
 
-If you want to learn about cryptocurrencies, mining is a great place to start!. Start mining [BLOC](https://bloc.money) today and get rewarded in **BLOC**
+If you want to learn about cryptocurrencies, mining is a great place to start!. Start mining today and get rewarded in [BLOC](https://bloc.money).
 
 ## Egalitarian Proof of Work
 

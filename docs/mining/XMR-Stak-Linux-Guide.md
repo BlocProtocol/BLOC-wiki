@@ -7,6 +7,10 @@ You will need to compile yourself, follow these instructions:
 
 If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining.
 
+## **Choose your mining pool**
+
+
+
 ## **Default Developer Donation**
 
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.

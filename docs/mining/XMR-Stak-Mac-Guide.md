@@ -283,7 +283,7 @@ XMR-STAK gives too many options for tuning to get the best results out of your h
 
 For more information on Tuning and configuring your hardware in XMR-stak we suggest you to read [this guide](https://github.com/fireice-uk/xmr-stak/blob/master/doc/tuning.md)
 
-## Bug and report
+## **Bug and report**
 
 We were not able to run XMR-stak with the GPU capabilities on this example due to our current OS version not supported by the Nvidia drivers.
 

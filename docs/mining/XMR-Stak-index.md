@@ -10,6 +10,7 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 
 ## **Features**
 
+* Mining [BLOC](https://bloc.money) with **XMR-stak**
 * support all common backends (CPU/x86, AMD-GPU and NVIDIA-GPU)
 * support all common OS (Linux, Windows and macOS)
 * supports algorithm cryptonight for Monero (XMR) and cryptonight-light (AEON)
@@ -27,7 +28,7 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 * Or compile yourself using the [Source code](https://github.com/fireice-uk/xmr-stak)
 * [Compile instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile.md) from XMR-Stak Github.
 
-## BLOC Configuration
+## **BLOC Configuration**
 
 * currency: **`cryptonight_haven`**
 
@@ -35,7 +36,7 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 
 * [How to mine BLOC with XMR-Stak on Linux](../mining/XMR-Stak-Linux-Guide.md)
 * [How to mine BLOC with XMR-Stak on Windows](../mining/XMR-Stak-windows-Guide.md)
-* [How to ming BLOC with XMR-Stak on Mac](../mining/XMR-Stak-Mac-Guide.md)
+* [How to mine BLOC with XMR-Stak on Mac](../mining/XMR-Stak-Mac-Guide.md)
 
 ## **HTML and JSON API report configuration**
 

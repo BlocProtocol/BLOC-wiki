@@ -8,6 +8,7 @@ This is the CPU-mining version, there is also a NVIDIA GPU version and AMD GPU v
 
 ## **Features**
 
+* Mining [BLOC](https://bloc.money) with **XMRig**
 * High performance.
 * Official Windows support.
 * Small Windows executable, without dependencies.
@@ -33,7 +34,7 @@ This is the CPU-mining version, there is also a NVIDIA GPU version and AMD GPU v
 * [Usage](https://github.com/xmrig/xmrig#usage)
 * [Algorythm varations](https://github.com/xmrig/xmrig#usage)
 
-## BLOC Configuration
+## **BLOC Configuration**
 
 * algo: **`cryptonight-heavy`**
 * variant: **`"xhv"`** Make sure to **ADD** the **`"`**
@@ -44,17 +45,20 @@ This is the CPU-mining version, there is also a NVIDIA GPU version and AMD GPU v
 * [How to mine BLOC with XMRig on Windows](../mining/XMRIG-Guide-cpu-windows.md)
 * [How to ming BLOC with XMRig on Mac](../mining/XMRIG-Guide-cpu-mac.md)
 
+## **GPU Mining**
+
+XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are linked below(Ubuntu):
+
+* [XMRig GPU Nvidia Miner](https://github.com/xmrig/xmrig-nvidia/wiki/Ubuntu-Build) 
+* [XMRig GPU AMD Miner](https://github.com/xmrig/xmrig-amd/wiki/Ubuntu-Build)
+
 ## **HTML and JSON API report configuration**
 
 To configure the reports you need to edit the `httpd_port variable`. Then enable wifi on your phone and navigate to `[miner ip address]:[httpd_port]` in your phone browser. If you want to use the data in scripts, you can get the JSON version of the data at url `[miner ip address]:[httpd_port]/api.json`
 
 This is how it looks :
 
-![XMR-STAK API Hashrate](images/XMR-STAK-api/XMR-API-hashrate.png)
-
-![XMR-STAK API Results](images/XMR-STAK-api/XMR-API-results.png)
-
-![XMR-STAK API Connection](images/XMR-STAK-api/XMR-API-connection.png)
+![XMR-STAK API Hashrate](images/XMRIG/mac/api.png)
 
 ## **Default Developer Donation**
 

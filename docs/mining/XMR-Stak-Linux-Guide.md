@@ -12,10 +12,6 @@ If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) s
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
 If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.
 
-## **Make sure you have a wallet**
-
-If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining.
-
 ## **Ubuntu 16.04**<a name="ubuntu-16-04"></a>
 
 1. If you want to use your GPU for mining, do the following-

@@ -2,6 +2,17 @@
 
 XMR-Stak is a unified miner, which means the same program will be used to mine with both your CPU and your GPU. It will automatically detect your hardware and adjust the settings accordingly.
 
+## **Make sure you have a wallet**
+
+If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining.
+
+## **Default Developer Donation**
+
+By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
+If you want to change that, you will need to [compile yourself XMR-stak for Windows](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile_Windows.md) and edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.
+
+If you are ok with the 2% donation to the XMR-stak developers and use their binary and you can proceed with the following:
+
 ## **Downloading and Installing**
 
 1. Download and install [XMR-Stak Unified Miner](https://github.com/fireice-uk/xmr-stak/releases/latest). It will auto-detect your hardware, and tune everything for you.

@@ -132,18 +132,10 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
     If you do need to, then enter a port number.
     Let's take the port number as `16000` and your IP address as `88.20.105.14` as an example.
 
-    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<16000>`. It should show a page with your rig's hashrate.  
-    If you are checking from the same IP address, you can alternatively enter, `localhost:<16000>`
+    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<0101>`. It should show a page with your rig's hashrate.  
+    If you are checking from the same IP address, you can alternatively enter, `localhost:<0101>`
 
     Make sure to enter your own IP address if you enable this feature. You can choose any port you want!
-
-    This is how it looks :
-
-    ![XMR-STAK API Hashrate](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
-
-    ![XMR-STAK API Results](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
-
-    ![XMR-STAK API Connection](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
 
 2.  
    ```

@@ -125,8 +125,9 @@ nav:
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
-      - XMR-Stak: mining/XMR-Stak-Guide.md
-      - XMR-Stak on Linux: mining/XMR-Stak-Linux-Guide.md
+      - XMR-Stak: 
+        - Mining on Windows: mining/XMR-Stak-Guide.md
+        - Mining on Linux: mining/XMR-Stak-Linux-Guide.md
       - XMRig: mining/XMRIG-Guide.md
       - Cloud Mining: mining/Cloud-Mining.md
       - Mining with a SBC: mining/Mining-with-SBC.md

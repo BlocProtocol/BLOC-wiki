@@ -1,6 +1,6 @@
 # **What is XMR-STAK ?**
 
-XMR-Stak - Cryptonight All-in-One Mining Software
+## **XMR-Stak - Cryptonight All-in-One Mining Software**
 
 [XMR-STAK](https://github.com/fireice-uk/xmr-stak) is the only program that supports mining with CPU, NVIDIA GPUs and AMD GPUs. Also it is available for Windows, Linux and MacOS. XMR-Stak is a universal stratum pool miner to mine crypto currencies like Monero, Electroneum, [BLOC](https://bloc.money) and basically any coins that are powered by cryptonight algorithm.
 

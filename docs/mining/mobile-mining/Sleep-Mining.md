@@ -1,6 +1,6 @@
-# **Mining with Your Mobile Phone while you sleep**
+# **Sleep Mining by BLOC**
 
-Introducing Sleep Mining for [BLOC](https://bloc.money) — Make extra cash while you are sleeping using your mobile phone
+Mining with Your Mobile Phone while you sleep with [BLOC](https://bloc.money) — Make extra cash while you are sleeping using your mobile phone
 
 [![SLEEP MINING](images/sleep-mining.jpg)](https://www.youtube.com/watch?v=WGVfNRHJ3ac)
 

@@ -1,4 +1,4 @@
-# How to use the BLOC Wallet for Desktop
+# **How to use the BLOC Wallet for Desktop**
 
 The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**
@@ -7,17 +7,17 @@ The previous version of BLOC Wallet for desktop computer available for Windows, 
 
 ![blocwallet](images/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)
 
-## Video
+## **Video**
 
 [![BLOC WALLET DESKTOP](images/BLOC-gui-wallet/2.0.2/video.jpg)](https://www.youtube.com/watch?v=ZqTEG78N_Tk)
 
-## Guide
+## **Guide**
 
 1. How to download the [BLOC](https://bloc.money) wallet and install it on your computer
 2. How to setup the [BLOC](https://bloc.money) wallet for instant mining
 3. Check the mining reward and pending balance
 
-### Download
+## **Download**
 
 First we need to go on the [BLOC.MONEY](https://bloc.money) website and click on the [DOWNLOAD](https://bloc.money/download) button from the top menu.
 From here, you can download the exclusive range of [BLOC.MONEY](https://bloc.money) softwares.
@@ -29,7 +29,7 @@ Select your favorite system. The [BLOC Wallet](https://bloc.money/download) is a
 Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC wallet.
 Select the BLOC wallet application and put in where you like
 
-### Lanch the app
+## **Lanch the app**
 
 Double click the application to open to BLOC wallet.
 You might see an error message like this saying that you can not open this software because it’s coming from not identified apple developer. Simply click ok.
@@ -37,33 +37,33 @@ Simply go to the control panel of your mac, to the system, select security and t
 
 Now the BLOC wallet is starting for the 1st time on your computer. You will note the your BLOC address has been created instantly. This is your personnal address. You can copy it by clicking this link here. Copy address.
 
-### Wait for synchronisation
+## **Wait for synchronisation**
 
 We will have to wait for the wallet synchronisation to finish. It depends the speed of your internet connexion. For this video it took about 2 minutes to synchronise the wallet.
 Once the wallet is synchronised, we are ready to use it.
 
-### Overview
+## **Overview**
 
 Overview show the most recent activity of your wallet, including your balance, the mining status if your mining, the pending transactions in the pool and your recent transaction details.
 
-### Send BLOC
+## **Send BLOC**
 
 Send BLOC allow you to send BLOC.MONEY to any other BLOC wallet address.
 Simply enter the wallet address here, Then enter the amount you like to send, the fees are set automatically to 0.0001 BLOC. you canenter a payement ID if you have one, it must contain 64 caracters, once you are ready click SEND button
 
-### Transactions
+## **Transactions**
 
 Transactions will list all your incomming and outgoing transactions
 
-### Block Explorer
+## **Block Explorer**
 
 The BLOCK Explorer shows you blocks details from the blockchain including the transaction that it contains
 
-### Contacts
+## **Contacts**
 
 Contacts is a simple but easy feature to add your friends and family address so you don’t have to remember it
 
-### Mining
+## **Mining**
 
 The mining part allow you to select your favorite mining pool following your location. We have 3 different officials mining pool with different servers to offer a better connectivity located in [Europe](https://bloc-mining.asia) (Finland), We have one in [North America](https://bloc-mining.us) (San fransisco) and another one in [Asia](https://bloc-mining.asia) (Singapore). You can simply drag and drop your favorite mining pool on the top list.
 
@@ -90,13 +90,13 @@ That’s how simple it is to mine the BLOC using the BLOC wallet with the mining
 
 I hope you enjoy this video. Thank you for watching. Don’t forget to click the like button and the subscribe button aswell. More tutorials are coming soon. Thank you.
 
-### Wallet Optimization
+## **Wallet Optimization**
 
 If you are mining, it is highly recommended to enable wallet optimization (Settings > Preferences > Wallet Optimization) because you will be more prone to transition getting stuck if you’re wallet isn’t optimized. Transaction size increases if you have many small transactions amount on your wallet, and try to send a big amount in one transaction.
 
 ![blocwallet](images/BLOC-gui-wallet/2.0.2/WALLET1.png)
 
-## Save your wallet
+## **Save your wallet**
 
 There are different methods to save and back your wallet with the BLOC Wallet Desktop 2.0.2
 
@@ -147,7 +147,7 @@ Once again. **Make sure you save this details**. This are the **ONLY way to reco
 
 Now that you have this 2 keys you will be able to use your wallet with the new **BLOC v3.0**
 
-### Backup wallet file
+## **Backup wallet file**
 
 Once you have saved your wallet using the 1st method you can also save your wallet file.
 To do this:

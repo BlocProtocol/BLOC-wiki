@@ -114,7 +114,7 @@ You will need to compile yourself, follow these instructions:
 
 12. Check [XMR-Stak Setup and Configuration](#setup-and-config)
 
-13. If you see something like this, that means it’s working!
+13. If you see something like this, that means it’s working and you are mining BLOC!
 
 ![XMR-STAK mining BLOC](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
 

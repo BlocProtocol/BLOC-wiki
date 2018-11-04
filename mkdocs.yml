@@ -132,7 +132,9 @@ nav:
         - Mining on Mac OS: mining/XMR-Stak-Mac-Guide.md
       - Mining with XMRIG:
         - What is XMRIG: mining/XMRIG-Guide.md
-        - Mining on Linux: mining/XMRIG-Guide-linux.md
+        - Cpu Mine on Linux: mining/XMRIG-Guide-cpu-linux.md
+        - Cpu Mine on Mac: mining/XMRIG-Guide-cpu-mac.md
+        - Cpu Mine on Windows: mining/XMRIG-Guide-cpu-windows.md
       - Cloud Mining: mining/Cloud-Mining.md
       - Mining with a SBC: mining/Mining-with-SBC.md
     - Guides:

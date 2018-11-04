@@ -6,7 +6,7 @@ XMR-STAK is the only program that supports mining with CPU, NVIDIA GPUs and AMD 
 
 XMR Stak is well optimized and it is known to significantly generate more hashrates than any other miners. Here in this beginners guide we’ll be showing you how to use XMR-STAK and start mining [BLOC](https://bloc.money).
 
-## Features
+## **Features**
 
 * support all common backends (CPU/x86, AMD-GPU and NVIDIA-GPU)
 * support all common OS (Linux, Windows and macOS)
@@ -19,21 +19,19 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 * HTML statistics
 * JSON API for monitoring
 
-## Download
+## **Download****
 
 * You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases)
-
 * Or compile yourself using the [Source code](https://github.com/fireice-uk/xmr-stak/releases)
-
 * [Compile instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile.md) from XMR-Stak Github.
 
-## Guides
+## **Guides**
 
 * [How to mine BLOC with XMR-Stak on Linux](../XMR-Stak-Linux-Guide.md)
 * [How to mine BLOC with XMR-Stak on Windows](../XMR-Stak-windows-Guide.md)
 * [How to ming BLOC with XMR-Stak on Mac](../XMR-Stak-Linux-Guide.md)
 
-## HTML and JSON API report configuration
+## **HTML and JSON API report configuration**
 
 To configure the reports you need to edit the `httpd_port variable`. Then enable wifi on your phone and navigate to `[miner ip address]:[httpd_port]` in your phone browser. If you want to use the data in scripts, you can get the JSON version of the data at url `[miner ip address]:[httpd_port]/api.json`
 
@@ -45,7 +43,7 @@ This is how it looks :
 
 ![XMR-STAK API Connection](images/XMR-STAK-api/XMR-API-connection.png)
 
-## Default Developer Donation
+## **Default Developer Donation**
 
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
 If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.

@@ -5,14 +5,14 @@ XMR-Stak is a unified miner, which means the same program will be used to mine w
 ## **Downloading and Installing**
 
 1. Download and install [XMR-Stak Unified Miner](https://github.com/fireice-uk/xmr-stak/releases/latest). It will auto-detect your hardware, and tune everything for you.
-2. Make a folder called `TurtleCoin Miner` on your Desktop and unzip the files you just downloaded for XMR-Stak in there.
+2. Make a folder called `BLOC Miner` on your Desktop and unzip the files you just downloaded for XMR-Stak in there.
 3. Double-click on `xmr-stak.exe`.
 
     #### To start XMR-Stak without using your CPU/GPU, follow these steps <a name= "#xmr-stak-no-cpu-gpu"> </a>
 
     - Open Command Prompt
 
-    - Type `cd Desktop\TurtleCoin Miner`
+    - Type `cd Desktop\BLOC Miner`
 
     - To start XMR-Stak without utilising the CPU, type `xmr-stak.exe --noCPU`
     - To start XMR-Stak without utilizing your nVidia GPU, type `xmr-stak.exe --noNVIDIA`
@@ -36,8 +36,8 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
     If you do need to, then enter a port number.
     Let's take the port number as `16000` and your IP address as `88.20.105.14` as an example.
 
-    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<0101>`. It should show a page with your rig's hashrate.  
-    If you are checking from the same IP address, you can alternatively enter, `localhost:<0101>`
+    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<16000>`. It should show a page with your rig's hashrate.  
+    If you are checking from the same IP address, you can alternatively enter, `localhost:<16000>`
 
     Make sure to enter your own IP address if you enable this feature. You can choose any port you want!
 
@@ -110,9 +110,67 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 
 Done! The miner will now start scanning your hardware and will begin mining. Awesome!
 
+
+## How to check hashrate and results in xmr-stak
+
+To check the hashrate and results in xmr stak you have 2 options. Command line option and HTML reports.
+
+### Command Line option
+
+* Type `h` in the command line window to display your hashrate
+
+![hashrate](images/XMR-STAK-api/hashrate.png)
+
+* Type `r` to display the share results.
+
+![results](images/XMR-STAK-api/results.png)
+
+* Type `c` to display the connection details.
+
+![connection](images/XMR-STAK-api/connection.png)
+
+### HTML Reports
+
+ If you want clean looking reports to display your hashrate then you can use the HTML reports option.
+
+ To configure the reports you need to edit the `httpd_port variable`. Then enable wifi on your phone and navigate to `[miner ip address]:[httpd_port]` in your phone browser. If you want to use the data in scripts, you can get the JSON version of the data at url `[miner ip address]:[httpd_port]/api.json`
+
+This is how it looks :
+
+![XMR-STAK API Hashrate](images/XMR-STAK-api/XMR-API-hashrate.png)
+
+![XMR-STAK API Results](images/XMR-STAK-api/XMR-API-results.png)
+
+![XMR-STAK API Connection](images/XMR-STAK-api/XMR-API-connection.png)
+
+## **How to check your payouts**
+
+You get paid out based upon what the pool sets the min payout amount. A pool’s min payout amount can vary from pool to pool. Visit the mining pool you are mining from to checkout your actual payouts.
+
+### Example if you are mining from [BLOC-MINING Pool Europe](https://bloc-mining.eu)
+
+* Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
+
+* Scroll down to `Your Stats & Payment History`
+![BLOC WEB MINER](images/webminer/CHECK.png)
+
+* Enter your **BLOC** address
+* Click search
+* All your payments will be displayed here
+
+![BLOC WEB MINER](images/webminer/CHECK2.png)
+
+## Settings and configuration
+
 XMR-Stak will save your configuration in `config.txt`  in the same directory from which it was first run.
 
 Your configuration for pools(algorithm to mine, address, port etc) will be saved in `pools.txt`
 The configuration of the device it mines(CPU/AMD/NVIDIA) will be saved in `cpu.txt`, `amd.txt` or `nvidia.txt`, respectively.
 
 Run XMR-Stak again from the same directory to reuse the configuration.
+
+## Mining Tuning Intensity and threads configuration
+
+XMR-STAK gives too many options for tuning to get the best results out of your hardware. By default the miner creates config file for CPU, NVIDIA and AMD GPU. You can edit the values within these text files and see which works best for your mining hardware. Change the value of intensity, work-size, threads and blocks. You can add more GPUs and also lower the power mode of your CPU.
+
+For more information on Tuning and configuring your hardware in XMR-stak we suggest you to read [this guide](https://github.com/fireice-uk/xmr-stak/blob/master/doc/tuning.md)

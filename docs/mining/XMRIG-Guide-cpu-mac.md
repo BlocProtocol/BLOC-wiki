@@ -1,6 +1,9 @@
-# **CPU Mine BLOC on ubuntu with XMRig**
+# **CPU Mine BLOC on MAC OS with XMRig**
 
 XMRig uses separate miners for CPU and GPU, you need to download a CPU and GPU miner separately and run two separate instances on your computer.
+
+Native binaries on Mac OS are not available for XMRIG.
+You will need to compile yourself, follow these instructions:
 
 ## **BLOC Mining Network**
 
@@ -18,22 +21,20 @@ We strongly recommend to leave this donation fee at least 1% to help the XMRIG d
 
 ## **Downloading and Installing for Linux**
 
-Download and install for CPU mining only
 
-You can directly use the pre-built binaries for XMRig CPU. Download the `xmrig-*-xenial-amd64.tar.gz` file [here](https://github.com/xmrig/xmrig/releases).  
+## **Compile and installing for Mac OS**
 
- Run the file using `./xmrig`.
+Assuming you already have [Homebrew](https://brew.sh/) installed, the installation of dependencies is pretty straightforward and will generate the xmr-stak binary in the bin/ directory.
 
-## **Compile and installing for Linux**
 
 ### CPU Mining
 
-If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Instructions](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build) and follow this guide:
+To compile yourself xmrig make sure you visit the [Mac OS Build Instructions](https://github.com/xmrig/xmrig/wiki/OS-X-Build) and follow this guide:
 
 1.  Open the terminal and install dependencies by running this command-
 
     ```
-    sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+    brew install cmake libuv libmicrohttpd openssl
     ```
 
 2.  Clone the package-
@@ -50,27 +51,32 @@ If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Inst
 
 5.  Check build configuration
 
-    * Make sure you check the [Ubuntu Build Instructions](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build)
-    * Including the [Additional CMake options](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build)
+    * Make sure you check the [Ubuntu Build Instructions](https://github.com/xmrig/xmrig/wiki/OS-X-Build)
+    * Including the [Additional CMake options](https://github.com/xmrig/xmrig/wiki/OS-X-Build#additional-cmake-options)
 
 6.  Run cmake-
 
-    `cmake ..`
+    This option will run cmake without Disable SSL/TLS support. This means you can not mine from a pool using https.
+    
+    `cmake .. -DWITH_TLS=OFF`
 
     Example:
 
-    ![XMRRIG cmake..](images/XMRIG/linux/cmake.png)
+    ![XMRIG cmake..](images/XMRIG/mac/build-tls-off.png)
 
-    * Optionally you can use gcc 7 to small performance increase.
 
-      ```
-      sudo add-apt-repository ppa:jonathonf/gcc-7.1
-      sudo apt-get update
-      sudo apt-get install gcc-7 g++-7
-      ```
-    * When run cmake manually specify C and C++ compiler:
+    * If you have installed previously openssl. Verify the path of OPENSSL on your computer and set the path like this while running cmake ..
 
-    `cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7`
+    `cmake .. -DOPENSSL_ROOT_DIR=/usr/local/Cellar/openssl/1.0.2n -DOPENSSL_LIBRARIES=/usr/local/Cellar/openssl/1.0.2n/lib`
+
+    Example:
+
+    ![XMRIG cmake..](images/XMRIG/mac/build-openssl.png)
+
+    
+    * If you get an error regarding the `DUV_LIBRARY` you can specify the path like this:
+
+    `cmake .. -DUV_INCLUDE_DIR=/usr/local/Cellar/libuv/1.23.2 -DUV_LIBRARY=/usr/local/Cellar/libuv/1.23.2/lib/libuv.a -DOPENSSL_ROOT_DIR=/usr/local/Cellar/openssl/1.0.2n -DOPENSSL_LIBRARIES=/usr/local/Cellar/openssl/1.0.2n/lib`
 
 7.  Finish building it-
 
@@ -91,7 +97,7 @@ If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Inst
 
 12. If you see something like this, that means it’s working and you are mining BLOC!
 
-![XMRIG mining BLOC](images/XMRIG/linux/xmrig-start.png)
+![XMRIG mining BLOC](images/XMRIG/mac/xmrig-mining.png)
 
 ### GPU Mining
 
@@ -102,21 +108,15 @@ XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are li
 
 ## **XMRig Setup and Configuration**<a name="setup-and-config"></a>
 
-1.  Unzip the file and extract the files into a new folder (Make sure your anti-virus doesn't delete the files)
-2.  Open the `config.json` file with Notepad
+1.  [Download this config file example](../mining/xmrig-config-sample.json)
+2.  Open the `xmrig-config-sample.json` file with Notepad
 3.  Find and change the following lines:
 
-      * `"algo: "cryptonight-lite"`
-       Change to: `cryptonight-heavy`
-
-      * `"url: "donate.v2.xmrig.com:3333"`
+      * `"url: "bloc-mining.eu:4444"`
       Change to: `[pooladdress:port]`. You'll need to choose a pool to mine towards. You can check the full list [here](https://bloc.money/mining). Make sure to keep the `"`s!
 
       * `"user: "YOUR_WALLET_ADDRESS"`
       Instead of `[wallet address]`, simply paste your BLOC wallet's address. Make sure to keep the `"`! 
-
-      * `"variant": -1`  
-       Change to: `"xhv"` Make sure to **ADD** the **`"`**
       
       * `"donate-level": 5,`
       Change to: `1`. Changing this to 0 will set the default donate-level to 5 
@@ -131,7 +131,7 @@ if you want to mine with both your CPU and your GPU you must have both programs 
 * `./xmrig-amd`. if you're mining with an AMD GPU,
 * or `./xmrig-nvidia` if you're mining with a nVidia GPU.
 
-xmrig should start by default using the config.json placed near the xmrig binary.
+xmrig should start by default using the `config.json` placed near the xmrig binary.
 
 You can build different config files following different configuration and then start xmrig like this:
 
@@ -147,15 +147,15 @@ To check the hashrate and results in xmrig you have 2 options. Command line opti
 
 * Type `h` in the command line window to display your hashrate
 
-![hashrate](images/XMRIG/linux/hashrate.png)
+![hashrate](images/XMRIG/mac/hashrate.png)
 
 * Type `p` to pause the mining.
 
-![pause](images/XMRIG/linux/pause.png)
+![pause](images/XMRIG/mac/pause.png)
 
 * Type `r` to resume mining.
 
-![resume](images/XMRIG/linux/resume.png)
+![resume](images/XMRIG/mac/resume.png)
 
 ### **HTTP API**
 
@@ -188,7 +188,7 @@ Let's take the port number as `16000` and your IP address as `88.20.105.14` as a
 
 This is how it looks :
 
-![hashrate](images/XMRIG/linux/api.png)
+![hashrate](images/XMRIG/mac/api.png)
 
 ## **How to check your payouts**
 

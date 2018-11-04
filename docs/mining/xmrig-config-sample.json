@@ -1,0 +1,50 @@
+{
+    "algo": "cryptonight-heavy",
+    "api": {
+        "port": 16000,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "asm": true,
+    "autosave": true,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 2,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 0,
+    "pools": [
+        {
+            "url": "bloc-mining.eu:4444",
+            "user": "YOUR_WALLET_ADDRESS",
+            "pass": "",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "variant": "xhv",
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 3600,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false,
+            "asm": true
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}

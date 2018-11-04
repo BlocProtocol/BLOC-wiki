@@ -205,7 +205,7 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 
 Done! The miner will now start scanning your hardware and will begin mining. Awesome!
 
-## How to check hashrate and results in xmr-stak
+## **How to check hashrate and results in xmr-stak**
 
 To check the hashrate and results in xmr stak you have 2 options. Command line option and HTML reports.
 
@@ -246,6 +246,7 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
 
 * Scroll down to `Your Stats & Payment History`
+
 ![BLOC WEB MINER](images/webminer/CHECK.png)
 
 * Enter your **BLOC** address
@@ -254,7 +255,7 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
 
-## Settings and configuration
+## **Settings and configuration**
 
 XMR-Stak will save your configuration in `config.txt`  in the same directory from which it was first run.
 
@@ -263,7 +264,7 @@ The configuration of the device it mines(CPU/AMD/NVIDIA) will be saved in `cpu.t
 
 Run XMR-Stak again from the same directory to reuse the configuration.
 
-## Mining Tuning Intensity and threads configuration
+## **Mining Tuning Intensity and threads configuration**
 
 XMR-STAK gives too many options for tuning to get the best results out of your hardware. By default the miner creates config file for CPU, NVIDIA and AMD GPU. You can edit the values within these text files and see which works best for your mining hardware. Change the value of intensity, work-size, threads and blocks. You can add more GPUs and also lower the power mode of your CPU.
 

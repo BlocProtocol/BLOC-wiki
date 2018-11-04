@@ -1,4 +1,4 @@
-# BLOC in-browser javascript web miner
+# **BLOC in-browser javascript web miner**
 
 [BLOC](https://bloc.money) Web Mining was designed and built to allow users to easily start mining the cryptocurrency Ƀ BLOC. In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining cryptocurrencies with your computer.
 
@@ -6,17 +6,17 @@ Easy to use in-browser miner was designed to allow virtually anyone with interne
 
 Developing **BLOC** globally is one of our TOP priority. We want everyone from every country to be able access and enjoy the **BLOC**.
 
-## Easy cryptocurrency mining
+## **Easy cryptocurrency mining**
 
 Our [BLOC-MINING.com](https://bloc-mining.com) based GUI was created to allow everyone to get involved in the mining of the crypto currency Ƀ **BLOC**. Mining can be fun and a great hobby, not to mention you’re rewarded with Crypto Currencies for your computer solving transactions. With our browser based miner application you can mine **BLOC** from almost any device that has a Web browser.
 
-## Clean interface
+## **Clean interface**
 
 ![BLOC WEB MINER](images/webminer/WEBMINING1.png)
 
 The easy to use user interface displays data such as Pool Hash Rate, Network Hash Rate, Network Difficulty, Connected Miners, Last Network Block Reward and it even has a chart so you can see your Hashes Per Second performance. There is also an option to change your threads very easily
 
-## Getting Started
+## **Getting Started**
 
 ### Create a BLOC Wallet
 
@@ -59,6 +59,7 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
 
 * Scroll down to `Your Stats & Payment History`
+
 ![BLOC WEB MINER](images/webminer/CHECK.png)
 
 * Enter your **BLOC** address

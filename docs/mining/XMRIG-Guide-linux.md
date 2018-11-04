@@ -98,7 +98,6 @@ If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Inst
 
 XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are linked below(Ubuntu):
 
-* [XMRig CPU Miner](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build) 
 * [XMRig GPU Nvidia Miner](https://github.com/xmrig/xmrig-nvidia/wiki/Ubuntu-Build) 
 * [XMRig GPU AMD Miner](https://github.com/xmrig/xmrig-amd/wiki/Ubuntu-Build)
 
@@ -117,7 +116,7 @@ XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are li
       * `"user: "YOUR_WALLET_ADDRESS"`
       Instead of `[wallet address]`, simply paste your BLOC wallet's address. Make sure to keep the `"`! 
 
-      * `"variant": "xhv"`  
+      * `"variant": -1`  
        Change to: `"xhv"` Make sure to **ADD** the **`"`**
       
       * `"donate-level": 5,`
@@ -149,15 +148,15 @@ To check the hashrate and results in xmrig you have 2 options. Command line opti
 
 * Type `h` in the command line window to display your hashrate
 
-![hashrate](images/XMRIG/hashrate.png)
+![hashrate](images/XMRIG/linux/hashrate.png)
 
 * Type `p` to pause the mining.
 
-![pause](images/XMRIG/pause.png)
+![pause](images/XMRIG/linux/pause.png)
 
 * Type `r` to resume mining.
 
-![resume](images/XMRIG/resume.png)
+![resume](images/XMRIG/linux/resume.png)
 
 ### **HTTP API**
 
@@ -182,14 +181,15 @@ Make sure you check the [API details](https://github.com/xmrig/xmrig/wiki/API) f
 
 Let's take the port number as `16000` and your IP address as `88.20.105.14` as an example.
 
-    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<16000>`. It should show a page with your rig's hashrate.  
+    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<16000>`.
+    It should show a page with your rig's hashrate.  
     If you are checking from the same IP address, you can alternatively enter, `localhost:<16000>`
 
     Make sure to enter your own IP address if you enable this feature. You can choose any port you want!
 
 This is how it looks :
 
-![hashrate](images/XMRIG/api.png)
+![hashrate](images/XMRIG/linux/api.png)
 
 ## **How to check your payouts**
 

@@ -19,7 +19,7 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 * HTML statistics
 * JSON API for monitoring
 
-## **Download****
+## **Download**
 
 * You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases)
 * Or compile yourself using the [Source code](https://github.com/fireice-uk/xmr-stak/releases)
@@ -27,9 +27,9 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 
 ## **Guides**
 
-* [How to mine BLOC with XMR-Stak on Linux](../XMR-Stak-Linux-Guide.md)
-* [How to mine BLOC with XMR-Stak on Windows](../XMR-Stak-windows-Guide.md)
-* [How to ming BLOC with XMR-Stak on Mac](../XMR-Stak-Linux-Guide.md)
+* [How to mine BLOC with XMR-Stak on Linux](../mining/XMR-Stak-Linux-Guide.md)
+* [How to mine BLOC with XMR-Stak on Windows](../mining/XMR-Stak-windows-Guide.md)
+* [How to ming BLOC with XMR-Stak on Mac](../mining/XMR-Stak-Linux-Guide.md)
 
 ## **HTML and JSON API report configuration**
 

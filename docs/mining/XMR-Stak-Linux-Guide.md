@@ -9,12 +9,12 @@ If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) s
 
 ## **Choose your mining pool**
 
-
+You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website. We suggest you to select the nearest mining pool following your location for the best mining experience and results.
 
 ## **Default Developer Donation**
 
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
-If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.
+If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries. We strongly recommend to leave this donation fee at least 1% to help the **XMR-stak** developers by providing regular updates.
 
 ## **Ubuntu 16.04**<a name="ubuntu-16-04"></a>
 

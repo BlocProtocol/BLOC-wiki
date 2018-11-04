@@ -28,7 +28,7 @@ To start mining **BLOC** with **XMRig**, you can check out [this guide](../minin
 
 ## **4. Mobile Mining**
 
-Using your mobile to mine **BLOC** 24/7 is not advised and should only be done for the fun. It may also cause the phone to overheat and result in premature silicon degradation, shortening the lifespan of your phone. However mining during the night while you are not using your mobile phone can be an interesting option and may be profitable.
+Using your mobile to mine **BLOC** 24/7 is not advised and should only be done for the fun. It may also cause the phone to overheat and result in premature silicon degradation, shortening the lifespan of your phone. However mining during the night while you are sleeping and not using your mobile phone can be an interesting option and may be profitable.
 
 Check out the two options available to mine BLOC from a mobile phone:
 

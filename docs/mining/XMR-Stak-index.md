@@ -6,7 +6,7 @@ XMR-Stak - Cryptonight All-in-One Mining Software
 
 XMR Stak is well optimized and it is known to significantly generate more hashrates than any other miners. Here in this beginners guide we’ll be showing you how to use XMR-STAK and start mining [BLOC](https://bloc.money).
 
-![XMR-STAK mining BLOC](images/XMR-stak-mac/XMR-stak-mac-mining-cpu.png)
+![XMR-STAK mining BLOC](images/XMR-STAK-ubuntu/xmr-stak-compile-linux.png)
 
 ## **Features**
 
@@ -27,6 +27,10 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 * You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases)
 * Or compile yourself using the [Source code](https://github.com/fireice-uk/xmr-stak)
 * [Compile instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile.md) from XMR-Stak Github.
+
+## **Choose your mining pool**
+
+You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website. We suggest you to select the nearest mining pool following your location for the best mining experience and results.
 
 ## **BLOC Configuration**
 
@@ -53,4 +57,4 @@ This is how it looks :
 ## **Default Developer Donation**
 
 By default, the XMR-STAK will donate 2% of the hashpower (2 minutes in 100 minutes) to XMR-stak developers pool.
-If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries.
+If you want to change that, edit [donate-level.hpp](https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/donate-level.hpp) before you build the binaries. We strongly recommend to leave this donation fee at least 1% to help the XMRIG developers by providing regular updates.

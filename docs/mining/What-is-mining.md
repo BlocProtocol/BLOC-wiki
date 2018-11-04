@@ -12,7 +12,7 @@ If you want to learn about cryptocurrencies, mining is a great place to start!. 
 
 ## **Guides about Mining**
 
-Make sure you read the following guides about mining **BLOC**
+Make sure you read the following guides about how to mine **BLOC**
 
 * [How to mine BLOC](../mining/How-to-mine-BLOC.md)
 * [BLOC Mining Pools](../mining/Pools.md)

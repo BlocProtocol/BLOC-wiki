@@ -13,6 +13,10 @@ You can find a complete list of the BLOC mining pools available on the [BLOC MIN
 
 If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining.
 
+## **Choose your mining pool**
+
+You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website. We suggest you to select the nearest mining pool following your location for the best mining experience and results.
+
 ## **Default Developer Donation**
 
 By default, the XMRIG will donate 5% of the hashpower (5 minutes in 100 minutes) to XMRIG developers pool.
@@ -206,7 +210,7 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
 
-## Custom config file
+## **Custom config file**
 
 Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
 

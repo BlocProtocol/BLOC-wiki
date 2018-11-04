@@ -1,4 +1,4 @@
-# What is a mining pool ?
+# **What is a mining pool ?**
 
 A mining pool is a joined group of cryptocurrency miners who share their processing power over a network, to split the reward equally, according to the amount of work they contributed to the probability of finding a block. A “share” is awarded to members of the mining pool who present a valid partial proof-of-work. 
 
@@ -6,7 +6,7 @@ So unless you want to solo mine, which is unfeasible for many people, you will n
 
 [![MINING BLOC](images/mining-pools/miningpool1.png)](https://bloc.money/mining)
 
-## BLOC Mining Network
+## **BLOC Mining Network**
 
 You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website.
 
@@ -20,7 +20,7 @@ Built and maintain by the [Community](https://bloc.money/mining)
 
 [![MINING BLOC NETWORK](images/mining-pools/miningpool2.png)](https://bloc.money/mining)
 
-## Definition of Fees
+## **Definition of Fees**
 
 Rather simple; the pool operator will take a percentage of the reward of the block found for himself.
 
@@ -32,8 +32,8 @@ Example-
 
 Therefore, the pool operator will take 0.02 abLoc for himself.
 
-## Add your mining pool
+## **Add your mining pool**
 
-Do you have a mining Pool for BLOC ?
+Do you have a mining Pool for **BLOC** ?
 Would you like to be added to the official mining pools list on the BLOC MONEY website [here](https://bloc.money/mining) ?
 Just contact us using our social media accounts or simply by email.

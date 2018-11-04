@@ -1,12 +1,9 @@
-# How to Set Up XMR-Stak on Linux
+# **How to Set Up XMR-Stak on Linux**
 
-Native binaries may be available for your distribution's package manager.
+Native binaries on linux are not available for XMR-stak.
+You will need to compile yourself, follow these instructions:
 
-If no binaries are available, or you prefer to compile, follow these instructions-
-
-## Ubuntu 16.04<a name="ubuntu-16-04"></a>
-
-*Guide sponsored by Monerise*
+## **Ubuntu 16.04**<a name="ubuntu-16-04"></a>
 
 1. If you want to use your GPU for mining, do the following-
 
@@ -68,7 +65,13 @@ If no binaries are available, or you prefer to compile, follow these instruction
 
     `cd xmr-stak/build`
 
-7.  Run cmake-
+7.  Check build configuration
+
+    * Make sure you check the XMR-stak [General build instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile.md)
+    
+    * And the [Linux instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile_Linux.md)
+
+8.  Run cmake-
 
     `cmake ..`
 
@@ -84,23 +87,38 @@ If no binaries are available, or you prefer to compile, follow these instruction
 
     `cmake .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF`
 
-8.  Finish building it-
+    Example configuration on Linux for CPU mining only:
+
+    * CMAKE_BUILD_TYPE = Release
+    * MICROHTTPD_ENABLE = ON (*Enable HTML reports*)
+    * OpenSSL_ENABLE = ON (*Mine from pool using https*)
+    * XMR-STAK_COMPILE = generic (Use the binary on all CPU's with sse2)
+    * OpenCL_ENABLE = OFF
+    * CUDA_ENABLE = OFF
+
+    `cmake .. -DCMAKE_BUILD_TYPE=Release -DMICROHTTPD_ENABLE=ON -DOpenSSL_ENABLE=ON -DXMR-STAK_COMPILE=generic -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF`
+
+9.  Finish building it-
 
     `make install`
 
-9.  XMR-Stak will now be located in `/home/user/xmr-stak/build/bin`
+10. You should see a result like this.
 
-10. Type-
+    ![XMR-STAK install done](images/XMR-STAK-ubuntu/xmr-stak-compile-linux.png)
+
+10.  XMR-Stak will now be located in `/home/user/xmr-stak/build/bin`
+
+11. Type-
 
     `./xmr-stak`
 
-11. Check [XMR-Stak Setup and Configuration](#setup-and-config)
+12. Check [XMR-Stak Setup and Configuration](#setup-and-config)
 
-12. If you see something like this, that means it’s working!
+13. If you see something like this, that means it’s working!
 
-![workubuntu](images/xmrstak-ubuntuwork.png)
+![XMR-STAK mining BLOC](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
 
-## XMR-Stak Setup and Configuration<a name="setup-and-config"></a>
+## **XMR-Stak Setup and Configuration**<a name="setup-and-config"></a>
 
 Upon first launching XMR-Stak, the software will ask you several setup and configuration questions.
 
@@ -110,9 +128,9 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
     Enter `0`, if you do not need to remotely check your hashrate.
 
     If you do need to, then enter a port number.
-    Let's take the port number as `0101` and your IP address as `26.24.105.14` as an example.
+    Let's take the port number as `16000` and your IP address as `88.20.105.14` as an example.
 
-    To check the hashrate, enter in the address bar of your web browser, `<26.24.105.14>:<0101>`. It should show a page with your rig's hashrate.  
+    To check the hashrate, enter in the address bar of your web browser, `<88.20.105.14>:<0101>`. It should show a page with your rig's hashrate.  
     If you are checking from the same IP address, you can alternatively enter, `localhost:<0101>`
 
     Make sure to enter your own IP address if you enable this feature. You can choose any port you want!
@@ -120,33 +138,39 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 2.  
    ```
     Please enter:
-    - Please enter the currency that you want to mine:
 
-    - aeon7
-    - bbscoin
-    - croat
-    - cryptonight
-    - cryptonight_heavy
-    - cryptonight_lite
-    - cryptonight_lite_v7
-    - cryptonight_v7
-    - edollar
-    - electroneum
-    - graft
-    - haven
-    - intense
-    - karbo
-    - monero7
-    - stellite
-    - sumokoin
-    - turtlecoin
+    - Please enter the currency that you want to mine: 
+	- aeon7
+	- bbscoin
+	- bittube
+	- cryptonight
+	- cryptonight_bittube2
+	- cryptonight_masari
+	- cryptonight_haven
+	- cryptonight_heavy
+	- cryptonight_lite
+	- cryptonight_lite_v7
+	- cryptonight_lite_v7_xor
+	- cryptonight_v7
+	- cryptonight_v8
+	- cryptonight_v7_stellite
+	- graft
+	- haven
+	- intense
+	- masari
+	- monero
+	- qrl
+	- ryo
+	- stellite
+	- turtlecoin
+
    ```
 
-    Enter `turtlecoin`
+    Enter `cryptonight_haven`
 
 3.  `- Pool address: e.g. pool.example.com:3333 `
 
-    Choose a pool from any of the [available pools](../Pools) that is **closest to you** and enter its URL (you will be able to add more later).
+    Choose a pool from any of the [available pools](https://bloc.money/mining) that is **closest to you** and enter its URL (you will be able to add more later).
 
 4.  `- Username (Wallet address or pool login):`  
 
@@ -154,7 +178,7 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 
 5.  `- Password (mostly empty or x):`  
 
-    Enter `x`.
+    Leave it empty and press enter.
 
 6.  `- Rig identifier for pool-side statistics (needs pool support). Can be empty:`
 

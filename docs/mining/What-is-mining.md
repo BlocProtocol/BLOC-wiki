@@ -1,4 +1,4 @@
-# What is mining ?
+# **What is mining ?**
 
 Cryptocurrency mining includes two functions, namely: adding transactions to the blockchain (securing and verifying) and also releasing new currency. Mining needs a device such as a computer or mobile device and a special program, which helps miners compete with their peers in solving complicated mathematical problems.
 
@@ -6,6 +6,22 @@ Mining is the process of adding transaction records to cryptocurency public ledg
 
 If you want to learn about cryptocurrencies, mining is a great place to start!. Start mining today and get rewarded in [BLOC](https://bloc.money).
 
-## Egalitarian Proof of Work
+## **Egalitarian Proof of Work**
 
-An amazing feature that balance the low end hardware, middle and high end hardware. That means that even if you use a smartphone or a normal computer or any other low end hardware, you will be able to mine the **BLOC** with the same probabilty of coin reward. On top of that we have updated the core of BLOC.money to be ASIC resistant using the latest Cryptonight haven algorythm which is a variant of Monero. Everyone can mine the [BLOC](https://bloc.money) with a true egalitarian proof of work (POW) and fair money distribution.
+[BLOC](https://bloc.money) has an amazing feature that balance the low end hardware, middle and high end hardware. That means that even if you use a smartphone or a normal computer or any other low end hardware, you will be able to mine **BLOC** with the same probabilty of coin reward. On top of that we have updated the core of **BLOC** to be ASIC resistant using the latest Cryptonight haven algorythm which is a variant of Monero. Everyone can mine the [BLOC](https://bloc.money) with a true egalitarian proof of work (POW) and fair money distribution.
+
+## **Guides about Mining**
+
+Make sure you read the following guides about mining **BLOC**
+
+* [How to mine BLOC](../mining/How-to-mine-BLOC.md)
+* [BLOC Mining Pools](../mining/Pools.md)
+* [In-browser Miner](../mining/Mining-with-web-miner.md)
+* [Mining on mobile phone](../mining/mobile-mining/Mining-with-Phone.md)
+* [Mining with XMR-stak](../mining/XMR-Stak-index.md)
+* [Mining with XMRig](../mining/XMRIG-index.md)
+
+
+
+
+

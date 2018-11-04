@@ -3,6 +3,8 @@
 Native binaries on linux are not available for XMR-stak.
 You will need to compile yourself, follow these instructions:
 
+If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining.
+
 ## **Ubuntu 16.04**<a name="ubuntu-16-04"></a>
 
 1. If you want to use your GPU for mining, do the following-
@@ -174,7 +176,7 @@ Upon first launching XMR-Stak, the software will ask you several setup and confi
 
 4.  `- Username (Wallet address or pool login):`  
 
-    If you have not yet downloaded and ran the TurtleCoin core software to sync the blockchain and create a wallet, you can make a [paper wallet](../../wallets/Making-a-paper-wallet) to start mining towards now, and import the wallet later.
+    If you have not yet downloaded and ran the BLOC software to sync the blockchain and create a wallet, you can [create your wallet](../../wallets/Making-a-Wallet) before start mining.
 
 5.  `- Password (mostly empty or x):`  
 

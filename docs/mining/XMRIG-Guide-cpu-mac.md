@@ -19,9 +19,6 @@ By default, the XMRIG will donate 5% of the hashpower (5 minutes in 100 minutes)
 If you want to change that, edit `config.json` before you start mining.
 We strongly recommend to leave this donation fee at least 1% to help the XMRIG developers by providing regular updates.
 
-## **Downloading and Installing for Linux**
-
-
 ## **Compile and installing for Mac OS**
 
 Assuming you already have [Homebrew](https://brew.sh/) installed, the installation of dependencies is pretty straightforward and will generate the xmr-stak binary in the bin/ directory.
@@ -93,7 +90,8 @@ To compile yourself xmrig make sure you visit the [Mac OS Build Instructions](ht
 
     `./xmrig`
 
-11. Check [xmrig Setup and Configuration](#setup-and-config)
+11. [Download this config file example](../mining//xmrig/config.json)
+    Check [xmrig Setup and Configuration](#setup-and-config)
 
 12. If you see something like this, that means it’s working and you are mining BLOC!
 
@@ -108,7 +106,7 @@ XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are li
 
 ## **XMRig Setup and Configuration**<a name="setup-and-config"></a>
 
-1.  [Download this config file example](../mining/xmrig-config-sample.json)
+1.  [Download this config file example](../mining/xmrig/config.json)
 2.  Open the `xmrig-config-sample.json` file with Notepad
 3.  Find and change the following lines:
 
@@ -207,6 +205,10 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * All your payments will be displayed here
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
+
+## Custom config file
+
+Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
 
 ## **Mining with XMRIG**
 

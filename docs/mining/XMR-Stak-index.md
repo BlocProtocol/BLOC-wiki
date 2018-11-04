@@ -6,6 +6,8 @@ XMR-Stak - Cryptonight All-in-One Mining Software
 
 XMR Stak is well optimized and it is known to significantly generate more hashrates than any other miners. Here in this beginners guide we’ll be showing you how to use XMR-STAK and start mining [BLOC](https://bloc.money).
 
+![XMR-stak mining BLOC](images/XMRIG/mac/xmrig-mining.png)
+
 ## **Features**
 
 * support all common backends (CPU/x86, AMD-GPU and NVIDIA-GPU)
@@ -24,6 +26,10 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 * You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases)
 * Or compile yourself using the [Source code](https://github.com/fireice-uk/xmr-stak)
 * [Compile instructions](https://github.com/fireice-uk/xmr-stak/blob/master/doc/compile.md) from XMR-Stak Github.
+
+## BLOC Configuration
+
+* currency: **`cryptonight_haven`**
 
 ## **Guides**
 

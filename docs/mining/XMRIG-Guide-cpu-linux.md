@@ -88,7 +88,8 @@ If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Inst
 
     `./xmrig`
 
-11. Check [xmrig Setup and Configuration](#setup-and-config)
+11. [Download this config file example](../mining/xmrig/config.json)
+    Check [xmrig Setup and Configuration](#setup-and-config)
 
 12. If you see something like this, that means it’s working and you are mining BLOC!
 
@@ -208,6 +209,10 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * All your payments will be displayed here
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
+
+## Custom config file
+
+Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
 
 ## **Mining with XMRIG**
 

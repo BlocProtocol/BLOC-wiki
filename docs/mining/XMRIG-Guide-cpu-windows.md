@@ -1,4 +1,4 @@
-# **CPU Mine BLOC on ubuntu with XMRig**
+# **CPU Mine BLOC on Windows with XMRig**
 
 XMRig uses separate miners for CPU and GPU, you need to download a CPU and GPU miner separately and run two separate instances on your computer.
 
@@ -16,82 +16,13 @@ By default, the XMRIG will donate 5% of the hashpower (5 minutes in 100 minutes)
 If you want to change that, edit `config.json` before you start mining.
 We strongly recommend to leave this donation fee at least 1% to help the XMRIG developers by providing regular updates.
 
-## **Downloading and Installing for Linux**
+## **Downloading and Installing for Windows**
 
 Download and install for CPU mining only
 
-You can directly use the pre-built binaries for XMRig CPU. Download the `xmrig-*-xenial-amd64.tar.gz` file [here](https://github.com/xmrig/xmrig/releases).  
+You can directly use the pre-built binaries for XMRig CPU. Download the Windows file [here](https://github.com/xmrig/xmrig/releases).  
 
  Run the file using `./xmrig`.
-
-## **Compile and installing for Linux**
-
-### CPU Mining
-
-If you wish to compile yourself xmrig make sure you visit the [Ubuntu Build Instructions](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build) and follow this guide:
-
-1.  Open the terminal and install dependencies by running this command-
-
-    ```
-    sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
-    ```
-
-2.  Clone the package-
-
-    `git clone https://github.com/xmrig/xmrig.git`
-
-3.  Make a directory-
-
-    `mkdir xmrig/build`
-
-4.  Move over there-  
-
-    `cd xmrig/build`
-
-5.  Check build configuration
-
-    * Make sure you check the [Ubuntu Build Instructions](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build)
-    * Including the [Additional CMake options](https://github.com/xmrig/xmrig/wiki/Ubuntu-Build)
-
-6.  Run cmake-
-
-    `cmake ..`
-
-    Example:
-
-    ![XMRRIG cmake..](images/XMRIG/linux/cmake.png)
-
-    * Optionally you can use gcc 7 to small performance increase.
-
-      ```
-      sudo add-apt-repository ppa:jonathonf/gcc-7.1
-      sudo apt-get update
-      sudo apt-get install gcc-7 g++-7
-      ```
-    * When run cmake manually specify C and C++ compiler:
-
-    `cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7`
-
-7.  Finish building it-
-
-    `make`
-
-8. You should see a result like this:
-
-    ![XMRIG make](images/XMRIG/mac/build-make.png)
-
-
-9.  xmrig will now be located in `/home/user/xmrig/build/`
-
-10. Type-
-
-    `./xmrig`
-
-11. Check [xmrig Setup and Configuration](#setup-and-config)
-
-12. If you see something like this, that means it’s working and you are mining BLOC!
-
-![XMRIG mining BLOC](images/XMRIG/linux/xmrig-start.png)
 
 ### GPU Mining
 
@@ -127,16 +58,16 @@ XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are li
 
 if you want to mine with both your CPU and your GPU you must have both programs open at the same time!
 
-* start `./xmrig` if you're mining with your CPU,
-* `./xmrig-amd`. if you're mining with an AMD GPU,
-* or `./xmrig-nvidia` if you're mining with a nVidia GPU.
+* start `xmrig.exe` if you're mining with your CPU,
+* `xmrig-amd.exe`. if you're mining with an AMD GPU,
+* or `xmrig-nvidia.exe` if you're mining with a nVidia GPU.
 
-xmrig should start by default using the config.json placed near the xmrig binary.
+xmrig should start by default using the `config.json` placed near the xmrig binary.
 
 You can build different config files following different configuration and then start xmrig like this:
 
 ```
-`./xmrig`--config=my-config.json`
+`xmrig.exe --config=my-config.json`
 ```
 
 ## **How to check hashrate and results in xmrig**
@@ -147,15 +78,15 @@ To check the hashrate and results in xmrig you have 2 options. Command line opti
 
 * Type `h` in the command line window to display your hashrate
 
-![hashrate](images/XMRIG/linux/hashrate.png)
+![hashrate](images/XMRIG/mac/hashrate.png)
 
 * Type `p` to pause the mining.
 
-![pause](images/XMRIG/linux/pause.png)
+![pause](images/XMRIG/mac/pause.png)
 
 * Type `r` to resume mining.
 
-![resume](images/XMRIG/linux/resume.png)
+![resume](images/XMRIG/mac/resume.png)
 
 ### **HTTP API**
 
@@ -188,7 +119,7 @@ Let's take the port number as `16000` and your IP address as `88.20.105.14` as a
 
 This is how it looks :
 
-![hashrate](images/XMRIG/linux/api.png)
+![hashrate](images/XMRIG/mac/api.png)
 
 ## **How to check your payouts**
 
@@ -207,6 +138,10 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 * All your payments will be displayed here
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
+
+## Custom config file
+
+Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
 
 ## **Mining with XMRIG**
 

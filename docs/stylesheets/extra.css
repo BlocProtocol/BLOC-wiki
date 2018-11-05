@@ -1,47 +1,15 @@
-.footer {
+footer .network.list-unstyled{padding-left:0;list-style:none}
+footer .network.list-inline{padding-left:0;margin-left:-5px;list-style:none}
+footer .network.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+footer .network {
 	text-align: center;
-	padding-bottom: 100px;
-	background: url("../img/footer/background.png") no-repeat bottom center;
 }
-.footer .img-responsive {
-	margin: 0 auto;
-}
-.footer .menu {
-	margin-bottom: 10px;
-}
-.footer .menu a,
-.footer .menu a:hover {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 15px;
-	padding: 0 11px;
-	font-weight: 400;
-}
-.footer .copy {
-	font-size: 13px;
-	margin-bottom: 60px;
-	opacity: .25;
-}
-.footer ul {
-	margin: 0;
-}
-.footer ul li {
-	padding: 0;
-}
-.footer .icons {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-.footer .icons a,
-.footer .icons a:hover {
-	margin-right: 8px;
-}
-.footer .network img {
+footer .network img {
 	margin-bottom: 12px;
 	opacity: .5;
 }
-.footer .network a,
-.footer .network a:hover {
+footer .network a,
+footer .network a:hover {
 	width: 70px;
 	color: #676978;
 	font-size: 12px;
@@ -49,14 +17,16 @@
 	text-decoration: none;
 	display: inline-block;
 }
-.footer .network a:hover img {
+footer .network a:hover img {
 	opacity: 1;
 }
 
-.tooltip.top .tooltip-arrow {
-	border-top-color: #fff;
-}
-.tooltip-inner {
-	color: #000;
-	background-color: #fff;
-}
+/*
+var head  = document.getElementsByTagName('head')[0];
+var link  = document.createElement('link');
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+link.href = 'https://bloc.money/css/netlify.com.css';
+link.media = 'all';
+head.appendChild(link);
+*/

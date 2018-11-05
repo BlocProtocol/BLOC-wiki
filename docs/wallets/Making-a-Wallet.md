@@ -34,10 +34,10 @@ If you would like to use the BLOC Electron Wallet, you can take a look at [this 
 
 ### **BLOC Wallet Client 2.0.2**
 
-The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
+The previous version of BLOC Wallet for desktop computer for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**
 
-If you would like to use **BLOC Wallet v2.0.2**, you can check out [this guide](../wallets/BLOC-GUI-Desktop-Wallet-V2.md).
+You can still check the features and view the details of the old [BLOC Wallet v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
 ## **Telegram Wallet**
 

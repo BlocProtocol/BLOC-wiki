@@ -1,0 +1,32 @@
+footer .network.list-unstyled{padding-left:0;list-style:none}
+footer .network.list-inline{padding-left:0;margin-left:-5px;list-style:none}
+footer .network.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+footer .network {
+	text-align: center;
+}
+footer .network img {
+	margin-bottom: 12px;
+	opacity: .5;
+}
+footer .network a,
+footer .network a:hover {
+	width: 70px;
+	color: #676978;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	display: inline-block;
+}
+footer .network a:hover img {
+	opacity: 1;
+}
+
+/*
+var head  = document.getElementsByTagName('head')[0];
+var link  = document.createElement('link');
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+link.href = 'https://bloc.money/css/netlify.com.css';
+link.media = 'all';
+head.appendChild(link);
+*/

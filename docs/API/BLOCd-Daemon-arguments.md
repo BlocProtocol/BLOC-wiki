@@ -30,6 +30,16 @@ See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daem
 
 ## **BLOCd Command line options**
 
+Almost all of the command line options can be defined through the configuration file.
+If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:
+
+* If the parameter accepts one value only (e.g., rpc-bind-ip), the command line value will be used, since it has a higher priority.
+* If the parameter accepts several values (e.g., add-priority-node), then command line and configuration file values will be merged.
+
+By default config file's name is "BLOC.conf", which is located in the binaries folder. However, you may adjust the destination to the file via "--config-file" option in the command line.
+
+If some of the options are not defined in the config, the default values will be applied.
+
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
 
 ```

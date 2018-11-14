@@ -421,7 +421,7 @@ rpc-password = RPCpassword
 
 [Download Example](images/bloc-service/myconf.conf)
 
-* Place this file next to BLOCd
+* Place this file next to bloc-service
 * Save it under the name `myconf.conf`
 
 **Expected results**
@@ -525,7 +525,7 @@ If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know 
 * Create a txt file with your favorite text editor and open it.
 * Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
-* Place this file next to BLOCd
+* Place this file next to bloc-service
 * Save it under the name `myconf.conf`
 
 ```
@@ -583,7 +583,7 @@ If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after 
 * Create a txt file with your favorite text editor and open it.
 * Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
-* Place this file next to BLOCd
+* Place this file next to bloc-service
 * Save it under the name `mycontainer.conf`
 
 ```

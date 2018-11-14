@@ -32,7 +32,7 @@ theme:
   static_templates:
     - 404.html
   extra_css:
-    ['stylesheets/extra.css']
+    - stylesheets/extra.css
 
 # customization
 extra:

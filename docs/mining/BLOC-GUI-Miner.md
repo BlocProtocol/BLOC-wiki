@@ -201,7 +201,7 @@ If you want to change that, edit [donate-level.hpp](https://github.com/fireice-u
 
 You are welcome to use your own [xmr-stak](https://github.com/fireice-uk/xmr-stak) or [xmrig](https://github.com/xmrig/xmrig) binaries as long as it is the same version compatible with the BLOC GUI Miner available on this page.
 
-Use the standard procedure to compile your favorite miner and place the binaries file inside the miner folder next to the BLOC GUI Miner application. Once you are ready simply double click the BLOC GUI Miner icon to launch the application and [start mining](../mining/BLOC-GUI-miner.md#start-mining).
+Use the standard procedure to compile your favorite miner and place the binaries file inside the miner folder next to the BLOC GUI Miner application. Once you are ready simply double click the BLOC GUI Miner icon to launch the application and [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
 For the mining stats to display correctly you need to enable the API for each miner by doing the following:
 

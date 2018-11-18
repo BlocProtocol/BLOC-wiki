@@ -71,15 +71,14 @@ footer .network a:hover img {
       EUROPE</p></a></li><li><a href="https://bloc-mining.asia/" target="_blank"><img src="https://bloc.money/img/footer/network/blocasia.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
       ASIA</p></a></li>	<li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
       DEVELOPER</p></a></li></ul>
-
-      {% if config.copyright %} <a href="https://opensource.org/licenses/MIT"> MIT License </a>
-            
+            </div>
+        <div class="md-footer-copyright">
+          {% if config.copyright %} <a href="https://opensource.org/licenses/MIT"> MIT License </a>
+            <div class="md-footer-copyright__highlight">
               {{ config.copyright }}
-            
+            </div>
           {% endif %}	
           in BLOC we trust.
-            </div>
-          
           <br> <br>
           
           <br> <br>
@@ -88,6 +87,7 @@ footer .network a:hover img {
         {% block social %}
           {% include "partials/social.html" %}
         {% endblock %}
+      </div>
   </div>
   </footer> 
   

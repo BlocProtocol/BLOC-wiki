@@ -62,13 +62,6 @@ footer .network a:hover img {
     {% endif %}
      <div class="md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
-        <div class="md-footer-copyright">
-          {% if config.copyright %}
-            <div class="md-footer-copyright__highlight">
-              {{ config.copyright }}
-            </div>
-          {% endif %}	
-          in BLOC we trust.
           <br> <br>
           <div class="copy">
             <ul class="list-unstyled list-inline network"><li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
@@ -91,7 +84,6 @@ footer .network a:hover img {
         {% block social %}
           {% include "partials/social.html" %}
         {% endblock %}
-      </div>
   </div>
   </footer> 
   

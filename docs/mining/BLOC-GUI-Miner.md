@@ -10,7 +10,7 @@ BLOC GUI Miner comes with XMR-STAK already built in including configuration file
 
 This page describe how to use the BLOC GUI Miner and getting started mining the cryptocurrency BLOC on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
 
-If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [what is mining ?](../mining/What-is-mining.md). Start mining today and get rewarded in BLOC.
+If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [what is mining ?](../mining/What-is-mining.md). [Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in BLOC.
 
 ## **How to compile**
 
@@ -61,7 +61,7 @@ Inside the miner folder:
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 
-You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-miner.md#start-mining).
+You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
 If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-miner.md#use-my-binaries).
 
@@ -75,11 +75,11 @@ BLOC GUI Miner comes with XMR-STAK already built in including configuration file
 
 It must looks like this:
 
-![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows-1.png)
+![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows1.png)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows-2.png)
+![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows2.png)
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 

@@ -63,6 +63,13 @@ footer .network a:hover img {
      <div class="md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
         <div class="md-footer-copyright">
+          {% if config.copyright %} <a href="https://opensource.org/licenses/MIT"> MIT License </a>
+            <div class="md-footer-copyright__highlight">
+              {{ config.copyright }}
+            </div>
+          {% endif %}	
+          in BLOC we trust.
+          <br> <br>
           <div class="copy">
             <ul class="list-unstyled list-inline network"><li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
     .MONEY</p></a></li><li><a href="https://bloc-explorer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocexplorer.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
@@ -73,13 +80,6 @@ footer .network a:hover img {
     ASIA</p></a></li>	<li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
     DEVELOPER</p></a></li></ul>
           </div>
-          <br> <br>
-          {% if config.copyright %} <a href="https://opensource.org/licenses/MIT"> MIT License </a>
-            <div class="md-footer-copyright__highlight">
-              {{ config.copyright }}
-            </div>
-          {% endif %}	
-          in BLOC we trust.
           <br> <br>
             <a href="https://github.com/furiousteam/bloc-wiki"> Help improve these documents! </a>
         </div>

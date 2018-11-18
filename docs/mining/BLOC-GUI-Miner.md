@@ -38,9 +38,9 @@ Inside the miner folder:
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 
-You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-miner.md#start-mining).
+You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use the GPU mining feature on Linux you will have to compile XMR-STAK or XMRIG and [use your binaries](../mining/BLOC-GUI-miner.md#use-my-binaries) with the BLOC GUI Miner.
+If you would like to use the GPU mining feature on Linux you will have to compile XMR-STAK or XMRIG and [use your binaries](../mining/BLOC-GUI-Miner.md#use-my-binaries) with the BLOC GUI Miner.
 
 
 ## **Mac OS**<a name="mac">
@@ -63,7 +63,7 @@ Double click on the icon BLOC GUI Miner to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-miner.md#use-my-binaries).
+If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Windows**<a name="windows">
 
@@ -85,7 +85,7 @@ Double click on the icon BLOC GUI Miner to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-miner.md#use-my-binaries).
+If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Start Mining**<a name="start-mining"></a>
 

@@ -75,15 +75,15 @@ BLOC GUI Miner comes with XMR-STAK already built in including configuration file
 
 It must looks like this:
 
-![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows1.png)
+![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows1.jpg)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows2.png)
+![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows2.jpg)
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 
-You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-miner.md#start-mining).
+You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
 If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-miner.md#use-my-binaries).
 

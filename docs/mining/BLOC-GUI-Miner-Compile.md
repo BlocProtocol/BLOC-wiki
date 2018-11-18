@@ -9,7 +9,7 @@ Make sure you visit [the complete guide](../mining/BLOC-GUI-Miner.md) to find ou
 We currently support two very popular miner backends:
 
 1. [xmr-stak](https://github.com/fireice-uk/xmr-stak)
-2. [xmrig](https://github.com/xmrig/xmrig) (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) does not support our v4 proof-of-work algorithm yet)
+2. [xmrig](https://github.com/xmrig/xmrig) (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd)
 
 ## Compiling on Linux (Ubuntu)
 

@@ -2,7 +2,7 @@
 
 GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface.
 
-## **BLOC Electron Wallet**
+## **BLOC R0C Wallet**
 
 We are working on a new GUI Wallet compatible with the new BLOC v3.0. It will be available soon.
 

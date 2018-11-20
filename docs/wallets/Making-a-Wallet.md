@@ -18,7 +18,7 @@ The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) t
 
 If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet.md)
 
-## **BLOC-SERVICE (RPC Wallet)**
+## **bloc-service (RPC Wallet)**
 
 bloc-service RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for BLOC payment operations and address management designed to manage a user's account while operating together with a BLOCd Node Daemon. bloc-service RPC Wallet allows you to accept incoming payments, generate an address for each user via bloc-service RPC Wallet JSON RPC API and much more.
 

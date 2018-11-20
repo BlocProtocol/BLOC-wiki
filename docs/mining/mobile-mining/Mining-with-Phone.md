@@ -6,7 +6,7 @@
 
 There is actually two ways to mine the **BLOC** from a mobile phone as follow:
 
-1. The most easy way to mine **BLOC** from your mobile phone is using the [BLOC Web Miner](../mining/Mining-with-web-miner.md)
+1. The most easy way to mine **BLOC** from your mobile phone is using the [BLOC Web Miner](../mining/bloc-in-browser-javascript-web-miner.md)
 2. Introducing [Sleep Mining for BLOC](../mining/mobile-mining/Sleep-Mining.md) — Make extra cash while you are sleeping using your mobile phone
 
 ## **Note**

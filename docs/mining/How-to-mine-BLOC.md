@@ -8,9 +8,9 @@ There are currently a few different ways in which you can start mining [BLOC](ht
 
 ## **1. In-browser BLOC javascript web miner**
 
-[In-browser BLOC web miner](../mining/Mining-with-web-miner.md) was designed and built to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money). In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining with your computer, mobile phone or any device running a web browser.
+[In-browser BLOC web miner](../mining/bloc-in-browser-javascript-web-miner.md) was designed and built to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money). In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining with your computer, mobile phone or any device running a web browser.
 
-To start mining **BLOC** with the **In-browser web miner**, you can check out [this guide](../mining/Mining-with-web-miner.md).
+To start mining **BLOC** with the **In-browser web miner**, you can check out [this guide](../mining/bloc-in-browser-javascript-web-miner.md).
 
 ## **2. XMR-Stak - Cryptonight All-in-One Mining Software**
 
@@ -32,7 +32,7 @@ Using your mobile to mine **BLOC** 24/7 is not advised and should only be done f
 
 Check out the two options available to mine BLOC from a mobile phone:
 
-* The most easy way to mine **BLOC** from your mobile phone is using the [BLOC Web Miner](../mining/Mining-with-web-miner.md)
+* The most easy way to mine **BLOC** from your mobile phone is using the [BLOC Web Miner](../mining/bloc-in-browser-javascript-web-miner.md)
 
 * Introducing [Sleep Mining for BLOC](../mining/mobile-mining/Sleep-Mining.md) — Make extra cash while you are sleeping using your mobile phone
 

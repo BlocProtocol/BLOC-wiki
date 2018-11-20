@@ -1,6 +1,6 @@
-# BLOC Licences
+# **BLOC Licences**
 
-## GNU Licence
+## **GNU Licence**
 
 BLOC released under the GNU Genral Public V3 Licence as follow.
 
@@ -26,7 +26,7 @@ BLOC released under the GNU Genral Public V3 Licence as follow.
 // along with BLOC. If not, see [GNU licence](https://www.gnu.org/licenses/gpl-3.0.html).
 ```
 
-## MIT License
+## **MIT License**
 
 Documents used on this website and released under this MIT licence.
 

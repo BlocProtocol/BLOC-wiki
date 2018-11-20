@@ -1,4 +1,4 @@
-# Branding
+# **Branding**
 
 We love design, it’s part of our DNA in the BLOC Team. Thomas, the Co-founder of [BLOC.MONEY](https://bloc.money) made an awesome job creating the entire **BLOC** universe from the wallet icon to the block explorer, iPhone app and everything else you will see on the **BLOC** project is made by him.
 

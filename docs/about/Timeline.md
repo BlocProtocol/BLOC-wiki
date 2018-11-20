@@ -1,4 +1,4 @@
-# Timeline of BLOC
+# **Timeline of BLOC**
 
 This is a timeline dedicated to important dates in the history of BLOC.
 

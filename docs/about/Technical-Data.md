@@ -1,4 +1,4 @@
-# Technical Data
+# **Technical Data**
 
 Name: **BLOC**
 Website name : [BLOC.MONEY](https://bloc.money)
@@ -24,7 +24,9 @@ Website name : [BLOC.MONEY](https://bloc.money)
 * Elastic Blocks
 * Fair Mining
 
-## Forked from
+## **Forked from**
 
 * Originaly forked from the [ForkNote Project](https://github.com/forknote/forknote) which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin)
 * End of octover 2018 forked to [TurtleCoin](https://github.com/turtlecoin/turtlecoin)
+
+* How the BLOC was created and why ? [Click here](../about/Background-and-History.md)

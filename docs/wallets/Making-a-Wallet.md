@@ -16,7 +16,13 @@ To view a guide on how to make a paper wallet, you can go [link coming soon](../
 
 The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
-If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet.md).
+If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet.md)
+
+## **BLOC-SERVICE**
+
+bloc-service RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for BLOC payment operations and address management designed to manage a user's account while operating together with a BLOCd Node Daemon. bloc-service RPC Wallet allows you to accept incoming payments, generate an address for each user via bloc-service RPC Wallet JSON RPC API and much more.
+
+Please check [this tutorial](../wallets/bloc-service-index.md) to learn how to use the **bloc-service RPC wallet**.
 
 ## **BLOC Wallet for iPad & iPhone**
 
@@ -32,7 +38,7 @@ GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC wi
 
 BLOC R0C is the new desktop wallet available for Mac, Windows and Linux [link coming soon](../#).
 
-### **BLOC Wallet Client 2.0.2**
+### BLOC Wallet Client 2.0.2
 
 The previous version of BLOC Wallet for desktop computer for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**

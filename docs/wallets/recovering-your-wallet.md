@@ -10,11 +10,11 @@ Guides for recovering your **BLOC** Wallet with your private spend and view keys
 
 #### BLOCWallet restore with private spend and view keys<a name="recover-spend-view-keys-bloc-wallet-cli"></a>
 
-View [this guide](../Using-BLOCWallet#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys with **[BLOC Wallet CLI](../Using-BLOCWallet)**.
+View [this guide](../Using-BLOCWallet#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys using **[BLOC Wallet CLI](../Using-BLOCWallet)**.
 
 #### BLOC-service restore with private spend and view keys<a name="recover-spend-view-keys-bloc-service"></a>
 
-View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys with **[bloc-service](../wallets/bloc-service-index.md)**.
+View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using **[bloc-service](../wallets/bloc-service-index.md)**.
 
 ### **GUI Wallets**<a name="keys-gui-wallet"></a>
 
@@ -30,11 +30,11 @@ Guides for recovering your wallet with your 25 word mnemonic seed-
 
 #### BLOCWallet restore with mnemonic phrase (25 words) <a name="recover-seed"></a>
 
-View [this guide](../Using-BLOCWallet#recover-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) with **[BLOC Wallet CLI](../Using-BLOCWallet)**.
+View [this guide](../Using-BLOCWallet#recover-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using **[BLOC Wallet CLI](../Using-BLOCWallet)**.
 
 #### BLOC-service restore with mnemonic phrase (25 words)<a name="recover-mnemonic-bloc-service"></a>
 
-View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your private spend and view keys with **[bloc-service](../wallets/bloc-service-index.md)**. 
+View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using **[bloc-service](../wallets/bloc-service-index.md)**. 
 
 ### **GUI Wallets**<a name="25-gui-wallet"></a>
 

@@ -103,16 +103,18 @@ nav:
       - iPhone & iPad BLOC Wallet: wallets/BLOC-iOS-wallet.md
       - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
       - CLI Wallet:
-        - BLOCWallet: wallets/Using-BLOCWallet.md
-        - Using Remote Nodes: wallets/Using-remote-nodes.md
-      - GUI Wallets:
-        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
-        - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
+        - BLOCWallet: wallets/BLOCWallet-overview.md
+        - BLOCWallet: wallets/BLOCWallet-how-to-use.md
       - BLOC-service:
         - Overview of bloc-service: wallets/bloc-service-index.md
         - bloc-service command line: wallets/bloc-service-command-line.md
         - bloc-service JSON RPC Api: wallets/bloc-service-json-api.md
         - bloc-service JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
+      - GUI Wallets:
+        - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
+        - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
+      - Remote Nodes:
+        - Using Remote Nodes: wallets/Using-remote-nodes.md
     - Mining:
       - What is Mining ?: mining/What-is-mining.md
       - How to Mine BLOC: mining/How-to-mine-BLOC.md

@@ -112,7 +112,7 @@ This is the welcome screen. Click on the yellow link `Ok, we can start the setup
 You will be redirected to the available options for to [create your BLOC wallet](../../wallets/Making-a-Wallet).
 
 - [Paper Wallet](../wallets/paper-wallet.md)
-- Desktop Wallets. [CLI Wallet](../wallets/Using-BLOCWallet.md) or [GUI Wallet](../#)
+- Desktop Wallets. [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../#)
 - [iPhone Wallet](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
 - [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md)
 

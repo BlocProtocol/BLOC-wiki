@@ -1,6 +1,6 @@
 # **Making a BLOC Wallet**
 
-There are multiple different types of wallets you can choose to use for [BLOC](https://bloc.money), paper wallets, [CLI Wallet](../wallets/Using-BLOCWallet.md), GUI wallets, [iOS Wallet](../wallets/BLOC-iOS-wallet.md), [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md) and Web Wallets (under development).
+There are multiple different types of wallets you can choose to use for [BLOC](https://bloc.money), paper wallets, [CLI Wallet](../wallets/BLOCWallet-how-to-use.md), GUI wallets, [iOS Wallet](../wallets/BLOC-iOS-wallet.md), [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md) and Web Wallets (under development).
 
 We recommend making a paper wallet so that you can start receiving funds, and later import them into a GUI or CLI wallet.
 
@@ -16,7 +16,7 @@ To view a guide on how to make a paper wallet, you can go [link coming soon](../
 
 The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
-If you would like to use BLOCWallet, you can check out [this guide](../wallets/Using-BLOCWallet.md)
+If you would like to use BLOCWallet, you can check out [this guide](../wallets/BLOCWallet-how-to-use.md)
 
 ## **bloc-service (RPC Wallet)**
 

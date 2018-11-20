@@ -10,7 +10,7 @@ The main purpose of a paper wallet is to quickly create a wallet to start receiv
 
 **You will not be able to spend or send your funds to other people until you set up a CLI, GUI, Mobile, Telegram or Web Wallet.**
 
-To view a guide on how to make a paper wallet, you can go [here](../#).
+To view a guide on how to make a paper wallet, you can go [link coming soon](../#).
 
 ## **BLOCWallet (CLI Wallet)**
 
@@ -28,9 +28,9 @@ If you would like to use BLOC Wallet for iOS, you can check out [this guide](../
 
 GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface.
 
-### BLOC Electron Wallet (Coming soon)
+### BLOC R0C Wallet (Coming soon)
 
-If you would like to use the BLOC Electron Wallet, you can take a look at [this guide](../#).
+BLOC R0C is the new desktop wallet available for Mac, Windows and Linux [link coming soon](../#).
 
 ### **BLOC Wallet Client 2.0.2**
 
@@ -41,9 +41,9 @@ You can still check the features and view the details of the old [BLOC Wallet v2
 
 ## **Telegram Wallet**
 
-BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices. [Check out the Telegram BLOC Wallet](https://t.me/bloc_wallet_bot)
+BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices.
 
-If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-Telegram-Wallet.md).
+If you would like to use the Telegram BLOC Wallet, you can check out [this guide](../wallets/BLOC-Telegram-Wallet.md).
 
 ## **Web Wallet**
 

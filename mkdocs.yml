@@ -79,7 +79,7 @@ markdown_extensions:
 
 # directory org
 nav:
-    - Welcome to BLOC Wiki:
+    - Welcome:
       - Home: index.md
       - Getting Started: Getting-Started.md
       - FAQ: Frequently-Asked-Questions.md
@@ -147,12 +147,9 @@ nav:
       - Home: API/index.md
       - Ressources: API/Resources.md
       - Compiling from Source: API/Compiling-from-Source.md
-      - BLOC-service commands: API/BLOC-service.md
       - BLOCd Command Line Options: API/BLOCd-Daemon-arguments.md
       - BLOCd Checkpoints: API/Using-checkpoints-for-BLOCd.md
       - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
       - Daemon JSON RPC API: API/daemon-json-rpc-api.md
-      - Wallet RPC API: API/wallet-rpc-api.md
-      - RPC Errors: API/rpc-api-error-conditions.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md

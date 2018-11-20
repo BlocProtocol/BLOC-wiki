@@ -1,4 +1,4 @@
-# About BLOC
+# **About BLOC**
 
 **[BLOC.MONEY](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **[BLOC](https://bloc.money)** is a fully decentralized cryptocurrency - Egalitarian Proof Of Work with Cryptonight Haven algorithm & ASIC resistant- based on open source Cryptonote technology using low & fix rate fees per transaction allows to send money worldwide immediately and without costly intermediaries using the blockchain technology.
 

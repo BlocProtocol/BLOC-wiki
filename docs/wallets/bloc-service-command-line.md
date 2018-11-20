@@ -60,7 +60,7 @@ You can sync a fresh chain from block 0 much quicker by using checkpoints. Follo
 
 ## **Errors**
 
-* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+* Make sure you check the [RPC Errors conditions](../wallets/bloc-service-rpc-api-error-conditions.md).
 
 ## **bloc-service RPC Clients**
 

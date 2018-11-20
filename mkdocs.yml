@@ -82,11 +82,6 @@ nav:
     - Home:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - BLOC Features: about/Home.md
-      - Wallets: wallets/Making-a-wallet.md
-      - Mining: mining/What-is-mining.md
-      - Guides: guides/dashboard.md
-      - Developers: API/index.md
       - FAQ: Frequently-Asked-Questions.md
     - About:
       - Home: about/Home.md
@@ -114,6 +109,10 @@ nav:
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
+      - BLOC-SERVICE:
+        - bloc-service command line: wallets/bloc-service-command-line.md
+        - bloc-service JSON RPC Api: wallets/bloc-service-json-api.md
+        - bloc-service JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
     - Mining:
       - What is Mining ?: mining/What-is-mining.md
       - How to Mine BLOC: mining/How-to-mine-BLOC.md

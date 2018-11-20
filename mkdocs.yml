@@ -99,17 +99,17 @@ nav:
         - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
-      - Paper Wallet: wallets/Making-a-paper-wallet.md
+      - Recovering your Wallet: wallets/recovering-your-wallet.md
       - iPhone & iPad BLOC Wallet: wallets/BLOC-iOS-wallet.md
       - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
-      - Recovering your Wallet: wallets/recovering-your-wallet.md
       - CLI Wallet:
         - BLOCWallet: wallets/Using-BLOCWallet.md
         - Using Remote Nodes: wallets/Using-remote-nodes.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
-      - BLOC-SERVICE:
+      - BLOC-service:
+        - Overview of bloc-service: wallets/bloc-service-index.md
         - bloc-service command line: wallets/bloc-service-command-line.md
         - bloc-service JSON RPC Api: wallets/bloc-service-json-api.md
         - bloc-service JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md

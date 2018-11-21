@@ -24,7 +24,7 @@ To start mining **BLOC** with **XMR-stak**, you can check out [this guide](../mi
 
 [XMRig](https://github.com/xmrig/xmrig) is a little bit different to XMR-Stak, you need to download a CPU and GPU miner separately and run two separate instances in your computer. One will use your CPU and the other one will use your GPU. **XMRig** is a high performance Monero (XMR) and [BLOC](https://bloc.money) CPU miner, with official support for Windows, Mac Linux and more. 
 
-To start mining **BLOC** with **XMRig**, you can check out [this guide](../mining/XMRig-index.md)
+To start mining **BLOC** with **XMRig**, you can check out [this guide](../mining/XMRIG-index.md)
 
 ## **4. Mobile Mining**
 

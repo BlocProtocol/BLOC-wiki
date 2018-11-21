@@ -6,6 +6,8 @@
 
 * Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
+## Installing
+
 Currently we support the following official client bindings:
 
 * [JavaScript](https://www.npmjs.com/package/bloc-rpc)

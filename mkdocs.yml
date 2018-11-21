@@ -154,3 +154,9 @@ nav:
       - Daemon JSON RPC API: API/daemon-json-rpc-api.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
+    - Service Operators:
+      - Home: service-operators/index.md
+      - BLOCd:
+        - BLOCd Overview: service-operators/BLOCd-Overview.md
+        - BLOCd Command Line: service-operators/BLOCd-command-line-arguments.md
+        - BLOCd RPC API: service-operators/BLOCd-rpc-api.md

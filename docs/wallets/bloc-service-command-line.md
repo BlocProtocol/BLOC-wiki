@@ -1,80 +1,26 @@
-# What is BLOC-Service
+## **bloc-service Command Line Arguments**
 
-This section describes **BLOC** integration process into your service with **BLOC e-commerce** solution called **bloc-service**.
-bloc-service is the substitue of old **walletd** a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management. **bloc-service** allows you to accept incoming payments, generate an address for each user via a robust API and much more features explained as follow.
+bloc-service RPC Wallet is a HTTP server which provides [JSON 2.0 RPC](../wallets/bloc-service-json-api.md) interface for [BLOC](https://bloc.money) payment operations and address management designed to manage a user's account while operating together with a [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md). [bloc-service RPC wallet](../wallets/bloc-service-index.md) allows you to accept incoming payments, generate an address for each user via bloc-service RPC Wallet JSON RPC API and much more.
+
+Make sure you visit the [bloc-service command line arguments](../wallets/bloc-service-command-line.md) to find out how to start bloc-service with a customized configuration depending your needs.
 
 ## **Getting ready**
 
-To start integration process you should follow this easy steps:
+Before starting the integration process make sure you follow easy steps:
 
-## **Downloading**
+1. Download or Compile bloc-service.
 
-If you wish to compile **bloc-service** and **BLOCd** yourself you can download the [source Code](https://github.com/furiousteam/BLOC.git).
+2. Launch [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md) and wait for a successfully synchronised message. You are ready to operate with **bloc-service**
 
-Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
+3. Visit BLOC-DEVELOPER [bloc-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
 
-Select the appropriate file for the target platform (Windows, Mac, Linux).
-
-Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
-
-## **Installing**
-
-### Installing on Windows
-
-Extract the *.zip* file (`BLOC-...-windows.zip`).
-
-### Installing on Mac
-
-Extract the *.zip* file:
-
-```bash
-unzip BLOC-...-mac.zip
-```
-
-### Installing on Linux
-
-Extract the *.zip* file:
-
-```bash
-unzip BLOC-...-linux.zip
-```
-
-## **Synchronizing the Blockchain**
-
-Here's a quick image of `BLOCd MAIN NET` in action:
-
-![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
-
-Here's a quick image of `BLOCd TEST NET` in action:
-
-![BLOCd TEST NET](../wallets/images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
-
-
-Running `BLOCd` will start the **BLOCd** network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
-
-Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../BLOC-servic#remote-node-options). 
-
-### Using Checkpoints
-
-You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../API/Using-checkpoints-for-BLOCd.md) to learn more.
+4. Visit the bloc-service guide for [bloc-service JSON 2.0 RPC](../wallets/bloc-service-json-api.md) API to interact with the wallet.
 
 ## **Errors**
 
 * Make sure you check the [RPC Errors conditions](../wallets/bloc-service-rpc-api-error-conditions.md).
 
-## **bloc-service RPC Clients**
-
-* [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the bloc-service RPC interface.
-* [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC Project. This entire project uses Javascript Promises to make things fast, easy, and safe.
-* [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOC RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
-* [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
-
-See [bloc-service RPC API](wallet-rpc-api.md) for usage.
-
-
 ## **Ready to work with bloc-service**
-
-Once **BLOCd** has been successfully synchronised we are ready to operate with **bloc-service**
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the **bloc-service**.
 

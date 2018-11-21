@@ -79,6 +79,10 @@ markdown_extensions:
 
 # directory org
 nav:
+    - Welcome:
+      - Home: index.md
+      - Getting Started: Getting-Started.md
+      - FAQ: Frequently-Asked-Questions.md
     - About:
       - Home: about/Home.md
       - Features: about/Features.md
@@ -93,9 +97,6 @@ nav:
       - Sponsoring:
         - Sponsoring: about/Sponsoring.md
         - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
-      - Home: index.md
-      - Getting Started: Getting-Started.md
-      - FAQ: Frequently-Asked-Questions.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md

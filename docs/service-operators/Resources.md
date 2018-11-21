@@ -30,7 +30,7 @@ See [Wallet RPC API](wallet-rpc-api.md) for usage.
 * [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOC RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
 * [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
 
-See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daemon-json-rpc-api.md) for usage.
+See [Daemon HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and [Daemon JSON RPC API](BLOCd-daemon-json-rpc-api.md) for usage.
 
 ## Libraries
 

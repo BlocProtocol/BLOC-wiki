@@ -137,6 +137,16 @@ nav:
         - CPU Mining on Mac: mining/XMRIG-Guide-cpu-mac.md
         - CPU Mining on Windows: mining/XMRIG-Guide-cpu-windows.md
       - Mining with a SBC: mining/BLOC-Mining-Rasberry-Pi.md
+    - Service Operators:
+      - Home: service-operators/index.md
+      - Ressources: API/Resources.md
+      - Compiling from Source: API/Compiling-from-Source.md
+      - BLOCd:
+        - BLOCd Overview: service-operators/BLOCd-Overview.md
+        - BLOCd Command Line Arguments: service-operators/BLOCd-Daemon-arguments.md
+        - BLOCd JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
+        - BLOCd HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
+        - BLOCd Checkpoints: API/Using-checkpoints-for-BLOCd.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md
@@ -144,19 +154,5 @@ nav:
       - Bounty Programm: guides/Bounty-Program.md
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Glossary: guides/Glossary.md
-    - Developers:
-      - Home: API/index.md
-      - Ressources: API/Resources.md
-      - Compiling from Source: API/Compiling-from-Source.md
-      - BLOCd Command Line Options: API/BLOCd-Daemon-arguments.md
-      - BLOCd Checkpoints: API/Using-checkpoints-for-BLOCd.md
-      - Daemon HTTP RPC API: API/daemon-http-rpc-api.md
-      - Daemon JSON RPC API: API/daemon-json-rpc-api.md
     - FAQ:
       - Frequently Asked Questions: Frequently-Asked-Questions.md
-    - Service Operators:
-      - Home: service-operators/index.md
-      - BLOCd:
-        - BLOCd Overview: service-operators/BLOCd-Overview.md
-        - BLOCd Command Line: service-operators/BLOCd-command-line-arguments.md
-        - BLOCd RPC API: service-operators/BLOCd-rpc-api.md

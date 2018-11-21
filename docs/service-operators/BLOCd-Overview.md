@@ -10,6 +10,14 @@ BLOC Daemon (BLOCd) is responsible for any communication with the network.
 * Connections look up
 * Transaction pool information and relaying
 
+Here's a quick image of `BLOCd MAIN NET` in action:
+
+![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
+
+Here's a quick image of `BLOCd TEST NET` in action:
+
+![BLOCd TEST NET](../wallets/images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
+
 ## **Source code**
 
 * [Source Code](https://github.com/furiousteam/BLOC.git)
@@ -21,7 +29,7 @@ BLOC Daemon (BLOCd) is responsible for any communication with the network.
 * [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOCd RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
 * [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
 
-See [Daemon HTTP RPC API](daemon-http-rpc-api.md) and [Daemon JSON RPC API](daemon-json-rpc-api.md) for usage.
+See [Daemon HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and [Daemon JSON RPC API](BLOCd-daemon-json-rpc-api.md) for usage.
 
 ## **Downloading**
 
@@ -55,16 +63,11 @@ Extract the *.zip* file:
 unzip BLOC-...-linux.zip
 ```
 
+## Starting BLOCd
+
+Make sure you visit the [BLOCd Command Line Arguments](BLOCd-Daemon-arguments.md) to find how to start BLOCd following different configurations.
+
 ## **Synchronizing the Blockchain**
-
-Here's a quick image of `BLOCd MAIN NET` in action:
-
-![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
-
-Here's a quick image of `BLOCd TEST NET` in action:
-
-![BLOCd TEST NET](../wallets/images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
-
 
 Running `BLOCd` will start the **BLOCd** network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
 

@@ -142,11 +142,11 @@ nav:
       - Ressources: API/Resources.md
       - Compiling from Source: API/Compiling-from-Source.md
       - BLOCd:
-        - BLOCd Overview: service-operators/BLOCd-Overview.md
-        - BLOCd Command Line Arguments: service-operators/BLOCd-Daemon-arguments.md
-        - BLOCd JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
-        - BLOCd HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
-        - BLOCd Checkpoints: API/Using-checkpoints-for-BLOCd.md
+        - Overview: service-operators/BLOCd-Overview.md
+        - Command Line Arguments: service-operators/BLOCd-Daemon-arguments.md
+        - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
+        - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
+        - Checkpoints: API/Using-checkpoints-for-BLOCd.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md

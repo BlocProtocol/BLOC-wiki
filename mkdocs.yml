@@ -136,8 +136,7 @@ nav:
         - CPU Mining on Linux: mining/XMRIG-Guide-cpu-linux.md
         - CPU Mining on Mac: mining/XMRIG-Guide-cpu-mac.md
         - CPU Mining on Windows: mining/XMRIG-Guide-cpu-windows.md
-      - Cloud Mining: mining/Cloud-Mining.md
-      - Mining with a SBC: mining/Mining-with-SBC.md
+      - Mining with a SBC: mining/BLOC-Mining-Rasberry-Pi.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md

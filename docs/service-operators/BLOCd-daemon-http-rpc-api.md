@@ -2,7 +2,7 @@
 
 [BLOCd](BLOCd-Overview.md) daemon provides a HTTP RPC API, used to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems. Various commands are made available by the API described on [this page](https://bloc-developer.com/api_BLOCd/http).
 
-## BLOC-DEVELOPER
+## **BLOC-DEVELOPER**
 
 This page is only a short guide how to get you started with the BLOCd Daemon HTTP RPC API. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/http) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) HTTP RPC API.
 
@@ -10,7 +10,7 @@ This page is only a short guide how to get you started with the BLOCd Daemon HTT
 
 * Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
-## Client bindings
+## **Client bindings**
 
 Currently we support the following official client bindings:
 
@@ -18,7 +18,7 @@ Currently we support the following official client bindings:
 * [PHP](https://github.com/furiousteam/BLOC-rpc-php)
 * [Go](https://github.com/furiousteam/BLOC-rpc-go)
 
-## Interacting with the API
+## **Interacting with the API**
 
 > API endpoint example
 
@@ -64,7 +64,7 @@ daemon := trpc.BLOCd{
   URL: rpcHost,
   Port: rpcPort}
 ```
-## Getting started
+## **Getting started**
 
 This section describes BLOCd daemon integration process into your service with BLOCd HTTP RPC API. We also have available the BLOCd JSON RPC API if you need.
  
@@ -105,7 +105,7 @@ Parameter            | Description
 `<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
 
 
-## Example height
+## **Example height**
 
 ```shell
 curl http://localhost:2086/height
@@ -145,3 +145,6 @@ Argument         | Description            | Format
 height           | Current daemon height  | int
 network_height   | Current Network height | int
 status           | Status of request      | string
+
+
+Make sure you check the complete features of [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http) from the decicated BLOC-DEVELOPER website.

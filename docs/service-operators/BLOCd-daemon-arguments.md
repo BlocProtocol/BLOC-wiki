@@ -1,17 +1,23 @@
 # **BLOCd Command Line Arguments**
 
-Almost all of the command line options can be defined through the configuration file.
-If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:
+This section describes BLOCd daemon starting process with correct arguments enabling access to the BLOCd HTTP RPC API and BLOCd JSON RPC API.
+ 
+[BLOCd](BLOCd-Overview.md) can accept settings through a configuration file and/or command line.
+ 
+Almost all of the command line options can be defined through the configuration file. If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:
+ 
+- If the parameter accepts one value only (e.g., rpc-bind-ip), the command line value will be used, since it has a higher priority
+- If the parameter accepts several values (e.g., add-priority-node), then command line and configuration file values will be merged
+- If some of the options are not defined in the config, the default values will be applied
+- By default config file's name is BLOC.conf, which is located in the binaries folder.
+- You may adjust the destination to the file via `--config-file` option in the command line.
+ 
+ Also:
 
-* If the parameter accepts one value only (e.g., `rpc-bind-ip`), the command line value will be used, since it has a higher priority.
-* If the parameter accepts several values (e.g., `add-priority-node`), then command line and configuration file values will be merged.
-
-By default config file's name is `BLOC.conf`, which is located in the binaries folder. However, you may adjust the destination to the file via `--config-file` option in the command line.
-
-If some of the options are not defined in the config, the default values will be applied.
-
-- **Config files, where used, now use JSON formatted files instead of INI**
+- Config files, where used, now use **JSON** formatted files instead of INI
 - Config files will be automatically upgraded to JSON and overwritten on first use
+
+You are now ready to use the [Command Line Interface](BLOCd-daemon-cli-options.md) , the [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and/or the [JSON RPC API](BLOCd-daemon-json-rpc-api.md).
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
 
@@ -351,7 +357,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/genesis-block-reward-address.png)
+![--help](images/BLOCd/arguments/genesis-block-reward-address.png)
 
 
 ### --print-genesis-tx
@@ -368,7 +374,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/print-genesis-tx.png)
+![--help](images/BLOCd/arguments/print-genesis-tx.png)
 
 
 ## **Network Options**
@@ -395,7 +401,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/allow-local-ip.png)
+![--help](images/BLOCd/arguments/allow-local-ip.png)
 
 
 ### --hide-my-port
@@ -427,7 +433,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 ```
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/p2p-bind-ip.png)
+![--help](images/BLOCd/arguments/p2p-bind-ip.png)
 
 
 ### --p2p-bind-port arg (=2082)
@@ -444,7 +450,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/p2p-bind-port.png)
+![--help](images/BLOCd/arguments/p2p-bind-port.png)
 
 
 ### --p2p-external-port arg (=0)
@@ -460,7 +466,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/p2p-external-port.png)
+![--help](images/BLOCd/arguments/p2p-external-port.png)
 
 
 ### --rpc-bind-ip arg (=127.0.0.1)
@@ -484,7 +490,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/rpc-bind-ip.png)
+![--help](images/BLOCd/arguments/rpc-bind-ip.png)
 
 
 ### --rpc-bind-port arg (=2086)
@@ -503,7 +509,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/rpc-bind-port.png)
+![--help](images/BLOCd/arguments/rpc-bind-port.png)
 
 
 ## **Peer Options**
@@ -578,7 +584,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/enable-bloc-explorer.png)
+![--help](images/BLOCd/arguments/enable-bloc-explorer.png)
 
 
 ### --enable-cors arg
@@ -596,7 +602,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/enable-cors.png)
+![--help](images/BLOCd/arguments/enable-cors.png)
 
 ##### Response Headers
 ```
@@ -647,7 +653,7 @@ Server: CryptoNote-based HTTP server
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/fee-amount.png)
+![--help](images/BLOCd/arguments/fee-amount.png)
 
 
 ## BLOC-DEVELOPER

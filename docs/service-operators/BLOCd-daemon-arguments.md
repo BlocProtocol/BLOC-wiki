@@ -19,6 +19,8 @@ BLOCd Screenshot:
 
 ![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
+## **Core Options**
+
 ```
 Usage:
   ./BLOCd [OPTION...]
@@ -28,8 +30,6 @@ Usage:
       --os-version                                 Output Operating System version information
       --version                                    Output daemon version information
 ```
-
-## **Core Options**
 
 ### --help
 
@@ -108,6 +108,23 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 ![--config-file](images/BLOCd/arguments/CONF.png)
 
 
+### --data-dir arg (=/home/bloc/.BLOC)
+
+* Specify another data directory than the original one set by BLOCd.
+* The data directory contains the blockchain files from BLOC.
+* Creating a new empty data directory will resynch the blockchain from 0.
+
+#### Example
+
+```
+./BLOCd --data-dir=/home/bloc/.MYFOLDER
+```
+
+##### Expected results
+
+![--help](images/BLOCd/command-line-options/data-dir.png)
+
+
 ### --dump-config
 
 Prints the current configuration of BLOCd to the screen.
@@ -162,6 +179,104 @@ Prints the current configuration of BLOCd to the screen.
 }
 ```
 [Download Example](images/BLOCd/arguments/BLOC.conf)
+
+
+### load-checkpoints arg (=default) <default|filename>
+
+* Use builtin default checkpoints
+* Or use checkpoint csv file for faster initial blockchain sync
+
+#### Example
+
+```
+./BLOCd --load-checkpoints=checkpoints.csv
+```
+
+##### Expected results
+
+[Cick here](../using-check-points-with-BLOCd.md).
+
+
+**Possible Errors**
+```
+ERROR   Exception: Directory does not exist: /home/bloc/.MYFOLDER
+```
+Remark: Make sure you have created the folder you want to use before start BLOCd
+
+
+### --log-file arg (=test.log)
+
+* Specify another log file than the original one created by BLOCd named (BLOCd.log)
+* The specified log file will be created in the same folder where BLOCd was started
+
+#### Example
+
+```
+./BLOCd --log-file=test.log
+```
+
+##### Expected results
+
+![--help](images/BLOCd/arguments/log-file.png)
+
+File created next to BLOCd:
+
+![--help](images/BLOCd/arguments/testlog.png)
+
+
+### --log-level arg (=2)
+
+* Specify another log file than the original one created by BLOCd with a level 2
+* There is 5 different level. The higher you choose, the more details you get.
+* Log level must be 0...5
+
+#### Example
+
+```
+./BLOCd --log-level=2
+```
+
+##### Expected results
+
+![--help](images/BLOCd/arguments/log-level.png)
+
+
+### --no-console
+
+* Disable the BLOCd daemon console.
+* Can be usefull in case you do not want to allow anyone to run commands through the BLOCd daemon
+* As you can see on the screenshot, nothing happen when running the 'help' command
+
+#### Example
+
+```
+./BLOCd --no-console
+```
+
+##### Expected results
+
+![--help](images/BLOCd/arguments/no-console.png)
+
+
+### --save-config
+
+Save the configuration to the specified `<file>`
+
+#### Example
+
+```
+./BLOCd --save-config
+```
+
+##### Expected results
+
+![--help](images/BLOCd/arguments/save-config.png)
+
+
+
+
+
+
 
 
 ## Command line options and settings options
@@ -222,81 +337,7 @@ This is the command line options available since the BLOCd v3.0
   --db-read-cache-size arg (=10)      Size of data base read cache in megabytes
 ```
 
-### --data-dir arg (=/home/bloc/.BLOC)
 
-* Specify another data directory than the original one set by BLOCd.
-* The data directory contains the blockchain files from BLOC.
-* Creating a new empty data directory will resynch the blockchain from 0.
-
-#### Example
-
-```
-./BLOCd --data-dir=/home/bloc/.MYFOLDER
-```
-
-##### Expected results
-
-![--help](images/BLOCd/command-line-options/data-dir.png)
-
-**Possible Errors**
-```
-ERROR   Exception: Directory does not exist: /home/bloc/.MYFOLDER
-```
-Remark: Make sure you have created the folder you want to use before start BLOCd
-
-
-### --log-file arg (=test.log)
-
-* Specify another log file than the original one created by BLOCd named (BLOCd.log)
-* The specified log file will be created in the same folder where BLOCd was started
-
-#### Example
-
-```
-./BLOCd --log-file=test.log
-```
-
-##### Expected results
-
-![--help](images/BLOCd/command-line-options/log-file.png)
-
-File created next to BLOCd:
-
-![--help](images/BLOCd/command-line-options/testlog.png)
-
-
-### --log-level arg (=2)
-
-* Specify another log file than the original one created by BLOCd with a level 2
-* There is 5 different level. The higher you choose, the more details you get.
-* Log level must be 0...5
-
-#### Example
-
-```
-./BLOCd --log-level=2
-```
-
-##### Expected results
-
-![--help](images/BLOCd/command-line-options/log-level.png)
-
-
-### --no-console
-
-* Disable the BLOCd daemon console.
-* Can be usefull in case you do not want to allow anyone to run commands through the BLOCd daemon
-* As you can see on the screenshot, nothing happen when running the 'help' command
-
-#### Example
-
-```
-./BLOCd --no-console
-```
-
-##### Expected results
-
-![--help](images/BLOCd/command-line-options/no-console.png)
 
 
 ### --testnet
@@ -388,20 +429,7 @@ Server: CryptoNote-based HTTP server
 ![--help](images/BLOCd/command-line-options/genesis-block-reward-address.png)
 
 
-### load-checkpoints arg (=default) <default|filename>
 
-* Use builtin default checkpoints
-* Or use checkpoint csv file for faster initial blockchain sync
-
-#### Example
-
-```
-./BLOCd --load-checkpoints=checkpoints.csv
-```
-
-##### Expected results
-
-[Cick here](../using-check-points-with-BLOCd.md).
 
 
 ### --fee-address arg

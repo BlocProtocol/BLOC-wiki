@@ -270,7 +270,7 @@ Save the configuration to the specified `<file>`
 #### Example
 
 ```
-./BLOCd --save-config
+./BLOCd --save-config myconfig.conf
 ```
 
 ##### Expected results

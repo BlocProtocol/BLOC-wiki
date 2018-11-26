@@ -1,7 +1,4 @@
-#
-
-
-## **BLOCd Command line options**
+# **BLOCd Command line options**
 
 Almost all of the command line options can be defined through the configuration file.
 If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:

@@ -1,7 +1,4 @@
-#
-
-
-## **BLOCd Command line options**
+# **BLOCd Command Line Arguments**
 
 Almost all of the command line options can be defined through the configuration file.
 If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:
@@ -16,76 +13,72 @@ If some of the options are not defined in the config, the default values will be
 - Config files, where used, now use JSON formatted files instead of INI
 - Config files will be automatically upgraded to JSON and overwritten on first use
 
-The following examples are made using a Linux system but the concept is the same for all the OS supported by the BLOCd.
+The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
 
 ```
-Command line options and settings options:
-  --data-dir arg (=/home/bloc/.BLOC)  Specify data directory
-  --log-file arg
-  --log-level arg (=2)
-  --no-console                        Disable daemon console commands
-  --testnet                           Used to deploy test nets. Checkpoints and
-                                      hardcoded seeds are ignored, network id 
-                                      is changed. Use it with --data-dir flag. 
-                                      The wallet must be launched with 
-                                      --testnet flag.
-  --enable-cors arg                   Adds header 'Access-Control-Allow-Origin'
-                                      to the daemon's RPC responses. Uses the 
-                                      value as domain. Use * for all
-  --enable_blockexplorer              Enable blockchain explorer RPC
-  --print-genesis-tx                  Prints genesis' block tx hex to insert it
-                                      to config and exits
-  --genesis-block-reward-address arg
-  --load-checkpoints arg (=default)   <default|filename> Use builtin default 
-                                      checkpoints or checkpoint csv file for 
-                                      faster initial blockchain sync
-  --fee-address arg                   Sets fee address for light wallets that 
-                                      use the daemon.
-  --fee-amount arg (=0)               Sets the fee amount for the light wallets
-                                      that use the daemon.
-  --rpc-bind-ip arg (=127.0.0.1)      Interface for RPC service
-  --rpc-bind-port arg (=2086)         Port for RPC service
-  --p2p-bind-ip arg (=0.0.0.0)        Interface for p2p network protocol
-  --p2p-bind-port arg (=2082)         Port for p2p network protocol
-  --p2p-external-port arg (=0)        External port for p2p network protocol 
-                                      (if port forwarding used with NAT)
-  --allow-local-ip                    Allow local ip add to peer list, mostly 
-                                      in debug purposes
-  --add-peer arg                      Manually add peer to local peerlist
-  --add-priority-node arg             Specify list of peers to connect to and 
-                                      attempt to keep the connection open
-  --add-exclusive-node arg            Specify list of peers to connect to only.
-                                      If this option is given the options 
-                                      add-priority-node and seed-node are 
-                                      ignored
-  --seed-node arg                     Connect to a node to retrieve peer 
-                                      addresses, and disconnect
-  --hide-my-port                      Do not announce yourself as peerlist 
-                                      candidate
-  --db-threads arg (=2)               Nuber of background threads used for 
-                                      compaction and flush
-  --db-max-open-files arg (=100)      Number of open files that can be used by 
-                                      the DB
-  --db-write-buffer-size arg (=256)   Size of data base write buffer in 
-                                      megabytes
-  --db-read-cache-size arg (=10)      Size of data base read cache in megabytes
+Usage:
+  ./BLOCd [OPTION...]
+
+ Core options:
+      --help                                       Display this help message
+      --os-version                                 Output Operating System version information
+      --version                                    Output daemon version information
+
+ Daemon options:
+  -c, --config-file <path>                         Specify the <path> to a configuration file
+      --data-dir <path>                            Specify the <path> to the Blockchain data directory (default:
+                                                   /home/test/.BLOC)
+      --dump-config                                Prints the current configuration to the screen
+      --load-checkpoints <path>                    Specify a file <path> containing a CSV of Blockchain checkpoints for
+                                                   faster sync. A value of 'default' uses the built-in checkpoints.
+                                                   (default: default)
+      --log-file <path>                            Specify the <path> to the log file (default: ./BLOCd.log)
+      --log-level #                                Specify log level (default: 2)
+      --no-console                                 Disable daemon console commands
+      --save-config <file>                         Save the configuration to the specified <file>
+
+ Database options:
+      --db-max-open-files #                        Number of files that can be used by the database at one time (default:
+                                                   100)
+      --db-read-buffer-size #                      Size of the database read cache in megabytes (MB) (default: 10)
+      --db-threads #                               Number of background threads used for compaction and flush operations
+                                                   (default: 2)
+      --db-write-buffer-size #                     Size of the database write buffer in megabytes (MB) (default: 256)
+
+ Genesis Block options:
+      --genesis-block-reward-address <address>     Specify the address for any premine genesis block rewards
+      --print-genesis-tx                           Print the genesis block transaction hex and exits
+
+ Network options:
+      --allow-local-ip                             Allow the local IP to be added to the peer list
+      --hide-my-port                               Do not announce yourself as a peerlist candidate
+      --p2p-bind-ip <ip>                           Interface IP address for the P2P service (default: 0.0.0.0)
+      --p2p-bind-port #                            TCP port for the P2P service (default: 2082)
+      --p2p-external-port #                        External TCP port for the P2P service (NAT port forward) (default: 0)
+      --rpc-bind-ip <ip>                           Interface IP address for the RPC service (default: 127.0.0.1)
+      --rpc-bind-port #                            TCP port for the RPC service (default: 2086)
+
+ Peer options:
+      --add-exclusive-node <ip:port>               Manually add a peer to the local peer list ONLY attempt connections to
+                                                   it. [ip:port]
+      --add-peer <ip:port>                         Manually add a peer to the local peer list
+      --add-priority-node <ip:port>                Manually add a peer to the local peer list and attempt to maintain a
+                                                   connection to it [ip:port]
+      --seed-node <ip:port>                        Connect to a node to retrieve the peer list and then disconnect
+
+ RPC options:
+      --enable-blockexplorer                       Enable the Blockchain Explorer RPC
+      --enable-cors <domain>                       Adds header 'Access-Control-Allow-Origin' to the RPC responses using
+                                                   the <domain>. Uses the value specified as the domain. Use * for all.
+      --fee-address <address>                      Sets the convenience charge <address> for light wallets that use the
+                                                   daemon
+      --fee-amount #                               Sets the convenience charge amount for light wallets that use the
+                                                   daemon (default: 0)
 ```
 
 BLOCd Screenshot:
 
-![--help](images/BLOCd/command-line-options/BLOCd.png)
-
-
-### Command line options:
-
-This is the command line options available since the BLOCd v3.0
-
-```
-  --help                                Produce help message
-  --version                             Output version information
-  --os-version 
-  --config-file arg (=BLOC.conf)        Specify configuration file
-```
+![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
 ### --help
 
@@ -99,7 +92,7 @@ Display the help message and configuration settings.
 
 **Expected results**
 
-![--help](images/BLOCd/command-line-options/help.png)
+![--help](images/BLOCd/arguments/BLOCd-Arguments-help.png)
 
 
 ### --version

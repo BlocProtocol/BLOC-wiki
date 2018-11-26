@@ -1,28 +1,47 @@
-# What is BLOCd
+# **What is BLOCd**
 
-A daemon is a program that runs in the background. The BLOC wallet requires a node (running "BLOCd") to connect to. That process, "BLOCd", is the daemon. It can run on your computer or on a remote computer. Think of a daemon as a service. Its doing stuff in the background so you can do stuff in the foreground.
+A daemon is a program that runs in the background. The BLOC wallet requires a node running BLOCd to connect to. That process: BLOCd, is the daemon. It can run on your computer or on a remote computer. Think of a daemon as a service. Its doing stuff in the background so you can do stuff in the foreground.
 
-BLOC Daemon (BLOCd) is responsible for any communication with the network.
+BLOCd is responsible for P2P connections and consensus for any communication with the network :
 
-* Mining
-* Interaction with the blockchain, e.g. blocks relaying, getting info about the block, etc.
-* Peer list look up
-* Connections look up
-* Transaction pool information and relaying
+- Interaction with the blockchain, e.g. blocks relaying, getting informations about the block
+- It can assemble transactions into blocks and check transactions validity
+- Peer list & Connections look up
+- Transaction pool information and relaying
+- Synchronize and grow blockchain
+- But it cannot look inside transactions to see transfers between addresses, because this requires access to user secrets wallets to do so.
+
+BLOCd daemon provides a Command Line Interface with Command line arguments but also an HTTP RPC API and a JSON RPC API to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems.
+
+Various commands are made available by the API described on this page.
+
+## **Screenshot**
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
-![BLOCd MAIN NET](../wallets/images/BLOCd/BLOC-MAINNET-3.0.0.1.png)
+![BLOCd MAIN NET](/images/BLOCd-MAIN-NET-v3.0.1.png)
 
 Here's a quick image of `BLOCd TEST NET` in action:
 
-![BLOCd TEST NET](../wallets/images/BLOCd/BLOC-TESTNET-3.0.0.1.jpg)
+![BLOCd TEST NET](/images/BLOCd-TEST-NET-v3.0.1.png)
 
 ## **Source code**
 
 * [Source Code](https://github.com/furiousteam/BLOC.git)
 
+## **BLOC-DEVELOPER**
+
+The [BLOC-DEVELOPER](https://github.com/furiousteam/BLOC.git) website documents the public APIs of BLOC.
+You can test your application with your own BLOCd node and view code examples in different programming language.
+
+- [BLOCd Daemon Configuration Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
+- [BLOCd Command Line Options](https://bloc-developer.com/api_BLOCd/options)
+- [BLOCd JSON RPC API](https://bloc-developer.com/api_BLOCd/json)
+- [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http)
+
 ## **BLOCd RPC Clients**
+
+We also have some specific language bindings to make integration easier.
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC  Project. This entire project uses Javascript Promises to make things fast, easy, and safe.

@@ -113,6 +113,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 * Specify another data directory than the original one set by BLOCd.
 * The data directory contains the blockchain files from BLOC.
 * Creating a new empty data directory will resynch the blockchain from 0.
+* (default:/home/test/.BLOC)
 
 #### Example
 
@@ -142,7 +143,7 @@ Prints the current configuration of BLOCd to the screen.
 
 ## Create .CONF file
 
-1. Use the command line argument `--dump-config` while starting BLOCd. Copy and paste this to a new file.
+1. Use the command line argument `--save-config` while starting BLOCd. Copy and paste this to a new file.
 2. Check all your required parameters and enter them like in this example
 3. You can use the [BLOC-DEVELOPER BLOCd Argument](https://bloc-developer.com/api_BLOCd/cli_arguments) online tool creator
 4. You need to type the arguments without the '--'
@@ -185,6 +186,8 @@ Prints the current configuration of BLOCd to the screen.
 
 * Use builtin default checkpoints
 * Or use checkpoint csv file for faster initial blockchain sync
+* Specify a file `<path>` containing a CSV of Blockchain checkpoints for faster sync.
+* A value of `default` uses the built-in checkpoints.
 
 #### Example
 
@@ -199,7 +202,7 @@ Prints the current configuration of BLOCd to the screen.
 
 **Possible Errors**
 ```
-ERROR   Exception: Directory does not exist: /home/bloc/.MYFOLDER
+ERROR Exception: Directory does not exist: /home/bloc/.MYFOLDER
 ```
 Remark: Make sure you have created the folder you want to use before start BLOCd
 

@@ -15,6 +15,10 @@ If some of the options are not defined in the config, the default values will be
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
 
+BLOCd Screenshot:
+
+![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
+
 ```
 Usage:
   ./BLOCd [OPTION...]
@@ -23,62 +27,7 @@ Usage:
       --help                                       Display this help message
       --os-version                                 Output Operating System version information
       --version                                    Output daemon version information
-
- Daemon options:
-  -c, --config-file <path>                         Specify the <path> to a configuration file
-      --data-dir <path>                            Specify the <path> to the Blockchain data directory (default:
-                                                   /home/test/.BLOC)
-      --dump-config                                Prints the current configuration to the screen
-      --load-checkpoints <path>                    Specify a file <path> containing a CSV of Blockchain checkpoints for
-                                                   faster sync. A value of 'default' uses the built-in checkpoints.
-                                                   (default: default)
-      --log-file <path>                            Specify the <path> to the log file (default: ./BLOCd.log)
-      --log-level #                                Specify log level (default: 2)
-      --no-console                                 Disable daemon console commands
-      --save-config <file>                         Save the configuration to the specified <file>
-
- Database options:
-      --db-max-open-files #                        Number of files that can be used by the database at one time (default:
-                                                   100)
-      --db-read-buffer-size #                      Size of the database read cache in megabytes (MB) (default: 10)
-      --db-threads #                               Number of background threads used for compaction and flush operations
-                                                   (default: 2)
-      --db-write-buffer-size #                     Size of the database write buffer in megabytes (MB) (default: 256)
-
- Genesis Block options:
-      --genesis-block-reward-address <address>     Specify the address for any premine genesis block rewards
-      --print-genesis-tx                           Print the genesis block transaction hex and exits
-
- Network options:
-      --allow-local-ip                             Allow the local IP to be added to the peer list
-      --hide-my-port                               Do not announce yourself as a peerlist candidate
-      --p2p-bind-ip <ip>                           Interface IP address for the P2P service (default: 0.0.0.0)
-      --p2p-bind-port #                            TCP port for the P2P service (default: 2082)
-      --p2p-external-port #                        External TCP port for the P2P service (NAT port forward) (default: 0)
-      --rpc-bind-ip <ip>                           Interface IP address for the RPC service (default: 127.0.0.1)
-      --rpc-bind-port #                            TCP port for the RPC service (default: 2086)
-
- Peer options:
-      --add-exclusive-node <ip:port>               Manually add a peer to the local peer list ONLY attempt connections to
-                                                   it. [ip:port]
-      --add-peer <ip:port>                         Manually add a peer to the local peer list
-      --add-priority-node <ip:port>                Manually add a peer to the local peer list and attempt to maintain a
-                                                   connection to it [ip:port]
-      --seed-node <ip:port>                        Connect to a node to retrieve the peer list and then disconnect
-
- RPC options:
-      --enable-blockexplorer                       Enable the Blockchain Explorer RPC
-      --enable-cors <domain>                       Adds header 'Access-Control-Allow-Origin' to the RPC responses using
-                                                   the <domain>. Uses the value specified as the domain. Use * for all.
-      --fee-address <address>                      Sets the convenience charge <address> for light wallets that use the
-                                                   daemon
-      --fee-amount #                               Sets the convenience charge amount for light wallets that use the
-                                                   daemon (default: 0)
 ```
-
-BLOCd Screenshot:
-
-![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
 ## **Core Options**
 
@@ -122,10 +71,27 @@ Output Operating System version information
 ./BLOCd --os-version
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/os-version.png)
 
+## **Daemon Options**
+
+```
+ Daemon options:
+  -c, --config-file <path>                         Specify the <path> to a configuration file
+      --data-dir <path>                            Specify the <path> to the Blockchain data directory (default:
+                                                   /home/test/.BLOC)
+      --dump-config                                Prints the current configuration to the screen
+      --load-checkpoints <path>                    Specify a file <path> containing a CSV of Blockchain checkpoints for
+                                                   faster sync. A value of 'default' uses the built-in checkpoints.
+                                                   (default: default)
+      --log-file <path>                            Specify the <path> to the log file (default: ./BLOCd.log)
+      --log-level #                                Specify log level (default: 2)
+      --no-console                                 Disable daemon console commands
+      --save-config <file>                         Save the configuration to the specified <file>
+
+```
 
 ### --config-file arg (=BLOC.conf)
 
@@ -137,7 +103,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 ./BLOCd --config-file=BLOC.conf
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/CONF.png)
 
@@ -160,7 +126,7 @@ enable_blockexplorer=yes
 ```
 [Download Example](images/BLOCd/command-line-options/BLOC.conf)
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/CONF2.png)
 
@@ -235,7 +201,7 @@ This is the command line options available since the BLOCd v3.0
 ./BLOCd --data-dir=/home/bloc/.MYFOLDER
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/data-dir.png)
 
@@ -257,7 +223,7 @@ Remark: Make sure you have created the folder you want to use before start BLOCd
 ./BLOCd --log-file=test.log
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/log-file.png)
 
@@ -278,7 +244,7 @@ File created next to BLOCd:
 ./BLOCd --log-level=2
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/log-level.png)
 
@@ -295,7 +261,7 @@ File created next to BLOCd:
 ./BLOCd --no-console
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/no-console.png)
 
@@ -319,7 +285,7 @@ File created next to BLOCd:
 ./BLOCd --enable-cors=yourdomain.com
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/enable-cors.png)
 
@@ -350,7 +316,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --enable_blockexplorer
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/enable-bloc-explorer.png)
 
@@ -367,7 +333,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --print-genesis-tx
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/print-genesis-tx.png)
 
@@ -384,7 +350,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --print-genesis-tx --genesis-block-reward-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/genesis-block-reward-address.png)
 
@@ -400,7 +366,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --load-checkpoints=checkpoints.csv
 ```
 
-**Expected results**
+##### Expected results
 
 [Cick here](../using-check-points-with-BLOCd.md).
 
@@ -435,7 +401,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR --fee-amount=1
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/fee-amount.png)
 
@@ -459,7 +425,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --rpc-bind-ip=127.0.0.1
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/rpc-bind-ip.png)
 
@@ -478,7 +444,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --rpc-bind-port=10000
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/rpc-bind-port.png)
 
@@ -499,7 +465,7 @@ Server: CryptoNote-based HTTP server
 (Local)
 ./BLOCd --p2p-bind-ip=127.0.0.1
 ```
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/p2p-bind-ip.png)
 
@@ -516,7 +482,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --p2p-bind-port=3000
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/p2p-bind-port.png)
 
@@ -531,7 +497,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --p2p-external-port=5000
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/p2p-external-port.png)
 
@@ -546,7 +512,7 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --allow-local-ip
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/allow-local-ip.png)
 

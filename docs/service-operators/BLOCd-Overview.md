@@ -19,11 +19,11 @@ Various commands are made available by the API described on this page.
 
 Here's a quick image of `BLOCd MAIN NET` in action:
 
-![BLOCd MAIN NET](/images/BLOCd-MAIN-NET-v3.0.1.png)
+![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
 Here's a quick image of `BLOCd TEST NET` in action:
 
-![BLOCd TEST NET](/images/BLOCd-TEST-NET-v3.0.1.png)
+![BLOCd TEST NET](images/BLOCd-TEST-NET-v3.0.1.png)
 
 ## **Source code**
 

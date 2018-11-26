@@ -13,7 +13,7 @@ It can run on your computer or on a remote computer. Think of a daemon as a serv
 - Synchronize and grow blockchain
 - But it cannot look inside transactions to see transfers between addresses, because this requires access to user secrets wallets to do so.
 
-BLOCd daemon provides a [Command Line Interface](BLOCd-daemon-cli-options.md)  with [Command Line Arguments](BLOCd-daemon-arguments.md) but also an [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and a [JSON RPC API](BLOCd-daemon-json-rpc-api.md) to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems.
+**BLOCd** daemon provides a [Command Line Interface](BLOCd-daemon-cli-options.md)  with [Command Line Arguments](BLOCd-daemon-arguments.md) but also an [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and a [JSON RPC API](BLOCd-daemon-json-rpc-api.md) to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems.
 
 Various commands are made available by the API described on [BLOCd for developers](https://bloc-developer.com/api_BLOCd).
 
@@ -92,8 +92,8 @@ Make sure you visit the [BLOCd Command Line Arguments](BLOCd-daemon-arguments.md
 
 Running `BLOCd` will start the **BLOCd** network daemon, which will connect to the network and begin downloading and verifying the BLOC blockchain.  
 
-Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../BLOC-servic#remote-node-options). 
+Because the blockchain is constantly growing, the file size always increases (the blockchain is currently over 2 GB), and **BLOCd must verify every block**, which is both CPU and disk intensive. An SSD with at least this much free disk space is recommended, unless you plan to use [remote nodes](../wallets/Using-remote-nodes.md). 
 
 ### Using Checkpoints
 
-You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../API/Using-checkpoints-for-BLOCd.md) to learn more.
+You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](/Using-checkpoints-for-BLOCd.md) to learn more.

@@ -1,6 +1,6 @@
 # **BLOCd Daemon HTTP RPC API**
 
-[BLOCd](BLOCd-Overview.md) daemon provides a HTTP RPC API, used to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems. Various commands are made available by the API described on [this page](https://bloc-developer.com/api_BLOCd/http).
+[BLOCd](BLOCd-Overview.md) daemon provides a **HTTP RPC API**, used to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems. Various commands are made available by the API described on [this page](https://bloc-developer.com/api_BLOCd/http).
 
 ## **BLOC-DEVELOPER**
 
@@ -17,6 +17,18 @@ Currently we support the following official client bindings:
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc)
 * [PHP](https://github.com/furiousteam/BLOC-rpc-php)
 * [Go](https://github.com/furiousteam/BLOC-rpc-go)
+
+```javascript
+npm install bloc-rpc
+```
+
+```php
+composer require github.com/furiousteam/BLOC-rpc-php
+```
+
+```go
+go get github.com/furiousteam/BLOC-rpc-go
+```
 
 ## **Interacting with the API**
 
@@ -146,5 +158,6 @@ height           | Current daemon height  | int
 network_height   | Current Network height | int
 status           | Status of request      | string
 
+## **More**
 
 Make sure you check the complete features of [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http) from the decicated BLOC-DEVELOPER website.

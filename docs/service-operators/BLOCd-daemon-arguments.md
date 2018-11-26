@@ -125,28 +125,43 @@ Prints the current configuration of BLOCd to the screen.
 
 ## Create .CONF file
 
-1. Use the command line argument `--dump-config` while starting BLOCd.
-
-
-* 
-* Check all your required parameters and enter them like in this example
-* You need to type the arguments without the '--'
-* Place this file next to BLOCd
+1. Use the command line argument `--dump-config` while starting BLOCd. Copy and paste this to a new file.
+2. Check all your required parameters and enter them like in this example
+3. You can use the [BLOC-DEVELOPER BLOCd Argument](https://bloc-developer.com/api_BLOCd/cli_arguments) online tool creator
+4. You need to type the arguments without the '--'
+5. Place this file next to BLOCd
 
 #### Example
 
 ```
-enable-cors=*
-fee-address=abLoc8oL14r8DUdzXBPwN8LPMSBJfS3BaFG96gQPhFWRNBw2g6AHpFoJyuYP7h83cPEcLYxKAgMs9L27S3tBNEHaMkR6JhDsLt5
-fee-amount=5
-rpc-bind-ip=0.0.0.0
-enable_blockexplorer=yes
+{
+  "add-exclusive-node": [],
+  "add-peer": [],
+  "add-priority-node": [],
+  "allow-local-ip": false,
+  "data-dir": "/home/test/.BLOC",
+  "db-max-open-files": 100,
+  "db-read-buffer-size": 10,
+  "db-threads": 2,
+  "db-write-buffer-size": 256,
+  "enable-blockexplorer": false,
+  "enable-cors": [],
+  "fee-address": "",
+  "fee-amount": 0,
+  "hide-my-port": false,
+  "load-checkpoints": "default",
+  "log-file": "./BLOCd.log",
+  "log-level": 2,
+  "no-console": false,
+  "p2p-bind-ip": "0.0.0.0",
+  "p2p-bind-port": 2082,
+  "p2p-external-port": 0,
+  "rpc-bind-ip": "127.0.0.1",
+  "rpc-bind-port": 2086,
+  "seed-node": []
+}
 ```
-[Download Example](images/BLOCd/command-line-options/BLOC.conf)
-
-##### Expected results
-
-![--help](images/BLOCd/command-line-options/CONF2.png)
+[Download Example](images/BLOCd/arguments/BLOC.conf)
 
 
 ## Command line options and settings options

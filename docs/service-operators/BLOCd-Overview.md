@@ -1,8 +1,10 @@
 # **What is BLOCd**
 
-A daemon is a program that runs in the background. The BLOC wallet requires a node running BLOCd to connect to. That process: BLOCd, is the daemon. It can run on your computer or on a remote computer. Think of a daemon as a service. Its doing stuff in the background so you can do stuff in the foreground.
+A daemon is a program that runs in the background. The [BLOC Wallet](../wallets/Making-a-Wallet.md) requires a node running **BLOCd** to connect to. That process: **BLOCd**, is the daemon.
 
-BLOCd is responsible for P2P connections and consensus for any communication with the network :
+It can run on your computer or on a remote computer. Think of a daemon as a service. Its doing stuff in the background so you can do stuff in the foreground.
+
+**BLOCd** is responsible for P2P connections and consensus for any communication with the network :
 
 - Interaction with the blockchain, e.g. blocks relaying, getting informations about the block
 - It can assemble transactions into blocks and check transactions validity
@@ -11,9 +13,9 @@ BLOCd is responsible for P2P connections and consensus for any communication wit
 - Synchronize and grow blockchain
 - But it cannot look inside transactions to see transfers between addresses, because this requires access to user secrets wallets to do so.
 
-BLOCd daemon provides a Command Line Interface with Command line arguments but also an HTTP RPC API and a JSON RPC API to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems.
+BLOCd daemon provides a [Command Line Interface](BLOCd-daemon-cli-options.md)  with [Command Line Arguments](BLOCd-daemon-arguments.md) but also an [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and a [JSON RPC API](BLOCd-daemon-json-rpc-api.md) to receive informations from the blockchain allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems.
 
-Various commands are made available by the API described on this page.
+Various commands are made available by the API described on [BLOCd for developers](https://bloc-developer.com/api_BLOCd).
 
 ## **Screenshot**
 
@@ -31,7 +33,7 @@ Here's a quick image of `BLOCd TEST NET` in action:
 
 ## **BLOC-DEVELOPER**
 
-The [BLOC-DEVELOPER](https://github.com/furiousteam/BLOC.git) website documents the public APIs of BLOC.
+The [BLOC-DEVELOPER](https://bloc-developer.com) website documents the public [API of BLOCd](https://bloc-developer.com/api_BLOCd).
 You can test your application with your own BLOCd node and view code examples in different programming language.
 
 - [BLOCd Daemon Configuration Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
@@ -82,9 +84,9 @@ Extract the *.zip* file:
 unzip BLOC-...-linux.zip
 ```
 
-## Starting BLOCd
+## **Starting BLOCd**
 
-Make sure you visit the [BLOCd Command Line Arguments](BLOCd-Daemon-arguments.md) to find how to start BLOCd following different configurations.
+Make sure you visit the [BLOCd Command Line Arguments](BLOCd-daemon-arguments.md) to find how to start BLOCd following different configurations.
 
 ## **Synchronizing the Blockchain**
 

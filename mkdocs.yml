@@ -143,7 +143,7 @@ nav:
       - Compiling from Source: service-operators/Compiling-from-Source.md
       - BLOCd:
         - Overview: service-operators/BLOCd-Overview.md
-        - Command Line Arguments: service-operators/BLOCd-Daemon-arguments.md
+        - Command Line Arguments: service-operators/BLOCd-daemon-arguments.md
         - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
         - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
         - Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md

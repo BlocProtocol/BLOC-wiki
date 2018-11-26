@@ -138,13 +138,14 @@ Prints the current configuration of BLOCd to the screen.
 ![--config-file](images/BLOCd/arguments/dump-config.png)
 
 
-## Create .CONF file
+### Create .CONF file
 
 1. Use the command line argument `--save-config` while starting BLOCd. Copy and paste this to a new file.
 2. Check all your required parameters and enter them like in this example
 3. You can use the [BLOC-DEVELOPER BLOCd Argument](https://bloc-developer.com/api_BLOCd/cli_arguments) online tool creator
 4. You need to type the arguments without the '--'
 5. Place this file next to BLOCd
+6. Start BLOCd like this: `./BLOCd --config-file=BLOC.conf`
 
 #### Example
 

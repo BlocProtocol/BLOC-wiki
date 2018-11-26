@@ -17,11 +17,15 @@ Almost all of the command line options can be defined through the configuration 
 - Config files, where used, now use **JSON** formatted files instead of INI
 - Config files will be automatically upgraded to JSON and overwritten on first use
 
-The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
+## BLOC-DEVELOPER
 
-BLOCd Screenshot:
+This page is only a short guide how to get you started with BLOCd configuration. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) Command Line Arguments.
+
+## Screenshot:
 
 ![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
+
+The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
 
 ## **Core Options**
 

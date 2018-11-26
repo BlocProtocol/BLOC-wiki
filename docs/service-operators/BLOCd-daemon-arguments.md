@@ -1,6 +1,6 @@
 # **BLOCd Command Line Arguments**
 
-This section describes BLOCd daemon starting process with correct arguments enabling access to the BLOCd HTTP RPC API and BLOCd JSON RPC API.
+This section describes BLOCd daemon starting process with correct arguments enabling access to the BLOCd [Command Line Interface](BLOCd-daemon-cli-options.md) , the [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and/or the [JSON RPC API](BLOCd-daemon-json-rpc-api.md).
  
 [BLOCd](BLOCd-Overview.md) can accept settings through a configuration file and/or command line.
  
@@ -16,8 +16,6 @@ Almost all of the command line options can be defined through the configuration 
 
 - Config files, where used, now use **JSON** formatted files instead of INI
 - Config files will be automatically upgraded to JSON and overwritten on first use
-
-You are now ready to use the [Command Line Interface](BLOCd-daemon-cli-options.md) , the [HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and/or the [JSON RPC API](BLOCd-daemon-json-rpc-api.md).
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
 
@@ -336,7 +334,7 @@ Save the configuration to the specified `<file>`
 
 ## Genesis Block Options
 
-Fork **BLOC** and create your your own cryptocurrency.
+Fork [BLOC](https://github.com/furiousteam/BLOC). and create your your own cryptocurrency.
 
 ```
 --genesis-block-reward-address <address>     Specify the address for any premine genesis block rewards
@@ -523,7 +521,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ### --add-exclusive-node arg
 
-* Specify list of peers to connect to only.
+* Manually add a peer to the local peer list ONLY attempt connections to it. [ip:port]
 * If this option is given the options add-priority-node and seed-node are ignored
 
 #### Example
@@ -534,7 +532,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ### --add-peer arg
 
-* Manually add peer to local peerlist
+* Manually add a peer to the local peer list
 
 #### Example
 
@@ -542,10 +540,9 @@ Fork **BLOC** and create your your own cryptocurrency.
 ./BLOCd --add-peer=PEER.IP.ADDRESS
 ```
 
-
 ### --add-priority-node arg
 
-* Specify list of peers to connect to and attempt to keep the connection open
+* Manually add a peer to the local peer list and attempt to maintain a connection to it [ip:port]
 
 #### Example
 
@@ -555,7 +552,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ### --seed-node arg
 
-* Connect to a node to retrieve peer addresses, and disconnect
+* Connect to a node to retrieve the peer list and then disconnect
 
 #### Example
 
@@ -589,9 +586,9 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ### --enable-cors arg
 
-* Adds header 'Access-Control-Allow-Origin' to the daemon's RPC responses.
-* Uses the value as domain
-* Use * for all
+* Adds header 'Access-Control-Allow-Origin' to the RPC responses using the `<domain>`
+* Uses the value specified as the domain
+* Use `*` for all.
 
 #### Example
 
@@ -625,8 +622,8 @@ Server: CryptoNote-based HTTP server
 
 * This is a new feature implemented in BLOC v3.0
 * Read more about [Nodes Fees](../wallets/Using-remote-nodes.md).
-* Sets fee address for light wallets that use the daemon
-* Make sure you combine this argument with --fee-amount
+* Sets the convenience charge `<address>` for light wallets that use the daemon
+* Make sure you combine this argument with `--fee-amount`
 
 #### Example
 
@@ -634,16 +631,15 @@ Server: CryptoNote-based HTTP server
 ./BLOCd --fee-address=abLoc9fgn3Lcirw7U6nthwTBgwoffUJajEHr3vtSb9nPPL91XWG1Brt5TNCKRZojEbCGhMdSSjpCQfiMnfGEzMQbfs25N6HC6JR
 ```
 
-
 ### --fee-amount arg (=0)
 
 * This is a new feature implemented in BLOC v3.0
 * Read more about [Nodes Fees](../wallets/Using-remote-nodes.md).
-* Sets fee amount for light wallets that use the daemon
-* Make sure you combine this argument with --fee-address
-* Remember we are using Atomic Units
-* --fee-amount=1 means 0.0001 BLOC fees will be sent to the --fee-address specified
-* --fee-amount=1000 means 1 BLOC fees will be sent to the -fee-address specified
+* Sets the convenience charge amount for light wallets that use the daemon (default: 0)
+* Make sure you combine this argument with `--fee-address are`
+* Remember BLOC is using Atomic Units
+* `--fee-amount=1` means 0.0001 BLOC fees will be sent to the `--fee-address` specified
+* `--fee-amount=1000` means 1 BLOC fees will be sent to the `--fee-address` specified
 
 #### Example
 

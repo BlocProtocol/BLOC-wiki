@@ -163,4 +163,4 @@ status           | Status of request | string
 
 ## **More**
 
-Make sure you check the complete features of [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http) from the decicated BLOC-DEVELOPER website.
+Make sure you check the complete features of [BLOCd JSON RPC API](https://bloc-developer.com/api_BLOCd/json) from the dedicated [BLOC-DEVELOPER](https://bloc-developer.com) website.

@@ -80,6 +80,8 @@ BLOCd Screenshot:
 
 ![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
+## Core Options
+
 ### --help
 
 Display the help message and configuration settings.
@@ -90,14 +92,14 @@ Display the help message and configuration settings.
 ./BLOCd --help
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/arguments/BLOCd-Arguments-help.png)
 
 
 ### --version
 
-Display the version information
+Output daemon version information
 
 #### Example
 
@@ -105,14 +107,14 @@ Display the version information
 ./BLOCd --version
 ```
 
-**Expected results**
+##### Expected results
 
 ![--help](images/BLOCd/command-line-options/version.png)
 
 
 ### --os-version
 
-Display the operating system version information
+Output Operating System version information
 
 #### Example
 

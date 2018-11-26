@@ -122,7 +122,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/data-dir.png)
+![--help](images/BLOCd/arguments/data-dir.png)
 
 
 ### --dump-config

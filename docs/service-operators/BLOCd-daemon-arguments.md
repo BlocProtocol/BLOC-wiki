@@ -371,7 +371,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 ![--help](images/BLOCd/command-line-options/print-genesis-tx.png)
 
 
-## Network Options
+## **Network Options**
 
 ```
 --allow-local-ip                             Allow the local IP to be added to the peer list
@@ -573,7 +573,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 #### Example
 
 ```
-./BLOCd --enable_blockexplorer
+./BLOCd --enable-blockexplorer
 ```
 
 ##### Expected results
@@ -598,7 +598,7 @@ Fork **BLOC** and create your your own cryptocurrency.
 
 ![--help](images/BLOCd/command-line-options/enable-cors.png)
 
-**Response Headers**
+##### Response Headers
 ```
 HTTP/1.1 200 OK
 Access-Control-Allow-Origin: *
@@ -648,29 +648,6 @@ Server: CryptoNote-based HTTP server
 ##### Expected results
 
 ![--help](images/BLOCd/command-line-options/fee-amount.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## BLOC-DEVELOPER

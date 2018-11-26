@@ -105,12 +105,30 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/CONF.png)
+![--config-file](images/BLOCd/command-line-options/CONF.png)
+
+
+### --dump-config
+
+Prints the current configuration of BLOCd to the screen.
+
+#### Example
+
+```
+./BLOCd --dump-config
+```
+
+##### Expected results
+
+![--config-file](images/BLOCd/arguments/dump-config.png)
 
 
 ## Create .CONF file
 
-* Create a txt file with your favorite text editor and open it.
+1. Use the command line argument `--dump-config` while starting BLOCd.
+
+
+* 
 * Check all your required parameters and enter them like in this example
 * You need to type the arguments without the '--'
 * Place this file next to BLOCd

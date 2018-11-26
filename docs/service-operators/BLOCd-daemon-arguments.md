@@ -58,7 +58,7 @@ Output daemon version information
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/version.png)
+![--help](images/BLOCd/arguments/version.png)
 
 
 ### --os-version
@@ -73,7 +73,7 @@ Output Operating System version information
 
 ##### Expected results
 
-![--help](images/BLOCd/command-line-options/os-version.png)
+![--help](images/BLOCd/arguments/os-version.png)
 
 ## **Daemon Options**
 
@@ -105,7 +105,7 @@ Specify a configuration file to start BLOCd. This is much more simple to use if 
 
 ##### Expected results
 
-![--config-file](images/BLOCd/command-line-options/CONF.png)
+![--config-file](images/BLOCd/arguments/CONF.png)
 
 
 ### --dump-config

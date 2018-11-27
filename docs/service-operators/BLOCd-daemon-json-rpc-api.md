@@ -7,7 +7,7 @@
 This page is only a short guide how to get you started with the **BLOCd Daemon JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/json) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) JSON RPC API.
 
 
-## **Client bindings**
+## **Installing**
 
 Currently we support the following official client bindings:
 
@@ -68,6 +68,54 @@ Parameter            | Description
 `<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
 
 
+## **Interacting with the API**
+
+> API endpoint example
+
+```
+http://localhost:2086/json_rpc
+```
+
+> Configuration and Installation
+
+```javascript
+const BLOCd = require('bloc-rpc').BLOCd
+
+const daemon = new BLOCd({
+  host: '0.0.0.0', // ip address or hostname of the BLOCd host
+  port: 2086, // what port is the RPC server running on
+  timeout: 2000, // request timeout
+  ssl: false // whether we need to connect using SSL/TLS
+})
+```
+
+```php
+<?php
+use BLOC\BLOCd;
+
+$config = [
+    'rpcHost' => 'http://localhost',
+    'rpcPort' => 2086,
+];
+
+$blocd = new BLOCd($config);
+```
+
+```go
+import (
+    "fmt"
+    trpc "github.com/furiousteam/BLOC-rpc-go"
+)
+
+rpcHost := "localhost"
+rpcPort := 2086
+
+daemon := trpc.BLOCd{
+    URL: rpcHost,
+    Port: rpcPort}
+```
+
+
 ## **Example getblockcount**
 
 ```shell
@@ -117,52 +165,6 @@ count            | Current chain height | int
 status           | Status of request | string
 
 
-## **Interacting with the API**
-
-> API endpoint example
-
-```
-http://localhost:2086/json_rpc
-```
-
-> Configuration and Installation
-
-```javascript
-const BLOCd = require('bloc-rpc').BLOCd
-
-const daemon = new BLOCd({
-  host: '0.0.0.0', // ip address or hostname of the BLOCd host
-  port: 2086, // what port is the RPC server running on
-  timeout: 2000, // request timeout
-  ssl: false // whether we need to connect using SSL/TLS
-})
-```
-
-```php
-<?php
-use BLOC\BLOCd;
-
-$config = [
-    'rpcHost' => 'http://localhost',
-    'rpcPort' => 2086,
-];
-
-$blocd = new BLOCd($config);
-```
-
-```go
-import (
-    "fmt"
-    trpc "github.com/furiousteam/BLOC-rpc-go"
-)
-
-rpcHost := "localhost"
-rpcPort := 2086
-
-daemon := trpc.BLOCd{
-    URL: rpcHost,
-    Port: rpcPort}
-```
 
 
 ## **More**

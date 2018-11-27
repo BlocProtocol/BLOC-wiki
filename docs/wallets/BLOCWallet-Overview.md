@@ -1,12 +1,16 @@
-# What is BLOCWallet
+# **What is BLOCWallet**
 
 The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface.
 
 However, it is currently the **most stable** and **gets the newest updates first**.
 
-Here's a quick image of [BLOCWallet](https://bloc.money/download)
+## Screenshot
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
+
+## **Source code**
+
+* Download [BLOC Source Code](https://github.com/furiousteam/BLOC.git) from GitHub
 
 ## **Downloading**
 

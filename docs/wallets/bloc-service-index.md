@@ -16,7 +16,7 @@ Here's a quick image of `BLOC-service` in action:
 
 ## **Source code**
 
-* [Source Code](https://github.com/furiousteam/BLOC.git)
+* Download [BLOC Source Code](https://github.com/furiousteam/BLOC.git) from GitHub
 
 ## **BLOC-service API**
 

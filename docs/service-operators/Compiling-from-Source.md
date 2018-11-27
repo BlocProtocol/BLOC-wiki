@@ -4,7 +4,7 @@ The instructions for in the [README.md](https://github.com/furiousteam/BLOC/blob
 
 ## **Source code**
 
-* [Source Code](https://github.com/furiousteam/BLOC.git)
+* Download [BLOC Source Code](https://github.com/furiousteam/BLOC.git) from GitHub
 
 ## **CentOS 7**
 

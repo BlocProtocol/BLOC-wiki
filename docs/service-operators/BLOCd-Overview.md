@@ -29,7 +29,7 @@ Here's a quick image of `BLOCd TEST NET` in action:
 
 ## **Source code**
 
-* [Source Code](https://github.com/furiousteam/BLOC.git)
+* Download [BLOC Source Code](https://github.com/furiousteam/BLOC.git) from GitHub
 
 ## **BLOCd API**
 

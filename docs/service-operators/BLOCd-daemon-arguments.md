@@ -122,7 +122,7 @@ Edit the config file following your needs. We are going to cover the most standa
 
 ## **Examples**
 
-To start BLOCd just for yourself so you can connect your wallet through it you do not need to modify anything in the configuration file. It will use the stanard configuration and it will works just fine.
+To start BLOCd just for yourself so you can connect your wallet through it you do not need to modify anything in the configuration file. It will use the standard configuration and it will works just fine.
 
 If you would like to run an open public remote BLOCd node and start accepting transaction through this node, so you can make an extra passive income, you will need to edit:
 
@@ -141,6 +141,14 @@ Wants to go private ? Do not announce yourself as a peerlist candidate
 
 - "[hide-my-port](https://bloc-developer.com/api_BLOCd/cli_arguments#--hide-my-port)": true,
 
+Are you running a BLOC Mining Pool ?
+
+- You can use the standard configuration already built in. Just start BLOCd.
+
+Are you running a BLOC Exchange ?
+
+- You can use the standard configuration already built in. Just start BLOCd.
+
 Click on each argument to get more informations of how to use it and make sure your browse the complete list of [BLOCd Command Line Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments) from the BLOC-DEVELOPER website.
 
 
@@ -148,13 +156,15 @@ Click on each argument to get more informations of how to use it and make sure y
 
 Once you are happy and modified your configuration file as you need simply copy your configuration file next to the BLOCd software, open the command line inside the folder where is located BLOCd:
 
-Finally, type `BLOCd.exe --config-file=BLOC.conf`
+Finally, type `BLOCd.exe --config-file=myconfig.conf`
 
 You can use the cd command to change to this directory. For example, cd Downloads/BLOC/
 
-Finally, type `./BLOCd --config-file=BLOC.conf`
+Finally, type `./BLOCd --config-file=myconfig.conf`
 
 You should see a result like this:
+
+![--save-config](images/BLOCd/arguments/my-config.png)
 
 
 Congratulations! You have now properly setup BLOCd and you are ready to use the [BLOCd Command Line Interface](BLOCd-daemon-cli-options.md) , the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md) or/and the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md)

@@ -54,7 +54,7 @@ You can test your application with your own BLOCd node and view code examples in
 
 ## **BLOCd RPC Clients**
 
-We also have some specific language bindings to make integration easier.
+Currently we support the following official client bindings:
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC  Project. This entire project uses Javascript Promises to make things fast, easy, and safe.

@@ -8,15 +8,20 @@ Make sure you visit the [BLOC-service command line arguments](../wallets/bloc-se
 
 If you are looking to integrate BLOC payment and process transactions into your website or application, **BLOC-service** is what you need.
 
+## **Screenshot**
+
+Here's a quick image of `BLOC-service` in action:
+
+![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
+
 ## **Source code**
 
 * [Source Code](https://github.com/furiousteam/BLOC.git)
 
 ## **BLOC-service API**
 
-We provide a complete API documentation and an online testing tool to use and integrate BLOC payments into your website or application.
-
-Make sure to visit the dedicated website [BLOC-DEVELOPER](https://bloc-developer.com) including the [BLOC-service category](https://bloc-developer.com/api_bloc-service)
+The [BLOC-DEVELOPER](https://bloc-developer.com) website documents the public [API of BLOC-service](https://bloc-developer.com/api_bloc-service).
+You can test your application with your own BLOCd node and view code examples in different programming language.
 
 - How to use the [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md)
 

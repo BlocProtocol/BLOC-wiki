@@ -6,7 +6,7 @@ To start using BLOC-service you must first create a new wallet by generating a c
 
 To generate a new container please check at the function [--generate-container](https://bloc-developer.com/api_bloc-service/cli_arguments#--generate-container) 
  
-You can also restore a wallet using private keys with the [--view-key](https://bloc-developer.com/api_bloc-service/cli_arguments#--view-key) and [--spend-key](https://bloc-developer.com/api_bloc-service/cli_arguments#--spend-key) argument or using a 25 words phrase [--mnemonic-seed](https://bloc-developer.com/api_bloc-service/cli_arguments#--mnemonic-seed).
+You can also restore a wallet using private keys with the [--view-key](#using-your-private-spend-key-and-view-key) and [--spend-key](#using-your-private-spend-key-and-view-key) argument or using a 25 words phrase [--mnemonic-seed](#using-your-mnemonic-seed).
 
 A complete guide is available on this page of [how to restore your wallet with BLOC-service](#restore-a-existing-bloc-wallet-with-bloc-service). 
  
@@ -20,10 +20,10 @@ We are going to describe on this page how to generate your own config file, plac
 
 - *Mac and Linux : ./BLOC-service --config-file=BLOC.conf*
 
-Notes:
+**Notes**:
 
-- config file's path is relative to current working directory, not server root.
-- options [--container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file) and [--container-password](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-password) should ALWAYS be set (in either command line or config file mode).
+- Config file's path is relative to current working directory, not server root.
+- Options [--container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file) and [--container-password](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-password) should ALWAYS be set (in either command line or config file mode).
 - [--container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file) and [--log-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--log-file) options are relative to [--server-root](https://bloc-developer.com/api_bloc-service/cli_arguments#--server-root). "server-root" default is the current working directory.
  
 Almost all of the command line options can be defined through the configuration file. If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:

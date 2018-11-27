@@ -21,19 +21,13 @@ Almost all of the command line options can be defined through the configuration 
 
 This page is only a short guide how to get you started with BLOCd configuration. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md).
 
-## **Screenshot**
 
-![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
-
-The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
-
-
-## Getting Started
+## **Getting Started**
 
 We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments).
 
 
-## Launch BLOCd for the 1st time
+## **Launch BLOCd for the 1st time**
 
 Open a command prompt in the same directory as BLOCd.
 
@@ -60,13 +54,13 @@ Once the synchronisation is done you will get a notification like this:
 ![--save-config](images/BLOCd/arguments/start-blocd-2.png)
 
 
-## Create and customize your config file
+## **Create and customize your config file**
 
 ### Create
 
 The first thing to do after you have synchronised the blockchain is to setup your configuration file so you can run BLOCd using custom features and options.
 
-Lanch BLOCd with the <a href="https://bloc-developer.com/api_BLOCd/cli_arguments#save-config" target="_blank">--save-config</a>  https://bloc-developer.com/api_BLOCd/cli_arguments#save-config argument will save the default configuration file next to your BLOCd software.
+Lanch BLOCd with the [--save-config](https://bloc-developer.com/api_BLOCd/cli_arguments#save-config) argument will save the default configuration file next to your BLOCd software.
 
 ```
 Mac and Linux:
@@ -124,21 +118,20 @@ You can view an example here:
 
 Edit the config file following your needs. We are going to cover the most standard configuration on this page.
 
-- Check the complete list of <a href="https://bloc-developer.com/api_BLOCd/cli_arguments#--help" target="_blank">BLOCd Command Line Arguments</a> available.
+- Check the complete list of [BLOCd Command Line Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments) </a> available.
 
-## Examples
+## **Examples**
 
 If you would like to run an open public remote BLOCd node and start accepting transaction through this node, so you can make an extra passive income, you will need to edit:
 
-- "<a href="https://bloc-developer.com/api_BLOCd/cli_arguments#--help" target="_blank">fee-address</a>": "enter your abLoc address here",
+- "[fee-address](https://bloc-developer.com/api_BLOCd/cli_arguments#--fee-address)": "enter your abLoc address here",
 - "fee-amount": 0, (the amount in BLOC atomic units)
 - "rpc-bind-ip": "0.0.0.0",
 
 If you would like to run an open public remote BLOCd node with the block-explorer options enabled:
 
 
-
-## Launch BLOCd with configuration file
+## **Launch BLOCd with configuration file**
 
 Copy your configuration file next to the BLOCd software, open the command line inside the folder where is located BLOCd:
 

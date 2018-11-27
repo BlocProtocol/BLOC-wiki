@@ -47,6 +47,304 @@ This page is only a short guide how to get you started with BLOCd configuration.
 We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments).
 
 
+## **Generate a new wallet**
+
+To start using **bloc-service** you must first generate a container.
+Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them.
+**Make sure to backup this file regularly**.
+
+To generate a new container you should run the following command:
+
+Mac and Linux:
+```
+./BLOC-service --container-file=mycontainer --container-password=mypassword --generate-container
+```
+
+Windows:
+```
+BLOC-service.exe --container-file=mycontainer --container-password=mypassword --generate-container
+```
+
+* `mycontainer` is the container file name and a path to it (relative or absolute); path is optional in this argument, specifying only a container name will result in new file located in the same folder as **bloc-service** 
+* `mypassword` is a secret password for the new wallet & container file.
+* `generate-container` option tells **bloc-service** to generate container file and exit.
+
+**Expected results**
+
+![generate-container](images/bloc-service/generate-container.png)
+
+*Note: if `mycontainer` exists **bloc-service** will show you the notification and will ask you to provide a different name*
+
+If the operation was successful you will get a corresponding message with your new **BLOC** address. At the same time **bloc-service** will save your container on the local disk (in the same folder where **bloc-service** is located and shut down.
+
+
+## **Create and customize your config file**
+
+### Create
+
+Once you have created your container you need to setup your configuration file so you can connect to your wallet.
+
+Lanch BLOC-service with the [--save-config](https://bloc-developer.com/api_bloc-service/cli_arguments#--save-config) argument will save the default configuration file next to your BLOC-service software.
+
+
+Mac and Linux:
+```
+./BLOC-service --save-config mywallet.conf
+```
+
+Windows:
+```
+BLOC-service.exe --save-config mywallet.conf
+
+```
+
+Screenshot:
+
+![--save-config](images/bloc-service/save-config.png)
+
+A new file myconfig.conf should have been created as follow:
+
+![--save-config](images/bloc-service/save-config-2.png)
+
+Open this file with any text editor:
+
+![--save-config](images/BLOCd/arguments/save-config-3.png)
+
+You can view an example here:
+
+```
+{
+  {
+  "bind-address": "127.0.0.1",
+  "bind-port": 8070,
+  "container-file": "",
+  "container-password": "",
+  "daemon-address": "127.0.0.1",
+  "daemon-port": 2086,
+  "enable-cors": "",
+  "log-file": "service.log",
+  "log-level": 3,
+  "rpc-legacy-security": false,
+  "rpc-password": "",
+  "server-root": ""
+}
+}
+```
+### Edit
+
+Edit the config file following your needs. In this example we are going to use the details from our newly created container.
+
+- Check the complete list of [BLOC-service Command Line Arguments](https://bloc-developer.com/api_bloc-service/cli_arguments) available.
+
+- "[container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file)": "mycontainer",
+- "[container-password](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-password)": "mypassword",
+- "[rpc-password](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file)": "RPCpassword",
+
+```
+{
+  "bind-address": "127.0.0.1",
+  "bind-port": 8070,
+  "container-file": "mycontainer",
+  "container-password": "mypassword",
+  "daemon-address": "127.0.0.1",
+  "daemon-port": 2086,
+  "enable-cors": "",
+  "log-file": "service.log",
+  "log-level": 3,
+  "rpc-legacy-security": false,
+  "rpc-password": "RPCpassword",
+  "server-root": ""
+}
+```
+
+If you would like to connect your wallet from an external IP address you need to use:
+
+- "[bind-address](https://bloc-developer.com/api_BLOCd/cli_arguments#--bind-address)": "0.0.0.0",
+
+
+## **Start bloc-service**
+
+* To start **bloc-service** RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use `--config` option further.
+* The command below launches **bloc-service** RPC Wallet with a specific config file:
+
+```
+./BLOC-service --config=mywallet.conf
+```
+
+* You may specify BLOC config directly through console arguments. Here is the same config file as above in console: 
+
+```
+./BLOC-service --container-file=mycontainer --container-password=mypassword --daemon-address=127.0.0.1 --daemon-port=2086 --bind-address=127.0.0.1 --bind-port=8070 --rpc-password=RPCpassword --log-level=3 --log-file=service.log
+```
+
+**Expected results**
+
+Start with command line:
+
+![start bloc-service](images/bloc-service/start.png)
+
+Start with myconf.conf:
+
+![start bloc-service](images/bloc-service/start-conf.png)
+
+
+## **Restore a existing BLOC wallet with bloc-service**##
+
+We have differents options to recover a wallet using **bloc-service**
+
+### Using a old Walletd container file
+
+If you were using Walletd that come with the previous version of BLOC, the previous container file is compatible with the new version. This is the step to follow:
+
+* Copy the your previous configuration file `yourfile.conf` and copy the acual container file `mycontainer`
+* Paste this 2 files next to the new `bloc-service` and `BLOCd`
+* Open `yourfile.conf` 
+* Make sure you remove this line `testnet = no` we are not using this field anymore
+* Edit like this:
+
+```
+container-file = mycontainer
+container-password = mypassword
+daemon-port = 2086
+bind-port = 8070
+bind-address = 127.0.0.1
+rpc-password = RPCpassword
+```
+* Save the file
+* Start `bloc-service` using this configuration file
+* ```./bloc-service --config=myconf.conf```
+* Please wait until the synchronisation is complete
+* Your wallet is ready to be used with the **bloc-service** RPC API.
+
+**Expected results**
+
+![start bloc-service](images/bloc-service/restore-old-wallet-file.png)
+
+
+### Using your private spend key and view key
+
+If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
+
+* Create a txt file with your favorite text editor and open it.
+* Check all your required parameters and enter them like in this example
+* You need to type the arguments without the '--'
+* Place this file next to bloc-service
+* Save it under the name `myconf.conf`
+
+```
+container-file = mycontainer
+container-password = mypassword
+daemon-port = 2086
+bind-port = 8070
+bind-address = 127.0.0.1
+rpc-password = RPCpassword
+```
+* Save the file
+
+#### Generate a new container file
+
+Generate a new container file with the following `--view-key` and `--spend-key` commands:
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --view-key=myviewkey --spend-key=myspendkey --generate-container
+```
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --view-key=e82ebf49b74fccd754e39ac3ca6fabca35277b012dfce0cf8921c216396b3108 --spend-key=cda47a19e5d433060ab79c885817cd20fc394dc7043ac875678a3698804ede01 --generate-container
+```
+
+**Expected results**
+
+![start bloc-service](images/bloc-service/restore-using-private-keys.png)
+
+
+* Start `bloc-service` using your configuration file
+
+```
+./bloc-service --config=myconf.conf
+```
+
+* Your wallet is now loaded
+* Please wait until the synchronisation is complete
+
+**Expected results**
+
+![wallet loading after restore private key](images/bloc-service/wallet-loading-after-restore-private-key.png)
+
+
+* Your wallet is ready to be used with the **bloc-service** RPC API.
+
+**Expected results**
+
+![wallet ready after restore private key](images/bloc-service/wallet-ready-after-restore-prviate-keys.png)
+
+
+### Using your mnemonic-seed
+
+If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
+
+* Create a txt file with your favorite text editor and open it.
+* Check all your required parameters and enter them like in this example
+* You need to type the arguments without the '--'
+* Place this file next to bloc-service
+* Save it under the name `mycontainer.conf`
+
+```
+container-file = mycontainer
+container-password = mypassword
+daemon-port = 2086
+bind-port = 8070
+bind-address = 0.0.0.0
+rpc-password = RPCpassword
+```
+* Save the file
+
+#### Generate a new container file
+
+Generate a new container file with the following `--mnemonic-seed` commands:
+
+```
+Enter your details:
+./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="your-mnemonic-seed" --generate-container
+
+Example:
+./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="jazz border dude orphans worry absorb slackens public drinks bovine evenings hurried roped jaws drinks snug directed pirate behind zero null cuisine agreed alchemy directed" --generate-container
+```
+
+**Expected results**
+
+![start bloc-service](images/bloc-service/restore-using-mnemonic-seed.png)
+
+
+* Start `bloc-service` using your configuration file
+
+```
+./bloc-service --config=myconf.conf
+```
+* Your wallet is now loaded
+* Please wait until the synchronisation is complete
+
+**Expected results**
+
+![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loading.png)
+
+* Your wallet is ready to be used with the **bloc-service** RPC API.
+
+**Expected results**
+
+![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
+
+
+
+
+
+
+
+
+
+
+
+
 ## **Command line options**
 
 This is the command line options available since the bloc-service v3.0
@@ -403,204 +701,6 @@ rpc-password = RPCpassword
 * Config file path is relative to current working directory, not server root.
 * Options `container-file` and `container-password` should ALWAYS be set (in either command line or config file mode).
 * Options `container-file` and `log-file` options are relative to `server-root`. `server-root` default is the current working directory.
-
-
-## **Generate a new wallet**
-
-To start using **bloc-service** you must first generate a container.
-Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them.
-**Make sure to backup this file regularly**.
-
-To generate a new container you should run the following command:
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --generate-container 
-```
-
-* `mycontainer` is the container file name and a path to it (relative or absolute); path is optional in this argument, specifying only a container name will result in new file located in the same folder as **bloc-service** 
-* `mypassword` is a secret password for the new wallet & container file.
-* `generate-container` option tells **bloc-service** to generate container file and exit.
-
-**Expected results**
-
-![generate-container](images/bloc-service/generate-container.png)
-
-*Note: if `mycontainer` exists **bloc-service** will show you the notification and will ask you to provide a different name*
-
-If the operation was successful you will get a corresponding message with your new **BLOC** address. At the same time **bloc-service** will save your container on the local disk (in the same folder where **bloc-service** is located and shut down.
-
-
-## **Start bloc-service**
-
-* To start **bloc-service** RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use `--config` option further.
-* The command below launches **bloc-service** RPC Wallet with a specific config file:
-
-```
-./bloc-service --config=myconf.conf
-```
-
-* You may specify BLOC config directly through console arguments. Here is the same config file as above in console: 
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=127.0.0.1 --daemon-port=2086 --bind-address=127.0.0.1 --bind-port=8070 --rpc-password=RPCpassword 
-```
-
-**Expected results**
-
-Start with command line:
-
-![start bloc-service](images/bloc-service/start.png)
-
-Start with myconf.conf:
-
-![start bloc-service](images/bloc-service/start-conf.png)
-
-## **Restore a existing BLOC wallet with bloc-service**##
-
-We have different option to recover a wallet using **bloc-service**
-
-### Using a old Walletd container file
-
-If you were using Walletd that come with the previous version of BLOC, the previous container file is compatible with the new version. This is the step to follow:
-
-* Copy the your previous configuration file `yourfile.conf` and copy the acual container file `mycontainer`
-* Paste this 2 files next to the new `bloc-service` and `BLOCd`
-* Open `yourfile.conf` 
-* Make sure you remove this line `testnet = no` we are not using this field anymore
-* Edit like this:
-
-```
-container-file = mycontainer
-container-password = mypassword
-daemon-port = 2086
-bind-port = 8070
-bind-address = 127.0.0.1
-rpc-password = RPCpassword
-```
-* Save the file
-* Start `bloc-service` using this configuration file
-* ```./bloc-service --config=myconf.conf```
-* Please wait until the synchronisation is complete
-* Your wallet is ready to be used with the **bloc-service** RPC API.
-
-**Expected results**
-
-![start bloc-service](images/bloc-service/restore-old-wallet-file.png)
-
-
-### Using your private spend key and view key
-
-If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the . [Wallet manuals available](../wallet/Making-a-Wallet.md).
-
-* Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this example
-* You need to type the arguments without the '--'
-* Place this file next to bloc-service
-* Save it under the name `myconf.conf`
-
-```
-container-file = mycontainer
-container-password = mypassword
-daemon-port = 2086
-bind-port = 8070
-bind-address = 127.0.0.1
-rpc-password = RPCpassword
-```
-* Save the file
-
-#### Generate a new container file
-
-Generate a new container file with the following `--view-key` and `--spend-key` commands:
-
-```
-Enter your details:
-./bloc-service --container-file=mycontainer --container-password=mypassword --view-key=myviewkey --spend-key=myspendkey --generate-container
-
-Example:
-./bloc-service --container-file=mycontainer --container-password=mypassword --view-key=e82ebf49b74fccd754e39ac3ca6fabca35277b012dfce0cf8921c216396b3108 --spend-key=cda47a19e5d433060ab79c885817cd20fc394dc7043ac875678a3698804ede01 --generate-container
-```
-
-**Expected results**
-
-![start bloc-service](images/bloc-service/restore-using-private-keys.png)
-
-
-* Start `bloc-service` using your configuration file
-
-```
-./bloc-service --config=myconf.conf
-```
-
-* Your wallet is now loaded
-* Please wait until the synchronisation is complete
-
-**Expected results**
-
-![wallet loading after restore private key](images/bloc-service/wallet-loading-after-restore-private-key.png)
-
-
-* Your wallet is ready to be used with the **bloc-service** RPC API.
-
-**Expected results**
-
-![wallet ready after restore private key](images/bloc-service/wallet-ready-after-restore-prviate-keys.png)
-
-
-### Using your mnemonic-seed
-
-If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
-
-* Create a txt file with your favorite text editor and open it.
-* Check all your required parameters and enter them like in this example
-* You need to type the arguments without the '--'
-* Place this file next to bloc-service
-* Save it under the name `mycontainer.conf`
-
-```
-container-file = mycontainer
-container-password = mypassword
-daemon-port = 2086
-bind-port = 8070
-bind-address = 0.0.0.0
-rpc-password = RPCpassword
-```
-* Save the file
-
-#### Generate a new container file
-
-Generate a new container file with the following `--mnemonic-seed` commands:
-
-```
-Enter your details:
-./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="your-mnemonic-seed" --generate-container
-
-Example:
-./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="jazz border dude orphans worry absorb slackens public drinks bovine evenings hurried roped jaws drinks snug directed pirate behind zero null cuisine agreed alchemy directed" --generate-container
-```
-
-**Expected results**
-
-![start bloc-service](images/bloc-service/restore-using-mnemonic-seed.png)
-
-
-* Start `bloc-service` using your configuration file
-
-```
-./bloc-service --config=myconf.conf
-```
-* Your wallet is now loaded
-* Please wait until the synchronisation is complete
-
-**Expected results**
-
-![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loading.png)
-
-* Your wallet is ready to be used with the **bloc-service** RPC API.
-
-**Expected results**
-
-![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
-
 
 
 

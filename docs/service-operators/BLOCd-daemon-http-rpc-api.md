@@ -68,48 +68,6 @@ Parameter            | Description
 `<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
 
 
-## **Example height**
-
-```shell
-curl http://localhost:2086/height
-```
-
-```javascript
-daemon.getHeight().then((result) => {
-  // do something
-}).catch((error) => {
-  // do something
-})
-```
-
-```go
-response := daemon.Height()
-fmt.Println(response)
-```
-
-> Expected Output:
-
-```json
-{
-    "height":614214,
-    "network_height":614218,
-    "status":"OK"
-}
-```
-
-`height()` returns the height of the daemon and the network
-
-No Input.
-
-### Output
-
-Argument         | Description            | Format
----------------- | ---------------------- | ------
-height           | Current daemon height  | int
-network_height   | Current Network height | int
-status           | Status of request      | string
-
-
 ## **Interacting with the API**
 
 > API endpoint example
@@ -156,6 +114,47 @@ daemon := trpc.BLOCd{
   URL: rpcHost,
   Port: rpcPort}
 ```
+
+## **Example height**
+
+```shell
+curl http://localhost:2086/height
+```
+
+```javascript
+daemon.getHeight().then((result) => {
+  // do something
+}).catch((error) => {
+  // do something
+})
+```
+
+```go
+response := daemon.Height()
+fmt.Println(response)
+```
+
+> Expected Output:
+
+```json
+{
+    "height":614214,
+    "network_height":614218,
+    "status":"OK"
+}
+```
+
+`height()` returns the height of the daemon and the network
+
+No Input.
+
+### Output
+
+Argument         | Description            | Format
+---------------- | ---------------------- | ------
+height           | Current daemon height  | int
+network_height   | Current Network height | int
+status           | Status of request      | string
 
 
 ## **More**

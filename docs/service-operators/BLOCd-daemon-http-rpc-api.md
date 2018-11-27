@@ -7,7 +7,7 @@
 This page is only a short guide how to get you started with the BLOCd Daemon HTTP RPC API. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/http) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) HTTP RPC API.
 
 
-## **Client bindings**
+## **Installing**
 
 Currently we support the following official client bindings:
 

@@ -12,7 +12,7 @@ If you are looking to integrate BLOC payment and process transactions into your 
 
 Here's a quick image of `BLOC-service` in action:
 
-![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
+![BLOCd MAIN NET](images/bloc-service/start-conf.png)
 
 ## **Source code**
 

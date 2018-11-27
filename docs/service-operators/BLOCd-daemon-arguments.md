@@ -19,9 +19,15 @@ Almost all of the command line options can be defined through the configuration 
 
 We are going to describe on this page how to generate your own config file, place it next to BLOCd and start it like this:
 
-*Windows:* : BLOCd.exe --config-file=BLOC.conf
-*Mac and Linux* : ./BLOCd --config-file=BLOC.conf
+*Windows:* 
+```
+BLOCd.exe --config-file=BLOC.conf
+```
 
+*Mac and Linux*
+```
+./BLOCd --config-file=BLOC.conf
+```
 
 ## **BLOC-DEVELOPER**
 
@@ -68,16 +74,18 @@ The first thing to do after you have synchronised the blockchain is to setup you
 
 Lanch BLOCd with the [--save-config](https://bloc-developer.com/api_BLOCd/cli_arguments#save-config) argument will save the default configuration file next to your BLOCd software.
 
-```
-Mac and Linux:
 
+Mac and Linux:
+```
 ./BLOCd --save-config myconfig.conf
+```
 
 Windows:
-
+```
 BLOCd.exe --save-config myconfig.conf
 
 ```
+
 Screenshot:
 
 ![--save-config](images/BLOCd/arguments/save-config.png)

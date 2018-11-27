@@ -4,7 +4,7 @@ The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linu
 
 However, it is currently the **most stable** and **gets the newest updates first**.
 
-## Screenshot
+## **Screenshot**
 
 ![blocwallet](images/BlocWallet/BLOCWallet_v3.0.0.png)
 
@@ -18,6 +18,10 @@ However, it is currently the **most stable** and **gets the newest updates first
 * Also available on our [Website](https://bloc.money/download).
 * Select the appropriate file for the target platform (Windows, Mac, Linux).
 * Binaries are provided in `.zip` format, while source code is provided in `.zip` and `.tar.gz` format.
+
+## **Guide**
+
+* How to use the [BLOCWallet](../BLOCWallet-how-to-use.md)
 
 ## **Installing**
 

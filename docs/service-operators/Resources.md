@@ -1,14 +1,10 @@
-# Developer Ressources
+# **Developer Ressources**
 
-Technical ressources to start building on [BLOC](https://bloc.money).
+Technical ressources to start building on [BLOC](https://bloc.money)
 
 ## Source code
 
-* [Source Code](https://github.com/furiousteam/BLOC.git)
-
-## Errors
-
-* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
+* BLOC [Source Code](https://github.com/furiousteam/BLOC.git)
 
 ## Wallet RPC API Clients
 
@@ -17,35 +13,46 @@ Technical ressources to start building on [BLOC](https://bloc.money).
 * [Go](https://github.com/furiousteam/bloc-rpc-go)
 * [PHP](https://github.com/furiousteam/bloc-rpc-php)
 
-See [Wallet RPC API](wallet-rpc-api.md) for usage.
+See [BLOC-service](../wallets/bloc-service-index.md) for usage including 
 
-## BLOCd Command Line and Options
+## **BLOC-service Command Line Arguments**
 
-* See [BLOCd Command Line and Options](BLOCd-daemon-arguments.md)
+* See [BLOC-service Command Line Arguments](../wallet/bloc-service-command-line.md) for usage including [BLOC-service JSON RPC API](https://bloc-developer.com/api_bloc-service/json) for the complete documentation.
 
-## BLOCd RPC Clients
+## **BLOC-service RPC Errors**
+
+* Make sure you check the BLOC-service [RPC Errors conditions](../API/rpc-api-error-conditions.md)
+
+## **BLOCd RPC Clients**
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc): A JavaScript wrapper for the BLOCd daemon RPC interface.
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc): This project is designed to make it very easy to interact with various RPC APIs available within the BLOC  Project. This entire project uses Javascript Promises to make things fast, easy, and safe.
 * [Go](https://github.com/furiousteam/bloc-rpc-go): A Golang wrapper for the BLOC RPC API. This project makes it easy to send requests to particular RPC server and returns a clear response without any abrupt termination.
 * [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
 
-See [Daemon HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and [Daemon JSON RPC API](BLOCd-daemon-json-rpc-api.md) for usage.
+See [BLOCd Overview](BLOCd-Overview.md) for usage including [Daemon HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and [Daemon JSON RPC API](BLOCd-daemon-json-rpc-api.md) for the complete documentation.
 
-## Libraries
+## **BLOCd Command Line Arguments**
 
-* [Woo Turtle](https://github.com/turtlecoin/woo-turtle): A TurtleCoin Payment Gateway Plugin for WooCommerce.
-* [turtlecoin/turtlecoin-walletd-csharp](https://github.com/turtlecoin/turtlecoin-walletd-csharp): An asynchronous wrapper API for loading and accessing the TurtleCoin daemon and wallet applications. Built to ease the creation of wallets and applications that want to pull data from the network.
-* [TurtleCoind-ha](https://github.com/turtlecoin/blocd-ha): NodeJS TurtleCoin Walletd High-Availability Wrapper
-* [Walletd-ha](https://github.com/brandonlehmann/turtleservice-ha): NodeJS TurtleCoin Services High-Availability Wrapper
+* See [BLOCd Command Line and Options](BLOCd-daemon-arguments.md)
+* See [BLOCd Command Inline Options](BLOCd-daemon-cli-options.md)
 
-## Reads
+## **BLOC-DEVELOPER**
 
-* [turtlecoin/cs-turtlecoin](https://github.com/turtlecoin/cs-turtlecoin): TurtleCoin daemon spec and PoC.
-* [Developer blog](https://medium.com/@turtlecoin)
-* [Bytecoin docs](https://wiki.bytecoin.org/wiki/Main_Page)
+The [BLOC-DEVELOPER](https://bloc-developer.com) website documents the public [API's of BLOC](https://bloc-developer.com/api_BLOCd).
+You can test your application with your own BLOCd node or BLOC-service wallet and view code examples in different programming language.
 
+- [BLOCd Daemon Command Line Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
+- [BLOCd Command Inline Options](https://bloc-developer.com/api_BLOCd/options)
+- [BLOCd JSON RPC API](https://bloc-developer.com/api_BLOCd/json)
+- [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http)
 
-## Design
+- [BLOC-service Command Line Arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
+- [BLOC-service JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
 
-* [Brand Guidelines](https://github.com/turtlecoin/brand)
+- [BLOCWallet Command Line Arguments](https://bloc-developer.com/api_BLOCWallet/cli_arguments)
+- [BLOCWallet Command Inline Options](https://bloc-developer.com/api_BLOCWallet/options)
+
+## **Design**
+
+* [Brand Guidelines](../about/Branding.md)

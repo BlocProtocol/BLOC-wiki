@@ -1,20 +1,14 @@
-# Compiling from Source
+# **Compiling from Source**
 
-The instructions for in the [README.md](https://github.com/furiousteam/BLOC/blob/master/README.md) of [BLOC](https://bloc.money) cover common platforms for compiling from source, it would be impractical to include them all. So this page exists to capture the other platforms/distros that BLOC has been successfully compiled on.  
+The instructions for in the [README.md](https://github.com/furiousteam/BLOC/blob/master/README.md) of [BLOC](https://bloc.money) cover common platforms for compiling from source, it would be impractical to include them all. So this page exists to capture the other platforms/distros that BLOC has been successfully compiled on. Please add to it if your environment is not covered, thanks!
 
-## Errors
-
-* Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
-
-## Source code
+## **Source code**
 
 * [Source Code](https://github.com/furiousteam/BLOC.git)
 
-Please add to it if your environment is not covered, thanks!
+## **CentOS 7**
 
-## CentOS 7
-
-**BLOC** build on CENTOS 7 or RHEL 7 with DEVTOOLS 7
+[BLOC](https://github.com/furiousteam/BLOC.git) build on CENTOS 7 or RHEL 7 with DEVTOOLS 7
 
 ```
 $ sudo yum groupinstall 'Development Tools'

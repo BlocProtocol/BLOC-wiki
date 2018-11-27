@@ -6,7 +6,17 @@ Technical ressources to start building on [BLOC](https://bloc.money)
 
 * BLOC [Source Code](https://github.com/furiousteam/BLOC.git)
 
-## **Wallet RPC API Clients**
+## **BLOC-service Command Line Options**
+
+- How to use the [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md)
+
+- How to use the [BLOC-service command line arguments](../wallets/bloc-service-command-line.md)
+
+- Testing tool and documentation for [BLOC-service RPC Wallet JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
+
+- Testing tool and documentation for [BLOC-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
+
+## **BLOC-service Wallet RPC API Clients**
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc)
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc)
@@ -15,13 +25,27 @@ Technical ressources to start building on [BLOC](https://bloc.money)
 
 See [BLOC-service](../wallets/bloc-service-index.md) for usage including 
 
-## **BLOC-service Command Line Arguments**
-
-* See [BLOC-service Command Line Arguments](../wallet/bloc-service-command-line.md) for usage including [BLOC-service JSON RPC API](https://bloc-developer.com/api_bloc-service/json) for the complete documentation.
-
 ## **BLOC-service RPC Errors**
 
 * Make sure you check the BLOC-service [RPC Errors conditions](../API/rpc-api-error-conditions.md)
+
+
+## **BLOCd Command Line Options & API**
+
+- Testing tool and documentation for [BLOCd Daemon Command Line Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
+- How to use the [BLOCd Daemon Command Line Arguments](BLOCd-daemon-arguments.md)
+
+
+- Testing tool and documentation for [BLOCd Command Inline Options](https://bloc-developer.com/api_BLOCd/options)
+- How to use the [BLOCd Command Inline Options](BLOCd-daemon-cli-options.md)
+
+
+- Testing tool and documentation for [BLOCd JSON RPC API](https://bloc-developer.com/api_BLOCd/json)
+- How to use the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md)
+
+
+- Testing tool and documentation for [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http)
+- How to use the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md)
 
 ## **BLOCd RPC Clients**
 
@@ -31,11 +55,6 @@ See [BLOC-service](../wallets/bloc-service-index.md) for usage including
 * [PHP](https://github.com/furiousteam/bloc-rpc-php): A PHP wrapper for BLOC's RPC interfaces.
 
 See [BLOCd Overview](BLOCd-Overview.md) for usage including [Daemon HTTP RPC API](BLOCd-daemon-http-rpc-api.md) and [Daemon JSON RPC API](BLOCd-daemon-json-rpc-api.md) for the complete documentation.
-
-## **BLOCd Command Line Arguments**
-
-* See [BLOCd Command Line and Options](BLOCd-daemon-arguments.md)
-* See [BLOCd Command Inline Options](BLOCd-daemon-cli-options.md)
 
 ## **BLOC-DEVELOPER**
 

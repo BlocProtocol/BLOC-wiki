@@ -185,7 +185,7 @@ Start with myconf.conf:
 
 ![start bloc-service](images/bloc-service/start-conf.png)
 
-You are now ready to use the [BLOC-service JSON RPC API](bloc-service-json-api.md)
+* Your wallet is ready to be used with the [BLOC-service JSON RPC API](bloc-service-json-api.md)
 
 
 ## **Restore a existing BLOC wallet with bloc-service**
@@ -211,17 +211,20 @@ bind-address = 127.0.0.1
 rpc-password = RPCpassword
 ```
 * Save the file
+
 * Start `bloc-service` using this configuration file
+
 * `./bloc-service --config=myconf.conf`
+
 * Config files will be automatically upgraded to JSON and overwritten on first use
+
 * Please wait until the synchronisation is complete
-* Your wallet is ready to be used with the [BLOC-service JSON RPC API](../wallet/bloc-service-json-api.md).
 
 **Expected results**
 
 ![start bloc-service](images/bloc-service/restore-old-wallet-file.png)
 
-You are now ready to use the [BLOC-service JSON RPC API](bloc-service-json-api.md)
+* Your wallet is ready to be used with the [BLOC-service JSON RPC API](../wallet/bloc-service-json-api.md).
 
 
 ### Using your private spend key and view key

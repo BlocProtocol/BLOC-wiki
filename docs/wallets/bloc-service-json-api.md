@@ -1,10 +1,10 @@
 # **BLOC-service Wallet RPC API**
 
-[BLOC-service](bloc-service-index.md) RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management. BLOC-service RPC Wallet allows you to accept incoming payments, generate an address for each user via **BLOC-service RPC Wallet JSON RPC API** and much more.
+[BLOC-service](bloc-service-index.md) RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management. BLOC-service RPC Wallet allows you to accept incoming payments, generate an address for each user and much more.
 
 ## **BLOC-DEVELOPER**
 
-This page is only a short guide how to get you started with the **BLOC-service JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_bloc-service/json) website to view and test all the features available from the [BLOC-service](bloc-service-index.md) JSON RPC API.
+This page is only a short guide how to get you started with the **BLOC-service JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_bloc-service/json) website to view and test all the features available from the BLOC-service JSON RPC API.
 
 ## **Errors¨
 
@@ -34,11 +34,11 @@ go get github.com/furiousteam/BLOC-rpc-go
 
 This section describes [BLOC](https://bloc.money) integration process into your service with BLOC e-commerce solution called [BLOC-service](bloc-service-index.md) RPC Wallet.
 
-Each method has its own example and description that can be found by clicking the details button from the [BLOC-DEVELOPER](https://bloc-developer.com) website.
+Each method has its own example and description that can be found by clicking the details button from the [BLOC-DEVELOPER](https://bloc-developer.com/api_bloc-service/json?lang=english) website.
  
-To start using [BLOC-service](bloc-service-index.md) you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**.
+To start using BLOC-service you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**.
 
-To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation. More on how to start and operate BLOC-service RPC Wallet can be found [here](bloc-service-command-line.md).
+To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation. More on [how to start and operate BLOC-service RPC Wallet](bloc-service-command-line.md).
 
 
 ## **Interacting with the API**

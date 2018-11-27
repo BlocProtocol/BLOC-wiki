@@ -47,7 +47,7 @@ See [BLOC-service RPC API](bloc-service-json-api.md) for usage.
 
 If you wish to compile **BLOC-service** yourself you can download the [source Code](https://github.com/furiousteam/BLOC.git).
 
-Binary distributions can be found: [GitHub](https://github.com/furiousteam/BLOC/releases) or [BLOC.MONEY](https://bloc.money/download) .
+Binary distributions can be found on: [GitHub](https://github.com/furiousteam/BLOC/releases) or [BLOC.MONEY](https://bloc.money/download) .
 
 Select the appropriate file for the target platform (Windows, Mac, Linux).
 

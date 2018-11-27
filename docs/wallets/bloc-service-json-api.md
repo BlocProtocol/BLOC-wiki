@@ -1,4 +1,4 @@
-# **BLOC-service Wallet RPC API
+# **BLOC-service Wallet RPC API**
 
 [BLOC-service](bloc-service-index.md) RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management. BLOC-service RPC Wallet allows you to accept incoming payments, generate an address for each user via **BLOC-service RPC Wallet JSON RPC API** and much more.
 
@@ -30,20 +30,22 @@ composer require furiousteam/BLOC-rpc-php
 go get github.com/furiousteam/BLOC-rpc-go
 ```
 
-## Getting Started
+## **Getting Started**
 
 This section describes [BLOC](https://bloc.money) integration process into your service with BLOC e-commerce solution called [BLOC-service](bloc-service-index.md) RPC Wallet.
 
-Each method has its own example and description that can be found by clicking the details button from the [BLOC-DEVELOPER](https://bloc-developer) website.
+Each method has its own example and description that can be found by clicking the details button from the [BLOC-DEVELOPER](https://bloc-developer.com) website.
  
 To start using [BLOC-service](bloc-service-index.md) you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**.
 
-To generate a new container visit the [BLOC-service RPC Wallet command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments) and look at the `--generate-container` function to read the explanation. More on how to start and operate BLOC-service RPC Wallet can be found [here](bloc-service-command-line.md).
+To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation. More on how to start and operate BLOC-service RPC Wallet can be found [here](bloc-service-command-line.md).
  
-To start the BLOC-service JSON RPC API server at http://localhost:8070, run:
+To start the BLOC-service JSON RPC API server at http://localhost:8070 run:
+
 `./BLOC-service`
  
 To make the server accessible from another computer, use the --rpc-bind-ip 0.0.0.0 switch.
+
 `./BLOCd --rpc-bind-ip=0.0.0.0`
  
 To make a JSON RPC request to your BLOC-service RPC Wallet you should use POST request that looks like this:
@@ -51,8 +53,10 @@ To make a JSON RPC request to your BLOC-service RPC Wallet you should use POST r
 `http://<service address>:<service port>/json_rpc`
  
 Where:
-`<service address> `is an IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost,
-`<service port>` is BLOC-service RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this here.
+
+- `<service address> `is an IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost,
+
+- `<service port>` is BLOC-service RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this here.
  
 Make sure you have filled the connexion details at the top of this page. Once you are ready, scroll down until your favorite function, fill the details and click TRY IT OUT button to send the request and get the the response.
 

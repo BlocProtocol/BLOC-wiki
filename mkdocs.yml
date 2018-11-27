@@ -138,7 +138,6 @@ nav:
         - CPU Mining on Windows: mining/XMRIG-Guide-cpu-windows.md
       - Mining with a SBC: mining/BLOC-Mining-Rasberry-Pi.md
     - Service Operators:
-      - Home: service-operators/index.md
       - Ressources: service-operators/Resources.md
       - Compiling from Source: service-operators/Compiling-from-Source.md
       - BLOCd:

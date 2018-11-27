@@ -179,11 +179,11 @@ If you would like to connect your wallet from an external IP address you need to
 
 Start with command line:
 
-![start bloc-service](images/bloc-service/start.png)
+![start BLOC-service](images/bloc-service/start.png)
 
 Start with myconf.conf:
 
-![start bloc-service](images/bloc-service/start-conf.png)
+![start BLOC-service](images/bloc-service/start-conf.png)
 
 * Your wallet is ready to be used with the [BLOC-service JSON RPC API](bloc-service-json-api.md)
 
@@ -212,9 +212,9 @@ rpc-password = RPCpassword
 ```
 * Save the file
 
-* Start `bloc-service` using this configuration file
+* Start `BLOC-service` using this configuration file
 
-* `./bloc-service --config=myconf.conf`
+* `./BLOC-service --config=myconf.conf`
 
 * Config files will be automatically upgraded to JSON and overwritten on first use
 
@@ -222,7 +222,7 @@ rpc-password = RPCpassword
 
 **Expected results**
 
-![start bloc-service](images/bloc-service/restore-old-wallet-file.png)
+![start BLOC-service](images/bloc-service/restore-old-wallet-file.png)
 
 * Your wallet is ready to be used with the [BLOC-service JSON RPC API](../wallet/bloc-service-json-api.md).
 
@@ -270,7 +270,7 @@ Generate a new container file with your private keys using `--view-key` and `--s
 
 **Expected results**
 
-![start bloc-service](images/bloc-service/restore-using-private-keys.png)
+![start BLOC-service](images/bloc-service/restore-using-private-keys.png)
 
 
 * Start `BLOC-service` using your configuration file
@@ -286,12 +286,11 @@ Generate a new container file with your private keys using `--view-key` and `--s
 
 ![wallet loading after restore private key](images/bloc-service/wallet-loading-after-restore-private-key.png)
 
-
-* Your wallet is ready to be used with the [BLOC-service JSON RPC API](bloc-service-json-api.md)
-
 **Expected results**
 
 ![wallet ready after restore private key](images/bloc-service/wallet-ready-after-restore-prviate-keys.png)
+
+* Your wallet is ready to be used with the [BLOC-service JSON RPC API](bloc-service-json-api.md)
 
 
 ### Using your mnemonic-seed
@@ -301,7 +300,7 @@ If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after 
 * [Create and customize your config file](#create-and-customize-your-config-file)
 * [Check all your required parameters](https://bloc-developer.com/api_bloc-service/cli_arguments?lang=english) and enter them like in this example
 * You need to type the arguments without the '--'
-* Place this file next to bloc-service
+* Place this file next to BLOC-service
 * Save it under the name `mycontainer.conf`
 
 ```
@@ -328,28 +327,28 @@ Generate a new container file with the following `--mnemonic-seed` commands:
 
 ```
 Enter your details:
-./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="your-mnemonic-seed" --generate-container
+./BLOC-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="your-mnemonic-seed" --generate-container
 
 Example:
-./bloc-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="jazz border dude orphans worry absorb slackens public drinks bovine evenings hurried roped jaws drinks snug directed pirate behind zero null cuisine agreed alchemy directed" --generate-container
+./BLOC-service --container-file=mycontainer --container-password=mypassword --mnemonic-seed="jazz border dude orphans worry absorb slackens public drinks bovine evenings hurried roped jaws drinks snug directed pirate behind zero null cuisine agreed alchemy directed" --generate-container
 ```
 
 **Expected results**
 
-![start bloc-service](images/bloc-service/restore-using-mnemonic-seed.png)
+![start BLOC-service](images/bloc-service/restore-using-mnemonic-seed.png)
 
 
-* Start `bloc-service` using your configuration file
+* Start `BLOC-service` using your configuration file
 
 ```
-./bloc-service --config=myconf.conf
+./BLOC-service --config=myconf.conf
 ```
 * Your wallet is now loaded
 * Please wait until the synchronisation is complete
 
 **Expected results**
 
-![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loading.png)
+![wallet ready for BLOC-service](images/bloc-service/restore-using-mnemonic-seed-loading.png)
 
 * Your wallet is ready to be used with the **bloc-service** RPC API.
 
@@ -358,6 +357,64 @@ Example:
 ![wallet ready for bloc-service](images/bloc-service/restore-using-mnemonic-seed-loaded-ok.png)
 
 * Your wallet is ready to be used with the [BLOC-service JSON RPC API](bloc-service-json-api.md)
+
+
+## **Remote Node options**
+
+```
+Remote Node Options:
+  --daemon-address arg (=localhost)  daemon address
+  --daemon-port arg (=2086)          daemon port
+```
+
+### --daemon-address arg (=127.0.0.1)
+### --daemon-port arg (=2086)
+
+Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
+
+* For local daemons use localhost or 127.0.0.1 as an IP address.
+* For remote daemons specify the remote daemon IP address.
+* Default BLOC daemon port is 2086 (for rpc calls).
+
+Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
+
+**Example**
+
+```
+./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=IP.OF.YOUR.DAEMON --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword
+```
+
+**Expected results**
+
+```
+You have connected to a node that charges a fee to send transactions.
+The fee for sending transactions is: 0.0005 BLOC per transaction. 
+If you don't want to pay the node fee, please relaunch BLOCWallet and specify a different node or run your own.
+```
+
+![--remote-node](images/bloc-service/remote-node.png)
+
+
+Congratulations! You have now properly setup BLOC-service and you are ready to use the [BLOC-service JSON RPC API](bloc-service-json-api.md)
+
+
+## BLOC-DEVELOPER
+
+Make sure you visit the dedicated website [BLOC-DEVELOPER.com](https://bloc-developer.com) to find out more details and test your application.
+
+If anything is missing or seems incorrect, please check the [GitHub issues](https://github.com/furiousteam/BLOC-wiki/issues) for existing known issues or [create a new one](https://github.com/furiousteam/BLOC-wiki/issues/new).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -417,40 +474,7 @@ Usage:
       --SYNC_FROM_ZERO                             Force the wallet to sync from 0
 ```
 
-## **Remote Node options**
 
-```
-Remote Node Options:
-  --daemon-address arg (=localhost)  daemon address
-  --daemon-port arg (=2086)          daemon port
-```
-
-### --daemon-address arg (=127.0.0.1)
-### --daemon-port arg (=2086)
-
-Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
-
-* For local daemons use localhost or 127.0.0.1 as an IP address.
-* For remote daemons specify the remote daemon IP address.
-* Default BLOC daemon port is 2086 (for rpc calls).
-
-Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
-
-**Example**
-
-```
-./bloc-service --container-file=mycontainer --container-password=mypassword --daemon-address=IP.OF.YOUR.DAEMON --daemon-port=2086 --bind-address=0.0.0.0 --bind-port=8070 --rpc-password=RPCpassword
-```
-
-**Expected results**
-
-```
-You have connected to a node that charges a fee to send transactions.
-The fee for sending transactions is: 0.0005 BLOC per transaction. 
-If you don't want to pay the node fee, please relaunch BLOCWallet and specify a different node or run your own.
-```
-
-![--remote-node](images/bloc-service/remote-node.png)
 
 
 ## **Command line Options**

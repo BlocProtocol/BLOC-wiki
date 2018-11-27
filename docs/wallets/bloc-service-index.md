@@ -16,15 +16,15 @@ If you are looking to integrate BLOC payment and process transactions into your 
 
 We provide a complete API documentation and an online testing tool to use and integrate BLOC payments into your website or application.
 
-Make sure to visit the dedicated website [BLOC-DEVELOPER](https://bloc-developer.com) including the [BLOC-service category](https://bloc-developer.com/api_bloc-service?lang=english).
+Make sure to visit the dedicated website [BLOC-DEVELOPER](https://bloc-developer.com) including the [BLOC-service category](https://bloc-developer.com/api_bloc-service)
 
 - How to use the [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md)
 
 - How to use the [BLOC-service command line arguments](../wallets/bloc-service-command-line.md)
 
-- Documentation for [BLOC-service RPC Wallet JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
+- Testing tool and documentation for [BLOC-service RPC Wallet JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
 
-- Documentation for [BLOC-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
+- Testing tool and documentation for [BLOC-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
 
 ## **BLOC-service RPC Clients**
 
@@ -39,15 +39,15 @@ See [BLOC-service RPC API](bloc-service-json-api.md) for usage.
 
 ## **Important guides with BLOC-service**
 
-1. View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using BLOC-service.
+1. View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your **mnemonic phrase (25 words)** using BLOC-service.
 
-2. View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using BLOC-service.
+2. View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your **private spend and view keys** using BLOC-service.
 
 ## **Downloading**
 
 If you wish to compile **BLOC-service** yourself you can download the [source Code](https://github.com/furiousteam/BLOC.git).
 
-Binary distributions can be found: [here](https://github.com/furiousteam/BLOC/releases/latest).
+Binary distributions can be found: [GitHub](https://github.com/furiousteam/BLOC/releases) or [BLOC.MONEY](https://bloc.money/download) .
 
 Select the appropriate file for the target platform (Windows, Mac, Linux).
 

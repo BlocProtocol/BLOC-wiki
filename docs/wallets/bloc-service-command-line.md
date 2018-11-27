@@ -1,32 +1,50 @@
-## **bloc-service Command Line Arguments**
+# **BLOC-service Command Line Arguments**
 
-bloc-service RPC Wallet is a HTTP server which provides [JSON 2.0 RPC](../wallets/bloc-service-json-api.md) interface for [BLOC](https://bloc.money) payment operations and address management designed to manage a user's account while operating together with a [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md). [bloc-service RPC wallet](../wallets/bloc-service-index.md) allows you to accept incoming payments, generate an address for each user via bloc-service RPC Wallet JSON RPC API and much more.
+This section describes [BLOC-service](bloc-service-index.md) starting process with correct arguments enabling access to the [BLOC-service JSON RPC API](bloc-service-json-api.md).
+ 
+To start using BLOC-service you must first create a new wallet by generating a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. Make sure to backup this file regularly.
 
-Make sure you visit the [bloc-service command line arguments](../wallets/bloc-service-command-line.md) to find out how to start bloc-service with a customized configuration depending your needs.
+To generate a new container please check at the function [--generate-container](https://bloc-developer.com/api_bloc-service/cli_arguments#--generate-container) 
+ 
+You can also restore a wallet using private keys with the [--view-key](https://bloc-developer.com/api_bloc-service/cli_arguments#--view-key) and [--spend-key](https://bloc-developer.com/api_bloc-service/cli_arguments#--spend-key) argument or using a 25 words phrase [--mnemonic-seed](https://bloc-developer.com/api_bloc-service/cli_arguments#--mnemonic-seed).
 
-## **Getting ready**
+A complete guide is available on this page of [how to restore your wallet with BLOC-service](#restore-a-existing-bloc-wallet-with-bloc-service). 
+ 
+Once you have generated your wallet you can now connect BLOC-service to a local or remote [BLOCd Daemon](../service-operators/BLOCd-Overview). You can do this using the [--daemon-address](https://bloc-developer.com/api_bloc-service/cli_arguments#--daemon-address) and [--daemon-port](https://bloc-developer.com/api_bloc-service/cli_arguments#--daemon-port) arguments.
+ 
+To configure BLOC-service RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use [--config](https://bloc-developer.com/api_bloc-service/cli_arguments#--config) option further.
+ 
+We are going to describe on this page how to generate your own config file, place it next to BLOC-service and start it like this:
 
-Before starting the integration process make sure you follow easy steps:
+- *Windows: : BLOC-service.exe --config-file=BLOC.conf*
 
-1. Download or Compile bloc-service.
+- *Mac and Linux : ./BLOC-service --config-file=BLOC.conf*
 
-2. Launch [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md) and wait for a successfully synchronised message. You are ready to operate with **bloc-service**
+Notes:
 
-3. Visit BLOC-DEVELOPER [bloc-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
+- config file's path is relative to current working directory, not server root.
+- options [--container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file) and [--container-password](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-password) should ALWAYS be set (in either command line or config file mode).
+- [--container-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--container-file) and [--log-file](https://bloc-developer.com/api_bloc-service/cli_arguments#--log-file) options are relative to [--server-root](https://bloc-developer.com/api_bloc-service/cli_arguments#--server-root). "server-root" default is the current working directory.
+ 
+Almost all of the command line options can be defined through the configuration file. If a parameter is defined in the config and was also indicated in the command line, two behaviors are possible:
+ 
+- If the parameter accepts one value only (e.g., [--bind-address](https://bloc-developer.com/api_bloc-service/cli_arguments#--bind-address)), the command line value will be used, since it has a higher priority
+- If the parameter accepts several values, then command line and configuration file values will be merged
+- If some of the options are not defined in the config, the default values will be applied
+ 
+- You are now ready to use the bloc-service JSON RPC API to create addresses for your users, accept, send transactions and much more.
 
-4. Visit the bloc-service guide for [bloc-service JSON 2.0 RPC](../wallets/bloc-service-json-api.md) API to interact with the wallet.
+Detailed description for every BLOC-service RPC Wallet API method can be found as follow:
 
-## **Errors**
 
-* Make sure you check the [RPC Errors conditions](../wallets/bloc-service-rpc-api-error-conditions.md).
+## **BLOC-DEVELOPER**
 
-## **Ready to work with bloc-service**
+This page is only a short guide how to get you started with BLOCd configuration. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md).
 
-The following examples are made using a Linux system but the concept is the same for all the OS supported by the **bloc-service**.
 
-bloc-service screenshot:
+## **Getting Started**
 
-![--help](images/bloc-service/help.png)
+We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments).
 
 
 ## **Command line options**
@@ -34,40 +52,46 @@ bloc-service screenshot:
 This is the command line options available since the bloc-service v3.0
 
 ```
-  Common Options:
-  -c [ --config ] arg                configuration file
-  -h [ --help ]                      produce this help message and exit
-  -v [ --version ]                   Output version information
-  --bind-address arg (=127.0.0.1)    payment service bind address
-  --bind-port arg (=8070)            payment service bind port
-  --rpc-password arg                 Specify the password to access the rpc 
-                                     server.
-  --rpc-legacy-security              Enable legacy mode (no password for RPC). 
-                                     WARNING: INSECURE. USE ONLY AS A LAST 
-                                     RESORT.
-  -w [ --container-file ] arg        container file
-  -p [ --container-password ] arg    container password
-  -g [ --generate-container ]        generate new container file with one 
-                                     wallet and exit
-  --view-key arg                     generate a container with this secret key 
-                                     view
-  --spend-key arg                    generate a container with this secret 
-                                     spend key
-  --mnemonic-seed arg                generate a container with this mnemonic 
-                                     seed
-  -d [ --daemon ]                    run as daemon in Unix or as service in 
-                                     Windows
-  -l [ --log-file ] arg              log file
-  --server-root arg                  server root. The service will use it as 
-                                     working directory. Don't set it if don't 
-                                     want to change it
-  --log-level arg                    log level
-  --SYNC_FROM_ZERO                   sync from timestamp 0
-  --address                          print wallet addresses and exit
-  --enable-cors arg                  Adds header 'Access-Control-Allow-Origin' 
-                                     to walletd's RPC responses. Uses the value
-                                     as domain. Use * for all.
-  --scan-height arg                  The height to begin scanning a wallet from
+Usage:
+  ./BLOC-service [OPTION...]
+
+ Core options:
+  -h, --help                                       Display this help message
+  -v, --version                                    Output software version information
+
+ Daemon options:
+      --daemon-address <ip>                        The daemon host to use for node operations (default: 127.0.0.1)
+      --daemon-port <port>                         The daemon RPC port to use for node operations (default: 2086)
+
+ Network options:
+      --bind-address <ip>                          Interface IP address for the RPC service (default: 127.0.0.1)
+      --bind-port <port>                           TCP port for the RPC service (default: 8070)
+
+ RPC options:
+      --enable-cors <domain>                       Adds header 'Access-Control-Allow-Origin' to the RPC responses. Uses
+                                                   the value specified as the domain. Use * for all.
+      --rpc-legacy-security                        Enable legacy mode (no password for RPC). WARNING: INSECURE. USE ONLY
+                                                   AS A LAST RESORT.
+      --rpc-password <password>                    Specify the <password> to access the RPC server.
+
+ Service options:
+  -c, --config <file>                              Specify the configuration <file> to use instead of CLI arguments
+      --dump-config                                Prints the current configuration to the screen
+      --log-file <file>                            Specify log <file> location (default: service.log)
+      --log-level #                                Specify log level (default: 3)
+      --server-root <path>                         The service will use this <path> as the working directory
+      --save-config <file>                         Save the configuration to the specified <file>
+
+ Wallet options:
+      --address                                    Print the wallet addresses and then exit
+  -w, --container-file <file>                      Wallet container <file>
+  -p, --container-password <password>              Wallet container <password>
+  -g, --generate-container                         Generate a new wallet container
+      --view-key <key>                             Generate a wallet container with this secret view <key>
+      --spend-key <key>                            Generate a wallet container with this secret spend <key>
+      --mnemonic-seed <seed>                       Generate a wallet container with this Mnemonic <seed>
+      --scan-height #                              Start scanning for transactions from this Blockchain height (default:0)
+      --SYNC_FROM_ZERO                             Force the wallet to sync from 0
 ```
 
 ## **Remote Node options**

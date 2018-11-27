@@ -6,7 +6,7 @@
 
 This page is only a short guide how to get you started with the **BLOC-service JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_bloc-service/json) website to view and test all the features available from the BLOC-service JSON RPC API.
 
-## **Errors¨
+## **Error**
 
 * Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 

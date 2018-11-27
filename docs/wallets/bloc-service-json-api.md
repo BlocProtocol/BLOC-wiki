@@ -6,11 +6,11 @@
 
 This page is only a short guide how to get you started with the **BLOC-service JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_bloc-service/json) website to view and test all the features available from the [BLOC-service](bloc-service-index.md) JSON RPC API.
 
-## Errors
+## **Errors¨
 
 * Make sure you check the [RPC Errors conditions](../API/rpc-api-error-conditions.md).
 
-## Installing
+## **Installing**
 
 Currently we support the following official client bindings:
 
@@ -184,4 +184,4 @@ addresses	      | Array of strings, where each string is an address	  | array
 
 ## **More**
 
-Make sure you check the complete features of [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http) from the dedicated [BLOC-DEVELOPER](https://bloc-developer.com) website.
+Make sure you check the complete features of [BLOC-service](https://bloc-developer.com/api_bloc-service/json) from the dedicated [BLOC-DEVELOPER](https://bloc-developer.com) website.

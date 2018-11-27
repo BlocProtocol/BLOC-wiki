@@ -19,13 +19,153 @@ Almost all of the command line options can be defined through the configuration 
 
 ## **BLOC-DEVELOPER**
 
-This page is only a short guide how to get you started with BLOCd configuration. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) Command Line Arguments.
+This page is only a short guide how to get you started with BLOCd configuration. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md).
 
 ## **Screenshot**
 
 ![BLOCd MAIN NET](images/BLOCd-MAIN-NET-v3.0.1.png)
 
 The following examples are made using a Linux system but the concept is the same for all the OS supported by the **BLOCd**.
+
+
+## Getting Started
+
+We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments).
+
+
+## Launch BLOCd for the 1st time
+
+Open a command prompt in the same directory as BLOCd.
+
+*Windows:*
+
+This can easily be done by moving to the BLOCd directory in Windows Explorer, then typing `cmd` in the search bar and hitting enter:
+
+Finally, type `BLOCd.exe`
+
+*Mac and Linux*
+
+You can use the cd command to change to this directory. For example, cd Downloads/BLOC/
+
+Finally, type `./BLOCd`
+
+Since this is your first time starting BLOCd you will have to wait for the blockchain to synchronise. This depends of the speed of your internet and connexion and the size of the blockchain. At this time of this post 27 November 2018 (2.7 GB)
+
+You should see a message like this while the blockchain is synchronising:
+
+![--save-config](images/BLOCd/arguments/start-blocd-1.png)
+
+Once the synchronisation is done you will get a notification like this:
+
+![--save-config](images/BLOCd/arguments/start-blocd-2.png)
+
+
+## Create and customize your config file
+
+### Create
+
+The first thing to do after you have synchronised the blockchain is to setup your configuration file so you can run BLOCd using custom features and options.
+
+Lanch BLOCd with the <a href="https://bloc-developer.com/api_BLOCd/cli_arguments#save-config" target="_blank">--save-config</a>  https://bloc-developer.com/api_BLOCd/cli_arguments#save-config argument will save the default configuration file next to your BLOCd software.
+
+```
+Mac and Linux:
+
+./BLOCd --save-config myconfig.conf
+
+Windows:
+
+BLOCd.exe --save-config myconfig.conf
+
+```
+Screenshot:
+
+![--save-config](images/BLOCd/arguments/save-config.png)
+
+A new file myconfig.conf should have been created as follow:
+
+![--save-config](images/BLOCd/arguments/save-config-2.png)
+
+Open this file with any text editor:
+
+![--save-config](images/BLOCd/arguments/save-config-3.png)
+
+You can view an example here:
+
+```
+{
+  "add-exclusive-node": [],
+  "add-peer": [],
+  "add-priority-node": [],
+  "allow-local-ip": false,
+  "data-dir": "/home/test/.BLOC",
+  "db-max-open-files": 100,
+  "db-read-buffer-size": 10,
+  "db-threads": 2,
+  "db-write-buffer-size": 256,
+  "enable-blockexplorer": false,
+  "enable-cors": [],
+  "fee-address": "",
+  "fee-amount": 0,
+  "hide-my-port": false,
+  "load-checkpoints": "default",
+  "log-file": "./BLOCd.log",
+  "log-level": 2,
+  "no-console": false,
+  "p2p-bind-ip": "0.0.0.0",
+  "p2p-bind-port": 2082,
+  "p2p-external-port": 0,
+  "rpc-bind-ip": "127.0.0.1",
+  "rpc-bind-port": 2086,
+  "seed-node": []
+}
+```
+### Edit
+
+Edit the config file following your needs. We are going to cover the most standard configuration on this page.
+
+- Check the complete list of <a href="https://bloc-developer.com/api_BLOCd/cli_arguments#--help" target="_blank">BLOCd Command Line Arguments</a> available.
+
+## Examples
+
+If you would like to run an open public remote BLOCd node and start accepting transaction through this node, so you can make an extra passive income, you will need to edit:
+
+- "<a href="https://bloc-developer.com/api_BLOCd/cli_arguments#--help" target="_blank">fee-address</a>": "enter your abLoc address here",
+- "fee-amount": 0, (the amount in BLOC atomic units)
+- "rpc-bind-ip": "0.0.0.0",
+
+If you would like to run an open public remote BLOCd node with the block-explorer options enabled:
+
+
+
+## Launch BLOCd with configuration file
+
+Copy your configuration file next to the BLOCd software, open the command line inside the folder where is located BLOCd:
+
+Finally, type `BLOCd.exe --config-file=BLOC.conf`
+
+You can use the cd command to change to this directory. For example, cd Downloads/BLOC/
+
+Finally, type `./BLOCd --config-file=BLOC.conf`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## **Core Options**
 
@@ -148,9 +288,10 @@ Prints the current configuration of BLOCd to the screen.
 
 ### Create .CONF file
 
-1. Use the command line argument `--save-config` while starting BLOCd. Copy and paste this to a new file.
+1. Use the command line argument `--save-config` while starting BLOCd
+2. Open the file with any text editor
 2. Check all your required parameters and enter them like in this example
-3. You can use the [BLOC-DEVELOPER BLOCd Argument](https://bloc-developer.com/api_BLOCd/cli_arguments) online tool creator
+3. You can use the [BLOC-DEVELOPER BLOCd Command Line Argument](https://bloc-developer.com/api_BLOCd/cli_arguments) online tool creator
 4. You need to type the arguments without the '--'
 5. Place this file next to BLOCd
 6. Start BLOCd like this: `./BLOCd --config-file=BLOC.conf`

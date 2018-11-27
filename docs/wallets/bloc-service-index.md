@@ -6,6 +6,10 @@ Make sure you visit the [BLOC-service command line arguments](../wallets/bloc-se
 
 If you are looking to integrate BLOC payment and process transactions into your website or application, **BLOC-service** is what you need.
 
+## **Source code**
+
+* [Source Code](https://github.com/furiousteam/BLOC.git)
+
 ## **BLOC-service API**
 
 We provide a complete API documentation and an online testing tool to use and integrate BLOC payments into your website or application.

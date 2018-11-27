@@ -4,7 +4,7 @@
 
 ## **BLOC-DEVELOPER**
 
-This page is only a short guide how to get you started with the BLOCd Daemon JSON RPC API. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/json) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) JSON RPC API.
+This page is only a short guide how to get you started with the **BLOCd Daemon JSON RPC API**. Please visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/json) website to view and test all the features available from the [BLOCd Daemon](BLOCd-Overview.md) JSON RPC API.
 
 
 ## **Client bindings**

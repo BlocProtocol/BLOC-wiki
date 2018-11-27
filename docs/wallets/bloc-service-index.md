@@ -1,6 +1,8 @@
 # **What is BLOC-Service**
 
-**BLOC-service RPC Wallet** is a HTTP server which provides [JSON 2.0 RPC](../wallets/bloc-service-json-api.md) interface for [BLOC](https://bloc.money) payment operations and address management designed to manage a user's account while operating together with a [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md). [bloc-service RPC wallet](../wallets/bloc-service-index.md) allows you to accept incoming payments, generate an address for each user via BLOC-service RPC Wallet JSON RPC API and much more.
+**BLOC-service RPC Wallet** is a HTTP server which provides JSON 2.0 RPC interface for [BLOC](https://bloc.money) payment operations and address management designed to manage a user's account while operating together with a [BLOCd Node Daemon](../service-operators/BLOCd-Overview.md).
+
+BLOC-service RPC Wallet allows you to accept incoming payments, generate an address for each user via [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md) and much more.
 
 Make sure you visit the [BLOC-service command line arguments](../wallets/bloc-service-command-line.md) to find out how to start BLOC-service with a customized configuration depending your needs.
 
@@ -16,13 +18,13 @@ We provide a complete API documentation and an online testing tool to use and in
 
 Make sure to visit the dedicated website [BLOC-DEVELOPER](https://bloc-developer.com) including the [BLOC-service category](https://bloc-developer.com/api_bloc-service?lang=english).
 
-- How to use the [BLOC-service RPC wallet](../wallets/bloc-service-json-api.md)
+- How to use the [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md)
 
 - How to use the [BLOC-service command line arguments](../wallets/bloc-service-command-line.md)
 
-- BLOC-DEVELOPER [BLOC-service RPC Wallet JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
+- Documentation for [BLOC-service RPC Wallet JSON RPC API](https://bloc-developer.com/api_bloc-service/json)
 
-- BLOC-DEVELOPER [BLOC-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
+- Documentation for [BLOC-service command line arguments](https://bloc-developer.com/api_bloc-service/cli_arguments)
 
 ## **BLOC-service RPC Clients**
 
@@ -37,9 +39,9 @@ See [BLOC-service RPC API](bloc-service-json-api.md) for usage.
 
 ## **Important guides with BLOC-service**
 
-1. View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using [BLOC-service](../wallets/bloc-service-index.md).
+1. View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using BLOC-service.
 
-2. View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using [BLOC-service](../wallets/bloc-service-index.md).
+2. View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using BLOC-service.
 
 ## **Downloading**
 

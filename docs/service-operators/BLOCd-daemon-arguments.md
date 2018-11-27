@@ -16,8 +16,9 @@ Almost all of the command line options can be defined through the configuration 
 
 - Config files, where used, now use **JSON** formatted files instead of INI
 - Config files will be automatically upgraded to JSON and overwritten on first use
+- Config file's path is relative to current working directory, not server root.
 
-We are going to describe on this page how to generate your own config file, place it next to BLOCd and start it like this:
+We are going to describe on this page how to generate your own config file. Once you have selected all your options, place the file next to BLOCd and start it like this:
 
 *Windows:* 
 ```
@@ -36,7 +37,7 @@ This page is only a short guide how to get you started with BLOCd configuration.
 
 ## **Getting Started**
 
-We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments).
+We are going to describe here the most standard configuration to start BLOCd. For the full list and options make sure you visit the [dedicated section on the BLOC-DEVELOPER](https://bloc-developer.com/api_BLOCd/cli_arguments) website.
 
 
 ## **Launch BLOCd for the 1st time**

@@ -14,15 +14,17 @@ To view a guide on how to make a paper wallet, you can go [link coming soon](../
 
 ## **BLOCWallet (CLI Wallet)**
 
-The CLI Wallet, called BLOCWallet, is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
+The CLI Wallet, called [BLOCWallet](../wallets/BLOCWallet-how-to-use.md), is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
 If you would like to use BLOCWallet, you can check out [this guide](../wallets/BLOCWallet-how-to-use.md)
 
-## **bloc-service (RPC Wallet)**
+## **BLOC-service (RPC Wallet)**
 
-bloc-service RPC Wallet is a HTTP server which provides JSON 2.0 RPC interface for BLOC payment operations and address management designed to manage a user's account while operating together with a BLOCd Node Daemon. bloc-service RPC Wallet allows you to accept incoming payments, generate an address for each user via bloc-service RPC Wallet JSON RPC API and much more.
+BLOC-service RPC Wallet is a HTTP server which provides a [JSON 2.0 RPC interface](../wallets/bloc-service-json-api.md) for BLOC payment operations and address management designed to manage a user's account while operating together with a BLOCd Node Daemon. BLOC-service RPC Wallet allows you to accept incoming payments, generate an address for each user and much more.
 
-Please check [this tutorial](../wallets/bloc-service-index.md) to learn how to use the **bloc-service RPC wallet**.
+If you are looking to integrate BLOC payment and process transactions into your website or application, **BLOC-service** is what you need.
+
+Please check [this guide](../wallets/bloc-service-index.md) to learn how to use the **BLOC-service RPC wallet**.
 
 ## **BLOC Wallet for iPad & iPhone**
 
@@ -47,7 +49,7 @@ You can still check the features and view the details of the old [BLOC Wallet v2
 
 ## **Telegram Wallet**
 
-BLOC Wallet Telegram BOT, this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices.
+[BLOC Wallet Telegram BOT](../wallets/BLOC-Telegram-Wallet.md), this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices.
 
 If you would like to use the Telegram BLOC Wallet, you can check out [this guide](../wallets/BLOC-Telegram-Wallet.md).
 

@@ -164,7 +164,7 @@ Finally, type `./BLOCd --config-file=myconfig.conf`
 
 You should see a result like this:
 
-![--save-config](images/BLOCd/arguments/my-config.png)
+![--save-config](images/BLOCd/arguments/myconfig.png)
 
 
 Congratulations! You have now properly setup BLOCd and you are ready to use the [BLOCd Command Line Interface](BLOCd-daemon-cli-options.md) , the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md) or/and the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md)

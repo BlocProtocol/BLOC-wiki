@@ -6,7 +6,7 @@ Technical ressources to start building on [BLOC](https://bloc.money)
 
 * BLOC [Source Code](https://github.com/furiousteam/BLOC.git)
 
-## **BLOC-service Command Line Options**
+## **BLOC-service Command Line Options & API**
 
 - How to use the [BLOC-service Wallet JSON RPC API](../wallets/bloc-service-json-api.md)
 

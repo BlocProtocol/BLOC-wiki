@@ -39,29 +39,9 @@ Each method has its own example and description that can be found by clicking th
 To start using [BLOC-service](bloc-service-index.md) you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**.
 
 To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation. More on how to start and operate BLOC-service RPC Wallet can be found [here](bloc-service-command-line.md).
- 
-To start the BLOC-service JSON RPC API server at http://localhost:8070 run:
-
-`./BLOC-service`
- 
-To make the server accessible from another computer, use the --rpc-bind-ip 0.0.0.0 switch.
-
-`./BLOCd --rpc-bind-ip=0.0.0.0`
- 
-To make a JSON RPC request to your BLOC-service RPC Wallet you should use POST request that looks like this:
- 
-`http://<service address>:<service port>/json_rpc`
- 
-Where:
-
-- `<service address> `is an IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost,
-
-- `<service port>` is BLOC-service RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this here.
- 
-Make sure you have filled the connexion details at the top of this page. Once you are ready, scroll down until your favorite function, fill the details and click TRY IT OUT button to send the request and get the the response.
 
 
-## Interacting with the API
+## **Interacting with the API**
 
 > API endpoint example
 
@@ -82,10 +62,10 @@ const service = new BlocService({
   rpcPassword: 'inblocwetrust', // must be set to the password used to run bloc-service
 
   // RPC API default values
-  defaultMixin: false, // the default mixin to use for transactions, the default setting is false which means we don't have a default value
+  defaultMixin: 0, // the default mixin to use for transactions, the default setting is false which means we don't have a default value
   defaultFee: 1, // the default transaction fee for transactions
   defaultBlockCount: 1, // the default number of blocks when blockCount is required
-  decimalDivisor: 1000, // Currency has many decimal places?
+  decimalDivisor: 10000, // Currency has many decimal places?
   defaultFirstBlockIndex: 1, // the default first block index we will use when it is required
   defaultUnlockTime: 0, // the default unlockTime for transactions
   defaultFusionThreshold: 1, // the default fusionThreshold for fusion transactions
@@ -121,14 +101,29 @@ service := trpc.Walletd{
   RPCPassword: rpcPassword}
 ```
 
-To make a JSON RPC request to your TurtleCoin RPC Wallet you should use a POST request that looks like this:
+To start the BLOC-service JSON RPC API server at http://localhost:8070 run:
 
+`./BLOC-service`
+ 
+To make the server accessible from another computer, use the --rpc-bind-ip 0.0.0.0 switch.
+
+`./BLOCd --rpc-bind-ip=0.0.0.0`
+ 
+To make a JSON RPC request to your BLOC-service RPC Wallet you should use POST request that looks like this:
+ 
 `http://<service address>:<service port>/json_rpc`
+ 
+Where:
+
+- `<service address> `is an IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost,
+
+- `<service port>` is BLOC-service RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this here.
+
 
 Parameter            | Description
 -------------------- | ------------------------------------------------------------
-`<service address>`  | IP of TurtleCoin RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost
-`<service port>`     | TurtleCoin RPC Wallet port, by default it is bound to 8070 port, but it can be manually bound to any port you want
+`<service address>`  | IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost
+`<service port>`     | BLOC-service RPC Wallet port, by default it is bound to 8070 port, but it can be manually bound to any port you want
 
 
 

@@ -2,11 +2,11 @@
 
 Technical ressources to start building on [BLOC](https://bloc.money)
 
-## Source code
+## **Source code**
 
 * BLOC [Source Code](https://github.com/furiousteam/BLOC.git)
 
-## Wallet RPC API Clients
+## **Wallet RPC API Clients**
 
 * [Javascript](https://github.com/furiousteam/bloc-rpc)
 * [NodeJS](https://www.npmjs.com/package/bloc-rpc)

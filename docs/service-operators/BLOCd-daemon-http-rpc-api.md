@@ -27,57 +27,11 @@ composer require github.com/furiousteam/BLOC-rpc-php
 go get github.com/furiousteam/BLOC-rpc-go
 ```
 
-## **Interacting with the API**
-
-> API endpoint example
-
-```
-http://localhost:2086
-```
-
-> Configuration and Installation
-
-```javascript
-const BLOCd = require('bloc-rpc').BLOCd
-
-const daemon = new BLOCd({
-  host: '0.0.0.0', // ip address or hostname of the BLOCd host
-  port: 2086, // what port is the RPC server running on
-  timeout: 2000, // request timeout
-  ssl: false // whether we need to connect using SSL/TLS
-})
-```
-
-```php
-<?php
-use BLOC\BLOCd;
-
-$config = [
-    'rpcHost' => 'http://localhost',
-    'rpcPort' => 2086,
-];
-
-$blocd = new BLOCd($config);
-```
-
-```go
-import (
-  "fmt"
-  trpc "github.com/furiousteam/BLOC-rpc-go"
-)
-
-rpcHost := "localhost"
-rpcPort := 2086
-
-daemon := trpc.BLOCd{
-  URL: rpcHost,
-  Port: rpcPort}
-```
 ## **Getting started**
 
-This section describes BLOCd daemon integration process into your service with BLOCd HTTP RPC API. We also have available the BLOCd JSON RPC API if you need.
+This section describes [BLOCd Daemon](BLOCd-Overview.md) integration process into your service with BLOCd HTTP RPC API. We also have available the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md) if you need.
  
-Make sure you have started BLOCd with the correct arguments before using the following functions. You can also check out the list of the BLOCd inline commands available.
+Make sure you have started **BLOCd** with the correct [BLOCd Daemon Command Line Arguments](BLOCd-daemon-arguments.md) before using the following functions. You can also check out the list of the [BLOCd Command Inline Options](BLOCd-cli-options.md) available.
 
 To start the Daemon JSON RPC API server at `http://localhost:2086`, run:
 
@@ -154,6 +108,55 @@ Argument         | Description            | Format
 height           | Current daemon height  | int
 network_height   | Current Network height | int
 status           | Status of request      | string
+
+
+## **Interacting with the API**
+
+> API endpoint example
+
+```
+http://localhost:2086
+```
+
+> Configuration and Installation
+
+```javascript
+const BLOCd = require('bloc-rpc').BLOCd
+
+const daemon = new BLOCd({
+  host: '0.0.0.0', // ip address or hostname of the BLOCd host
+  port: 2086, // what port is the RPC server running on
+  timeout: 2000, // request timeout
+  ssl: false // whether we need to connect using SSL/TLS
+})
+```
+
+```php
+<?php
+use BLOC\BLOCd;
+
+$config = [
+    'rpcHost' => 'http://localhost',
+    'rpcPort' => 2086,
+];
+
+$blocd = new BLOCd($config);
+```
+
+```go
+import (
+  "fmt"
+  trpc "github.com/furiousteam/BLOC-rpc-go"
+)
+
+rpcHost := "localhost"
+rpcPort := 2086
+
+daemon := trpc.BLOCd{
+  URL: rpcHost,
+  Port: rpcPort}
+```
+
 
 ## **More**
 

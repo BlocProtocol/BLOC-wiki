@@ -36,8 +36,8 @@ Here's a quick image of `BLOCd TEST NET` in action:
 The [BLOC-DEVELOPER](https://bloc-developer.com) website documents the public [API of BLOCd](https://bloc-developer.com/api_BLOCd).
 You can test your application with your own BLOCd node and view code examples in different programming language.
 
-- [BLOCd Daemon Configuration Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
-- [BLOCd Command Line Options](https://bloc-developer.com/api_BLOCd/options)
+- [BLOCd Daemon Command Line Arguments](https://bloc-developer.com/api_BLOCd/cli_arguments)
+- [BLOCd Command Inline Options](https://bloc-developer.com/api_BLOCd/options)
 - [BLOCd JSON RPC API](https://bloc-developer.com/api_BLOCd/json)
 - [BLOCd HTTP RPC API](https://bloc-developer.com/api_BLOCd/http)
 

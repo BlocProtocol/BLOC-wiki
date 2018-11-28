@@ -8,7 +8,7 @@ Launched in May 2018 one of BLOC's main goals is to focus on accessibility, secu
 
 **BLOC** is the cryptocurrency for the people by the people with respect of your privacy. Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank.
 
-[BLOC](https://bloc.money) differentiates itself from others as there has been no initial coin offering made to fund and launch the project. As we believe that there are too many ico’s poppin out every day without real products, providing exceptional products and services are key principles enforcing the project to grow at an increasing rate. Therefore, the developing team invested themselves all their time and personnal savings and created the **BLOC**.
+While most of the blockchain projects are relying on ICOs to raise funding, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 
 Some of the main features of BLOC include:
 
@@ -18,8 +18,11 @@ Some of the main features of BLOC include:
 - Easy to mine
 - Easy to use
 - Amazing community
+- Fungible
 - Unrivalated products
 - Low & Fix rates per transactions (0.0001 BLOC)
 - The BLOC Protocol is decentralized and open source meaning no central control over the network. Nothing is censored.
 
 Mining from a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a complete mining suite of softwares works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
+
+BLOC is open source. You're welcome to contribute to the BLOC's codebase.

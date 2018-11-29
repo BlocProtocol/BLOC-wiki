@@ -1,5 +1,5 @@
 
-# **PAYCHANGE - Connecting the real world to crypto-currencies**
+# **Connecting the real world to crypto-currencies**
 
 ![PAYCHANGE LOGO](images/paychange/paychange-logo.gif)
 
@@ -13,7 +13,8 @@ PAYCHANGE will fully take advantage of the global contactless phenomenon and pro
 
 PAYCHANGE aims to provide services required to change the way we pay and get paid in our everyday life, by delivering one of the best Cryptocurrency online secure platforms to use, buy, sell, and transfer, while connec- ting buyers and sellers.
 
-## **Cryptocurrencies mass adoption is near. PayChange is the trigger**
+## **Cryptocurrencies mass adoption is near.**
+**PAYchange is the trigger**
 
 It’s not easy to understand how to buy and store securely cryptocurrencies online or in the real life for people that are not familiar with this digital universe.
 
@@ -37,7 +38,8 @@ PAYCHANGE is the answer to all these questions. PAYCHANGE will bring back the se
 
 ## **PAYCHANGE’s Functionality**
 
-- PAYCHANGE website phase 1 (early 2019).
+### PAYCHANGE website phase 1 (early 2019).
+
 - Cryptocurrencies listing with description details and price charts.
 - PAYCHANGE Swap gives you the power to quickly swap your cryptocurrency assets in the most easy and secure environment.
 - PAYCHANGE is not a wallet, as we do not store assets.
@@ -54,7 +56,7 @@ PAYCHANGE is the answer to all these questions. PAYCHANGE will bring back the se
 - Access to PayChange Swap
 - Receive notifications including geo-notifications & discounts from your favorite store
 
-###Seller’s account:
+### Seller’s account:
 
 - Business page management. Business owners will be able to add their business to the Paychange revolutionary listing increasing instantly the brand awareness of your business and getting access to the soon largest cryptocurrencies buyers database.
 - Interact with customers using notification from your business page

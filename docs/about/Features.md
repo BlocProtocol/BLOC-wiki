@@ -1,5 +1,11 @@
 # **BLOC Features**
-We are trying to do things no cryptocurrency has ever done before. We already have online few exclusive tools such as the unique [BLOC JAVASCRIPT WEB MINER](../mining/bloc-in-browser-javascript-web-miner.md) but also the **BLOC Wallet for iOS** [available on the App Store](../wallets/BLOC-iOS-wallet.md) or [BLOC Wallet for Telegram](../wallets/BLOC-Telegram-Wallet.md) which makes BLOC instantly available to over 200 million+ users worldwide. Discover the [BLOC Dashboard](../guides/dashboard/dashboard.md) and join the AirDrop mission to grab your very 1st BLOC. What about making some passive income while sleeping with the [sleep mining](../mining/mobile-mining/Sleep-Mining.md) ? We are trying to build the most advanced ecosystem ever created for a cryptocurrency to be able to use BLOC as a payment method in the everyday life. Much more is coming soon. Feel free to visit our website [BLOC.MONEY](https://bloc.money) not to miss any news.
+We are trying to do things no cryptocurrency has ever done before. We already have online few exclusive tools such as the unique [BLOC JAVASCRIPT WEB MINER](../mining/bloc-in-browser-javascript-web-miner.md) but also the **BLOC Wallet for iOS** [available on the App Store](../wallets/BLOC-iOS-wallet.md) or [BLOC Wallet for Telegram](../wallets/BLOC-Telegram-Wallet.md) which makes BLOC instantly available to over 200 million+ users worldwide.
+
+Discover the [BLOC Dashboard](../guides/dashboard/dashboard.md) and join the AirDrop mission to grab your very 1st BLOC.
+
+What about making some passive income while sleeping with the [sleep mining](../mining/mobile-mining/Sleep-Mining.md) ?
+
+We are trying to build the most advanced ecosystem ever created for a cryptocurrency to be able to use BLOC and cryptocurrencies as a payment method in the everyday life.
 
 ## **Decentralized**
 The decentralized control of [BLOC](https://bloc.money) works through a blockchain, which is a public transaction database, functioning as a distributed ledger. The Blockchain is the technology allowing to send money without the need of intermediaries. Decentralized **BLOC** cryptocurrency is produced by the entire cryptocurrency system collectively, at a rate which was defined when the system was created and which is publicly known. Unlike centralized banking and corrupted economic system, in this case companies or governements cannot produce new BLOC.money units. There will be a total of **50 Million BLOC distributed until the year 2046**.

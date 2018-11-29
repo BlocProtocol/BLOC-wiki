@@ -17,7 +17,7 @@ Some of the [main features of BLOC](Features.md) include:
 - Respect of your privacy
 - Fast transactions speed
 - Available on multi platform and mobile
-- Easy to mine
+- [Easy to mine](../mining/What-is-mining.md)
 - Easy to use
 - [Amazing community](Community.md)
 - Fungible
@@ -26,4 +26,4 @@ Some of the [main features of BLOC](Features.md) include:
 - Low & Fix rates per transactions (0.0001 BLOC)
 - The BLOC Protocol is decentralized and open source meaning [anyone can contribute](Contributing.md) to [BLOC's source code](https://github.com/furiousteam/BLOC) and nobody has central control over the network. Nothing is censored.
 
-BLOC is [easy to mine](../mining/What-is-mining.md) from a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a complete mining suite of softwares works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
+Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a [complete mining suite of softwares](../mining/How-to-mine-BLOC.md) works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.

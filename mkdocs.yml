@@ -101,6 +101,8 @@ nav:
         - Presentation: about/TRAAKX.md
         - Hardware: about/TRAAKX-hardware.md
         - Beta version: about/TRAAKX-beta.md
+      - PAYCHANGE:
+        - Presentation: about/PAYCHANGE.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md

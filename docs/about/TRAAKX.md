@@ -59,3 +59,9 @@ When you buy a BLOC coin, you help to support an athlete; BLOC coin can then be 
 As bitcoins and other cryptocurrencies are becoming revolutionary, individuals who previously had no particular interest in blockchain are now always kept up to date with the development of these advanced technologies.
 
 As more individuals will be willing to invest in sports cryptocurrency, the market will grow, and a similar situation as the bitcoin will happen to the domain of sports. Therefore, the growing audience across a global scale will create a boost in the sports market.
+
+## **Future of TRAAKX**
+
+Once the iPhone app will be available on the app store it will be already a huge progress. Then we will have to work on implementing the new features of TRAAKX to include the blockchain layer part. This is still a long time process but we are on the right path.
+
+Are you ready for the challenge ? Dream big. Ride bigger with TRAAKX and BLOC.

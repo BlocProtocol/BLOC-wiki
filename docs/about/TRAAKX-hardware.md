@@ -1,61 +1,36 @@
 
-# **TRAAKX the world 1st Proof Of Training**
+# **TRAAKX custom hardware**
 
-Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX website](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any GoPro footage to compare yourself with other riders from the same sport and increase your level.
+Traakx is a device which is able to record movement and position in multiple axes. All this is done using a micro controller which gathers data from the sensors and stores it on a micro SD card in order to communi- cate over wifi and send the data for analysis procedures.
 
-How height did you go ? How fast ? Watch out impressive runs with synchronised data. There is no lie anymore. A new proof of training is born. Welcome to a new era for athletes with endless possibilities.
+![TRAAKX hardware](images/traakx/TRAAKX-HARDWARE-1.png)
 
-Blockchain offers an unprecedented level of transparency for transactions: you don’t need to rely on a middleman to make sure that a certain transaction took place and was processed correctly. This allows creating a decentralized system that makes crowdfunding easier. So much so that sports players, especially young athletes, will be able to boost their careers by getting public support — and their growing professionalism will in turn bring in more and more money.
+The device contains the following components:
 
-TRAAKX the first project to tokenize athletes, aims to do exactly that: revolutionize the sport talent management system by using custom developed hardware to track athletes performances and blockchain technology to decentralize it and facilitate support for athletes, then share the value with the community.
+- a micro controller to command all the sensors (ARM 32 bit)
+- an IMU (inertial measurement unit) that measures and reports a specific acceleration, angular rate, and the magnetic field (LSM303).
+- a high precision gyroscope which senses the angular velocity from the Coriolis force applied to the device (L3GD20H)
+- a waterproofed barometer (HP206)
+- a GPS (MTK3339)
+- a micro controller drived wifi card (ESP8266)
+- a micro SD card reader (Memory Socket, Micro SD)
+- 3 buttons to input commands for the device
+- 2 multicolour led lights to show the status of the device and to give a visual guide for the user once commands are inputed
 
-![TRAAKX LOGO](images/traakx/TRAAKX_BLACK.png)
+![TRAAKX hardware](images/traakx/TRAAKX-HARDWARE-2.png)
 
-## **What is TRAAKX ?**
+In competitions is quite hard to judge the figures made by the competitors (for example the maximum height a competitor achieves can only be approximated, or the angular velocity can only be measured using a stopwatch to count how many rotations have been made in a defined timeframe) so having a device which can track and display the data for analysis is quite useful for the judges. The data can also tell the competitors where they have to work harder, and help them understand how they can achieve better performances.
 
-TRAAKX was created by the FuriousTeam and is part of the BLOC ecosystem. We started this project long time ago but it tooks us so much work, money and ennergy including many failure, a very long path to be able to write this post today.
+Of course having a simple accelerometer could achieve most of those tasks but every IMU (inertial measure- ment unit) will have some error. All those errors add up over time to the point that their output becomes useless. So to prevent this we enclosed in the system 2 other sensors: gyroscope and GPS. GPS has long term accuracy while the gyroscope has a fairly good short term accuracy. The gyroscope is very precise, but also tends to drift in time. The accelerometer is a bit unstable, but does not drift.
 
-Every service or products to buy/sell from the TRAAKX community will be available in the cryptocurrency BLOC only.
+Using the data provided by an IMU (both accelerometer and magnetometer sensors) is easy to determine the user's position but in order to be able to compensate for sensor drifts we included in the system a barometer which offers a redundant information used to calculate the position (having the pressure we can determine the height/depth the device has reached thus).
 
-TRAAKX is the first social network dedicated to athletes and sports men. Share your training session on TRAAKX, follow the pros and their advices, improve your skills, get instant access to all your runs, a worldwide rank and many more in our application that you will be able to download for free on the App Store and Google Play Store.
+In order to be able to track the device movement in and outside water we incased the whole device in a waterproof case and we used a waterproof barometer which works both outside and inside water.
 
-## **How does it look in real life ?**
+But this device is not complete without the server part where we analyze and compare the data. Because the device has to record each second multiple times the data provided by the sensors (this is why we opted for a high speed micro controller), it lacks the computing power to analyze large chunks of data to determine the figures the device (competitor) performed, so we consider the server a part of our system. There data can be analyzed differently for each sport because in each sport there are specific movements which can be interpre- ted in different ways depending on the sport that is practiced.
 
-We have tested TRAAKX on Franky Zapata. You may have seen him already with multi millions views on Youtube riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test TRAAKX during the last RedBull Air Race in Cannes. Check out the video:
+## **Compatibility**
+
+While developing our own hardware for TRAAKX we found that it would be great to add some of the coolest hardware already existing on the market for sports and include their data into the TRAAKX platform. So we included the option to import GoPro video directly into the TRAAKX platform and be able to extract and display some amazing data. An example of this prototype can be found here while we made the test on FRANKY ZAPATA while flying the FLYBOARD AIR.
 
 [![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY_TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)
-
-You can see the impressive run data [on the TRAAKX website](http://traakx.com/traakx/run/details?id=237). Reaching 158 km/h + on a flying jetpack ! **The future is NOW**.
-
-## **How does it work ?**
-
-It’s easy. It works with a GoPro. All you need to do is record yourself while you are doing your sport. Jump as high as you can, run or ride as fast as you can.
-**To make it short: Just send it ! We call this a run.**
-
-Once you have recorded your run you can use the [TRAAKX website](http://traakx.com/traakx/) or the TRAAKX app for iPhone (curently only available in BETA) to upload your run to generate impressive data you never seen before, share it with the community and compare yourself with other athletes.
-
-## **What kind of data it is ?**
-
-We are using the GoPro sensors such as the GPS, accelerometer.. and a private algorithm to convert this raw data and synchronise them together on a nice and easy to use interface showing charts such as distance, altitude, Gforce, GPS track, Roll, Pitch and much more details.
-
-## **A new Proof Of Training is born**
-
-Now it’s easy to track the progress of an athlete, make sure he’s training properly and regulary. Just watch the video embedded with the TRAAKX datas and check out the training session. [TRAAKX website](http://traakx.com/traakx/).
-
-## **Athletes Will Be Viewed As Assets**
-
-Much like companies that trade on a stock market, every athlete will have a market price in BLOC following his market dominance. The price of a share will increase as the athlete makes progress.
-
-There will be lots of factors influencing the token price: a lucrative deal with a big brand will cause it to skyrocket, while a massive loss to a weaker opponent will make his market dominance slump. In addition to success in sports, there will be other ways for athletes to enhance their value, including a strong social media presence, charitable initiatives, sponsorship contracts, and licensing their name to a brand.
-
-For athletes to be listed on the TRAAKX market: it can be done automatically at some stage of career development (reaching a certain level by uploading TRAAKX run), or voluntarily when an athlete decides to get listed.
-
-Also, there is bound to be speculation, long-term and short-term investments, data mining and complex models to determine profitable strategies, and other features of the stock market.
-
-When you buy a BLOC coin, you help to support an athlete; BLOC coin can then be redeemed to get a share of their income, endorsements at a significant discount, training time, sponsoring, and other goodies. This new approach has the potential to change the whole industry in just a decade.
-
-## **Tokenization Will Fuel Interest In The Greater Domain Of Sports**
-
-As bitcoins and other cryptocurrencies are becoming revolutionary, individuals who previously had no particular interest in blockchain are now always kept up to date with the development of these advanced technologies.
-
-As more individuals will be willing to invest in sports cryptocurrency, the market will grow, and a similar situation as the bitcoin will happen to the domain of sports. Therefore, the growing audience across a global scale will create a boost in the sports market.

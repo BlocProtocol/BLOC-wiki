@@ -45,6 +45,6 @@ End of october we have migrated the core of **TurtleCoin** into **BLOC** and mad
 
 It all started back in 2004 when Steve and Igor created a famous software for NEC mobile phones. Daniel managed to find a way to hack us, this is how we met. Since then we made miracles. Christophe at this time was our best customer and become a really close partner and propulsed us to wild mobile phone industry in China.
 
-[FuriousTeam](https://furiousteam.com was born. Our team of developers managed by Speedy spent a lot of late hours at the office polishing the best code for our websites. Later we understood that designs are a key feature for our projects and we met Thomas back in 2010. Maxime is a young member but a very important addition to our team concerning the upcoming iOs projects. Paul is the youngest of our team and he is ready to show you what is he capable of.
+[FuriousTeam](https://furiousteam.com) was born. Our team of developers managed by Speedy spent a lot of late hours at the office polishing the best code for our websites. Later we understood that designs are a key feature for our projects and we met Thomas back in 2010. Maxime is a young member but a very important addition to our team concerning the upcoming iOs projects. Paul is the youngest of our team and he is ready to show you what is he capable of.
 
 Together we have built [FuriousGold](https://furiousgold.com) which is still today the world most advanced unlocking software for mobile phones and we are ready to entertain you with our new project [BLOC](https://bloc.money)

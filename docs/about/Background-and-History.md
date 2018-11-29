@@ -37,7 +37,7 @@ Too many projects are bringing in too much funding despite most having no damn p
 We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself.
 ```
 
-At [BLOC.MONEY](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.
+At [BLOC](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.
 
 End of october we have migrated the core of [TurtleCoin](https://github.com/turtlecoin/turtlecoin) into [BLOC](https://github.com/furiousteam/BLOC) and made our own modifications which now make the BLOC 3.0, some of which were then contributed back to TurtleCoin and as a community, we’re keen on helping those who’ve helped us. We will be happy to provide our services and knowledge to the TurtleCoin project and support it along their road.
 
@@ -45,6 +45,6 @@ End of october we have migrated the core of [TurtleCoin](https://github.com/turt
 
 It all started back in 2004 when Steve and Igor created a famous software for NEC mobile phones. Daniel managed to find a way to hack us, this is how we met. Since then we made miracles. Christophe at this time was our best customer and become a really close partner and propulsed us to wild mobile phone industry in China.
 
-FuriousTeam was born. Our team of developers managed by Speedy spent a lot of late hours at the office polishing the best code for our websites. Later we understood that designs are a key feature for our projects and we met Thomas back in 2010. Maxime is a young member but a very important addition to our team concerning the upcoming iOs projects. Paul is the youngest of our team and he is ready to show you what is he capable of.
+[FuriousTeam](https://furiousteam.com was born. Our team of developers managed by Speedy spent a lot of late hours at the office polishing the best code for our websites. Later we understood that designs are a key feature for our projects and we met Thomas back in 2010. Maxime is a young member but a very important addition to our team concerning the upcoming iOs projects. Paul is the youngest of our team and he is ready to show you what is he capable of.
 
-Together we have built the world most famous mobile phone softwares and we are ready to entertain you with our new project [BLOC](https://bloc.money)
+Together we have built [FuriousGold](https://furiousgold.com) which is still today the world most advanced unlocking software for mobile phones and we are ready to entertain you with our new project [BLOC](https://bloc.money)

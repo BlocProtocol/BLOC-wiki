@@ -1,7 +1,9 @@
 
 # **TRAAKX the world 1st Proof Of Training**
 
-Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX website](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any GoPro footage to compare yourself with other riders from the same sport and increase your level. Later we are going to release a TRAAKX custom hardware to get more precise data than the GoPro.
+Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX website](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any [GoPro footage](https://gopro.com) footage to compare yourself with other riders from the same sport and increase your level.
+
+Later we are going to release a [TRAAKX custom hardware](TRAAKX-hardware.md) to get more precise data than the GoPro.
 
 How height did you go ? How fast ? Watch out impressive runs with synchronised data. There is no lie anymore. A new proof of training is born. Welcome to a new era for athletes with endless possibilities.
 
@@ -19,7 +21,7 @@ Every service or products to buy/sell from the TRAAKX community will be availabl
 
 TRAAKX is the first social network dedicated to athletes and sports men. Share your training session on TRAAKX, follow the pros and their advices, improve your skills, get instant access to all your runs, a worldwide rank and many more in our application that you will be able to download for free on the App Store and Google Play Store.
 
-## TRAAKX Custom Hardware
+## **TRAAKX Custom Hardware**
 
 Having so much data from a GoPro is cool but the sensors used on the GoPro are not accurate enough to be able to analize a complete run, specially if you are using it on the water. The GPS takes a lot of time to calibrate and can sometime gives bad data until it found the correct calibration.
 

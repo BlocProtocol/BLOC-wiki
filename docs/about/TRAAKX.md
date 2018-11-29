@@ -22,7 +22,7 @@ TRAAKX is the first social network dedicated to athletes and sports men. Share y
 
 We have tested TRAAKX on Franky Zapata. You may have seen him already with multi millions views on Youtube riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test TRAAKX during the last RedBull Air Race in Cannes. Check out the video:
 
-[![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY-TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)
+[![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY_TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)
 
 You can see the impressive run data [on the TRAAKX website](http://traakx.com/traakx/run/details?id=237). Reaching 158 km/h + on a flying jetpack ! **The future is NOW**.
 

@@ -97,7 +97,8 @@ nav:
       - Sponsoring:
         - Sponsoring: about/Sponsoring.md
         - Flyboard World Cup 2018: about/Sponsoring-Flyboard-WorldCup-2018.md
-      - TRAAKX: about/TRAAKX.md
+      - TRAAKX:
+        - Presentation: about/TRAAKX.md
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md

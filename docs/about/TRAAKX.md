@@ -65,3 +65,15 @@ As more individuals will be willing to invest in sports cryptocurrency, the mark
 Once the iPhone app will be available on the app store it will be already a huge progress. Then we will have to work on implementing the new features of TRAAKX to include the blockchain layer part. This is still a long time process but we are on the right path.
 
 Are you ready for the challenge ? Dream big. Ride bigger with TRAAKX and BLOC.
+
+## **Sales**
+
+We are already dealing with multiple retail sport brands to resell the TRAAKX device all over the world. We are planning to sell about 10000 to 50000 TRAAKX devices for the 1st year of release following upcoming contracts.
+
+## **Release date**
+
+We plan to release the 1st version of the TRAAKX APP before the end of this year. The hardware is still under development at this stage.
+
+## **Decentralised Fuel to Power the Engine**
+
+All the TRAAKX products and services will be invoiced in the currency [BLOC](https://bloc.money).

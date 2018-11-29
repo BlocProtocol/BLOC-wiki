@@ -13,6 +13,8 @@ PAYCHANGE will fully take advantage of the global contactless phenomenon and pro
 
 PAYCHANGE aims to provide services required to change the way we pay and get paid in our everyday life, by delivering one of the best Cryptocurrency online secure platforms to use, buy, sell, and transfer, while connec- ting buyers and sellers.
 
+![PAYCHANGE CONNECT](images/paychange/PAYCHANGE-CONNECT.png)
+
 ## **Cryptocurrencies mass adoption is near.**
 **PAYchange is the trigger**
 
@@ -24,21 +26,19 @@ There is no website and application where you can find a worldwide map with all 
 
 There is no physical place around the world where you can follow information classes or a place where to buy cryptocurrencies locally, while getting answers to all the questions a customer might have
 
-![PAYCHANGE STORES](images/paychange/PAYCHANGE-STORES.png)
-
 PAYCHANGE focuses on creating bridges between the real world and crypto-currencies. This ables individuals to buy and/or sell online or in real life while using cryptocurrencies in a simple and effective manner with an innovative approach.
 
-PAYCHANGE will have physical stores in different country’s around the world where you can buy, sell cryptocur- rencies hassle free but also get informations, courses, buy accessories (hardware wallet) and more Paychange application for mobile and website will allow you to pay directly with BLOC and any cryptocurren- cies account through the different API of Coinbase, Bittrex, Binance but also your visa credit/debit card or your bank account.
+**PAYCHANGE will have physical stores in different country’s** around the world where you can buy, sell cryptocur- rencies hassle free but also get informations, courses, buy accessories (hardware wallet) and more Paychange application for mobile and website will allow you to pay directly with BLOC and any cryptocurren- cies account through the different API of Coinbase, Bittrex, Binance but also your visa credit/debit card or your bank account.
 
 PAYCHANGE application and website will allow businesses owners to get paid with any cryptocurrency or standard payment method like bank transfer, credit /debit card and let you choose where you want to receive the payment (in crypto, on your bank account in fiat)
 
-PAYCHANGE is not a crypto bank and not a wallet. We do not store our customer's assets. PAYCHANGE focus on services and will change the way we use payment forever by bringing and connecting the cryptocurrencies and other standard payment methods to the real everyday world, for everyone with a modern, secure, and practical approach.
+PAYCHANGE is not a crypto bank and not a wallet. **We do not store our customer's assets**. PAYCHANGE focus on services and will change the way we use payment forever by bringing and connecting the cryptocurrencies and other standard payment methods to the real everyday world, for everyone with a modern, secure, and practical approach.
 
-Every cryptocurrency enthusiast knows it. The first dive into this world is a headache. Where is the best place to buy safely and efficiently? Where to get verified information and who to trust ? Where to sell cryptocurren- cies and get cash immediately? Which hardware to use to store my cryptocurrencies? Where to meet people like you?
+Every cryptocurrency enthusiast knows it. The first dive into this world is a headache. Where is the best place to buy safely and efficiently? Where to get verified information and who to trust ? Where to sell cryptocurrencies and get cash immediately? Which hardware to use to store my cryptocurrencies? Where to meet people like you?
 
 PAYCHANGE is the answer to all these questions. PAYCHANGE will bring back the service to the streets and open large gates to all the people that are ready to jump in the cryptocurrencies Era.
 
-![PAYCHANGE CONNECT](images/paychange/PAYCHANGE-CONNECT.png)
+![PAYCHANGE STORES](images/paychange/PAYCHANGE-STORES.png)
 
 ## **PAYCHANGE’s Functionality**
 

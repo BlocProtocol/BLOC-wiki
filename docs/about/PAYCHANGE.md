@@ -3,15 +3,15 @@
 
 ![PAYCHANGE LOGO](images/paychange/paychange-logo.gif)
 
-BLOC is building the ecosystem for the Cryptocurrency era. People will be able to use, spend, exchange any type of cryptocurrency in the same way as they could with any other currency, but in a quicker, cheaper and more secure environment than it is currently possible in any traditional bank or other current exchange.
+[BLOC](https://bloc.money) is building the ecosystem for the Cryptocurrency era. People will be able to use, spend, exchange any type of cryptocurrency in the same way as they could with any other currency, but in a quicker, cheaper and more secure environment than it is currently possible in any traditional bank or other current exchange.
 
-BLOC with PAYCHANGE will be the core which will interlock the limited financial world in today's societies and a future Cryptoeconomy with limitless nationwide possibilities.
+BLOC with [PAYCHANGE](https://paychange.com) will be the core which will interlock the limited financial world in today's societies and a future Cryptoeconomy with limitless nationwide possibilities.
 
-"Most of the technology for this financial revolution already exists: Apple Pay, Samsung Pay, Alipay; the world’s biggest banks and payment platforms have already installed more than 42 million contactless payment terminals throughout the world, a number that is proliferating."
+*"Most of the technology for this financial revolution already exists: Apple Pay, Samsung Pay, Alipay; the world’s biggest banks and payment platforms have already installed more than 42 million contactless payment terminals throughout the world, a number that is proliferating."*
 
-PAYCHANGE will fully take advantage of the global contactless phenomenon and provide the use of cryptocur- rencies instead of conventional payment cards using fiat currencies through mobile devices.
+[PAYCHANGE](https://paychange.com) will fully take advantage of the global contactless phenomenon and provide the use of cryptocurrencies instead of conventional payment cards using fiat currencies through mobile devices.
 
-PAYCHANGE aims to provide services required to change the way we pay and get paid in our everyday life, by delivering one of the best Cryptocurrency online secure platforms to use, buy, sell, and transfer, while connec- ting buyers and sellers.
+PAYCHANGE aims to provide services required to change the way we pay and get paid in our everyday life, by delivering one of the best Cryptocurrency online secure platforms to use, buy, sell, and transfer, while connecting buyers and sellers.
 
 ![PAYCHANGE CONNECT](images/paychange/PAYCHANGE-CONNECT.png)
 
@@ -28,7 +28,7 @@ There is no physical place around the world where you can follow information cla
 
 PAYCHANGE focuses on creating bridges between the real world and crypto-currencies. This ables individuals to buy and/or sell online or in real life while using cryptocurrencies in a simple and effective manner with an innovative approach.
 
-**PAYCHANGE will have physical stores in different country’s** around the world where you can buy, sell cryptocur- rencies hassle free but also get informations, courses, buy accessories (hardware wallet) and more Paychange application for mobile and website will allow you to pay directly with BLOC and any cryptocurren- cies account through the different API of Coinbase, Bittrex, Binance but also your visa credit/debit card or your bank account.
+**PAYCHANGE will have physical stores in different country’s** around the world where you can buy, sell cryptocurrencies hassle free but also get informations, courses, buy accessories (hardware wallet) and more Paychange application for mobile and website will allow you to pay directly with BLOC and any cryptocurrencies account through the different API of Coinbase, Bittrex, Binance but also your visa credit/debit card or your bank account.
 
 PAYCHANGE application and website will allow businesses owners to get paid with any cryptocurrency or standard payment method like bank transfer, credit /debit card and let you choose where you want to receive the payment (in crypto, on your bank account in fiat)
 

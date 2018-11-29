@@ -21,7 +21,7 @@ The TRAAKX iPhone app was just published today accepting beta tester. If you wou
 
 Connect your GoPro with the TRAAKX app and upload your run directly from your iPhone without having to touch a computer. This is another exclusive feature of TRAAKX. Not even GoPro itself support this feature.
 
-![TRAAKX iPhone GoPro](TRAAKX-iphone-gopro.png)
+![TRAAKX iPhone GoPro](images/traakx/TRAAKX-iphone-gopro.png)
 
 ## **We are looking for TRAAKX ambassadors**
 
@@ -29,7 +29,7 @@ Do you ride big ? Do you fly high ? Or maybe you just like hicking or walking ? 
 
 You can do extra money just by doing what you love ! Your favorite sport. Upload your run on **TRAAKX** and get rewarded in [BLOC](http://bloc.money) crypto currency. Simple as that ! In the same time you will increase awareness and engage your fans in a completely new way to follow your best session like never before !
 
-![TRAAKX iPhone Beta](TRAAKX-iphone-beta.jpg)
+![TRAAKX iPhone Beta](images/traakx/TRAAKX-iphone-beta.jpg)
 
 ## **Future of TRAAKX**
 

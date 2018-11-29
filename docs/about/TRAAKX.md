@@ -1,7 +1,7 @@
 
 # **TRAAKX the world 1st Proof Of Training**
 
-Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of TRAAKX. The world most advanced sport community coupled with artificial intelligence. Extract impressive data from any GoPro footage to compare yourself with other riders from the same sport and increase your level.
+Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX website](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any GoPro footage to compare yourself with other riders from the same sport and increase your level.
 
 How height did you go ? How fast ? Watch out impressive runs with synchronised data. There is no lie anymore. A new proof of training is born. Welcome to a new era for athletes with endless possibilities.
 
@@ -9,6 +9,7 @@ Blockchain offers an unprecedented level of transparency for transactions: you d
 
 TRAAKX the first project to tokenize athletes, aims to do exactly that: revolutionize the sport talent management system by using custom developed hardware to track athletes performances and blockchain technology to decentralize it and facilitate support for athletes, then share the value with the community.
 
+![TRAAKX LOGO](images/traakx/TRAAKX_BLACK.png)
 
 ## **What is TRAAKX ?**
 

@@ -1,35 +1,37 @@
 
 # **TRAAKX the world 1st Proof Of Training**
 
-Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX website](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any [GoPro footage](https://gopro.com) footage to compare yourself with other riders from the same sport and increase your level.
+Almost 2 years of hard work to be able to bring this project to life. We are pleased to introduce today a beta version of [TRAAKX](http://traakx.com/traakx/). The world most advanced sport community combined with artificial intelligence. Extract impressive data from any [GoPro footage](https://gopro.com) footage to compare yourself with other riders from the same sport and increase your level.
 
 Later we are going to release a [TRAAKX custom hardware](TRAAKX-hardware.md) to get more precise data than the GoPro.
 
-How height did you go ? How fast ? Watch out impressive runs with synchronised data. There is no lie anymore. A new proof of training is born. Welcome to a new era for athletes with endless possibilities.
+How height did you go ? How fast ? Watch out [impressive runs with synchronised data](http://traakx.com/traakx/run/details?id=237). There is no lies anymore. A new proof of training is born. Welcome to a new era for athletes with endless possibilities.
 
 Blockchain offers an unprecedented level of transparency for transactions: you don’t need to rely on a middleman to make sure that a certain transaction took place and was processed correctly. This allows creating a decentralized system that makes crowdfunding easier. So much so that sports players, especially young athletes, will be able to boost their careers by getting public support — and their growing professionalism will in turn bring in more and more money.
 
-TRAAKX the first project to tokenize athletes, aims to do exactly that: revolutionize the sport talent management system by using custom developed hardware to track athletes performances and blockchain technology to decentralize it and facilitate support for athletes, then share the value with the community.
+**TRAAKX** the first project to tokenize athletes, aims to do exactly that: revolutionize the sport talent management system by using custom developed hardware to track athletes performances and blockchain technology to decentralize it and facilitate support for athletes, then share the value with the community.
 
 ![TRAAKX LOGO](images/traakx/TRAAKX_BLACK.png)
 
 ## **What is TRAAKX ?**
 
-TRAAKX was created by the FuriousTeam and is part of the BLOC ecosystem. We started this project long time ago but it tooks us so much work, money and ennergy including many failure, a very long path to be able to write this post today.
+**TRAAKX** was created by the [FuriousTeam](https://furiousteam.com) and is part of the [BLOC Ecosystem](Ecosystem.md). We started this project long time ago but it tooks us so much work, money and ennergy including many failure, a very long path to be able to write this post today.
 
-Every service or products to buy/sell from the TRAAKX community will be available in the cryptocurrency BLOC only.
+Every service or products to buy/sell from the TRAAKX community will be available in the cryptocurrency [BLOC](https://bloc.money) only.
 
-TRAAKX is the first social network dedicated to athletes and sports men. Share your training session on TRAAKX, follow the pros and their advices, improve your skills, get instant access to all your runs, a worldwide rank and many more in our application that you will be able to download for free on the App Store and Google Play Store.
+**TRAAKX** is the first social network dedicated to athletes and sports men. Share your training session on TRAAKX, follow the pros and their advices, improve your skills, get instant access to all your runs, a worldwide rank and many more in our application that you will be able to download for free on the App Store and Google Play Store.
 
 ## **TRAAKX Custom Hardware**
 
 Having so much data from a GoPro is cool but the sensors used on the GoPro are not accurate enough to be able to analize a complete run, specially if you are using it on the water. The GPS takes a lot of time to calibrate and can sometime gives bad data until it found the correct calibration.
 
-Traakx is a device which is able to record movement and position in multiple axes. All this is done using a micro controller which gathers data from the sensors and stores it on a micro SD card in order to communicate over wifi and send the data for analysis procedures to the TRAAKX server and then receive the extracted data and display them in a graphical user interface.
+For this reason we decided to build a dedicated hardware. [TRAAKX custom hardware](TRAAKX-hardware.md) is a device which is able to record movement and position in multiple axes. All this is done using a micro controller which gathers data from the sensors and stores it on a micro SD card in order to communicate over wifi and send the data for analysis procedures to the TRAAKX server and then receive the extracted data and display them in a graphical user interface.
 
 ## **How does it look in real life ?**
 
-We have tested TRAAKX on Franky Zapata. You may have seen him already with multi millions views on Youtube riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test TRAAKX during the last RedBull Air Race in Cannes. Check out the video:
+We have tested TRAAKX on [Franky Zapata](TRAAKX-hardware.md). You may have seen him already with [multi millions views on Youtube](https://www.youtube.com/watch?v=-kB-BGMXxZc) riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test **TRAAKX** during the last RedBull Air Race in Cannes.
+
+Check out the video:
 
 [![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY_TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)
 

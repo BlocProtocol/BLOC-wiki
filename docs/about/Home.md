@@ -19,8 +19,9 @@ Some of the [main features of BLOC](Features.md) include:
 - Available on multi platform and mobile
 - Easy to mine
 - Easy to use
-- Amazing community
+- [Amazing community](Community.md)
 - Fungible
+- Well [documented resources](../service-operators/Resources.md) for developers
 - Unrivalated products
 - Low & Fix rates per transactions (0.0001 BLOC)
 - The BLOC Protocol is decentralized and open source meaning [anyone can contribute](Contributing.md) to [BLOC's source code](https://github.com/furiousteam/BLOC) and nobody has central control over the network. Nothing is censored.

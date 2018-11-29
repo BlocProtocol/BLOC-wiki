@@ -1,10 +1,10 @@
 ![TRAAKX LOGO](images/BLOC-in-out_blue.gif)
 
-# Welcome to BLOC Wiki
+# **Welcome to BLOC Wiki**
 
 This wiki is the main source of documentation for newcomers to the [BLOC](https://bloc.money) project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
 
-## What is BLOC?
+## **What is BLOC?**
 
 BLOC is a fast, easy and private decentralized cryptocurrency. Send money worldwide immediately and without costly intermediaries using the blockchain technology.
 
@@ -12,7 +12,7 @@ One of our main goal is to provide a cryptocurrency which is safe, easy to use, 
 
 BLOC makes getting started with cryptocurrencies easier than ever. It's about time to take back the control of your money.
 
-## Quick Navigation
+## **Quick Navigation**
 
 | **About BLOC** | **Wallets** | **Mining** | **Contributing** |
 |:----------------------:|:-------------:|:------------:|:------------------:|

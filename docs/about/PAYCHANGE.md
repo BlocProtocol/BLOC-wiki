@@ -16,7 +16,7 @@ PAYCHANGE aims to provide services required to change the way we pay and get pai
 ![PAYCHANGE CONNECT](images/paychange/PAYCHANGE-CONNECT.png)
 
 ## **Cryptocurrencies mass adoption is near.**
-**PAYchange is the trigger**
+**PAYCHANGE is the trigger**
 
 It’s not easy to understand how to buy and store securely cryptocurrencies online or in the real life for people that are not familiar with this digital universe.
 
@@ -36,9 +36,9 @@ PAYCHANGE is not a crypto bank and not a wallet. **We do not store our customer'
 
 Every cryptocurrency enthusiast knows it. The first dive into this world is a headache. Where is the best place to buy safely and efficiently? Where to get verified information and who to trust ? Where to sell cryptocurrencies and get cash immediately? Which hardware to use to store my cryptocurrencies? Where to meet people like you?
 
-PAYCHANGE is the answer to all these questions. PAYCHANGE will bring back the service to the streets and open large gates to all the people that are ready to jump in the cryptocurrencies Era.
+PAYCHANGE is the answer to all these questions. **PAYCHANGE will bring back the service to the streets and open large gates to everyone that is ready to learn more about the cryptocurrencies Era**.
 
-![PAYCHANGE STORES](images/paychange/PAYCHANGE-STORES.png)
+![PAYCHANGE SITE](images/paychange/PAYCHANGE-SITE.png)
 
 ## **PAYCHANGE’s Functionality**
 
@@ -54,7 +54,7 @@ PAYCHANGE is the answer to all these questions. PAYCHANGE will bring back the se
 - Choose the way you want to pay and get paid while visiting a PayChange partner.
 - International transfers to any blockchain wallet’s account, including bank cards, without limits or restrictions (other than those applied for anti-money-laundering purposes).
 
-![PAYCHANGE SITE](images/paychange/PAYCHANGE-SITE.png)
+![PAYCHANGE STORES](images/paychange/PAYCHANGE-STORES.png)
 
 ### Buyer’s account:
 

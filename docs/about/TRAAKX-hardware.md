@@ -5,7 +5,7 @@
 
 ![TRAAKX hardware](images/traakx/TRAAKX-HARDWARE-1.png)
 
-The device contains the following components:
+### **The device contains the following components**
 
 - a micro controller to command all the sensors (ARM 32 bit)
 - an IMU (inertial measurement unit) that measures and reports a specific acceleration, angular rate, and the magnetic field (LSM303).

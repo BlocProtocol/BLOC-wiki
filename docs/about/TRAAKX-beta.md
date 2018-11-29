@@ -30,9 +30,3 @@ Do you ride big ? Do you fly high ? Or maybe you just like hicking or walking ? 
 You can do extra money just by doing what you love ! Your favorite sport. Upload your run on **TRAAKX** and get rewarded in [BLOC](http://bloc.money) crypto currency. Simple as that ! In the same time you will increase awareness and engage your fans in a completely new way to follow your best session like never before !
 
 ![TRAAKX iPhone Beta](images/traakx/TRAAKX-iphone-beta.jpg)
-
-## **Future of TRAAKX**
-
-Once the iPhone app will be available on the app store it will be already a huge progress. Then we will have to work on implementing the new features of TRAAKX to include the blockchain layer part. This is still a long time process but we are on the right path.
-
-Are you ready for the challenge ? Dream big. Ride bigger with TRAAKX and BLOC.

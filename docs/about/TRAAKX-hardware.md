@@ -1,7 +1,7 @@
 
 # **TRAAKX custom hardware**
 
-Traakx is a device which is able to record movement and position in multiple axes. All this is done using a micro controller which gathers data from the sensors and stores it on a micro SD card in order to communi- cate over wifi and send the data for analysis procedures.
+[TRAAKX](http://traakx.com/traakx/) is a device which is able to record movement and position in multiple axes. All this is done using a micro controller which gathers data from the sensors and stores it on a micro SD card in order to communi- cate over wifi and send the data for analysis procedures.
 
 ![TRAAKX hardware](images/traakx/TRAAKX-HARDWARE-1.png)
 
@@ -31,6 +31,8 @@ But this device is not complete without the server part where we analyze and com
 
 ## **Compatibility**
 
-While developing our own hardware for TRAAKX we found that it would be great to add some of the coolest hardware already existing on the market for sports and include their data into the TRAAKX platform. So we included the option to import GoPro video directly into the TRAAKX platform and be able to extract and display some amazing data. An example of this prototype can be found here while we made the test on FRANKY ZAPATA while flying the FLYBOARD AIR.
+While developing our own hardware for **TRAAKX** we found that it would be great to add some of the coolest hardware already existing on the market for sports and include their data into the [TRAAKX](http://traakx.com/traakx/) platform. So we included the option to import GoPro video directly into the TRAAKX platform and be able to extract and display some amazing data.
+
+An example of this prototype can be found here while we made the test on [Franky Zapata](https://twitter.com/frankyzapata) while flying the FLYBOARD AIR.
 
 [![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY_TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)

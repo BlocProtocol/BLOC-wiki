@@ -29,13 +29,13 @@ For this reason we decided to build a dedicated hardware. [TRAAKX custom hardwar
 
 ## **How does it look in real life ?**
 
-We have tested TRAAKX on [Franky Zapata](TRAAKX-hardware.md). You may have seen him already with [multi millions views on Youtube](https://www.youtube.com/watch?v=-kB-BGMXxZc) riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test **TRAAKX** during the last RedBull Air Race in Cannes.
+We have tested TRAAKX on [Franky Zapata](https://twitter.com/frankyzapata). You may have seen him already with [multi millions views on Youtube](https://www.youtube.com/watch?v=-kB-BGMXxZc) riding his Flyboard Air. Franky is a French entrepreneur and it was a great experience to test **TRAAKX** during the last RedBull Air Race in Cannes.
 
 Check out the video:
 
 [![TRAAKX Franky Zapata Flyboard Air](images/traakx/FRANKY_TRAAKX.jpg)](https://www.youtube.com/watch?v=RU-ehS4NNEk)
 
-You can see the impressive run data [on the TRAAKX website](http://traakx.com/traakx/run/details?id=237). Reaching 158 km/h + on a flying jetpack ! **The future is NOW**.
+You can see the impressive run data [on the TRAAKX website](http://traakx.com/traakx/run/details?id=237). Franky Zapata Reaching 158 km/h + on a flying jetpack called the Flyboard Air ! **The future is NOW**.
 
 ## **How does it work ?**
 
@@ -58,11 +58,11 @@ Much like companies that trade on a stock market, every athlete will have a mark
 
 There will be lots of factors influencing the token price: a lucrative deal with a big brand will cause it to skyrocket, while a massive loss to a weaker opponent will make his market dominance slump. In addition to success in sports, there will be other ways for athletes to enhance their value, including a strong social media presence, charitable initiatives, sponsorship contracts, and licensing their name to a brand.
 
-For athletes to be listed on the TRAAKX market: it can be done automatically at some stage of career development (reaching a certain level by uploading TRAAKX run), or voluntarily when an athlete decides to get listed.
+For athletes to be listed on the **TRAAKX** market: it can be done automatically at some stage of career development (reaching a certain level by uploading a **TRAAKX run**), or voluntarily when an athlete decides to get listed.
 
 Also, there is bound to be speculation, long-term and short-term investments, data mining and complex models to determine profitable strategies, and other features of the stock market.
 
-When you buy a BLOC coin, you help to support an athlete; BLOC coin can then be redeemed to get a share of their income, endorsements at a significant discount, training time, sponsoring, and other goodies. This new approach has the potential to change the whole industry in just a decade.
+When you buy a [BLOC](https://bloc.money) coin, you help to support an athlete; BLOC coin can then be redeemed to get a share of their income, endorsements at a significant discount, training time, sponsoring, and other goodies. This new approach has the potential to change the whole industry in just a decade.
 
 ## **Tokenization Will Fuel Interest In The Greater Domain Of Sports**
 
@@ -74,11 +74,11 @@ As more individuals will be willing to invest in sports cryptocurrency, the mark
 
 Once the iPhone app will be available on the app store it will be already a huge progress. Then we will have to work on implementing the new features of TRAAKX to include the blockchain layer part. In the same time we need to finish the hardware. This is still a long time process but we are on the right path.
 
-Are you ready for the challenge ? Dream big. Ride bigger with TRAAKX and BLOC.
+Are you ready for the challenge ? Dream big. Ride bigger with [TRAAKX](http://traakx.com) and [BLOC](https://bloc.money).
 
 ## **Sales**
 
-We are already dealing with multiple retail sport brands to resell the TRAAKX device all over the world. We are planning to sell about 10000 to 50000 TRAAKX devices for the 1st year of release following upcoming contracts.
+We are already dealing with multiple retail sport brands to resell the **TRAAKX** device all over the world. We are planning to sell about 10000 to 50000 TRAAKX devices for the 1st year of release following upcoming contracts.
 
 ## **Release date**
 

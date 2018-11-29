@@ -6,7 +6,9 @@ When cryptocurrency untraceable payments meets every day life.
 
 Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive and fun to use but also building a powerfull ecosystem where you can live and pay with BLOC and cryptocurrencies for your daily purchases.
 
-**BLOC** is the cryptocurrency for the people by the people with respect of your privacy and real working products like [PAYchange](PAYchange.md) and [TRAAKX](TRAAKX.md). Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
+**BLOC** is the cryptocurrency for the people by the people with respect of your privacy and real working products like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md).
+
+Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
 
 While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 

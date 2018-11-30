@@ -4,13 +4,15 @@ When cryptocurrency untraceable payments meets every day life.
 
 **[BLOC](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **[BLOC](https://bloc.money)** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money worldwide or locally immediately and without costly intermediaries using the blockchain technology.
 
-Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive and fun to use but also building a powerfull ecosystem where you can live and pay with BLOC and cryptocurrencies for your daily purchases.
+Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive combined with a powerfull ecosystem for users to benefits advantages like never before.
 
-**BLOC** is the cryptocurrency for the people by the people respecting your your privacy. Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
+BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtlecoin) code which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin), and it has majorly the same privacy features you'll find in [Monero](https://github.com/monero-project/monero). Every transaction is private unless you choose to make it public.
+
+**BLOC** is the cryptocurrency for the people by the people respecting your privacy. Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
 
 While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 
-Providing exceptional products and services like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md) are key principles enforcing the project to grow at an increasing rate.
+Providing exceptional products and services like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
 
 Some of the [main features of BLOC](Features.md) include:
 

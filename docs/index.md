@@ -1,4 +1,4 @@
-![TRAAKX LOGO](images/BLOC-in-out_blue.gif)
+![BLOC Logo](images/bloc-logo-intro.png)
 
 # **Welcome to BLOC Wiki**
 
@@ -20,4 +20,4 @@ BLOC makes getting started with cryptocurrencies easier than ever. It's about ti
 | [About BLOC](about/index.md) | [Setting up a New Wallet](Getting-Started#new-wallet) | [Mining BLOC](Getting-Started#mining) | [Contributing to BLOC](about/Contributing) |
 | Learn more about BLOC and the community | A guide on setting up a BLOC wallet to start receiving BLOC money! | A step-by-step guide to start mining BLOC | Information on contributing to BLOC
 
-![BLOC Logo](images/bloc-logo-intro.png)
+![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)

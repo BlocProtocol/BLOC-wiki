@@ -1,6 +1,6 @@
 # **Getting Started with BLOC**
 
-## What is BLOC ?
+## **What is BLOC ?**
 
 [BLOC](https://bloc.money) is a fast, easy and private decentralized cryptocurrency. Send money worldwide immediately and without costly intermediaries using the blockchain technology.
 

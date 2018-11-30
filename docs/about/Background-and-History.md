@@ -1,6 +1,6 @@
 # **Who ? Why ? How ? created the BLOC**
 
-[BLOC](https://bloc.money) was created by Steve Palma and Thomas Gayet in December 2017 and launched in public the 22th may 2018
+[BLOC](https://bloc.money) was created by FuriousTeam and Thomas Gayet in December 2017 and launched in public the 22th may 2018
 
 ## **Why the BLOC ?**
 

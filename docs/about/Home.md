@@ -30,6 +30,6 @@ Some of the [main features of BLOC](Features.md) include:
 
 Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a [complete mining suite of softwares](../mining/How-to-mine-BLOC.md) works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
 
-## **There is already several privacy coins so why do we need a new one ?**
+### **There is already several privacy coins so why do we need a new one ?**
 
 Yes you are right, and this coins already have great communities and developers. However with building BLOC we want to focus on [new services](../about/PAYCHANGE.md) and [innovations](../about/TRAAKX.md) which require their specific needs. This is why we wanted to have our own coin to develop and improve for our purpose and goals.

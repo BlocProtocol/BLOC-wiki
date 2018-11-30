@@ -1,6 +1,6 @@
 # **About BLOC**
 
-When cryptocurrency untraceable payments meets every day life.
+## **When cryptocurrency untraceable payments meets every day life**
 
 **[BLOC](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **[BLOC](https://bloc.money)** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money worldwide or locally immediately and without costly intermediaries using the blockchain technology.
 

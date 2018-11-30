@@ -2,7 +2,7 @@
 
 ## **GNU Licence**
 
-BLOC released under the GNU Genral Public V3 Licence as follow.
+BLOC released under the GNU General Public V3 Licence as follow.
 
 ```
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
@@ -32,7 +32,7 @@ Documents used on this website and released under this MIT licence.
 
 ```
 Copyright (c) 2018 TurtleCoin
-Copyright (c) 2018-2109 BLOC Developers
+Copyright (c) 2018 BLOC Developers
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -55,14 +55,12 @@ SOFTWARE. [MIT licence](https://opensource.org/licenses/MIT)
 
 ## **Other Licence**
 
-[![Creative Commons License](/images/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/3.0/)
-
 The content in this document were originally written by the [Bytecoin (BCN) Developers](https://bytecoin.org/). It is licensed under the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/). The source material can be found at the [Bytecoin Wiki](https://wiki.bytecoin.org/).
 
-Also of note, TurtleCoin developers have altered and adapted the content to suit our implementation of the API. This was done independently of the Bytecoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements.
+Also of note, TurtleCoin developers have altered and adapted the content to suit their implementation. This was done independently of the Bytecoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements.
 
 _TurtleCoin developers 2018_
 
-Also of note, BLOC developers have altered and adapted the content to suit our implementation of the API. This was done independently of the [TurtleCoin](https://turtlecoin.lol) development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
+Also of note, BLOC developers have altered and adapted the content to suit our implementation. This was done independently of the [TurtleCoin](https://turtlecoin.lol) development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. 
 
 _BLOC developers 2018_

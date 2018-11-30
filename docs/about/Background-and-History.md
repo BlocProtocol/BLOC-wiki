@@ -8,7 +8,7 @@ We are passionate about crypto currency and truly convinced that blockchain tech
 
 ## **Why a premine ?**
 
-We have a long road map and big plans coming up for BLOC that require proper funding to achive these goals on time. BLOC was created and financed by ourself since the beggining such as developer salary, web servers and all the other extra costs. We will be using parts of the premine wallet during the life time of the BLOC project to [finance research and development of new services and applications to improve the BLOC](Contributing.md#connect-with-entrepreneur). Part of this premine wallet will be used as [BOUNTY](../guides/Bounty-Program.md) to reward users involved in the promotion of BLOC. We premined a total of 5 million BLOC which represent 10% of the maximum supply available in 2046.
+We have a long road map and big plans coming up for BLOC that require proper funding to achive these goals on time. BLOC was created and financed by ourself since the beggining such as developer salary, web servers and all the other extra costs. We will be using parts of the premine wallet during the life time of the BLOC project to [finance researches and development of new services and applications](Contributing.md#connect-with-entrepreneur) to improve BLOC. Part of this premine wallet will be used as [BOUNTY](../guides/Bounty-Program.md) to reward users involved in the promotion of BLOC. We premined a total of 5 million BLOC which represent 10% of the maximum supply available in 2046.
 
 ## **How the BLOC was created ?**
 

@@ -82,7 +82,10 @@ nav:
     - Welcome:
       - Home: index.md
       - Getting Started: Getting-Started.md
-      - FAQ: Frequently-Asked-Questions.md
+      - About BLOC: about/Home.md
+      - Wallets: wallets/Making-a-Wallet.md
+      - Mining: mining/What-is-mining.md
+      - Service Operators: service-operators/Resources.md
     - About:
       - Home: about/Home.md
       - Features: about/Features.md

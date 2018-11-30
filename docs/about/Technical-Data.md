@@ -15,7 +15,7 @@ Website name : [BLOC.MONEY](https://bloc.money)
 * Our Proof Of Work algortyhm is designed to make low end and high end hardware mining roughly equally efficient and restrict ASIC mining
 * **BLOCK TIME**: 120 seconds
 * **BLOCKS PER DAY**: 720
-* **PREMINE**: 5 Million BLOC (10% of total supply) for core Development team, upcoming bounties and future developement
+* **PREMINE**: 5 Million BLOC (10% of total supply) for core Development team, upcoming bounties and future developement. [Why a premine ?](Background-and-History.md#why-a-premine)
 * **45 Million**: BLOC coins are available for miners as reward for blockchain verification.
 
 * ASIC resistant

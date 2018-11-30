@@ -8,4 +8,5 @@ One of our main goal is to provide a cryptocurrency which is safe, easy to use, 
 
 BLOC makes getting started with cryptocurrencies easier than ever. It's about time to take back the control of your money. Join us.
 
-![BLOC Logo](images/bloc-logo-intro.png)
+
+![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)

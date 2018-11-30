@@ -8,7 +8,7 @@ One of our main goal is to provide a cryptocurrency which is safe, easy to use a
 
 **BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
-It's about time to take back the control of your money. Join us.
+It's about time to take back the control of your money. Free your life today, enjoy the BLOC lifestyle. Join us.
 
 - [Learn more about BLOC and the community](about/Home.md)
 - [Setup your wallet to start receiving BLOC](Getting-Started.md#setting-up-a-new-wallet)

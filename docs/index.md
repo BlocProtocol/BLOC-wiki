@@ -1,6 +1,5 @@
-# **Welcome to BLOC Wiki**
-
 ![BLOC Logo](images/bloc-logo-intro.png)
+# **Welcome to BLOC Wiki**
 
 This wiki is the main source of documentation for newcomers to the **BLOC** project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
 

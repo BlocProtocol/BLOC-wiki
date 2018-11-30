@@ -6,13 +6,11 @@ When cryptocurrency untraceable payments meets every day life.
 
 Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive and fun to use but also building a powerfull ecosystem where you can live and pay with BLOC and cryptocurrencies for your daily purchases.
 
-**BLOC** is the cryptocurrency for the people by the people with respect of your privacy and real working products like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md).
-
-Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
+**BLOC** is the cryptocurrency for the people by the people respecting your your privacy. Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
 
 While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 
-Providing exceptional products and services are key principles enforcing the project to grow at an increasing rate.
+Providing exceptional products and services like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md) are key principles enforcing the project to grow at an increasing rate.
 
 Some of the [main features of BLOC](Features.md) include:
 
@@ -26,7 +24,8 @@ Some of the [main features of BLOC](Features.md) include:
 - Well [documented resources](../service-operators/Resources.md) for developers
 - Unrivalated products
 - Low & Fix rates per transactions (0.0001 BLOC)
-- The BLOC Protocol is decentralized and open source meaning [anyone can contribute](Contributing.md) to [BLOC's source code](https://github.com/furiousteam/BLOC) and nobody has central control over the network. Nothing is censored.
+
+The BLOC Protocol is decentralized and open source meaning [anyone can contribute](Contributing.md) to [BLOC's source code](https://github.com/furiousteam/BLOC) and nobody has central control over the network. Nothing is censored.
 
 Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a [complete mining suite of softwares](../mining/How-to-mine-BLOC.md) works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
 

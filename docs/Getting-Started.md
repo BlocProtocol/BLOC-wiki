@@ -25,4 +25,4 @@ Make sure to check the [in-depth guide on how to mine BLOC](../mining/What-is-mi
 ## **3. Socialize!**
 
 Come and socialise with us! We have an awesome [community](../about/Community.md) and would love for you to join in!
-You can join our [Discord](https://discord.gg/5Buudya) or come on over to our [Telegram Group](https://t.me/bloc_money)! We can't wait to see you :)
+You can join our [Discord](https://discord.gg/5Buudya) or come on over to our [Telegram Group](https://t.me/bloc_money). We can't wait to see you :)

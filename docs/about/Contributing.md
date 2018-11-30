@@ -14,7 +14,7 @@ We are looking to connect with entrepreneur’s ready to build new services and 
 
 ## **Connect with developers**
 
-Got skills ? What about join us on the BLOC project and bring your own stone so we can build a better structure ? Join our [Discord Channel](https://discord.gg/5Buudya) to meet talented developers like you ready to propel BLOC to next level. We can't wait to see you !
+Got skills ? Wants BLOC ? What about join us on the BLOC project and bring your own stone so we can build a better structure ? Join our [Discord Channel](https://discord.gg/5Buudya) to meet talented developers like you ready to propel BLOC to next level. We can't wait to see you !
 
 ## **About this project**
 

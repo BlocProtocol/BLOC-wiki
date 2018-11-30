@@ -13,7 +13,7 @@ Part of our mission is to revolutionize the sport talent management system [crea
 **Decentralised Fuel to Power the Engine**
 All the PAYCHANGE & TRAAKX products and services will be invoiced in the currency BLOC.
 
-Last but not least and maybe the most challenging goal is to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future.
+Last but not least and maybe the most challenging goal is to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future. Contact us through our [community](../about/Community.md)
 
 BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtlecoin) code which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin), and it has majorly the same privacy features you'll find in [Monero](https://github.com/monero-project/monero). Every transaction is private unless you choose to make it public.
 

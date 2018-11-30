@@ -1,7 +1,10 @@
 # **Branding**
 
-We love design, it’s part of our DNA in the BLOC Team. Thomas, the Co-founder of [BLOC.MONEY](https://bloc.money) made an awesome job creating the entire **BLOC** universe from the wallet icon to the block explorer, iPhone app and everything else you will see on the **BLOC** project is made by him.
+We love design, it’s part of our DNA in the BLOC Team. Thomas, the Co-founder of [BLOC.MONEY](https://bloc.money) made an awesome job creating the entire **BLOC** universe from the wallet icon to the [BLOC-EXPLORER](https://bloc-explorer.com), iPhone app and everything else you will see on the **BLOC** project is made by him.
 
-A few of you asked us logos and images to download the [Press Kit here](https://bloc.money/files/press/PRESS_KIT.zip).
+## Downloads
+
+- Logo and base line [Press Kit](images/branding/Bounty-Programm.md)
+- Animated logo [GIF + Video](images/branding/Bounty-Programm.md)
 
 [![IN BLOC WE TRUST](images/bloc-logo-intro.png)](https://bloc.money)

@@ -10,7 +10,7 @@ To help contribute and improve the [BLOC](https://bloc.money) project, you can:
 
 ## **Connect with entrepreneur**
 
-We are looking to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future.
+We are looking to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future. Contact us through our [community](../about/Community.md)
 
 ## **Connect with developers**
 

@@ -8,7 +8,7 @@ This page is only a short guide how to get you started with the **BLOC-service J
 
 ## **Error**
 
-* Make sure you check the [RPC Errors conditions](../wallets/rpc-api-error-conditions.md).
+* Make sure you check the [RPC Errors conditions](rpc-api-error-conditions.md).
 
 ## **Installing**
 

@@ -4,7 +4,7 @@ This wiki is the main source of documentation for newcomers to the **BLOC** proj
 ## **What is BLOC?**
 **BLOC** is a fast, easy and private decentralized cryptocurrency. Send money worldwide immediately and without costly intermediaries using the blockchain technology.
 
-One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerfull ecosystem for users to benefits advantages like never before.
+One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerfull ecosystem for users to benefits advantages from multiple type of industries like never before.
 
 **BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 

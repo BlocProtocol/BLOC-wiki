@@ -10,7 +10,7 @@ BLOC is easy to mine and makes getting started with cryptocurrencies easier than
 
 It's about time to take back the control of your money. Join us.
 
-- [Learn more about BLOC and the community](../docs/about/Home.md)
+- [Learn more about BLOC and the community](about/Home.md)
 - [Setup your wallet to start receiving BLOC](Getting-Started.md)
 - [A step by step guide to start mining BLOC](Getting-Started.md)
 - [Informations on contributing to BLOC](../docs/about/Contributing.md)

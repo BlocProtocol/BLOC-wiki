@@ -6,17 +6,6 @@
 
 We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exclusive mining tools to offer an egalitarian money distribution. Providing exceptional products and services are key principles enforcing the project to grow at an increasing rate.
 
-## **Goals**
-
-One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerfull ecosystem for users to benefits advantages like never before. We are building a complete ecosystem from zero. Connecting buyers and sellers with an innovative approach using full advantage of the global contactless phenomenon to escort with care the mass of users into a new era and provide the use of cryptocurrency instead of conventional payment method. BLOC aims to provide services required to change the way we pay and get paid in our everyday life. Time changes, Payment method too. BLOC creates [PAYCHANGE](PAYchange.md).
-
-Part of our mission is to revolutionize the sport talent management system using advanced hardware to track and record the activity of an athlete, combined with artificial inteligence and provide the world first action sport tracker based on a blockchain technology offering a whole new world to the sport industry. BLOC creates [TRAAKX](TRAAKX.md).
-
-**Decentralised Fuel to Power the Engine**
-All the PAYCHANGE & TRAAKX products and services will be invoiced in the currency BLOC.
-
-Last but not least and maybe the most challenging goal is to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future.
-
 ## **Why a premine ?**
 
 We have a long road map and big plans coming up for BLOC that require proper funding to achive these goals on time. BLOC was created and financed by ourself since the beggining such as developer salary, web servers and all the other extra costs. We will be using parts of the premine wallet during the life time of the BLOC project to finance research and development of new services and applications to improve the BLOC. Part of this premine wallet will be used as BOUNTY to reward users involved in the promotion of BLOC. We premined a total of 5 million BLOC which represent 10% of the maximum supply available in 2046.

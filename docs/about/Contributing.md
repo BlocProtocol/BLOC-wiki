@@ -8,6 +8,10 @@ To help contribute and improve the [BLOC](https://bloc.money) project, you can:
 * Join our [Discord Channel](https://discord.gg/5Buudya) to meet developers around the BLOC
 * Participate to the [BOUNTY Program](../guides/dashboard/dashboard.md) to earn some BLOC while promoting the project.
 
+## **Connect with entrepreneur**
+
+We are looking to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future.
+
 ## **About this project**
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.

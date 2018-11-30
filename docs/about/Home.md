@@ -2,9 +2,9 @@
 
 ## **When cryptocurrency untraceable payments meets every day life**
 
-**[BLOC](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **[BLOC](https://bloc.money)** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money worldwide or locally immediately and without costly intermediaries using the blockchain technology.
+**[BLOC](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **BLOC** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money worldwide or locally immediately and without costly intermediaries using the blockchain technology.
 
-Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive combined with a powerfull ecosystem for users to benefits advantages like never before.
+Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive combined with a [powerfull ecosystem](Ecosystem.md) for users to benefits advantages like never before.
 
 BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtlecoin) code which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin), and it has majorly the same privacy features you'll find in [Monero](https://github.com/monero-project/monero). Every transaction is private unless you choose to make it public.
 

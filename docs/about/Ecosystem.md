@@ -13,13 +13,11 @@ Last but not least and maybe the most challenging goal is to connect with entrep
 
 [![ECOSYSTEM](images/ecosystem/ecosystem1.png)](https://bloc.money/ecosystem)
 
-### **Ecosystem List**
-
 To find a complete list of BLOC partners please visit the [BLOC Ecosystem](https://bloc.money/ecosystem)
 
 ### **Add your business**
 
-Feel free to [contact us](Community.md) if you accept the **BLOC** currency at your place to be added on the listing [here](https://bloc.money/ecosystem)
+Feel free to [contact us](Community.md) if you accept the **BLOC** currency at your place to be added on the listing.
 
 ## **Connect with entrepreneur**
 

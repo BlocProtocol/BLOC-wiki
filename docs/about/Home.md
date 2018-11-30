@@ -21,7 +21,7 @@ BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtle
 
 While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 
-Providing exceptional products and services like [PAYCHANGE](PAYchange.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
+Providing exceptional products and services like [PAYCHANGE](PAYCHANGE.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
 
 Some of the [main features of BLOC](Features.md) include:
 

@@ -13,6 +13,6 @@ It's about time to take back the control of your money. Join us.
 - [Learn more about BLOC and the community](about/Home.md)
 - [Setup your wallet to start receiving BLOC](Getting-Started.md)
 - [A step by step guide to start mining BLOC](Getting-Started.md)
-- [Informations on contributing to BLOC](../docs/about/Contributing.md)
+- [Informations on contributing to BLOC](about/Contributing.md)
 
 ![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)

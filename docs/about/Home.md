@@ -43,3 +43,6 @@ Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop comput
 ### **There is already several privacy coins so why do we need a new one ?**
 
 Yes you are right, and this coins already have great communities and developers. However with building BLOC we want to focus on [new services](../about/PAYCHANGE.md) and [innovations](../about/TRAAKX.md) which require their specific needs. This is why we wanted to have our own coin to develop and improve for our purpose and goals.
+
+### **Thanks**
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Developers and Community, BLOC Developers & Community.

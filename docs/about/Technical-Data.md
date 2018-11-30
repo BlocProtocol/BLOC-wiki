@@ -27,6 +27,5 @@ Website name : [BLOC.MONEY](https://bloc.money)
 ## **Forked from**
 
 * Originaly forked from the [ForkNote Project](https://github.com/forknote/forknote) which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin)
-* End of octover 2018 forked to [TurtleCoin](https://github.com/turtlecoin/turtlecoin)
-
+* End of november 2018 forked to [TurtleCoin](https://github.com/turtlecoin/turtlecoin)
 * How the BLOC was created and why ? [Click here](../about/Background-and-History.md)

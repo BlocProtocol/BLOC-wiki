@@ -9,9 +9,9 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **Downloads**
 
+* BLOC softwares and applications available from the [DOWNLOAD AREA](https://bloc.money/download)
 * BLOC source code available from [GitHub](https://github.com/furiousteam/BLOC)
 * BLOC Wallet for iOS [available on the App Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
-* BLOC softwares and applications available from the [DOWNLOAD AREA](https://bloc.money/download)
 
 ## **BLOC Dasboard**
 

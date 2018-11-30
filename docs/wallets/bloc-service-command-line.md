@@ -224,12 +224,12 @@ rpc-password = RPCpassword
 
 ![start BLOC-service](images/bloc-service/restore-old-wallet-file.png)
 
-* Your wallet is ready to be used with the [BLOC-service JSON RPC API](../wallet/bloc-service-json-api.md).
+* Your wallet is ready to be used with the [BLOC-service JSON RPC API](../wallets/bloc-service-json-api.md).
 
 
 ### Using your private spend key and view key
 
-If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
+If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
 
 * [Create and customize your config file](#create-and-customize-your-config-file)
 * [Check all your required parameters](https://bloc-developer.com/api_bloc-service/cli_arguments?lang=english) and enter them like in this example
@@ -295,7 +295,7 @@ Generate a new container file with your private keys using `--view-key` and `--s
 
 ### Using your mnemonic-seed
 
-If you already have a [BLOC Wallet](../wallet/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallet/Making-a-Wallet.md).
+If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
 
 * [Create and customize your config file](#create-and-customize-your-config-file)
 * [Check all your required parameters](https://bloc-developer.com/api_bloc-service/cli_arguments?lang=english) and enter them like in this example

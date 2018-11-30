@@ -31,7 +31,7 @@ go get github.com/furiousteam/BLOC-rpc-go
 
 This section describes [BLOCd Daemon](BLOCd-Overview.md) integration process into your service with BLOCd HTTP RPC API. We also have available the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md) if you need.
  
-Make sure you have started **BLOCd** with the correct [BLOCd Daemon Command Line Arguments](BLOCd-daemon-arguments.md) before using the following functions. You can also check out the list of the [BLOCd Command Inline Options](BLOCd-cli-options.md) available.
+Make sure you have started **BLOCd** with the correct [BLOCd Daemon Command Line Arguments](BLOCd-daemon-arguments.md) before using the following functions. You can also check out the list of the [BLOCd Command Inline Options](BLOCd-daemon-cli-options.md) available.
 
 To start the Daemon JSON RPC API server at `http://localhost:2086`, run:
 

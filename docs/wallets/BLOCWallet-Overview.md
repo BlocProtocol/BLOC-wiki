@@ -4,7 +4,7 @@ The **CLI Wallet**, called **BLOCWallet**, is a multi-platform program (Win/Linu
 
 However, it is currently the **most stable** and **gets the newest updates first**.
 
-Follow this guide to find out how to use [BLOCWallet](../BLOCWallet-how-to-use.md)
+Follow this guide to find out how to use [BLOCWallet](BLOCWallet-how-to-use.md)
 
 ## **Screenshot**
 

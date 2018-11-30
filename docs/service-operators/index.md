@@ -4,7 +4,7 @@
 
 **BLOC** has unfolded and advanced a set of key methods to portray universal and integrated access to act as an alternative or replace the current banking system in regards to the expensive and restricted POS contactless terminals.
 
-We also have some specific language bindings to make integration easier. You can find more details on the [Ressources page](../API/Resources.md).
+We also have some specific language bindings to make integration easier. You can find more details on the [Ressources page](Resources.md).
 
 ## BLOC-DEVELOPER
 

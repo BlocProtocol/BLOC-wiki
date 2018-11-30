@@ -8,7 +8,7 @@ We are passionate about crypto currency and truly convinced that blockchain tech
 
 ## **Goals**
 
-One of our main goal is to provide a cryptocurrency which is safe, easy to use, fun with a strong buying power so you can benefits advantages like never before. We are building a complete ecosystem from zero. Connecting buyers and sellers with an innovative approach using full advantage of the global contactless phenomenon to escort with care the mass of users into a new era and provide the use of cryptocurrency instead of conventional payment method. BLOC aims to provide services required to change the way we pay and get paid in our everyday life. Time changes, Payment method too. BLOC creates [PAYchange](PAYchange.md).
+One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerfull ecosystem for users to benefits advantages like never before. We are building a complete ecosystem from zero. Connecting buyers and sellers with an innovative approach using full advantage of the global contactless phenomenon to escort with care the mass of users into a new era and provide the use of cryptocurrency instead of conventional payment method. BLOC aims to provide services required to change the way we pay and get paid in our everyday life. Time changes, Payment method too. BLOC creates [PAYchange](PAYchange.md).
 
 Part of our mission is to revolutionize the sport talent management system using advanced hardware to track and record the activity of an athlete, combined with artificial inteligence and provide the world first action sport tracker based on a blockchain technology offering a whole new world to the sport industry. BLOC creates [TRAAKX](TRAAKX.md).
 

@@ -8,7 +8,7 @@ To help contribute and improve the [BLOC](https://bloc.money) project, you can:
 * Join our [Discord Channel](https://discord.gg/5Buudya) to meet developers around the BLOC
 * Participate to the [BOUNTY Program](../guides/Bounty-Program.md) to earn some BLOC while promoting the project.
 
-## **Connect with entrepreneur**
+## **Connect with entrepreneurs**
 
 We are looking to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future. Contact us through our [community](../about/Community.md)
 

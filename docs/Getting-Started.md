@@ -12,7 +12,7 @@ Below is essentially a checklist of tasks you have to do to get started with BLO
 
 There are multiple type of wallets you can use with BLOC
 
-To view a list of them, their interface and a brief description, as a well as guides on how to use them, you can check this guide: [Making a BLOC Wallet](../wallets/Making-a-Wallet.md).
+To view a list of them, their interface and a brief description, as a well as guides on how to use them, you can check this guide: [Making a BLOC Wallet](../wallets/Making-a-Wallet.md)
 
 ## **2. Start mining BLOC**
 
@@ -25,5 +25,4 @@ Make sure to check the [in-depth guide on how to mine BLOC](../mining/What-is-mi
 ## **3. Socialize!**
 
 Come and socialise with us! We have an awesome [community](../about/Community.md) and would love for you to join in!
-
 You can join our [Discord](https://discord.gg/5Buudya) or come on over to our [Telegram Group](https://t.me/bloc_money)! We can't wait to see you :)

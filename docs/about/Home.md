@@ -30,4 +30,3 @@ Some of the [main features of BLOC](Features.md) include:
 
 Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a [complete mining suite of softwares](../mining/How-to-mine-BLOC.md) works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
 
-![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)

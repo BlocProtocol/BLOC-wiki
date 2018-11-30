@@ -4,7 +4,16 @@
 
 **[BLOC](https://bloc.money)** | Symbol: **Ƀ** - Ticker: **BLOC** is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money worldwide or locally immediately and without costly intermediaries using the blockchain technology.
 
-Launched in May 2018 one of BLOC's main goals is to focus on accessibility, security and simplicity to make the use of cryptocurrency easy in the everyday life for everyone by creating a cryptocurrency which is valuable, attractive combined with a [powerfull ecosystem](Ecosystem.md) for users to benefits advantages like never before.
+## **Goals**
+
+Launched in May 2018, one of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a [powerfull ecosystem](Ecosystem.md) for users to benefits advantages like never before. We are building a complete ecosystem from zero. Connecting buyers and sellers with an innovative approach using full advantage of the global contactless phenomenon to escort with care the mass of users into a new era and provide the use of cryptocurrency instead of conventional payment method. BLOC aims to provide services required to change the way we pay and get paid in our everyday life. Time changes, Payment method too. BLOC creates [PAYCHANGE](PAYchange.md).
+
+Part of our mission is to revolutionize the sport talent management system using advanced hardware to track and record the activity of an athlete, combined with artificial inteligence and provide the world first action sport tracker based on a blockchain technology offering a whole new world to the sport industry. BLOC creates [TRAAKX](TRAAKX.md).
+
+**Decentralised Fuel to Power the Engine**
+All the PAYCHANGE & TRAAKX products and services will be invoiced in the currency BLOC.
+
+Last but not least and maybe the most challenging goal is to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future.
 
 BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtlecoin) code which is itself a fork of [ByteCoin](https://github.com/bcndev/bytecoin), and it has majorly the same privacy features you'll find in [Monero](https://github.com/monero-project/monero). Every transaction is private unless you choose to make it public.
 

@@ -29,3 +29,5 @@ Some of the [main features of BLOC](Features.md) include:
 - The BLOC Protocol is decentralized and open source meaning [anyone can contribute](Contributing.md) to [BLOC's source code](https://github.com/furiousteam/BLOC) and nobody has central control over the network. Nothing is censored.
 
 Mine BLOC anywhere, anytime. From a mobile phone, Raspberry Pi, a desktop computer or GPU rig and much more, a [complete mining suite of softwares](../mining/How-to-mine-BLOC.md) works well with an egalitarian Proof Of Work using the Cryptonight Haven algorithm which is ASIC resistant and NiceHash resistant.
+
+![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)

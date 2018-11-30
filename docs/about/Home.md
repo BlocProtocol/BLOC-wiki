@@ -28,7 +28,7 @@ Some of the [main features of BLOC](Features.md) include:
 - Respect of your privacy
 - Fast transactions speed
 - Available on multi platform and mobile
-- [Easy to mine](../mining/What-is-mining.md)
+- [Easy to mine](../mining/How-to-mine-BLOC.md)
 - Easy to use
 - [Amazing community](Community.md)
 - Fungible

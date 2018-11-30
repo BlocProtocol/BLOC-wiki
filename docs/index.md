@@ -6,7 +6,7 @@ This wiki is the main source of documentation for newcomers to the **BLOC** proj
 
 One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerfull ecosystem for users to benefits advantages like never before.
 
-**BLOC** is easy to mine and makes [getting started](Getting-Started.md#setting-up-a-new-wallet) with cryptocurrencies easier than ever.
+**BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
 It's about time to take back the control of your money. Join us.
 

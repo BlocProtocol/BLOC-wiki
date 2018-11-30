@@ -6,7 +6,7 @@ To help contribute and improve the [BLOC](https://bloc.money) project, you can:
 * Help make various tools (wallets, daemons, decentralized apps around the BLOC). Checkout our [FuriousTeam GitHub Repo](https://github.com/furiousteam).
 * Help improve this wiki by submitting a pull request/making an issue over at it's [BLOC-wiki GitHub Repo](https://github.com/furiousteam/BLOC-wiki).
 * Join our [Discord Channel](https://discord.gg/5Buudya) to meet developers around the BLOC
-* Participate to the [BOUNTY Program](../guides/dashboard/dashboard.md) to earn some BLOC while promoting the project.
+* Participate to the [BOUNTY Program](../guides/Bounty-Programm.md) to earn some BLOC while promoting the project.
 
 ## **Connect with entrepreneur**
 
@@ -14,7 +14,7 @@ We are looking to connect with entrepreneur’s ready to build new services and 
 
 ## **Connect with developers**
 
-Got skills ? What about join us on the BLOC project and bring your own stone so we can build a better structure ? Join already talented developers team ready to propel BLOC to next level. We can't wait to see you !
+Got skills ? What about join us on the BLOC project and bring your own stone so we can build a better structure ? Join our [Discord Channel](https://discord.gg/5Buudya) to meet talented developers like you ready to propel BLOC to next level. We can't wait to see you !
 
 ## **About this project**
 

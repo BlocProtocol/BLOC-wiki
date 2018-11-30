@@ -15,7 +15,7 @@ Technical ressources to start building on [BLOC](https://bloc.money)
 
 ## **BLOC-service RPC Errors**
 
-* Make sure you check the BLOC-service [RPC Errors conditions](../wallets/bloc-service/rpc-api-error-conditions.md)
+* Make sure you check the BLOC-service [RPC Errors conditions](../wallets/bloc-service-rpc-api-error-conditions.md)
 
 ## **BLOC-DEVELOPER**
 

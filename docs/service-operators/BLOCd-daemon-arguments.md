@@ -200,11 +200,7 @@ You should see a result like this:
 
 ![--save-config](images/BLOCd/arguments/myconfig.png)
 
-
 Congratulations! You have now properly setup BLOCd and you are ready to use the [BLOCd Command Line Interface](BLOCd-daemon-cli-options.md).
-
-
-The [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md) or/and the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md)
 
 
 ## **Launch BLOCd to enable the JSON RPC API**
@@ -279,6 +275,8 @@ Parameter            | Description
 -------------------- | ------------------------------------------------------------
 `<service address>`  | IP of Daemon RPC, if it is located on local machine it is either 127.0.0.1 or localhost
 `<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
+
+Congratulations! You are ready to use the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md)
 
 
 ## BLOC-DEVELOPER

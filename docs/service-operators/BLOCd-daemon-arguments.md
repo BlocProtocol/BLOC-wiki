@@ -205,7 +205,7 @@ Congratulations! You have now properly setup BLOCd and you are ready to use the 
 
 ## **Launch BLOCd to enable the JSON RPC API**
 
-You can use the configuration file or the daemon arguments command line options as follow:
+Launch BLOCd to enable the [JSON RPC API](BLOCd-daemon-json-rpc-api.md). You can use the configuration file or the daemon arguments command line options as follow:
 
 ### With Arguments Command Line Options
 
@@ -232,6 +232,84 @@ This would make the RPC server accessible at
 and, locally at
 
 `http://localhost:2086/json_rpc`
+
+
+### With configuration file
+
+The following configuration file would make the BLOCd HTTP RPC api available to external ip:
+
+```
+{
+  "add-exclusive-node": [],
+  "add-peer": [],
+  "add-priority-node": [],
+  "allow-local-ip": false,
+  "data-dir": "/home/test/.BLOC",
+  "db-max-open-files": 100,
+  "db-read-buffer-size": 10,
+  "db-threads": 2,
+  "db-write-buffer-size": 256,
+  "enable-blockexplorer": true,
+  "enable-cors": [],
+  "fee-address": "",
+  "fee-amount": 0,
+  "hide-my-port": false,
+  "load-checkpoints": "default",
+  "log-file": "./BLOCd.log",
+  "log-level": 2,
+  "no-console": false,
+  "p2p-bind-ip": "0.0.0.0",
+  "p2p-bind-port": 2082,
+  "p2p-external-port": 0,
+  "rpc-bind-ip": "0.0.0.0",
+  "rpc-bind-port": 2086,
+  "seed-node": []
+}
+```
+
+### Interacting with the API
+
+To make a JSON RPC request to your Daemon RPC you should use a POST request that looks like this:
+
+`http://<service address>:<service port>/json_rpc`
+
+Parameter            | Description
+-------------------- | ------------------------------------------------------------
+`<service address>`  | IP of Daemon RPC, if it is located on local machine it is either 127.0.0.1 or localhost
+`<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
+
+Congratulations! You are ready to use the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md)
+
+
+## **Launch BLOCd to enable the HTTP RPC API**
+
+Launch BLOCd to enable the [HTTP RPC API](BLOCd-daemon-http-rpc-api.md). You can use the configuration file or the daemon arguments command line options as follow:
+
+### With Arguments Command Line Options
+
+To start the Daemon JSON RPC API server at `http://localhost:2086`, run:
+
+`BLOCd --rpc-bind-port=2086`
+
+To make the server accessible from another computer, use the `--rpc-bind-ip 0.0.0.0` switch.
+
+`BLOCd --rpc-bind-ip=0.0.0.0 --rpc-bind-port=2086`
+
+To enable block explorer API access (like for `getblocks`, `gettransactionpool`, etc.), use the `--enable_blockexplorer` switch.
+
+`BLOCd --enable-blockexplorer`
+
+The above given switches can be combined to achieve remote access with block explorer methods as shown below.
+
+`BLOCd --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=2086`
+
+This would make the RPC server accessible at
+
+`http://<your ip address>:2086`
+
+and, locally at
+
+`http://localhost:2086`
 
 
 ### With configuration file
@@ -267,19 +345,19 @@ The following configuration file would make the BLOCd JSON RPC api available to 
 }
 ```
 
-To make a JSON RPC request to your Daemon RPC you should use a POST request that looks like this:
+### Interacting with the API
 
-`http://<service address>:<service port>/json_rpc`
+To make a HTTP RPC request to your Daemon RPC you should use a GET request that looks like this:
+
+`http://<service address>:<service port>`
 
 Parameter            | Description
 -------------------- | ------------------------------------------------------------
 `<service address>`  | IP of Daemon RPC, if it is located on local machine it is either 127.0.0.1 or localhost
 `<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
 
-Congratulations! You are ready to use the [BLOCd HTTP RPC API](BLOCd-daemon-http-rpc-api.md)
 
-
-## BLOC-DEVELOPER
+## **BLOC-DEVELOPER**
 
 Make sure you visit the dedicated website [BLOC-DEVELOPER.com](https://bloc-developer.com) to find out more details and test your application.
 

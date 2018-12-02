@@ -31,41 +31,7 @@ go get github.com/furiousteam/BLOC-rpc-go
 
 This section describes [BLOCd Daemon](BLOCd-Overview.md) integration process into your service with BLOCd HTTP RPC API. We also have available the [BLOCd JSON RPC API](BLOCd-daemon-json-rpc-api.md) if you need.
  
-Make sure you have started **BLOCd** with the correct [BLOCd Daemon Command Line Arguments](BLOCd-daemon-arguments.md) before using the following functions. You can also check out the list of the [BLOCd Command Inline Options](BLOCd-daemon-cli-options.md) available.
-
-To start the Daemon JSON RPC API server at `http://localhost:2086`, run:
-
-`BLOCd --rpc-bind-port=2086`
-
-To make the server accessible from another computer, use the `--rpc-bind-ip 0.0.0.0` switch.
-
-`BLOCd --rpc-bind-ip=0.0.0.0 --rpc-bind-port=2086`
-
-To enable block explorer API access (like for `getblocks`, `gettransactionpool`, etc.), use the `--enable_blockexplorer` switch.
-
-`BLOCd --enable-blockexplorer`
-
-The above given switches can be combined to achieve remote access with block explorer methods as shown below.
-
-`BLOCd --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=2086`
-
-This would make the RPC server accessible at
-
-`http://<your ip address>:2086`
-
-and, locally at
-
-`http://localhost:2086`
-
-
-To make a HTTP RPC request to your Daemon RPC you should use a GET request that looks like this:
-
-`http://<service address>:<service port>`
-
-Parameter            | Description
--------------------- | ------------------------------------------------------------
-`<service address>`  | IP of Daemon RPC, if it is located on local machine it is either 127.0.0.1 or localhost
-`<service port>`     | Daemon RPC port, by default it is bound to 2086 port, but it can be manually bound to any port you want
+Make sure you have started **BLOCd** with the correct configuration to [enable BLOCd JSON RPC API](BLOCd-daemon-arguments.md#launch-blocd-to-enable-the-http-rpc-api) before using the following functions.
 
 
 ## **Interacting with the API**

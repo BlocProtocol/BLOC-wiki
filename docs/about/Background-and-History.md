@@ -4,7 +4,7 @@
 
 ## **Why the BLOC ?**
 
-We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exclusive mining tools to offer an egalitarian money distribution. Providing exceptional products and services are key principles enforcing the project to grow at an increasing rate.
+We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exclusive mining tools to offer an egalitarian money distribution. Providing exceptional products and services like [PAYCHANGE](PAYCHANGE.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
 
 ## **Why a premine ?**
 

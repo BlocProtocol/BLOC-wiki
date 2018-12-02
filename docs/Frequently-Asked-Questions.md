@@ -4,20 +4,20 @@ A: Connecting to a remote node/daemon is a replacement for running one locally.
 
 # Frequently Asked Questions
 
-## Mining and XMR-Stak
+## Mining
 
 ### General mining questions<a name="mining-questions"></a>
 
 #### Q: How do I get started mining?
 
- A: You can check [this guide](../guides/mining/Mining)
+ A: You can check [this guide](../mining/How-to-mine-BLOC.md)
 
 #### Q: I'm using a Mac, can I still mine?
 
- A: Yes, of course! We're working on a guide.
+ A: Yes, of course! check [this guide](../mining/BLOC-GUI-Miner.md)
 #### Q: I've started mining, how can I view my stats?
 
-A: Visit your pool's homepage. There should be a spot for you to put in your abLoc address, and you can then view your hashrate, pending balance, payouts, and more.
+A: Visit your pool's homepage. There should be a spot for you to put in your BLOC address, and you can then view your hashrate, pending balance, payouts, and more.
 
 #### Q: Why is the hashrate on the pool website different to what is shown in my miner?
 
@@ -37,7 +37,7 @@ A: To save money on fees, the pools send payouts in chunks. [Check your pool web
 
 #### Q: Why are my results being rejected from the pool?
 
- A: You're using a incorrect algorithm. If you are using XMR-Stak, you should use `turtlecoin` as the algorithm, if you are using XMRig use `cryptonight-lite` as the algorithm and have the variant set to 1.
+ A: You're using a incorrect algorithm. If you are using XMR-Stak, you should use `cryptonight_haven` as the algorithm, if you are using XMRig use `cryptonight-heavy` as the algorithm and have the variant set to `xhv`.
 
 #### Q: I got banned from my mining pool. Why?
 
@@ -53,13 +53,13 @@ A: If you submit lots of invalid shares, a pool might ban you. Possible reasons 
 
   You should get unbanned after approximately 20 minutes. This is a good time to setup some backup pools!
 
-#### Q: Should I set up multiple pools?
+#### Q: Should I set up multiple pools with XMR-STAK?
 
 A: Yes, in case you get banned, or a pool goes down for some time, you can keep mining. A good amount to have would be at least three.
 
 #### Q: Where can I find a list of pools?
 
-A: [Here](../guides/mining/Pools) is a list. It also has other nifty stats like the pool's fee, minimum payout and server location.
+A: [Here](../mining/Pools.md) is a list. It also has other nifty stats like the pool's fee, minimum payout and server location.
 
 #### Q: What does "pool weight" mean in XMR-Stak?
 
@@ -83,7 +83,7 @@ A: There are a few factors to consider when choosing a pool.
 
   This is the amount you need to mine before you get paid. Most pools will list this under the "Payments" tab.
 
-  You can check [this list](../guides/mining/Pools) of pools. It specifies each pool's minimum payout as well as server location.
+  You can check [this list](../mining/Pools.md) of pools. It specifies each pool's minimum payout as well as server location.
 
 #### Q: How many hashes per second is good for my hardware?
 
@@ -91,15 +91,15 @@ A: <http://monerobenchmarks.info/> is a good source for this. You can look up yo
 
 #### Q: I can't get the miner working, is there an easier way to mine?
 
-A: You can try the web miner [here](http://turtleminers.club/pages/webmine/). You will get a lower hashrate than native mining, and it doesn't have GPU support, however it's very easy to setup.
+A: You can try the [BLOC web miner](../mining/bloc-in-browser-javascript-web-miner.md). You will get a lower hashrate than native mining, and it doesn't have GPU support, however it's very easy to setup.
 
-Alternatively, you can hop onto the [Discord][Discord_Link] if you're having issues and we'll help you out.
+Alternatively, you can hop onto the [Discord][https://discord.gg/5Buudya] if you're having issues and we'll help you out.
 
 #### Q: What is the miner executable / why isn't it working?
 
-A: This is a solo miner, which is CPU only. This means to gain any abLoc, you have to find a block by yourself, which unless you have many powerful CPUs, is very unlikely.   
+A: This is a solo miner, which is CPU only. This means to gain any BLOC, you have to find a block by yourself, which unless you have many powerful CPUs, is very unlikely.   
 
-We strongly recommend using a pool, and a miner such as XMR-Stak or XMRig.   
+We strongly recommend using a pool, and a miner such as [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) or [XMR-STAK](../mining/XMR-Stak-index.md) or [XMRIG](../mining/XMRIG-index.md).   
 
 Nevertheless, if you want to try it out, open a command prompt in the same directory, and run
 
@@ -114,7 +114,7 @@ You need to have `BLOCd` open and synced to use this miner, unlike conventional 
 #### Q: Is there a calculator to see how much abLoc I'll mine per day?
 
 A: Your pool's homepage should have one - enter your hashrate and it'll give an estimate of how much abLoc you'll mine per day.  
-If there isn't, you can check one [here](https://turtle.land/#pools).
+If there isn't, you can check one [here](https://bloc.money/mining).
 
 ### XMR-Stak Issues
 
@@ -125,7 +125,6 @@ A: Press `h` in the XMR-Stak window.
 #### Q: My PC is laggy when I'm mining in XMR-Stak. Can I fix this?
 
 A: This could be caused by multiple issues:
-
 
 
   * If you're using a Nvidia card, open up `nvidia.txt`, in the same directory as `XMR-Stak.exe`. Try setting `bfactor` to `8` and `bsleep` to `100`, and then reload your miner after saving the file.
@@ -142,7 +141,7 @@ A: This could be caused by multiple issues:
 
 #### Q: How can I use just my GPU or CPU to mine in XMR-Stak?
 
-A: If you're using XMR-Stak, you can start the miner with a certain command. Check [this out](../guides/mining/XMR-Stak-Guide#XMR-Stak-no-cpu-gpu) for more info.
+A: If you're using XMR-Stak, you can start the miner with a certain command. Check [this guide](../guides/mining/XMR-Stak-windows-Guide.md#to-start-xmr-stak-without-using-your-cpugpu-follow-these-steps) for more info.
 
 #### Q: XMR-Stak is crashing on startup, with an error about CUDA. What am I doing wrong?
 
@@ -154,7 +153,7 @@ A: Generally, this is due to an incorrectly configured config. In the directory 
 
 Open this up, and check that it looks **similar** to this:
 
-    {"pool_address" : "eu.turtlepool.space:3333",
+    {"pool_address" : "bloc-mining.eu:4444",
      "wallet_address" : "abLocv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW",
      "pool_password" : "x",
      "use_nicehash" : false,
@@ -187,8 +186,6 @@ If a reboot doesn't help, then press `Win` + `R` to open up the run box, then ty
 
 Navigate to the directory shown in the image, and ensure `Lock pages in memory` is turned on for your user account(`horia`, in this case, is a user account).
 
-![largepages](images/valloc.png)
-
 
 #### Q: I'm missing the file `vcruntime140.dll`. Where can I get this?
 
@@ -198,7 +195,7 @@ A: Try installing this: <https://www.microsoft.com/en-us/download/details.aspx?i
 
 A: Try installing this: <https://go.microsoft.com/fwlink/?LinkId=746572>
 
-## BLOCd / zedwallet Issues<a name="tcoind-zedwallet-issues"></a>
+## BLOCd / BLOCWallet Issues<a name="tcoind-zedwallet-issues"></a>
 
 #### Q: I'm seeing an error in BLOCd `Proof of work too weak for block...` and the syncing stopped.
 
@@ -210,14 +207,14 @@ A: This occurs because of the blockchain forking, generally when one mining pool
 ```
 2018-May-07 15:52:19.877323 INFO    initializing core
 2018-May-07 15:52:19.908530 INFO    Importing blocks from blockchain storage
-2018-May-07 15:52:19.908530 ERROR   Corrupted blockchain. Block with index 428973 and hash aafa7fd33d476535188bdd9e86ba51bb5e058be8e52367b78e9c0c03e74299c5 has previous block hash 2c0cf6c07612b9e1ea19c6922a56746b83cb42c7b11edfc4b185572225bb0f20, but parent has hash 26189359b64d4bb357a04b102a42a01d2771a3f3d80db3ca1b7395a2aeaede4a. Resynchronize your daemon please.
+2018-May-07 15:52:19.908530 ERROR   Corrupted blockchain. Block with index xxxxx and hash aafa7fd33d476535188bdd9e86ba51bb5e058be8e52367b78e9c0cxxxxxxxx has previous block hash 2c0cf6c07612b9e1ea19c6922a56746b83cb42c7b11edfxxxxxxx, but parent has hash 26189359b64d4bb357a04b102a42a01d2771a3f3d80db3ca1b7395xxxxxxxx. Resynchronize your daemon please.
 2018-May-07 15:52:19.924135 INFO    Closing DB.
 ```
 A: Re-sync your daemon from scratch(see below question), [bootstrap the blockchain](Bootstrapping-the-Blockchain) or sync [using checkpoints](wallets/Using-checkpoints)
 
 #### Q: How can I re-sync the blockchain?
 
-A: Close any TurtleCoin-related software, then go to `%APPDATA%`, and delete the `TurtleCoin` folder.
+A: Close any BLOC-related software, then go to `%APPDATA%`, and delete the `BLOC` folder.
   Reopen BLOCd/the GUI wallet and let it re-sync.
 
 Alternatively, check [this guide](Bootstrapping-the-Blockchain) for instructions on how to bootstrap for a quicker sync.
@@ -229,14 +226,14 @@ A: This is a known issue with older macs or un-updated macs.
 Try entering this into a terminal -
 
 ```
-curl -sL "https://raw.githubusercontent.com/turtlecoin/turtlecoin/master/multi_installer.sh" | bash
+curl -sL "https://raw.githubusercontent.com/furiousteam/bloc/master/multi_installer.sh" | bash
 ```
 
 This automated script should compile the software itself, and place the binaries in ./src once done.
 
-See [here](https://github.com/turtlecoin/turtlecoin#ubuntu-1604-and-macos-1010) for more info.
+See [here](https://github.com/furiousteam/bloc#ubuntu-1604-and-macos-1010) for more info.
 
-If this fails, try instead following the instructions to [compile manually](https://github.com/turtlecoin/turtlecoin#apple)
+If this fails, try instead following the instructions to [compile manually](https://github.com/furiousteam/bloc#apple)
 
 
 #### Q: I've opened the wallet, and I'm getting lots of red messages like "It looks like BLOCd isn't open!"...
@@ -245,8 +242,8 @@ If this fails, try instead following the instructions to [compile manually](http
 It looks like BLOCd isn't open!
 
 Ensure BLOCd is open and has finished initializing.
-If it's still not working, try restarting BLOCd. The daemon sometimes gets
-stuck.
+If it's still not working, try restarting BLOCd. The daemon sometimes gets stuck.
+
 Alternatively, perhaps BLOCd can't communicate with any peers.
 
 The wallet can't function until it can communicate with the network.
@@ -260,19 +257,20 @@ A: You need to also open up `BLOCd.exe` and let it sync. BLOCd is your connectio
 Until you are fully synced, you won't be able to send transactions, and your balance may be missing or incorrect!
 ```
 
-  A: Your daemon hasn't finished syncing yet. Keep zedwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the TurtleCoin Network.`  
+  A: Your daemon hasn't finished syncing yet. Keep zedwallet open, and wait until you are 0 days behind the current block, and for the daemon to print out a green message saying `Successfully synchronized with the BLOC.MONEY Network.`  
   You can also type `status` in the daemon and press enter to see the current height it's at.
 
 #### Q: I think I should have more money in my balance than it is showing, what should I do?
 
-  A: Re-sync your daemon from scratch(see [here](#q-how-can-i-re-sync-the-blockchain)), [bootstrap the blockchain](Bootstrapping-the-Blockchain/) or sync [using checkpoints](wallets/Using-checkpoints).  
-  If it still doesn't work, then [update](latest.turtlecoin.lol) your wallet!
+  A: Re-sync your daemon from scratch(see [here](#q-how-can-i-re-sync-the-blockchain)), [bootstrap the blockchain](Bootstrapping-the-Blockchain/) or sync [using checkpoints](wallets/Using-checkpoints).
+
+  If it still doesn't work, then [update](http://bloc.money/download) your wallet!
 
 #### Q: I've tried resetting, but it isn't working. What should I do?
 
 A:
 
-* In zedwallet, type `export_keys`, and save the view and spend key somewhere safe in case something goes wrong, if you haven't already.
+* In BLOCWallet, type `export_keys`, and save the view and spend key somewhere safe in case something goes wrong, if you haven't already.
 
 *  Then, close and reopen zedwallet and BLOCd.
 *  Type `reset` in zedwallet after reopening your wallet file.
@@ -280,26 +278,25 @@ A:
 
 #### Q: How do I backup my wallet?
 
-  A: Open zedwallet and type `export_keys`.  
+  A: Open BLOCWallet and type `export_keys`.  
   Save the view and spend key somewhere safe, and you can use them to reimport your wallet if you lose it.
 
-#### Q: How do I send abLoc?
+#### Q: How do I send BLOC ?
 
-  A: You can check [this out](wallets/Using-zedwallet#tx-trtl) for steps on how to send abLoc to someone.
+  A: You can check [this out](wallets/BLOCWallet-how-to-use.md#transfer-bloc-to-someone) for steps on how to send BLOC to someone.
 
 #### Q: How do I send money to exchanges / use payment ID?
 
-  A: You can check [this out](wallets/Using-zedwallet#tx-trtl-p-id) for steps on how to send abLoc with the payment ID.
+  A: You can check [this out](wallets/BLOCWallet-how-to-use.md#payment-id) for steps on how to send BLOC with the payment ID.
 
 #### Q: What is mixin?
 
   A: Mixin is how many times your transaction is "mixed" with others for obfuscation and privacy.  
-  Mixin is locked by the network to `7` as of block `620,000` and is not adjustable by the user; this is done to ensure that no one can send a non-private transaction(`0` mixin) or be a victim of the "Tall Poppy Syndrome" by using a high mixin compared to everyone else on the network.
-
+  You can sent a Mixin from 0 to 10. When 0 is the lower and 10 the maximum can be used.
 
 #### Q: How can I view my balance?
 
-  A: If `BLOCd.exe` is fully synced, in zedwallet, simply type `balance`.
+  A: If `BLOCd.exe` is fully synced, in BLOCWallet, simply type `balance`.
 
 #### Q: How long does it take to sync BLOCd.exe?
 
@@ -308,17 +305,17 @@ A:
 #### Q: Can I speed up the syncing of the blockchain?
 
   A: You can grab a recent copy of the blockchain and incrementally sync from there. See [here](../Bootstrapping-the-Blockchain) for instructions.  
-  Or, you can sync [with checkpoints](../wallets/Using-checkpoints)(only with zedwallet).
+  Or, you can sync [with checkpoints](../wallets/Using-checkpoints)(only with BLOCWallet).
 
 #### Q: Can I skip the syncing?
 
-  A: Yes, you can currently use a remote node with zedwallet and Nest wallet. The keys stay on your PC, so it's secure. Check [this guide](wallets/Using-remote-nodes) for more information.
+  A: Yes, you can currently use a remote node with BLOCWallet and BLOC R0C Wallet. The keys stay on your PC, so it's secure. Check [this guide](wallets/Using-remote-nodes) for more information.
 
 #### Q: What does it mean if my balance is locked?
 
-  A: This is a transfer which hasn't been confirmed by the network yet. It will move into your main balance shortly, generally after 3 minutes.
+  A: This is a transfer which hasn't been confirmed by the network yet. It will move into your main balance shortly, generally after 4 minutes.
 
-#### Q: In zedwallet.exe, I get an error `Error: failed to save new wallet: boost::filesystem::unique__path: Keyset as registered is invalid`. How can I fix it?
+#### Q: In BLOCWallet.exe, I get an error `Error: failed to save new wallet: boost::filesystem::unique__path: Keyset as registered is invalid`. How can I fix it?
 
   A: This is caused by some broken Windows crypto keys. In the address bar in Windows Explorer, type `%AppData%/Microsoft/Crypto/RSA/`.
 
@@ -330,12 +327,9 @@ A:
 
 #### Q: Are there any GUI wallets?
 
-  A: Yes, there is currently 1 GUI wallet actively in development(and one legacy GUI wallet), along with some mobile wallets too. However, they may not be ready for full use yet, and may not work on your operating system.
+  A: Yes.
 
-* [Nest Wallet](https://github.com/turtlecoin/turtle-wallet-go)
-* [Xamarin Wallet](https://github.com/turtlecoin/turtle-wallet-xamarin)[DEFUNCT]
-
-To view a guide on using them, you can go [here](wallets/Making-a-Wallet/#graphical-wallet-gui-wallet)
+* To view a guide on using them please check: [Making a BLOC wallet](../wallets/Makin-a-Wallet.md#graphical-wallet-gui-wallet) 
 
 ## Paper Wallet / Cold Storage?<a name="paper-wallet-cold-storage"></a>
 #### Q: Wait, What's Cold Storage?
@@ -357,33 +351,24 @@ A: Yes, you can view the guide [here](../wallets/Making-a-paper-wallet)
 
 #### Q: I made a paper wallet, how do I use it?
 
-  A: You can check out [this guide](../wallets/recovering-your-wallet) for steps on how to import your paper wallet into a wallet of your choice(choose a wallet and import the keys).
+  A: You can check out [this guide](../wallets/recovering-your-wallet.md) for steps on how to import your paper wallet into a wallet of your choice(choose a wallet and import the keys).
 
 #### Q: Can I view the balance of my wallet online?
 
-  A: Due to TurtleCoin being a cryptonote-based coin(private), this is not possible.
+  A: Due to BLOC being a cryptonote-based coin(private), this is not possible.
 
   It should be possible in the future to allow users to give away just their Private View Key to view transactions, but this hasn't been implemented by anyone so far, and would allow that website to see every transaction that you make.
 
 ## Other
-#### Q: Why does abLoc have such a high amount of tokens/small amount of decimal places?
-
-  A: Read a great post about the justification for it [here](https://medium.com/@turtlecoin/one-trillion-turtles-coin-supply-and-unit-economics-5bfbea0aa1f1).
 
 #### Q: How can I get some abLoc?
 
   A: There are multiple ways to acquire abLoc, for example:
 
-  * Mining - see [here](../guides/mining/Mining)
-  * Buying - abLoc is currently available on these exchanges: [TradeOgre](https://tradeogre.com/exchange/BTC-abLoc) and [TradeSatoshi](https://tradesatoshi.com/Exchange/?market=abLoc_BTC)
-  * Bounties - Bounties for developing abLoc software, spreading the word of abLoc, and many other things are often posted in the #bounties channel on [discord][Discord_Link]. Check the pinned messages for current bounties.
-  * Tips - Turtles with often tip each other, especially if you make spicy memes in the `#memes` channel
-  * Rain - Good active Turtles get rained on, check out what the [RainBorg](../RainBorg-Wat-Dat) is to see how to use it.
-  * Faucet - Head over to the faucets-
-    * [madk's faucet](https://faucet.trtl.me/) - 10 abLoc, thrice a day
-    * [polar-it's faucet](https://turtlecoin-faucet.xhub.cloud/) - 25 abLoc, every 30 minutes  
-    and enter your abLoc address.  
-    The amount you can receive is limited to share the abLoc for all. Thanks to @madk and @polar-it for creating this.
+  * Mining - see [here](../mining/How-to-mine-BLOC.md)
+  * Buying - BLOC is currently available on these exchanges: [TradeOgre](https://tradeogre.com/exchange/BTC-BLOC) and [STEX](https://app.stex.com/en/basic-trade/pair/BTC/BLOC/30)
+  * Bounties - Bounties for developing BLOC software, spreading the word of BLOC, and many other things available on the [BOUNTY Program](../guides/Bounty-Program.md)
+  * Follow the [AirDrop missions](../guides/dashboard/Dashboard-airdrop-mission-telegram-group.md/Bounty-Program.md)
 
 #### Q: Are there any light wallets / mobile wallets?
 
@@ -418,4 +403,4 @@ You can ask someone in the [Discord][Discord_Link] with a coloured name(aside fr
 
   A: [Join the Discord][Discord_Link], and come to the `#help` channel, we'll try and fix any issues.
 
-[Discord_Link]:http://chat.turtlecoin.lol/
+[Discord_Link]:https://discord.gg/5Buudya

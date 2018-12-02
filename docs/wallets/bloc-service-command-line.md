@@ -160,16 +160,33 @@ If you would like to connect your wallet from an external IP address you need to
 - "[bind-address](https://bloc-developer.com/api_BLOCd/cli_arguments#--bind-address)": "0.0.0.0",
 
 
-## **Start bloc-service**
+## **Start BLOC-service and enable the JSON RPC API**
 
-* To start **bloc-service** RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use `--config` option further.
-* The command below launches **bloc-service** RPC Wallet with a specific config file:
+* To start **BLOC-service** RPC wallet you can use both command line and config file. Config file allows you to configure your settings only once and use `--config` option further.
+* The command below launches **BLOC-service** RPC Wallet with a specific config file:
 
 ```
 ./BLOC-service --config=mywallet.conf
 ```
+Config file example:
+```
+  {
+  "bind-address": "127.0.0.1",
+  "bind-port": 8070,
+  "container-file": "mycontainer",
+  "container-password": "mypassword",
+  "daemon-address": "127.0.0.1",
+  "daemon-port": 2086,
+  "enable-cors": "",
+  "log-file": "service.log",
+  "log-level": 3,
+  "rpc-legacy-security": false,
+  "rpc-password": "RPCpassword",
+  "server-root": ""
+  }
+```
 
-* You may specify BLOC config directly through console arguments. Here is the same config file as above in console: 
+* You may specify **BLOC-servic** config directly through console arguments. Here is the same config file as above in console: 
 
 ```
 ./BLOC-service --container-file=mycontainer --container-password=mypassword --daemon-address=127.0.0.1 --daemon-port=2086 --bind-address=127.0.0.1 --bind-port=8070 --rpc-password=RPCpassword --log-level=3 --log-file=service.log

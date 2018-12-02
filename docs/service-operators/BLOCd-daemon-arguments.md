@@ -314,7 +314,7 @@ and, locally at
 
 ### With configuration file
 
-The following configuration file would make the BLOCd JSON RPC api available to external ip:
+The following configuration file would make the BLOCd HTTP RPC api available to external ip:
 
 ```
 {

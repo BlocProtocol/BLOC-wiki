@@ -38,31 +38,9 @@ Each method has its own example and description that can be found by clicking th
  
 To start using BLOC-service you must first generate a container. Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them. **Make sure to backup this file regularly**.
 
-To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation. More on [how to start and operate BLOC-service RPC Wallet](bloc-service-command-line.md).
+To generate a new container visit the [this guide](bloc-service-command-line.md#generate-a-new-container-file) to read the explanation.
 
-To start the BLOC-service JSON RPC API server at http://localhost:8070 run:
-
-`./BLOC-service`
- 
-To make the server accessible from another computer, use the --rpc-bind-ip 0.0.0.0 switch.
-
-`./BLOCd --rpc-bind-ip=0.0.0.0`
- 
-To make a JSON RPC request to your BLOC-service RPC Wallet you should use POST request that looks like this:
- 
-`http://<service address>:<service port>/json_rpc`
- 
-Where:
-
-- `<service address> `is an IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost,
-
-- `<service port>` is BLOC-service RPC Wallet port, by default it is binded to 8070 port, but it can be manually binded to any port you want, read more about this here.
-
-
-Parameter            | Description
--------------------- | ------------------------------------------------------------
-`<service address>`  | IP of BLOC-service RPC Wallet, if RPC Wallet is located on local machine it is either 127.0.0.1 or localhost
-`<service port>`     | BLOC-service RPC Wallet port, by default it is bound to 8070 port, but it can be manually bound to any port you want
+Make sure you have started **BLOC-service** with the correct configuration to [enable BLOC-service JSON RPC API](bloc-service-command-line.md#start-bloc-service-and-enable-the-json-rpc-api) before using the following functions.
 
 
 ## **Interacting with the API**

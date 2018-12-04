@@ -27,6 +27,6 @@ Connect your GoPro with the TRAAKX app and upload your run directly from your iP
 
 Do you ride big ? Do you fly high ? Or maybe you just like hicking or walking ? We love all the sport activity and we are looking for a brand ambassador for each of the sports we are going to include in TRAAKX, this means a lot of ambassador.
 
-You can do extra money just by doing what you love ! Your favorite sport. Upload your run on **TRAAKX** and get rewarded in [BLOC](http://bloc.money) crypto currency. Simple as that ! In the same time you will increase awareness and engage your fans in a completely new way to follow your best session like never before !
+You can do extra money just by doing what you love ! Your favorite sport. Upload your run on **TRAAKX** and get rewarded in [BLOC](http://bloc.money) crypto currency. Simple as that ! In the same time you will increase awareness and engage your fans in a completely new way to follow your best session like never done before !
 
 ![TRAAKX iPhone Beta](images/traakx/TRAAKX-iphone-beta.jpg)

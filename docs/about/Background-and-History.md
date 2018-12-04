@@ -26,7 +26,7 @@ Too many projects are bringing in too much funding despite most having no damn p
 We have a strong belief in our no-funding strategy; if we make a cool product, the value will create itself.
 ```
 
-At [BLOC](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerfull services to pay and get paid with cryptocurrency.
+At [BLOC](https://bloc.money) we want to focus on the simplicity and efficiency of cryptocurrency to be used in a everyday life around the world without barrier including a rich ecosystem by providing easy to use and powerful services to pay and get paid with cryptocurrency.
 
 End of october we have migrated the core of **TurtleCoin** into **BLOC** and made our own modifications which now make the [BLOC 3.0](https://github.com/furiousteam/BLOC), some of which were then contributed back to TurtleCoin and as a community, we’re keen on helping those who’ve helped us. We will be happy to provide our services and knowledge to the TurtleCoin project and support it along their road.
 

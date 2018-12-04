@@ -8,7 +8,7 @@ BLOC released under the GNU General Public V3 Licence as follow.
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2018-2019, The BLOC.MONEY Developers
+// Copyright (c) 2018-2019, The BLOC Developers
 //
 // Please see the included LICENSE file for more information.
 // 
@@ -57,7 +57,7 @@ SOFTWARE. [MIT licence](https://opensource.org/licenses/MIT)
 
 The content in this document were originally written by the [Bytecoin (BCN) Developers](https://bytecoin.org/). It is licensed under the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/). The source material can be found at the [Bytecoin Wiki](https://wiki.bytecoin.org/).
 
-Also of note, TurtleCoin developers have altered and adapted the content to suit their implementation. This was done independently of the Bytecoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change our content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements.
+[TurtleCoin developers](https://github.com/turtlecoin) have altered and adapted the content to suit their implementation. This was done independently of the Bytecoin development team. They neither endorse or acknowledge our changes. Feel free to adopt or change the content as per the [CC BY SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/) requirements. The source material can be found at the [TurtleCoin Wiki](https://docs.turtlecoin.lol). 
 
 _TurtleCoin developers 2018_
 

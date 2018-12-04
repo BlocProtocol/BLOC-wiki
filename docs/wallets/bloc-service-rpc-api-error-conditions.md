@@ -1,6 +1,6 @@
 # RPC Errors
 
-Here are some common error messages with **BLOCd** and **bloc-service** spit out, why they occured and how to fix them.  
+Here are some common error messages with **BLOCd** and **BLOC-service** spit out, why they occured and how to fix them.  
 Listed are also some possible alternative errors which they could spit out.
 
 * `https://github.com/furiousteam/BLOC/blob/master/src/Wallet/WalletErrors.h`

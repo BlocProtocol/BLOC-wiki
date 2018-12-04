@@ -46,7 +46,7 @@ We are going to describe here the most standard configuration to start BLOC-serv
 
 ## **Generate a new wallet**
 
-To start using **bloc-service** you must first generate a container using the [--generate-container](https://bloc-developer.com/api_bloc-service/cli_arguments#--generate-container) function.
+To start using **BLOC-service** you must first generate a container using the [--generate-container](https://bloc-developer.com/api_bloc-service/cli_arguments#--generate-container) function.
 
 Container file is the only file that stores all data required to run your service. It contains user addresses and private keys required to operate them.
 **Make sure to backup this file regularly**.
@@ -63,17 +63,17 @@ Windows:
 BLOC-service.exe --container-file=mycontainer --container-password=mypassword --generate-container
 ```
 
-* `mycontainer` is the container file name and a path to it (relative or absolute); path is optional in this argument, specifying only a container name will result in new file located in the same folder as **bloc-service** 
+* `mycontainer` is the container file name and a path to it (relative or absolute); path is optional in this argument, specifying only a container name will result in new file located in the same folder as **BLOC-service** 
 * `mypassword` is a secret password for the new wallet & container file.
-* `generate-container` option tells **bloc-service** to generate container file and exit.
+* `generate-container` option tells **BLOC-service** to generate container file and exit.
 
 **Expected results**
 
 ![generate-container](images/bloc-service/generate-container.png)
 
-*Note: if `mycontainer` exists **bloc-service** will show you the notification and will ask you to provide a different name*
+*Note: if `mycontainer` exists **BLOC-service** will show you the notification and will ask you to provide a different name*
 
-If the operation was successful you will get a corresponding message with your new **BLOC** address. At the same time **bloc-service** will save your container on the local disk (in the same folder where **bloc-service** is located and shut down.
+If the operation was successful you will get a corresponding message with your new **BLOC** address. At the same time **BLOC-service** will save your container on the local disk (in the same folder where **BLOC-service** is located and shut down.
 
 
 ## **Create and customize your config file**
@@ -207,7 +207,7 @@ Start with myconf.conf:
 
 ## **Restore a existing BLOC wallet with bloc-service**
 
-We have differents options to recover a wallet using **bloc-service**
+We have differents options to recover a wallet using **BLOC-service**
 
 ### Using a old Walletd container file
 
@@ -246,7 +246,7 @@ rpc-password = RPCpassword
 
 ### Using your private spend key and view key
 
-If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **bloc-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
+If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) you must know your **private spend key** and your **private view key** to restore your wallet using **BLOC-service**. To find how to generate view your private key using your favorite BLOC Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
 
 * [Create and customize your config file](#create-and-customize-your-config-file)
 * [Check all your required parameters](https://bloc-developer.com/api_bloc-service/cli_arguments?lang=english) and enter them like in this example
@@ -312,7 +312,7 @@ Generate a new container file with your private keys using `--view-key` and `--s
 
 ### Using your mnemonic-seed
 
-If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **bloc-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
+If you already have a [BLOC Wallet](../wallets/Making-a-Wallet.md) created after the launch of the **BLOC V3.0** then you you must know your **mnemonic-seed** to restore your wallet using **BLOC-service**. To find how to generate view your mnemonic-seed using your favorite **BLOC** Wallet software please refer to the [Wallet manuals available](../wallets/Making-a-Wallet.md).
 
 * [Create and customize your config file](#create-and-customize-your-config-file)
 * [Check all your required parameters](https://bloc-developer.com/api_bloc-service/cli_arguments?lang=english) and enter them like in this example
@@ -367,7 +367,7 @@ Example:
 
 ![wallet ready for BLOC-service](images/bloc-service/restore-using-mnemonic-seed-loading.png)
 
-* Your wallet is ready to be used with the **bloc-service** RPC API.
+* Your wallet is ready to be used with the **BLOC-service** RPC API.
 
 **Expected results**
 
@@ -387,13 +387,13 @@ Remote Node Options:
 ### --daemon-address arg (=127.0.0.1)
 ### --daemon-port arg (=2086)
 
-Remote connection allows you to bind your **bloc-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **bloc-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
+Remote connection allows you to bind your **BLOC-service** RPC Wallet to a remote BLOC daemon **BLOCd**. Such type of connection allows you to start **BLOC-service** RPC Wallet without having to download the blockchain. Your wallet will be instantly synchronised. Always make sure that you trust the remote connection you are connecting to.
 
 * For local daemons use localhost or 127.0.0.1 as an IP address.
 * For remote daemons specify the remote daemon IP address.
 * Default BLOC daemon port is 2086 (for rpc calls).
 
-Use the following command to start **bloc-service** RPC Wallet with a remote connection: 
+Use the following command to start **BLOC-service** RPC Wallet with a remote connection: 
 
 **Example**
 

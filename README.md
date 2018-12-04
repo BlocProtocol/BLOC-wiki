@@ -1,20 +1,18 @@
-# sajodocs
+# BLOC-wiki
 
-This is the repo where the new frontend of the [existing wiki](https://github.com/turtlecoin/turtlecoin-wiki) resides.
+This is the repo where for the new front end [BLOC WIKI](https://wiki.bloc.money) currently deployed on a BLOC subdomain using Netlify, check it out!
 
-Currently deployed on a TurtleCoin subdomain using Netlify, check it out!
-
-https://docs.turtlecoin.lol
+https://wiki.bloc.money
 
 ## Contributing Guidelines
 
 You must follow [strict markdown](https://daringfireball.net/projects/markdown/), not GFM. Important points include-
 
 * links must start with `../`, even if they're in the same directory  
-  ex -> `(../Rainborg-Wat-Dat)` instead of `(Rainborg-Wat-Dat.md)`
+  ex -> `(../mining/Pools)` instead of `(mining/Pools.md)`
 
 * relative links without the `.md` extension  
-  ex-> `(Rainborg-Wat-Dat)` instead of `(Rainborg-Wat-Dat.md)`
+  ex-> `(Pools)` instead of `(Pools.md)`
 
 * Links are *case sensitive*  
   Links to files in `mkdocs.yml` must *perfectly match* the casing of the actual files, and the links to these files from other places must *perfectly match* the casing in `mkdocs.yml`.
@@ -105,36 +103,12 @@ If:
        ```
    ````
 
-### More Information on Contributing
-
-For more rules on contributing and the format with which to do it, compare 2 files from the existing wiki to this repo, and see how they shape up. If you observe them closely enough, you'll be able to figure out how to go about formatting.
-
----
-
-#### Guide 1
-
-**existing wiki**
-
-https://raw.githubusercontent.com/turtlecoin/turtlecoin-docs/master/guides/Bootstrapping-the-Blockchain.md
-
-**this wiki**
-
-https://raw.githubusercontent.com/turtlecoin/sajodocs/master/docs/guides/Bootstrapping-the-Blockchain.md
-
----
-
-#### Guide 2
-
-**existing wiki**
-
-https://raw.githubusercontent.com/turtlecoin/turtlecoin-docs/master/guides/mining/XMR-Stak-Linux-Guide.md
-
-**this wiki**
-
-https://raw.githubusercontent.com/turtlecoin/sajodocs/master/docs/guides/mining/XMR-Stak-Linux-Guide.md
-
----
-
 ### PR -> Build -> Merge -> Publish
 
 Whenever a PR is made, Netlify automatically builds it and serves a preview. In case the build doesn't pass(red X), then add a ninja commit to fix it.
+
+
+## More
+
+- Thanks to [TurtleCoin Developers & Community](https://github.com/turtlecoin)
+- Forked from [TurtleCoin sajodocs](https://github.com/turtlecoin/sajodocs)

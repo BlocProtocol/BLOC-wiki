@@ -1,56 +1,63 @@
 <style>
-footer .network.list-unstyled{padding-left:0;list-style:none}
-footer .network.list-inline{padding-left:0;margin-left:-5px;list-style:none}
-footer .network.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
-footer .network {
-	text-align: center;
-}
-footer .network img {
-	margin-bottom: 12px;
-	opacity: .5;
-}
-footer .network a,
-footer .network a:hover {
-	width: 70px;
-	color: #676978;
-	font-size: 12px;
-	font-weight: 400;
-	text-decoration: none;
-	display: inline-block;
-}
-footer .network a:hover img {
-	opacity: 1;
-}
-</style>
-{% import "partials/language.html" as lang with context %}
-  <footer class="md-footer">
-     <div class="md-footer-meta md-typeset">
-      <div class="md-footer-meta__inner md-grid">
-        <div class="md-footer-copyright">
-          {% if config.copyright %} <a href="https://wiki.bloc.money/about/licence/"> Click here for licenses </a>
-            <div class="md-footer-copyright__highlight">
-              {{ config.copyright }}
-            </div>
-          {% endif %}	
-          in BLOC we trust.
-          <br> <br>
-          <br> <br>
-            <a href="https://github.com/furiousteam/bloc-wiki"> Help improve these documents! </a>
-        </div>
-        {% block social %}
-          {% include "partials/social.html" %}
-        {% endblock %}
-      </div>
+  footer .network.list-unstyled{padding-left:0;list-style:none}
+  footer .network.list-inline{padding-left:0;margin-left:-5px;list-style:none}
+  footer .network.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+  footer .network {
+    text-align: center;
+  }
+  footer .network img {
+    margin-bottom: 12px;
+    opacity: .5;
+  }
+  footer .network a,
+  footer .network a:hover {
+    width: 70px;
+    color: #676978;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+  }
+  footer .network a:hover img {
+    opacity: 1;
+  }
+  @media (min-width: 768px){
+    .md-footer-social {
+      float: right;
+    }
+  }
+  </style>
+  {% import "partials/language.html" as lang with context %}
+    <footer class="md-footer">
+       <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+          <div class="md-footer-copyright">
+            {% if config.copyright %} <a href="https://wiki.bloc.money/about/licence/"> Click here for licenses </a>
+              <div class="md-footer-copyright__highlight">
+                {{ config.copyright }}
+              </div>
+            {% endif %}	
+            in BLOC we trust.
+            <br> <br>
+            <br> <br>
+              <a href="https://github.com/furiousteam/bloc-wiki"> Help improve these documents! </a>
+          </div>
+          {% block social %}
+            {% include "partials/social.html" %}
+          {% endblock %}
       <div class="copy">
-        <ul class="list-unstyled list-inline network"><li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-.MONEY</p></a></li><li><a href="https://bloc-explorer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocexplorer.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-EXPLORER</p></a></li><li><a href="https://bloc-mining.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocwebmining.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-MINING</p></a></li><li><a href="https://bloc-mining.us/" target="_blank"><img src="https://bloc.money/img/footer/network/blocus.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-N.AMERICA</p></a></li><li><a href="https://bloc-mining.eu/" target="_blank"><img src="https://bloc.money/img/footer/network/bloceu.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-EUROPE</p></a></li><li><a href="https://bloc-mining.asia/" target="_blank"><img src="https://bloc.money/img/footer/network/blocasia.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-ASIA</p></a></li>	<li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />
-DEVELOPER</p></a></li></ul>
+        <ul class="list-unstyled list-inline network">
+          <li><a href="https://bloc.money/"><img src="https://bloc.money/img/footer/network/thebloc.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />.MONEY</p></a></li>
+          <li><a href="https://bloc-explorer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocexplorer.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />EXPLORER</p></a></li>
+          <li><a href="https://bloc-mining.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocwebmining.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />MINING</p></a></li>
+          <li><a href="https://bloc-mining.us/" target="_blank"><img src="https://bloc.money/img/footer/network/blocus.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />N.AMERICA</p></a></li>
+          <li><a href="https://bloc-mining.eu/" target="_blank"><img src="https://bloc.money/img/footer/network/bloceu.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />EUROPE</p></a></li>
+          <li><a href="https://bloc-mining.asia/" target="_blank"><img src="https://bloc.money/img/footer/network/blocasia.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />ASIA</p></a></li
+          <li><a href="https://bloc-developer.com/" target="_blank"><img src="https://bloc.money/img/footer/network/blocdeveloper.svg" width="35" height="35" alt="bloc icon" /><p>BLOC<br />DEVELOPER</p></a></li>
+        </ul>
       </div>
-  </div>
-  </footer> 
+        </div>
+    </div>
+    </footer> 
+    
   

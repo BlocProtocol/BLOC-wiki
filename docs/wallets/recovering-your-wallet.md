@@ -10,11 +10,11 @@ Guides for recovering your **BLOC** Wallet with your private spend and view keys
 
 #### BLOCWallet restore with private spend and view keys<a name="recover-spend-view-keys-bloc-wallet-cli"></a>
 
-View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys using **[BLOC Wallet CLI](../Using-BLOCWallet)**.
+View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys using **[BLOCWallet CLI](../Using-BLOCWallet)**.
 
 #### BLOC-service restore with private spend and view keys<a name="recover-spend-view-keys-bloc-service"></a>
 
-View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using **[bloc-service](../wallets/bloc-service-index.md)**.
+View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using **(../wallets/bloc-service-index.md)**.
 
 ### **GUI Wallets**<a name="keys-gui-wallet"></a>
 
@@ -34,7 +34,7 @@ View [this guide](../wallets/Using-BLOCWallet#recover-seed) for steps on recover
 
 #### BLOC-service restore with mnemonic phrase (25 words)<a name="recover-mnemonic-bloc-service"></a>
 
-View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using **[bloc-service](../wallets/bloc-service-index.md)**. 
+View [this guide](../wallets/bloc-service-command-line.md#using-your-mnemonic-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using **[BLOC-service](../wallets/bloc-service-index.md)**. 
 
 ### **GUI Wallets**<a name="25-gui-wallet"></a>
 

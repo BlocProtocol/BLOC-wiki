@@ -86,6 +86,7 @@ nav:
       - Wallets: wallets/Making-a-Wallet.md
       - Mining: mining/What-is-mining.md
       - Service Operators: service-operators/Resources.md
+      - Glossary: guides/Glossary.md
     - About:
       - Home: about/Home.md
       - Features: about/Features.md
@@ -164,5 +165,3 @@ nav:
       - Bounty Programm: guides/Bounty-Program.md
       - Bootstrapping the Blockchain: guides/Bootstrapping-the-Blockchain.md
       - Glossary: guides/Glossary.md
-    - FAQ:
-      - Frequently Asked Questions: Frequently-Asked-Questions.md

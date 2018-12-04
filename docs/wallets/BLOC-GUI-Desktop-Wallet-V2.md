@@ -133,23 +133,24 @@ Understanding the key:
 
 ![Public Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-aa.png)
 
-Spend Public Key: (this is 1st 64 digits of the key)
+**Spend Public Key**: (this is 1st 64 digits of the key)
 5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
 
 ![Public View Key](images/BLOC-gui-wallet/2.0.2/save-export-key-bb.png)
 
-View Public key: (this is 2nd 64 digits of the key)
+**View Public key**: (this is 2nd 64 digits of the key)
 5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
 
 ![Private Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-6.png)
 
-Private spend key: (this is 3rd 64 digits of the key)
+**Private spend key**: (this is 3rd 64 digits of the key)
 5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
 
 ![Private View Key](images/BLOC-gui-wallet/2.0.2/save-export-key-5.png)
 
-Private view key: (this is the last 64 digits of the long key)
+**Private view key**: (this is the last 64 digits of the long key)
 3d9cae15706db0985297545dda412af2c90e94eb0989fbc60efa860d6860750f
+
 
 Once again. **Make sure you save this details**. This are the **ONLY way to recover your wallet using the blockchain**. This is **much better than to save a wallet file** than can be corrupt with time, or not updated with new version or whatever the reason. **The keys are the ONLY sure 100% garanteed solution to recover your wallet**
 

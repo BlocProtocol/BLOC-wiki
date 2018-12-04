@@ -3,6 +3,8 @@
 The previous version of BLOC Wallet for desktop computer available for Windows, Mac and Linux.
 **This version is no more compatible since the BLOC 3.0**
 
+## **Source Code**
+
 * [BLOC Wallet 2.0.2 on GitHub](https://github.com/BLOC-bloc-wallet)
 
 ![blocwallet](images/BLOC-gui-wallet/2.0.2/BLOC-gui-wallet-2.0.2.jpg)
@@ -11,15 +13,9 @@ The previous version of BLOC Wallet for desktop computer available for Windows, 
 
 [![BLOC WALLET DESKTOP](images/BLOC-gui-wallet/2.0.2/video.jpg)](https://www.youtube.com/watch?v=ZqTEG78N_Tk)
 
-## **Guide**
-
-1. How to download the [BLOC](https://bloc.money) wallet and install it on your computer
-2. How to setup the [BLOC](https://bloc.money) wallet for instant mining
-3. Check the mining reward and pending balance
-
 ## **Download**
 
-First we need to go on the [BLOC.MONEY](https://bloc.money) website and click on the [DOWNLOAD](https://bloc.money/download) button from the top menu.
+First we need to go on the BLOC website and click on the [DOWNLOAD](https://bloc.money/download) button from the top menu.
 
 From here, you can download the exclusive range of BLOC softwares.
 

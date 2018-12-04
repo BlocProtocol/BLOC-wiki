@@ -6,7 +6,7 @@
 
 XMR Stak is well optimized and it is known to significantly generate more hashrates than any other miners. Here in this beginners guide we’ll be showing you how to use XMR-STAK and start mining [BLOC](https://bloc.money).
 
-![XMR-STAK mining BLOC](images/XMR-STAK-ubuntu/xmr-stak-compile-linux.png)
+![XMR-STAK mining BLOC](images/XMR-STAK-ubuntu/mining-xmr-stak-linux.png)
 
 ## **Features**
 

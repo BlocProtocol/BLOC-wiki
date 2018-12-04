@@ -50,6 +50,4 @@ his guide will get you started [mining BLOC on a Raspberry Pi](../mining/BLOC-Mi
 
 ## **7. Mining Pools**
 
-[What is a mining pool ?](../mining/Pools.md) and checkout the complete list of BLOC mining pools available. Always select the nearest mining pool from your location for the best results.
-
-
+Checkout the complete list of [BLOC Mining Pools](../mining/Pools.md) available. Always select the nearest mining pool from your location for the best results.

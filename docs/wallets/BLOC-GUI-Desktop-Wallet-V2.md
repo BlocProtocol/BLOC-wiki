@@ -20,7 +20,8 @@ The previous version of BLOC Wallet for desktop computer available for Windows, 
 ## **Download**
 
 First we need to go on the [BLOC.MONEY](https://bloc.money) website and click on the [DOWNLOAD](https://bloc.money/download) button from the top menu.
-From here, you can download the exclusive range of [BLOC.MONEY](https://bloc.money) softwares.
+
+From here, you can download the exclusive range of BLOC softwares.
 
 Our desktop wallet client allow you to create your wallet, store your BLOC.money, view your transactions but also include our easy to use one click-button instant mining.
 
@@ -134,12 +135,23 @@ You should obtain a result like this:
 
 Understanding the key:
 
-![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-6.png)
-Private spend key: (this is 64 digits before the last 64 digits of the key)
+![Public Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-aa.png)
+
+Spend Public Key: (this is 1st 64 digits of the key)
 5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
 
+![Public View Key](images/BLOC-gui-wallet/2.0.2/save-export-key-bb.png)
 
-![Export Key](images/BLOC-gui-wallet/2.0.2/save-export-key-5.png)
+View Public key: (this is 2nd 64 digits of the key)
+5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
+
+![Private Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-6.png)
+
+Private spend key: (this is 3rd 64 digits of the key)
+5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
+
+![Private View Key](images/BLOC-gui-wallet/2.0.2/save-export-key-5.png)
+
 Private view key: (this is the last 64 digits of the long key)
 3d9cae15706db0985297545dda412af2c90e94eb0989fbc60efa860d6860750f
 

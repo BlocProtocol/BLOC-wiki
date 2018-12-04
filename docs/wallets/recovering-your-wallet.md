@@ -14,7 +14,7 @@ View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-spend-view-keys) f
 
 #### BLOC-service restore with private spend and view keys<a name="recover-spend-view-keys-bloc-service"></a>
 
-View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using **(../wallets/bloc-service-index.md)**.
+View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spend-key-and-view-key) for steps on recovering your wallet with your private spend and view keys using [BLOC Wallet CLI](../wallets/bloc-service-index.md).
 
 ### **GUI Wallets**<a name="keys-gui-wallet"></a>
 

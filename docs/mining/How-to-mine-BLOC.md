@@ -22,7 +22,7 @@ To start mining **BLOC** with the **BLOC GUI Miner**, you can check out [this gu
 
 ## **3. XMR-Stak - Cryptonight All-in-One Mining Software**
 
-[XMR-STAK](https://github.com/fireice-uk/xmr-stak) is the only program that supports mining with CPU, NVIDIA GPUs and AMD GPUs. Also it is available for Windows, Linux, Mac OS and more. **XMR-stak** is a universal stratum pool miner to mine crypto currencies like Monero, Electroneum, [BLOC](https://bloc.money) and basically any coins that are powered by cryptonight algorithm.
+[XMR-STAK](../mining/XMR-Stak-index.md) is the only program that supports mining with CPU, NVIDIA GPUs and AMD GPUs. Also it is available for Windows, Linux, Mac OS and more. **XMR-stak** is a universal stratum pool miner to mine crypto currencies like Monero, Electroneum, [BLOC](https://bloc.money) and basically any coins that are powered by cryptonight algorithm.
 
 XMR Stak is well optimized and it is known to significantly generate more hashrates than any other miners.
 
@@ -30,7 +30,7 @@ To start mining **BLOC** with **XMR-stak**, you can check out [this guide](../mi
 
 ## **4. XMRig Miner**
 
-[XMRig](https://github.com/xmrig/xmrig) is a little bit different to XMR-Stak, you need to download a CPU and GPU miner separately and run two separate instances in your computer. One will use your CPU and the other one will use your GPU. **XMRig** is a high performance Monero (XMR) and [BLOC](https://bloc.money) CPU miner, with official support for Windows, Mac Linux and more. 
+[XMRig](../mining/XMRIG-index.md) is a little bit different to XMR-Stak, you need to download a CPU and GPU miner separately and run two separate instances in your computer. One will use your CPU and the other one will use your GPU. **XMRig** is a high performance Monero (XMR) and [BLOC](https://bloc.money) CPU miner, with official support for Windows, Mac Linux and more. 
 
 To start mining **BLOC** with **XMRig**, you can check out [this guide](../mining/XMRIG-index.md)
 
@@ -44,9 +44,9 @@ Check out the two options available to mine BLOC from a mobile phone:
 
 * Introducing [Sleep Mining for BLOC](../mining/mobile-mining/Sleep-Mining.md) — Make extra cash while you are sleeping using your mobile phone
 
-### **6. SBC/Raspberry Pi Mining**
+## **6. SBC/Raspberry Pi Mining**
 
-This guide will get you started [mining BLOC on a Raspberry Pi](../mining/BLOC-Mining-Rasberry-Pi.md) or similar SBC (single-board computer).
+his guide will get you started [mining BLOC on a Raspberry Pi](../mining/BLOC-Mining-Rasberry-Pi.md) or similar SBC (single-board computer).
 
 ## **7. Mining Pools**
 

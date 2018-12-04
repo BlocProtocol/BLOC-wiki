@@ -189,4 +189,4 @@ This windows appears:
 **NEXT ?**
 
 * Create a new wallet format on the BLOC V3.0
-* Open your wallet file with the new [BLOCWallet v3.0](../wallets/BLOCWallet-how-to-use.md) command line and then transfer the BLOC.MONEY to your new abLoc address.
+* Open your wallet file with the new [BLOCWallet v3.0](../wallets/BLOCWallet-how-to-use.md) command line and then transfer the BLOC.MONEY to your new BLOC address.

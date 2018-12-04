@@ -116,9 +116,9 @@ nav:
         - Using BLOCWallet: wallets/BLOCWallet-how-to-use.md
       - BLOC-service:
         - Overview of bloc-service: wallets/bloc-service-index.md
-        - bloc-service command line: wallets/bloc-service-command-line.md
-        - bloc-service JSON RPC Api: wallets/bloc-service-json-api.md
-        - bloc-service JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
+        - Command line Arguments: wallets/bloc-service-command-line.md
+        - JSON RPC Api: wallets/bloc-service-json-api.md
+        - JSON RPC erros: wallets/bloc-service-rpc-api-error-conditions.md
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
@@ -149,10 +149,11 @@ nav:
     - Service Operators:
       - Ressources: service-operators/Resources.md
       - Compiling from Source: service-operators/Compiling-from-Source.md
+      - Pool Operators: service-operators/Pool-Operator.md
       - BLOCd:
         - Overview: service-operators/BLOCd-Overview.md
         - Command Line Arguments: service-operators/BLOCd-daemon-arguments.md
-        - Command Line Options: service-operators/BLOCd-daemon-cli-options.md
+        - Command Inline Options: service-operators/BLOCd-daemon-cli-options.md
         - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
         - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
         - Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md

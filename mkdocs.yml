@@ -45,7 +45,7 @@ extra:
       link: 'https://twitter.com/bloc_money'
     - type: 'telegram'
       link: 'https://t.me/bloc_money'
-    - type: 'discord'
+    - type: 'discordapp'
       link: 'https://discord.gg/5Buudya'
     - type: 'youtube'
       link: 'https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA'

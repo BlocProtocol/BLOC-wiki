@@ -6,7 +6,7 @@ site_url: https://wiki.bloc.money/
 
 # repo
 repo_name: 'furiousteam/BLOC-wiki'
-repo_url: 'https://github.com/furiousteam/BLOC/wiki'
+repo_url: 'https://github.com/furiousteam/BLOC-wiki'
 
 # copyright
 copyright: 'Copyright 2018 BLOC.MONEY'
@@ -45,6 +45,12 @@ extra:
       link: 'https://twitter.com/bloc_money'
     - type: 'telegram'
       link: 'https://t.me/bloc_money'
+    - type: 'discord'
+      link: 'https://discord.gg/5Buudya'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/bloc.money'
 
 # Google Analytics
 google_analytics:

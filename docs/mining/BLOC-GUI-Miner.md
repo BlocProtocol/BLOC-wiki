@@ -11,7 +11,7 @@ BLOC GUI Miner comes with XMR-STAK already built-in, including configuration fil
 
 This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
 
-If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [What is mining ?](../mining/What-is-mining.md).
+If you want to learn about cryptocurrencies, [what is mining ?](../mining/What-is-mining.md) is a great place to start!
 
 [Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
@@ -31,7 +31,7 @@ Since the last update v0.0.2 we have added the possibility for everyone to add t
 
 If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instruction available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/original-miners/coins).
 
-## Supported Miners
+## **Supported Miners**
 
 We currently support two very popular miner backends:
 

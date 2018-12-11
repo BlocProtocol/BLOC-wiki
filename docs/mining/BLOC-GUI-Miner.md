@@ -7,13 +7,15 @@ BLOC GUI miner makes getting started with [BLOC](https://bloc.money) mining easi
 
 BLOC GUI Miner support two very popular miner backends: [xmr-stak](../mining/XMR-Stak-index.md) and [xmrig](../mining/XMRIG-index.md)
 
-BLOC GUI Miner comes with XMR-STAK already built in including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with XMR-STAK already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
 
 If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [What is mining ?](../mining/What-is-mining.md).
 
 [Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in your favorite cryptocurrency.
+
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/bloc-mining.png)
 
 ## **How to compile**
 
@@ -28,6 +30,14 @@ Since the last update v0.0.2 we have added the possibility for everyone to add t
 - [RYO](https://ryo-currency.com) **(RYO)**
 
 If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instruction available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/original-miners/coins).
+
+## Supported Miners
+
+We currently support two very popular miner backends:
+
+1. [xmr-stak](https://github.com/fireice-uk/xmr-stak) **v2.6.0**
+2. [xmrig](https://github.com/xmrig/xmrig) **v2.8.3** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet tested
+
 
 ## **Make sure you have a wallet**
 

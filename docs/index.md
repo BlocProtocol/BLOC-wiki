@@ -17,4 +17,4 @@ Free your life today, enjoy the BLOC lifestyle. Join us.
 - [A step by step guide to start mining BLOC](Getting-Started.md#start-mining)
 - [Informations on contributing to BLOC](about/Contributing.md)
 
-![BLOC GIF LOGO](images/BLOC-in-out_blue.gif)
+[![BLOC](images/BLOC-in-out_blue.gif)](https://bloc.money)

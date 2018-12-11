@@ -1,24 +1,37 @@
 # **BLOC GUI Miner**
 
-BLOC GUI miner is a beautiful, easy to use, Graphical User interface for mining the cryptocurrency [BLOC](https://bloc.money).
+[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrency based on cryptonote.
+
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
-BLOC GUI miner makes getting started with BLOC mining easier than ever.
+BLOC GUI miner makes getting started with [BLOC](https://bloc.money) mining easier than ever.
 
 BLOC GUI Miner support two very popular miner backends: [xmr-stak](../mining/XMR-Stak-index.md) and [xmrig](../mining/XMRIG-index.md)
 
 BLOC GUI Miner comes with XMR-STAK already built in including configuration files for CPU and GPU mining in most of the cases.
 
-This page describe how to use the BLOC GUI Miner and getting started mining the cryptocurrency BLOC on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
+This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
 
-If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [what is mining ?](../mining/What-is-mining.md). [Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in BLOC.
+If you want to learn about cryptocurrencies, mining is a great place to start! You can check this guide: [What is mining ?](../mining/What-is-mining.md).
+
+[Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
 ## **How to compile**
 
 If you would like to compile yourself the BLOC GUI Miner make sure to visit [the building instructions](../mining/BLOC-GUI-Miner-Compile.md) to find out all the details.
 
+## **Supported Cryptocurrency**
+
+Since the last update v0.0.2 we have added the possibility for everyone to add their own cryptocurrency to the BLOC GUI Miner as long as it is supported by XMR-STAK. Curently we support :
+
+- [BLOC.MONEY](https://bloc.money) **(BLOC)**
+- [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
+- [RYO](https://ryo-currency.com) **(RYO)**
+
+If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instruction available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/original-miners/coins).
+
 ## **Make sure you have a wallet**
 
-If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining. We will offer different possibility for you to create a wallet once you start the BLOC GUI Miner and follow the installation process.
+If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining. We offer different possibility for you to create a wallet once you start the BLOC GUI Miner and follow the installation process.
 
 ## **Linux**<a name="linux">
 
@@ -89,19 +102,19 @@ If you would like to use your own binaries for the miner. Simply follow [this pr
 
 ## **Start Mining**<a name="start-mining"></a>
 
-- Windows: Double click the icon `BLOC GUI Miner.exe`
-- Linux: Double click the icon app image `BLOC GUI Miner.App`
-- MacOs: Double click the icon `BLOC GUI Miner`
+- Windows: Double click the icon **BLOC GUI Miner.exe**
+- Linux: Double click the icon app image **BLOC GUI Miner.App**
+- MacOs: Double click the icon **BLOC GUI Miner**
 
 ### **Welcome screen**
 
 ![BLOC GUI Miner Start Mining 1](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.png)
 
-This is the welcome screen. Click on the yellow link `Ok, we can start the setup now, Let's go!`
+This is the welcome screen. Click on the yellow link **Ok, we can start the setup now, Let's go!**
 
 ### **Miner Setup**
 
-![BLOC GUI Miner Start Mining 2](images/BLOC-GUI-MINER/BLOC-GUI-MINER-2.png)
+![BLOC GUI Miner Start Mining 2](images/BLOC-GUI-MINER/main-menu-2.png)
 
 1. You have a wallet.
 
@@ -112,15 +125,15 @@ This is the welcome screen. Click on the yellow link `Ok, we can start the setup
 You will be redirected to the available options for to [create your BLOC wallet](../../wallets/Making-a-Wallet).
 
 - [Paper Wallet](../wallets/paper-wallet.md)
-- Desktop Wallets. [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../#)
-- [iPhone Wallet](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
+- Desktop Wallets. [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../wallets/Making-a-GUI-Wallet.md)
+- [iPhone Wallet](BLOC-iOS-wallet.md)
 - [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md)
 
 Once you have created your wallet come back to the BLOC GUI Miner and select the option 1. You have a wallet.
 
 ### **Address Setup**
 
-Enter your BLOC wallet address and click `OK, NEXT STEP`.
+Enter your BLOC wallet address and click **OK, NEXT STEP**.
 
 ![BLOC GUI Miner Start Mining 4](images/BLOC-GUI-MINER/BLOC-GUI-MINER-4.png)
 
@@ -128,13 +141,15 @@ Enter your BLOC wallet address and click `OK, NEXT STEP`.
 
 You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website. We suggest you to select the nearest mining pool following your location for the best mining experience and results.
 
-Select your favorite mining pool from the list and click `OK, NEXT STEP`.
+Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
 ![BLOC GUI Miner Start Mining 5](images/BLOC-GUI-MINER/BLOC-GUI-MINER-5.png)
 
 ### **Antivirus**
 
-Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software. Once you are ready click `OK,I'VE ALLOWED THE MINER`
+Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
+
+Once you are ready click `OK,I'VE ALLOWED THE MINER`
 
 ![BLOC GUI Miner Start Mining 6](images/BLOC-GUI-MINER/BLOC-GUI-MINER-6.png)
 
@@ -154,26 +169,40 @@ Congratulations ! You are mining the BLOC cryptocurrency. This is the overview o
 
 ### **Settings** <a name="settings"></a>
 
-The settings page allow you to customize the miner settings, modify your BLOC mining address, or select a different mining pool. Once you have made the change click the button `CLICK HERE TO SAVE THE SETTINGS`.
-Note: The 0% for CPU mining works only with XMRIG.
+The settings page allow you to customize the miner settings:
 
-![BLOC GUI Miner Start Mining 9](images/BLOC-GUI-MINER/BLOC-GUI-MINER-9.png)
+- Modify your wallet mining address
+- Choose a different mining pool
+
+**Note**: *The % for CPU mining works only with XMRIG.*
+
+![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings.png)
+
+- Select another coin to mine from the selector
+    * Enter your wallet address
+    * Choose your mining pool
+
+![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings2.png)
+
+Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Need help ? Visit this section to find out more about BLOC, join the community, checkout the latest guides, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about BLOC, join the community, checkout the latest guides, watch videos and much more.
 
 ![BLOC GUI Miner Start Mining 10](images/BLOC-GUI-MINER/BLOC-GUI-MINER-10.png)
 
 ## **How to check your payouts**
 
-You get paid out based upon what the pool sets the min payout amount. A pool’s min payout amount can vary from pool to pool. Visit the mining pool you are mining from to checkout your actual payouts.
+You get paid out based upon what the pool sets the min payout amount. A pool’s min payout amount can vary from pool to pool.
+
+Visit the mining pool you are mining from to checkout your actual payouts.
 
 ### Example if you are mining from [BLOC-MINING Pool Europe](https://bloc-mining.eu)
 
 * Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
 
-* Scroll down to `Your Stats & Payment History`
+* Scroll down to **Your Stats & Payment History**
 
 ![BLOC WEB MINER](images/webminer/CHECK.png)
 
@@ -183,12 +212,92 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 
 ![BLOC WEB MINER](images/webminer/CHECK2.png)
 
+## **Mining TurtleCoin TRTL**
+
+It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
+
+### **Launch the BLOC GUI Miner**
+
+Launch the BLOC GUI Miner and select **I want to mine other cryptocurrency**
+
+![I want to mine other cryptocurrency](images/BLOC-GUI-MINER/main-menu-2.png)
+
+### **Select TurtleCoin**
+
+Select TurtleCoin
+
+![Select turtlecoin](images/BLOC-GUI-MINER/other-cryptocurrency.png)
+
+### **TRTL Address**
+
+Enter your TRTL wallet address. It must start with **TRTL** and click **OK, NEXT STEP**.
+
+![Enter TRTL wallet address](images/BLOC-GUI-MINER/trtl-address.png)
+
+### **Choose Mining Pool**
+
+We suggest you to select the nearest mining pool following your location for the best mining experience and results.
+
+Select your favorite mining pool from the list and click **OK, NEXT STEP**.
+
+![Choose TurtleCoin mining pool](images/BLOC-GUI-MINER/select-pool-turtle.png)
+
+### **Antivirus**
+
+Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started.
+
+In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
+
+Once you are ready click `OK,I'VE ALLOWED THE MINER`
+
+![Miner antivirus informations](images/BLOC-GUI-MINER/BLOC-GUI-MINER-6.png)
+
+### **Configuring**
+
+BLOC GUI Miner will auto configure your mining hardware with the best capabilities in the most cases. The configuration process is almost instant or take few seconds.
+
+![Configuring the miner](images/BLOC-GUI-MINER/BLOC-GUI-MINER-7.png)
+
+### **Mining**
+
+Congratulations ! You are mining **(TRTL)** TurtleCoin cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+
+- You can change the mining pool by clicking here. It will open the [TurtleCoin miner settings page](../mining/BLOC-GUI-Miner.md#trtl-settings)
+
+![Mining TurtleCoin](images/BLOC-GUI-MINER/mining-turtlecoin.png)
+
+### **Settings** <a name="trtl-settings"></a>
+
+The settings page allow you to customize the miner settings:
+
+- Modify your wallet mining address
+- Choose a different mining pool
+
+**Note**: *The % for CPU mining works only with XMRIG.*
+
+![TurtleCoin Miner settings](images/BLOC-GUI-MINER/trtl-settings.png)
+
+- Select another coin to mine from the selector
+    * Enter your wallet address
+    * Choose your mining pool
+
+![TurtleCoin Settings another coin](images/BLOC-GUI-MINER/trtl-another-coin.png)
+
+Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
+
+### **Help**
+
+Do you need more help ? Make sure you visit this section to find out more about TurtleCoin, join the community, checkout the latest updates, watch videos and much more.
+
+![TurtleCoin Help](images/BLOC-GUI-MINER/TurtleCoin-Help.png)
+
+
 ## **XMR-STAK Settings and configuration**
 
-XMR-Stak will save your configuration in `config.txt` in the same directory from which it was first run.
+XMR-Stak will save your configuration in **config.txt** in the same directory from which it was first run.
 
-Your configuration for pools(algorithm to mine, address, port etc) will be saved in `pools.txt`
-The configuration of the device it mines(CPU/AMD/NVIDIA) will be saved in `cpu.txt`, `amd.txt` or `nvidia.txt`, respectively.
+Your configuration for pools(algorithm to mine, address, port etc) will be saved in **pools.txt**
+The configuration of the device it mines(CPU/AMD/NVIDIA) will be saved in **cpu.txt**, **amd.txt** or **nvidia.txt**, respectively.
 
 Run XMR-Stak again from the same directory to reuse the configuration.
 
@@ -205,13 +314,13 @@ Use the standard procedure to compile your favorite miner and place the binaries
 
 For the mining stats to display correctly you need to enable the API for each miner by doing the following:
 
-Compiling XMR-STAK with option: `-DMICROHTTPD_ENABLE=ON`
+Compiling XMR-STAK with option: **-DMICROHTTPD_ENABLE=ON**
 
 Ensure you have the following in you config.txt file
 
 `"httpd_port" : 16000,`
 
-Compiling XMRIG with option: by default `-DWITH_HTTPD=ON` should be enabled.
+Compiling XMRIG with option: by default **-DWITH_HTTPD=ON** should be enabled.
 
 Ensure you have the following in you config.json file
 ```

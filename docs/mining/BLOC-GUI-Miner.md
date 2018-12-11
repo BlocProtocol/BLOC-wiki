@@ -33,6 +33,8 @@ If you would like to contribute to this project by adding or editing a mining po
 
 If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining. We offer different possibility for you to create a wallet once you start the BLOC GUI Miner and follow the installation process.
 
+If you would like to use the BLOC GUI Miner to mine other cryptocurrency than BLOC please prepare your wallet address to use for mining.
+
 ## **Linux**<a name="linux">
 
 BLOC GUI Miner comes with XMR-STAK already built in including configuration files for **CPU mining ONLY**.
@@ -149,7 +151,7 @@ Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
-Once you are ready click `OK,I'VE ALLOWED THE MINER`
+Once you are ready click **OK,I'VE ALLOWED THE MINER**
 
 ![BLOC GUI Miner Start Mining 6](images/BLOC-GUI-MINER/BLOC-GUI-MINER-6.png)
 
@@ -161,11 +163,11 @@ BLOC GUI Miner will auto configure your mining hardware with the best capabiliti
 
 ### **Mining**
 
-Congratulations ! You are mining the BLOC cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+Congratulations ! You are mining [BLOC cryptocurrency](https://bloc.money/mining). This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the [BLOC Ecosystem](https://bloc.money/ecosystem).
 
 - You can change the mining pool by clicking here. It will open the [settings page](../mining/BLOC-GUI-Miner.md#settings)
 
-![BLOC GUI Miner Start Mining 8](images/BLOC-GUI-MINER/BLOC-GUI-MINER-8.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/bloc-mining.png)
 
 ### **Settings** <a name="settings"></a>
 
@@ -182,15 +184,15 @@ The settings page allow you to customize the miner settings:
     * Enter your wallet address
     * Choose your mining pool
 
-![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings2.png)
+![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings-2.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Do you need more help ? Make sure you visit this section to find out more about BLOC, join the community, checkout the latest guides, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about BLOC, join the community, checkout the latest guides and updates, watch videos and much more.
 
-![BLOC GUI Miner Start Mining 10](images/BLOC-GUI-MINER/BLOC-GUI-MINER-10.png)
+![BLOC GUI Miner Help Page](images/BLOC-GUI-MINER/bloc-help.png)
 
 ## **How to check your payouts**
 
@@ -218,7 +220,7 @@ It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
-Launch the BLOC GUI Miner and select **I want to mine other cryptocurrency**
+Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
 ![I want to mine other cryptocurrency](images/BLOC-GUI-MINER/main-menu-2.png)
 
@@ -248,7 +250,7 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 
 In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
-Once you are ready click `OK,I'VE ALLOWED THE MINER`
+Once you are ready click **OK,I'VE ALLOWED THE MINER**
 
 ![Miner antivirus informations](images/BLOC-GUI-MINER/BLOC-GUI-MINER-6.png)
 

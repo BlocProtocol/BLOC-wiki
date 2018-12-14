@@ -12,6 +12,8 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 [Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
+**Note**: Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
+
 ## **Screenshots**
 
 *Home*
@@ -50,11 +52,19 @@ BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including
 1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.7.1**
 2. [xmrig](../mining/XMRIG-index.md) **v2.8.3** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet implented
 
+## **Download binaries and source code**
+
+Download binaries and source code from the [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) GitHub rep.
+
 ## **Guides**
 
+- [What is the BLOC GUI Miner ?](https://wiki.bloc.money/mining/bloc-gui-miner/)
+- [How to install on Windows](../mining/BLOC-GUI-Miner-using.md#windows)
+- [How to install on macOS](../mining/BLOC-GUI-Miner-using.md#mac-os)
+- [How to install on Linux](../mining/BLOC-GUI-Miner-using.md#linux)
+- [How to use the BLOC GUI Miner to mine BLOC](../mining/BLOC-GUI-Miner-using.md)
+- [How to mine TurtleCoin](../mining/BLOC-GUI-Miner-using.md#mining-turtlecoin-trtl)
 - [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
-- [How to use the BLOC GUI Miner to mine BLOC](../mining/BLOC-GUI-Miner-Compile.md)
-- [How to mine TurtleCoin](../mining/BLOC-GUI-Miner-Compile.md)
 
 ## **Make sure you have a wallet**
 

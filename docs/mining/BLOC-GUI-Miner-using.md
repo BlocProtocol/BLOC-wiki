@@ -303,3 +303,7 @@ Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS
 Do you need more help ? Make sure you visit this section to find out more about TurtleCoin, join the community, checkout the latest updates, watch videos and much more.
 
 ![TurtleCoin Help](images/BLOC-GUI-MINER/TurtleCoin-Help-new.png)
+
+## **I have an issue not listed here**
+
+If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/GUI-miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).

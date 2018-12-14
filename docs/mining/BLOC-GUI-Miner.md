@@ -12,6 +12,8 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 [Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
+## **Screenshots**
+
 *Home*
 
 ![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-home.png)
@@ -42,9 +44,9 @@ If you would like to contribute to this project by adding or editing a mining po
 
 ## **Supported Miners**
 
-BLOC GUI Miner comes with **XMR-STAK 2.7.1** and XMRIG **2.8.3** already built-in, including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
-1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.6.0**
+1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.7.1**
 2. [xmrig](../mining/XMRIG-index.md) **v2.8.3** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet implented
 
 ## **Guides**

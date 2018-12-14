@@ -1,94 +1,83 @@
-# **BLOC GUI Miner**
+# **How to use BLOC GUI Miner**
 
-[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrency based on cryptonote.
-
-It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
-BLOC GUI miner makes getting started with [BLOC](https://bloc.money) mining easier than ever.
-
-BLOC GUI Miner support two very popular miner backends: [xmr-stak](../mining/XMR-Stak-index.md) and [xmrig](../mining/XMRIG-index.md)
-
-BLOC GUI Miner comes with XMR-STAK already built-in, including configuration files for CPU and GPU mining in most of the cases.
+If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
 This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
 
-If you want to learn about cryptocurrencies, [what is mining ?](../mining/What-is-mining.md) is a great place to start!
+[Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
-[Start mining](../mining/BLOC-GUI-Miner.md#start-mining) today and get rewarded in your favorite cryptocurrency.
+## Download binaries and source code
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/bloc-mining.png)
-
-## **How to compile**
-
-If you would like to compile yourself the BLOC GUI Miner make sure to visit [the building instructions](../mining/BLOC-GUI-Miner-Compile.md) to find out all the details.
-
-## **Supported Cryptocurrency**
-
-Since the last update v0.0.2 we have added the possibility for everyone to add their own cryptocurrency to the BLOC GUI Miner as long as it is supported by XMR-STAK. Curently we support :
-
-- [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
-- [RYO](https://ryo-currency.com) **(RYO)**
-
-If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instruction available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/original-miners/coins).
-
-## **Supported Miners**
-
-We currently support two very popular miner backends:
-
-1. [xmr-stak](https://github.com/fireice-uk/xmr-stak) **v2.6.0**
-2. [xmrig](https://github.com/xmrig/xmrig) **v2.8.3** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet tested
-
-
-## **Make sure you have a wallet**
-
-If you have not yet downloaded and ran the [BLOC](https://bloc.money/download) software to sync the blockchain and create a wallet, you need to [create your wallet](../../wallets/Making-a-Wallet) before start mining. We offer different possibility for you to create a wallet once you start the BLOC GUI Miner and follow the installation process.
-
-If you would like to use the BLOC GUI Miner to mine other cryptocurrency than BLOC please prepare your wallet address to use for mining.
+Download binaries and source code from the [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) GitHub rep.
 
 ## **Linux**<a name="linux">
 
-BLOC GUI Miner comes with XMR-STAK already built in including configuration files for **CPU mining ONLY**.
+Choose the best miner following your hardware. We have 4 available binaries for Linux. 
 
-- Download and install [BLOC GUI Miner for Ubuntu](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
+- BLOC GUI Miner with [XMR-STAK CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+- BLOC GUI Miner with [XMR-STAK OPENCL GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **OPENCL GPU** mining
+- BLOC GUI Miner with [XMR-STAK NVIDIA GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **NVIDIA GPU** mining
+- BLOC GUI Miner with [XMRIG CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+
+In this example we are going to use BLOC GUI Miner with **XMRIG CPU** mining only.
+
 - Unzip the file to your desktop
 
 It must looks like this:
 
-![BLOC GUI Miner Linux 1](images/BLOC-GUI-MINER/bloc-gui-miner-linux-1.png)
+![BLOC GUI Miner Linux 1](images/BLOC-GUI-MINER/linux-1.png)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Linux 2](images/BLOC-GUI-MINER/bloc-gui-miner-linux-2.png)
+![BLOC GUI Miner Linux 2](images/BLOC-GUI-MINER/linux-2.png)
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
-
-If you would like to use the GPU mining feature on Linux you will have to compile XMR-STAK or XMRIG and [use your binaries](../mining/BLOC-GUI-Miner.md#use-my-binaries) with the BLOC GUI Miner.
-
 
 ## **Mac OS**<a name="mac">
 
-BLOC GUI Miner comes with XMR-STAK already built in including configuration files for **CPU and GPU mining** (for NVidia only).
+BLOC GUI Miner for macOS comes with **XMRIG** binaries already built-in for **CPUmining** only.
 
-- Download and install [BLOC GUI Miner for Mac OS](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
-- Unzip the file to your desktop
+- Download [BLOC-GUI-Miner-macOS-Downloader.zip](https://bloc.money/files/BLOC-GUI-Miner/BLOC-GUI-Miner-macOS-Downloader.zip)
+- Double click on the icon file to unzip the file
 
 It must looks like this:
 
-![BLOC GUI Miner MacOs 1](images/BLOC-GUI-MINER/bloc-gui-miner-macos-1.png)
+![BLOC GUI Miner MacOs 1](images/BLOC-GUI-MINER/mac1.png)
 
-Inside the miner folder:
+Now double click on the **BLOC-GUI-Miner-macOS-Downloader** application. It will open a new window like this:
 
-![BLOC GUI Miner MacOs 2](images/BLOC-GUI-MINER/bloc-gui-miner-macos-2.png)
+![BLOC GUI Miner MacOs 2](images/BLOC-GUI-MINER/macos-2.png)
 
-Double click on the icon BLOC GUI Miner to launch the miner.
+Click on the Apple logo top left and select system preferences...
+
+![BLOC GUI Miner MacOs 3](images/BLOC-GUI-MINER/macos-pref.png)
+
+Click on the Security & Privacy icon
+
+![BLOC GUI Miner MacOs 4](images/BLOC-GUI-MINER/mac-security.png)
+
+Click on Open Anyway
+
+![BLOC GUI Miner MacOs 5](images/BLOC-GUI-MINER/mac-open-anyway.png)
+
+This will finally open the software. You should see a windows like this:
+
+![BLOC GUI Miner MacOs 6](images/BLOC-GUI-MINER/mac-open-anyway.png)
+
+You are now downloading and installing the BLOC GUI Miner for macOS
+
+![BLOC GUI Miner MacOs 7](images/BLOC-GUI-MINER/mac-download.png)
+
+Once the installation process is complete you can see the following files created.
+
+![BLOC GUI Miner MacOs 8](images/BLOC-GUI-MINER/mac-download.png)
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
+If you would like to use the GPU mining feature on macOS you will have to compile XMR-STAK or XMRIG and use your binaries with the BLOC GUI Miner.
+Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Windows**<a name="windows">
 
@@ -405,3 +394,14 @@ Edit the pools.txt file in the miner folder
 
 ## **I have an issue not listed here**
 If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/GUI-miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).
+
+
+
+
+
+
+### **Help**
+
+Make sure you visit the **help** section to find out more about your favorite cryptocurrency, join the community, checkout the latest updates, watch videos and much more.
+
+![BLOC GUI Miner Help Page](images/BLOC-GUI-MINER/bloc-help.png)

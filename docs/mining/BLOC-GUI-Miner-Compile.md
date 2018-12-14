@@ -1,17 +1,4 @@
-# How to compile BLOC GUI Miner
-
-BLOC GUI miner is a wrapper for the most popular cryptonote based coins miner XMR-STAK and XMRIG.
-
-Make sure you visit [the complete guide](../mining/BLOC-GUI-Miner.md) to find out how to use the BLOC GUI Miner.
-
-## Supported Miners
-
-We currently support two very popular miner backends:
-
-1. [xmr-stak](https://github.com/fireice-uk/xmr-stak)
-2. [xmrig](https://github.com/xmrig/xmrig) (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd)
-
-## Compiling on Linux (Ubuntu)
+# **Compiling on Linux (Ubuntu)**
 
 Compiling on Linux will generate the binaries for Windows, macOS and Linux.
 
@@ -19,7 +6,7 @@ The miner GUI is built using [Electron](https://electronjs.org) and
 [Go](https://golang.org) using the
 [Astilectron app framework](https://github.com/asticode/astilectron).
 
-### Install dependencies
+## **Install dependencies**
 
 ```shell
 sudo apt-get update
@@ -31,7 +18,7 @@ sudo apt-get install gcc make python libmicrohttpd10 libnss3 -y
 - libmicrohttpd is required for xmrig  
 - libnss3 is required for electron  
 
-### Install Go
+## **Install Go**
 
 1. [https://golang.org/dl/](https://golang.org/dl/)
 
@@ -71,14 +58,14 @@ now you could check the go installation by running
 go version
 ```
 
-### Clone the app
+## **Clone the app**
 
 ```shell
 cd ~
-git clone https://github.com/furiousteam/GUI-miner.git
+git clone https://github.com/furiousteam/BLOC-GUI-Miner.git
 ```
 
-### Install required Go packages
+## **Install required Go packages**
 
 ```shell
 go get -u github.com/asticode/go-astilectron
@@ -87,12 +74,12 @@ go get -u github.com/asticode/go-astichartjs
 go get -u github.com/asticode/go-astilectron-bootstrap
 go get -u github.com/google/uuid
 go get -u github.com/mitchellh/go-ps
-go get -u github.com/furiousteam/gui-miner/src/gui
+go get -u github.com/furiousteam/BLOC-GUI-Miner/src/gui
 go get -u github.com/konsorten/go-windows-terminal-sequences
 go get -u github.com/mattn/go-colorable
 ```
 
-### Update electron version
+## **Update electron version**
 
 edit `~/go/src/github.com/asticode/go-astilectron/astilectron.go` file
 
@@ -109,19 +96,15 @@ cd ~/go/src/github.com/asticode/go-astilectron-bundler
 make
 ```
 
-### Compile the miner
+## **Compile the miner**
 
 ```shell
-cd ~/GUI-miner
+cd ~/BLOC-GUI-Miner
 make
 ```
 
 If all goes well, the binaries for Windows, macOS and Linux will be available in the `bin` folder.
 
-### Attach the miner
+## **Attach the miner**
 
 before you start the GUI-miner, make sure you have copied the binaries of [xmrig](https://github.com/xmrig/xmrig) or [xmr-stak](https://github.com/fireice-uk/xmr-stak) into the `miner` subfolder right next to the main GUI-miner executable
-
-## **I have an issue not listed here**
-
-If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/GUI-miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).

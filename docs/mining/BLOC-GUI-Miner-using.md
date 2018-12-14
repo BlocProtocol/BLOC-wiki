@@ -139,21 +139,23 @@ You will be redirected to the available options for you to [create your BLOC wal
 - [iPhone Wallet](BLOC-iOS-wallet.md)
 - [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md)
 
-Once you have created your wallet come back to the BLOC GUI Miner and select the option 1. **I have a wallet**.
+Once you have created your wallet come back to the BLOC GUI Miner and select the option 1.
+**I have a wallet**.
 
 ### **Address Setup**
 
 Enter your BLOC wallet address and click **OK, NEXT STEP**.
 
-![BLOC GUI Miner Start Mining 4](images/BLOC-GUI-MINER/BLOC-GUI-MINER-4.png)
+![BLOC GUI Miner Start Mining 4](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-wallet-address.png)
 
 ### **Choose your mining pool**
 
-You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website. We suggest you to select the nearest mining pool following your location for the best mining experience and results.
+You can find a complete list of the BLOC mining pools available on the [BLOC MINING](https://bloc.money/mining) section of our website.
+We suggest you to select the nearest mining pool following your location for the best mining experience and results.
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![BLOC GUI Miner Start Mining 5](images/BLOC-GUI-MINER/BLOC-GUI-MINER-5.png)
+![BLOC GUI Miner Start Mining 5](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-select-mining-pool.png)
 
 ### **Antivirus**
 
@@ -161,21 +163,21 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 
 Once you are ready click **OK,I'VE ALLOWED THE MINER**
 
-![BLOC GUI Miner Start Mining 6](images/BLOC-GUI-MINER/BLOC-GUI-MINER-6.png)
+![BLOC GUI Miner Start Mining 6](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-antivirus.png)
 
 ### **Configuring**
 
 BLOC GUI Miner will auto configure your mining hardware with the best capabilities in the most cases. The configuration process is almost instant or take few seconds.
 
-![BLOC GUI Miner Start Mining 7](images/BLOC-GUI-MINER/BLOC-GUI-MINER-7.png)
+![BLOC GUI Miner Start Mining 7](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-ready.png)
 
 ### **Mining**
 
-Congratulations ! You are mining [BLOC cryptocurrency](https://bloc.money/mining). This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the [BLOC Ecosystem](https://bloc.money/ecosystem).
+Congratulations ! You are mining [BLOC cryptocurrency](https://bloc.money/mining) ! This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the [BLOC Ecosystem](https://bloc.money/ecosystem).
 
 - You can change the mining pool by clicking here. It will open the [settings page](../mining/BLOC-GUI-Miner.md#settings)
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/bloc-mining.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-BLOC-mining.png)
 
 ### **Settings** <a name="settings"></a>
 
@@ -186,13 +188,13 @@ The settings page allow you to customize the miner settings:
 
 **Note**: *The % for CPU mining works only with XMRIG.*
 
-![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings.png)
+![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-settings.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address
     * Choose your mining pool
 
-![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/settings-2.png)
+![BLOC GUI Miner Settings](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-settings-coin.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
@@ -200,7 +202,7 @@ Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS
 
 Do you need more help ? Make sure you visit this section to find out more about BLOC, join the community, checkout the latest guides and updates, watch videos and much more.
 
-![BLOC GUI Miner Help Page](images/BLOC-GUI-MINER/bloc-help.png)
+![BLOC GUI Miner Help Page](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-help.png)
 
 ## **How to check your payouts**
 
@@ -230,7 +232,7 @@ It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![I want to mine other cryptocurrency](images/BLOC-GUI-MINER/main-menu-2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
 ### **Select TurtleCoin**
 

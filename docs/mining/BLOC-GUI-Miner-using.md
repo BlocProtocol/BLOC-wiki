@@ -10,32 +10,36 @@ This page describe how to use the BLOC GUI Miner and getting started mining cryp
 
 Download binaries and source code from the [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) GitHub rep.
 
-## **Linux**<a name="linux">
+## **Windows**<a name="windows">
 
-Choose the best miner following your hardware. We have 4 available binaries for Linux. 
+Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.
 
-- BLOC GUI Miner with [XMR-STAK CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
-- BLOC GUI Miner with [XMR-STAK OPENCL GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **OPENCL GPU** mining
-- BLOC GUI Miner with [XMR-STAK NVIDIA GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **NVIDIA GPU** mining
-- BLOC GUI Miner with [XMRIG CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+It is **likely** you will need to add exceptions and exclusions to your antivirus software in order to make things work properly.
 
-In this example we are going to use BLOC GUI Miner with **XMRIG CPU** mining only.
+Make sure you have disabled your antivirus and Windows defender before downloading the BLOC GUI Miner else Windows will keep delete the downloaded file.
+
+Choose the best miner following your hardware. We have 2 available binaries for Windows.
+
+- BLOC GUI Miner with [XMR-STAK](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** + **OPENCL** + **NVIDIA** **GPU** mining
+- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+
+In this example we are going to use BLOC GUI Miner with XMRSTAK CPU + NVIDIA GPU mining.
 
 - Unzip the file to your desktop
+- It must looks like this:
 
-It must looks like this:
-
-![BLOC GUI Miner Linux 1](images/BLOC-GUI-MINER/linux-1.png)
+![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows-1.jpg)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Linux 2](images/BLOC-GUI-MINER/linux-2.png)
+![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows-2.jpg)
 
-Double click on the icon **BLOC GUI Miner v0.0.3** to launch the miner.
+Double click on the icon BLOC GUI Miner to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
 If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the miner folder. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
+
 
 ## **Mac OS**<a name="mac">
 
@@ -80,31 +84,28 @@ You are now ready to start mining. Make sure you follow the next steps to [start
 If you would like to use the GPU mining feature on macOS you will have to compile XMR-STAK or XMRIG and use your binaries inside the miner folder.
 Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
-## **Windows**<a name="windows">
 
-Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.
+## **Linux**<a name="linux">
 
-It is **likely** you will need to add exceptions and exclusions to your antivirus software in order to make things work properly.
+Choose the best miner following your hardware. We have 4 available binaries for Linux. 
 
-Make sure you have disabled your antivirus and Windows defender before downloading the BLOC GUI Miner else Windows will keep delete the downloaded file.
+- BLOC GUI Miner with [XMR-STAK CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+- BLOC GUI Miner with [XMR-STAK OPENCL GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **OPENCL GPU** mining
+- BLOC GUI Miner with [XMR-STAK NVIDIA GPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **NVIDIA GPU** mining
+- BLOC GUI Miner with [XMRIG CPU](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
 
-Choose the best miner following your hardware. We have 2 available binaries for Windows.
+In this example we are going to use BLOC GUI Miner with **XMRIG CPU** mining only.
 
-- BLOC GUI Miner with [XMR-STAK](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** + **OPENCL** + **NVIDIA** **GPU** mining
-- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
-
-- Download and install [BLOC GUI Miner for Windows](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 - Unzip the file to your desktop
+- It must looks like this:
 
-It must looks like this:
-
-![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows-1.jpg)
+![BLOC GUI Miner Linux 1](images/BLOC-GUI-MINER/linux-1.png)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows-2.jpg)
+![BLOC GUI Miner Linux 2](images/BLOC-GUI-MINER/linux-2.png)
 
-Double click on the icon BLOC GUI Miner to launch the miner.
+Double click on the icon **BLOC GUI Miner v0.0.3** to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 

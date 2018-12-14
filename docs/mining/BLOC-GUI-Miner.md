@@ -33,6 +33,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 ## **Supported Cryptocurrency**
 
 Everyone can add their own cryptocurrency to the BLOC GUI Miner as long as it is supported by **XMR-STAK** and **XMRIG**.
+In the same time everyone can add/edit a mining pool into the BLOC GUI Miner.
 
 Curently we support :
 
@@ -94,6 +95,11 @@ Ensure you have the following in you config.json file
 
 [xmr-stak](https://github.com/fireice-uk/xmr-stak) gives too many options for tuning to get the best results out of your hardware. By default the miner creates config file for **CPU**, **NVIDIA** and **AMD GPU**. You can edit the values within these text files and see which works best for your mining hardware. Change the value of intensity, work-size, threads and blocks. You can add more GPUs and also lower the power mode of your CPU.
 
+XMR-Stak will save your configuration in **config.txt** in the same directory from which it was first run.
+
+Your configuration for pools(algorithm to mine, address, port etc) will be saved in **pools.txt**
+The configuration of the device it mines(CPU/AMD/NVIDIA) will be saved in **cpu.txt**, **amd.txt** or **nvidia.txt**, respectively.
+
 For more information on Tuning and configuring your hardware in XMR-stak we suggest you to read [this guide](https://github.com/fireice-uk/xmr-stak/blob/master/doc/tuning.md)
 
 ### XMRIG
@@ -115,4 +121,5 @@ If you want to change that, edit `config.json` before you start mining.
 The BLOC GUI Miner did not change this settings as we are using the binaries from the official XMRSTAK and XMRIG GitHub rep except for macOS that was built by us and we recommend to keep the donation level as it is to support the developers of both miners.
 
 ## **I have an issue not listed here**
+
 If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/GUI-miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).

@@ -104,7 +104,8 @@ For more information on Tuning and configuring your hardware in XMR-stak we sugg
 
 ### XMRIG
 
-Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit or share configurations.
+Your configuration for pools(algorithm to mine, address, port etc) will be saved in **config.json** inside the miner folder.
+Use [config.xmrig.com](https://config.xmrig.com/xmrig) to generate, edit and compare configurations so you can edit your own files inside the miner folder.
 
 ## **Default Developer Donation**
 

@@ -31,9 +31,11 @@ Inside the miner folder:
 
 ![BLOC GUI Miner Linux 2](images/BLOC-GUI-MINER/linux-2.png)
 
-Double click on the icon BLOC GUI Miner to launch the miner.
+Double click on the icon **BLOC GUI Miner v0.0.3** to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
+
+If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the miner folder. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Mac OS**<a name="mac">
 
@@ -71,32 +73,36 @@ Once the installation process is complete you can see the following files create
 
 ![BLOC GUI Miner MacOs 8](images/BLOC-GUI-MINER/mac-ready.png)
 
+Double click on the icon **BLOC GUI Miner v0.0.3.app** to launch the miner.
+
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use the GPU mining feature on macOS you will have to compile XMR-STAK or XMRIG and use your binaries with the BLOC GUI Miner.
+If you would like to use the GPU mining feature on macOS you will have to compile XMR-STAK or XMRIG and use your binaries inside the miner folder.
 Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Windows**<a name="windows">
 
-BLOC GUI Miner comes with XMR-STAK already built in including configuration files for **CPU and GPU mining** (for NVidia and AMD in most of the cases).
+Choose the best miner following your hardware. We have 2 available binaries for Windows.
+
+- BLOC GUI Miner with [XMR-STAK](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** + **OPENCL** + **NVIDIA** **GPU** mining
+- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
 
 - Download and install [BLOC GUI Miner for Windows](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
 - Unzip the file to your desktop
 
 It must looks like this:
 
-![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows1.jpg)
+![BLOC GUI Miner Windows 1](images/BLOC-GUI-MINER/windows-1.jpg)
 
 Inside the miner folder:
 
-![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows2.jpg)
+![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows-2.jpg)
 
 Double click on the icon BLOC GUI Miner to launch the miner.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 
-If you would like to use your own binaries for the miner. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
+If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the miner folder. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Start Mining**<a name="start-mining"></a>
 

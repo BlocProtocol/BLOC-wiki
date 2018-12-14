@@ -6,7 +6,7 @@ This page describe how to use the BLOC GUI Miner and getting started mining cryp
 
 [Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
-## Download binaries and source code
+## **Download binaries and source code**
 
 Download binaries and source code from the [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) GitHub rep.
 
@@ -40,39 +40,36 @@ You are now ready to start mining. Make sure you follow the next steps to [start
 BLOC GUI Miner for macOS comes with **XMRIG** binaries already built-in for **CPUmining** only.
 
 - Download [BLOC-GUI-Miner-macOS-Downloader.zip](https://bloc.money/files/BLOC-GUI-Miner/BLOC-GUI-Miner-macOS-Downloader.zip)
-- Double click on the icon file to unzip the file
+- Double click on the icon to unzip the file
 
 It must looks like this:
 
-![BLOC GUI Miner MacOs 1](images/BLOC-GUI-MINER/mac1.png)
+![BLOC GUI Miner MacOs 1](images/BLOC-GUI-MINER/mac-1.png)
 
 Now double click on the **BLOC-GUI-Miner-macOS-Downloader** application. It will open a new window like this:
 
 ![BLOC GUI Miner MacOs 2](images/BLOC-GUI-MINER/macos-2.png)
 
-Click on the Apple logo top left and select system preferences...
+Click on the Apple logo top left and select **system preferences...**
 
-![BLOC GUI Miner MacOs 3](images/BLOC-GUI-MINER/macos-pref.png)
+![BLOC GUI Miner MacOs 3](images/BLOC-GUI-MINER/macos-pref.jpg)
 
-Click on the Security & Privacy icon
+Click on the **Security & Privacy** icon
 
 ![BLOC GUI Miner MacOs 4](images/BLOC-GUI-MINER/mac-security.png)
 
-Click on Open Anyway
+Select the General tab and click on **Open Anyway**
 
 ![BLOC GUI Miner MacOs 5](images/BLOC-GUI-MINER/mac-open-anyway.png)
 
-This will finally open the software. You should see a windows like this:
-
-![BLOC GUI Miner MacOs 6](images/BLOC-GUI-MINER/mac-open-anyway.png)
-
-You are now downloading and installing the BLOC GUI Miner for macOS
+This will finally open the software. You are now downloading and installing the BLOC GUI Miner for macOS.
+You should see a windows like this:
 
 ![BLOC GUI Miner MacOs 7](images/BLOC-GUI-MINER/mac-download.png)
 
 Once the installation process is complete you can see the following files created.
 
-![BLOC GUI Miner MacOs 8](images/BLOC-GUI-MINER/mac-download.png)
+![BLOC GUI Miner MacOs 8](images/BLOC-GUI-MINER/mac-ready.png)
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 

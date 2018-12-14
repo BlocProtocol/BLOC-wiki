@@ -82,6 +82,12 @@ Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
 ## **Windows**<a name="windows">
 
+Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.
+
+It is **likely** you will need to add exceptions and exclusions to your antivirus software in order to make things work properly.
+
+Make sure you have disabled your antivirus and Windows defender before downloading the BLOC GUI Miner else Windows will keep delete the downloaded file.
+
 Choose the best miner following your hardware. We have 2 available binaries for Windows.
 
 - BLOC GUI Miner with [XMR-STAK](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** + **OPENCL** + **NVIDIA** **GPU** mining
@@ -112,28 +118,28 @@ If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the 
 
 ### **Welcome screen**
 
-![BLOC GUI Miner Start Mining 1](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-home.png)
 
 This is the welcome screen. Click on the yellow link **Ok, we can start the setup now, Let's go!**
 
 ### **Miner Setup**
 
-![BLOC GUI Miner Start Mining 2](images/BLOC-GUI-MINER/main-menu-2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
 1. You have a wallet.
 
 2. You do not have a wallet:
 
-![BLOC GUI Miner Start Mining 3](images/BLOC-GUI-MINER/BLOC-GUI-MINER-3.png)
+![BLOC GUI Miner Start Mining 3](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-nowallet.png)
 
-You will be redirected to the available options for to [create your BLOC wallet](../../wallets/Making-a-Wallet).
+You will be redirected to the available options for you to [create your BLOC wallet](../../wallets/Making-a-Wallet).
 
 - [Paper Wallet](../wallets/paper-wallet.md)
-- Desktop Wallets. [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../wallets/Making-a-GUI-Wallet.md)
+- **Desktop Wallets**: [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../wallets/Making-a-GUI-Wallet.md)
 - [iPhone Wallet](BLOC-iOS-wallet.md)
 - [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md)
 
-Once you have created your wallet come back to the BLOC GUI Miner and select the option 1. You have a wallet.
+Once you have created your wallet come back to the BLOC GUI Miner and select the option 1. **I have a wallet**.
 
 ### **Address Setup**
 

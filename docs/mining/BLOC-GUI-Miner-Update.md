@@ -1,0 +1,1 @@
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-Update-0.0.3.jpg)

@@ -34,7 +34,8 @@ Inside the miner folder:
 
 ![BLOC GUI Miner Windows 2](images/BLOC-GUI-MINER/windows-2.jpg)
 
-Double click on the icon BLOC GUI Miner to launch the miner.
+**Right click on the icon BLOC GUI Miner and select Open as Administrator for the 1st time running the appication**.
+Next time you will only have to double click on the icon BLOC GUI Miner to launch the application.
 
 You are now ready to start mining. Make sure you follow the next steps to [start mining](../mining/BLOC-GUI-Miner.md#start-mining).
 

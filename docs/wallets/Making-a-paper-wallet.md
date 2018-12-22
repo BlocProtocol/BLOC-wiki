@@ -1,4 +1,4 @@
-# Setting Up a BLOC Paper Wallet
+# **Setting Up a BLOC Paper Wallet**
 
 ![BLOC Paper Wallet](images/Paper-wallet/paper-wallet.jpg)
 
@@ -14,7 +14,7 @@ Go to [this link](https://turtlecoin.lol/wallet) and follow [these steps.](#gene
 
 **Note:** All generation is done client side, and no information is sent to the server 
 
-## Generating the Wallet
+## **Generating the Wallet**
 
 It is very simple:
 

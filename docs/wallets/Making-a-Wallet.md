@@ -1,10 +1,10 @@
 # **Making a BLOC Wallet**
 
-There are multiple different types of wallets you can choose to use for [BLOC](https://bloc.money), paper wallets, [CLI Wallet](../wallets/BLOCWallet-how-to-use.md), GUI wallets, [iOS Wallet](../wallets/BLOC-iOS-wallet.md), [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md) and Web Wallets (under development).
+There are multiple different types of wallets you can choose to use for [BLOC](https://bloc.money), [Paper wallets](../wallets/Making-a-paper-wallet.md), [CLI Wallet](../wallets/BLOCWallet-how-to-use.md), GUI wallets, [iOS Wallet](../wallets/BLOC-iOS-wallet.md), [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md) and Web Wallets (under development).
 
 We recommend making a paper wallet so that you can start receiving funds, and later import them into a GUI or CLI wallet.
 
-## **Paper Wallet**
+## **BLOC Paper Wallet**
 
 The main purpose of a paper wallet is to quickly create a wallet to start receiving funds.
 
@@ -32,13 +32,13 @@ The 1st BLOC wallet for iOS with a focus on accessibility, security and simplici
 
 If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-iOS-wallet.md).
 
-## **Graphical Wallet (GUI Wallet)**
+## **BLOC Graphical Wallet (GUI Wallet)**
 
 GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface.
 
-### BLOC R0C Wallet (Coming soon)
+### BLOC Electron Wallet (Coming soon)
 
-BLOC R0C is the new desktop wallet available for Mac, Windows and Linux [link coming soon](../#).
+BLOC Electron is the new desktop wallet available for Mac, Windows and Linux [link coming soon](../#).
 
 ### BLOC Wallet Client 2.0.2
 
@@ -47,12 +47,12 @@ The previous version of BLOC Wallet for desktop computer for Windows, Mac and Li
 
 You can still check the features and view the details of the old [BLOC Wallet v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
-## **Telegram Wallet**
+## **BLOC Telegram Wallet**
 
 [BLOC Wallet Telegram BOT](../wallets/BLOC-Telegram-Wallet.md), this makes BLOC instantly available to over 200 million+ users worldwide and multi OS & devices.
 
 If you would like to use the Telegram BLOC Wallet, you can check out [this guide](../wallets/BLOC-Telegram-Wallet.md).
 
-## **Web Wallet**
+## **BLOC Web Wallet**
 
 We currently are working on the first BLOC Web Wallet. We hope to be ready before the end of this year.

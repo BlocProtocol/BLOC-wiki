@@ -8,7 +8,7 @@ The main purpose of a paper wallet is to quickly create a wallet to start receiv
 
 You can view a guide on how to make a wallet [here](../Making-a-Wallet)
 
-## Making A Paper Wallet on an Internet-Connected Machine
+## **Making A Paper Wallet on an Internet-Connected Machine**
 
 Go to [this link](https://turtlecoin.lol/wallet) and follow [these steps.](#generating-the-wallet)
 

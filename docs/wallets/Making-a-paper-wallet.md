@@ -1,4 +1,6 @@
-# Setting Up a Paper Wallet
+# Setting Up a BLOC Paper Wallet
+
+![BLOC Paper Wallet](images/Paper-wallet/paper-wallet.jpg)
 
 The main purpose of a paper wallet is to quickly create a wallet to start receiving funds.
 
@@ -6,55 +8,35 @@ The main purpose of a paper wallet is to quickly create a wallet to start receiv
 
 You can view a guide on how to make a wallet [here](../Making-a-Wallet)
 
-There are two options for a paper wallet.
-
 ## Making A Paper Wallet on an Internet-Connected Machine
 
 Go to [this link](https://turtlecoin.lol/wallet) and follow [these steps.](#generating-the-wallet)
 
-## Making a Paper Wallet on an Air-Gapped Machine
+**Note:** All generation is done client side, and no information is sent to the server 
 
-Go to [this GitHub repository](https://github.com/turtlecoin/paper-turtle)(on a machine connected to the internet).
+## Generating the Wallet
 
-To use it, follow these steps:
+It is very simple:
 
-**Windows**
-  - Click on `Clone or Download`
+1. Click on the big button `GENERATE A BLOC PAPER WALLET`
 
-  - Click on `Download ZIP`
+2. it will generate : Your personnal BLOC wallet address. It is safe to share your public address (used to receive coins)
 
-  - Extract the `.zip` file to a directory of your choice (say, `C:/paper`)
+3. A `PRIVATE VIEW KEY`. You may give your view key for someone to monitor your wallet without having access to spend it.
 
-  - Copy/paste the files through a flash drive to your air-gapped machine.
+4. A `PRIVATE SPEND KEY`. Spending control over the wallet.
 
-  - Open the folder where you pasted the files, (say `C:/paper`) and double click on `index.html`
+5. A `MNEMONIC SEED` is a collection of random words which need to be put in the right order to restore access to the wallet.
 
-  - Follow [these steps.](#generating-the-wallet)
+6. Never share with anyone the seed words and the private spend key. This are your private keys with full control of spending from your wallet.
 
-**Linux**
-  - Open the terminal
+7. Click `DOWNLOAD PDF PAPER WALLET` this is your paper wallet ready for print.
 
-  -  Install git if it's not already installed (`apt-install git`)
+8. Print the first page using recto-verso option while printing so it can print the both sides.
 
-  - Type, `git clone https://github.com/turtlecoin/paper-turtle.git`and press enter
+9. Once printed, follow cutting lines and fold it. We recommend to print the paper wallet on a more heay/thick paper than usually.
 
-  - Then enter `cd paper-turtle`
-
-  - After doing so, enter `index.html`
-
-  - A page should open up in your browser
-
-  - Follow [these steps.](#generating-the-wallet)
-
-### Generating the Wallet
-
-- Click on `Generate a Wallet`
-
-- Mash your keyboard and start entering a bunch of random letters, numbers and signs in the field. Make sure you toggle on Caps Lock repeatedly! (Don't go too crazy - otherwise you might end up shutting down your PC!)
-
-- After you're done mashing your keyboard, press `Generate Wallet`
-
-- The letters and numbers in the green box, starting with `abLoc`, is your public address. You can share it freely. We recommend [registering it with trtlbot++](../../Using-trtlbot-plus-plus#registering-your-wallet) in the [Discord server](http://chat.turtlecoin.lol/) so that you can access it easily(you can also get tips!).
+10. Your paper wallet is ready
 
 - Save the `Seed Phrase`, the 25 words in the red box, safely.  
 **DO NOT SHARE IT WITH ANYONE**.  
@@ -63,3 +45,7 @@ To use it, follow these steps:
 - Save the `Spend Key` and the `View Key`, the two very long strings of (seemingly) random letters and numbers, safely.  
 **DO NOT SHARE IT WITH ANYONE**.  
 **Anyone who has access to this can *access your funds* and has *complete control* over your wallet.**
+
+- Save the `View Key`, very long strings of (seemingly) random letters and numbers, safely.  
+**YOU MAY SHARE WITH SOME PEOPLE**.  
+**For someone to monitor your wallet without having access to spend it. it's like: Hey! You can look, but you can't touch**

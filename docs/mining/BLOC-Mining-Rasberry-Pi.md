@@ -65,7 +65,7 @@ A real exemple:
 
 * Instead of `BLOCADDRESS`, simply paste your BLOC wallet address it must start with `abLoc`
 
-  If you don't have one yet, you can generate a [paper wallet](../wallets/Making-a-Wallet.md) to mine towards for now, and later import into a CLI or GUI wallet.
+  If you don't have one yet, you can generate a [paper wallet](../wallets/Making-a-paper-wallet.md) to mine towards for now, and later import into a CLI or GUI wallet.
 
 * In place of `[pool address]`, you'll need to choose a pool to mine towards. You can check the full list of [mining pools here](../mining/Pools.md).
 

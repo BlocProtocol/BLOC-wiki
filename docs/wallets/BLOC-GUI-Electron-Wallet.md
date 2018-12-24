@@ -1,4 +1,4 @@
-# BLOC Electron Wallet for Desktop
+# **BLOC Electron Wallet for Desktop**
 
 [BLOC Electron GUI Wallet](https://github.com/furiousteam/BLOC-electron-wallet) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC money](https://bloc.money), view your transactions and much more. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
 
@@ -30,11 +30,25 @@ Select the BLOC wallet application and put in where you like
 
 ## **Lanch the app**
 
-Double click the application to open to BLOC wallet.
-You might see an error message like this saying that you can not open this software because it’s coming from not identified apple developer. Simply click ok.
-Simply go to the control panel of your mac, to the system, select security and then click here, open anyway.
+#### Windows:
 
-Now the BLOC wallet is starting for the 1st time on your computer. You will note the your BLOC address has been created instantly. This is your personnal address. You can copy it by clicking this link here. Copy address.
+1. Download the latest installer here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+2. Run the installer (BLOC-Electron-Wallet-<version>-win-setup.exe) and follow the installation wizard.
+3. Run as Administrator BLOC-Electron-Wallet via start menu or desktop shortcut. (right click on the app icon and select run as Administrator)
+
+#### GNU/Linux (AppImage):
+
+1. Download latest AppImage bundle here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x BLOC-Electron-Wallet-<version>-linux.AppImage`
+3. Run/execute the file, double click in file manager, or run via shell/command line.
+
+See: https://docs.appimage.org/user-guide/run-appimages.html
+
+#### macOS
+
+1. Download latest archive here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+2. Extract downloaded zip archived into your home folder
+3. Open terminal and Run: `cd /Users/YOURNAME/BLOC-Electron-Wallet.app/Contents/MacOS && ./BLOC-Electron-Wallet`
 
 
 ## **Settings**
@@ -102,7 +116,7 @@ You are now ready to use your wallet. Please follow the next instructions on how
 
 If you already have BLOC wallet address you can import your private keys using this method.
 
-If you were using the previous BLOC Wallet v2.0.2 you can checkout [this guide to find out how to export your wallet private keys](../wallets/BLOC-GUI-Desktop-Wallet-V2.md#backup-wallet-file) and follow this procedure to restore your wallet.
+If you were using the previous BLOC Wallet v2.0.2 you can checkout [this guide to find out how to export your wallet private keys](../wallets/BLOC-GUI-Desktop-Wallet-V2.md#1-export-key-best-solution) and follow this procedure to restore your wallet:
 
 This will restore your wallet address, funds present on it but also the complete history of your transactions. All you need is your private view key & spend key.
 

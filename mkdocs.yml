@@ -130,6 +130,7 @@ nav:
       - GUI Wallets:
         - Overview of GUI Wallets: wallets/Making-a-GUI-Wallet.md
         - BLOC Wallet v2.0: wallets/BLOC-GUI-Desktop-Wallet-V2.md
+        - BLOC Electron Wallet v3.0: wallets/BLOC-GUI-Electron-Wallet.md
       - Remote Nodes:
         - Using Remote Nodes: wallets/Using-remote-nodes.md
     - Mining:

@@ -134,12 +134,12 @@ Understanding the key:
 ![Public Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-aa.png)
 
 **Spend Public Key**: (this is 1st 64 digits of the key)
-5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
+bdce6a63b860becee399d739865a341f9ea101a78f7f46e3d619f7bb4e8fedbb
 
 ![Public View Key](images/BLOC-gui-wallet/2.0.2/save-export-key-bb.png)
 
 **View Public key**: (this is 2nd 64 digits of the key)
-5c47394d5566c56cde815da2429c8c8cf80038cd948ad3a5a418e8b016df160e
+2f84f5f8e2d1d7f96dfd36209cf0ceeafab3aafa06e84332a63b89892f3a00ee
 
 ![Private Spend Key](images/BLOC-gui-wallet/2.0.2/save-export-key-6.png)
 

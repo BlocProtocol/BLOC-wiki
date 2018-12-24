@@ -816,7 +816,7 @@ Here's a quick image of BLOCWallet in action after have successfully typed `send
 
 ![blocwallet](images/BlocWallet/send_all.png)
 
-To view the status of your wallet; at the menu, type `send_all` or `21` and press `enter`.
+To send all the funds available on your wallet; at the menu, type `send_all` or `21` and press `enter`.
 
 ```
 [BLOC test]: 21

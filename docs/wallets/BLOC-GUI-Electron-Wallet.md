@@ -1,4 +1,4 @@
-# **How to use the BLOC Electron Wallet for Desktop**
+# BLOC Electron Wallet for Desktop
 
 [BLOC Electron GUI Wallet](https://github.com/furiousteam/BLOC-electron-wallet) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC money](https://bloc.money), view your transactions and much more. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
 
@@ -92,7 +92,7 @@ Find out more about [BLOC remote nodes](../wallets/Using-remote-nodes.md) and ho
 
 ![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/opening-wallet.png)
 
-if you are using BLOC publice remote node, you might get a notification displaying the node fee price.
+* if you are using BLOC public remote node, you might get a notification displaying the node fee price.
 
 ![BLOC Electron Wallet - Public Node Fee notification](images/BLOC-gui-wallet/V3/node-fee-notification.png)
 

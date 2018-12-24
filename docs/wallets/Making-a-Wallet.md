@@ -40,7 +40,7 @@ GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC wi
 
 BLOC Electron Wallet is the new BLOC GUI wallet for the new BLOC core 3.0 available for Windows, macOS and Linux.
 
-Make sure to follow the [complete instructions here](../BLOC-GUI-Electron-Wallet.md) on how to use BLOC Electron Wallet.
+Make sure to follow the [complete instructions here](../BLOC-GUI-Electron-Wallet) on how to use BLOC Electron Wallet.
 
 #### **BLOC Wallet Client 2.0.2**
 

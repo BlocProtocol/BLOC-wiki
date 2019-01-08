@@ -19,6 +19,7 @@ Make sure you read the following guides about how to mine **BLOC**
 * [How to mine BLOC](../mining/How-to-mine-BLOC.md)
 * View the list of [BLOC Mining Pools](../mining/Pools.md)
 * Mine with the [In-browser Miner](../mining/bloc-in-browser-javascript-web-miner.md)
+* Mine using your website visitors CPU power with the [BLOC Javascript Miner](../mining/bloc-javascript-miner.md)
 * [Mining on mobile phone](../mining/mobile-mining/Mining-with-Phone.md)
 * [Mining with XMR-stak](../mining/XMR-Stak-index.md)
 * [Mining with XMRig](../mining/XMRIG-index.md)

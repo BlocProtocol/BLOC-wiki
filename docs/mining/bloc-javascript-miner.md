@@ -1,4 +1,4 @@
-# **BLOC in-browser javascript web miner**
+# **BLOC Javascript Miner**
 
 With this miner, you can mine [BLOC](https://bloc.money) coins using your visitors CPU power. It will mine directly in browser.
 

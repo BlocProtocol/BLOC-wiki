@@ -9,8 +9,8 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **Downloads**
 
-* BLOC softwares and applications available from the [DOWNLOAD AREA](https://bloc.money/download)
-* BLOC source code available from [GitHub](https://github.com/furiousteam/BLOC)
+* BLOC softwares and applications available from the [Download area](https://bloc.money/download)
+* BLOC source code available from [GitHub](https://github.com/furiousteam)
 * BLOC Wallet for iOS [available on the App Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2)
 
 ## **BLOC Dasboard**
@@ -19,14 +19,15 @@ Come and socialise with us! Check out our social networks to make sure you stay 
 
 ## **Social Networks**
 
+* Join the [Subreddit for BLOC.MONEY (BLOC)](https://www.reddit.com/r/BLOC_MONEY/)
 * BLOC official launch on [BitcoinTalk](https://bitcointalk.org/index.php?topic=4108831.0)
-* Follow BLOC on [Twitter](https://twitter.com/bloc_money)
-* Chat with the community on the BLOC [Telegram Group](https://t.me/bloc_money)
-* Subscribe BLOC [Telegram Channel](https://t.me/bloc_money_channel)
-* Check out the latest posts from the BLOC [Instagram](https://www.instagram.com/bloc.money)
-* Like BLOC [Facebook](https://www.facebook.com/Blocmoney-383098922176113) page
-* Meet developers on the BLOC [Discord Channel](https://discord.gg/5Buudya)
-* Watch videos and subscribe to BLOC [Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
+* Follow [BLOC Twitter](https://twitter.com/bloc_money)
+* Chat with the community on the [BLOC Telegram Group](https://t.me/bloc_money)
+* Subscribe [BLOC Telegram Channel](https://t.me/bloc_money_channel)
+* Check out the latest posts from the [BLOC Instagram](https://www.instagram.com/bloc.money)
+* Like [BLOC Facebook](https://www.facebook.com/Blocmoney-383098922176113) page
+* Meet developers on the [BLOC Discord Channel](https://discord.gg/5Buudya)
+* Watch videos and subscribe to [BLOC Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
 * Read latest news from [BLOC Medium Blog](https://medium.com/@bloc.money)
 
 ## **BLOC for developers**

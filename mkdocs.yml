@@ -138,6 +138,7 @@ nav:
       - How to Mine BLOC: mining/How-to-mine-BLOC.md
       - Mining Pools: mining/Pools.md
       - In-browser Miner: mining/bloc-in-browser-javascript-web-miner.md
+      - Javascript Miner: mining/bloc-javascript-miner.md
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md

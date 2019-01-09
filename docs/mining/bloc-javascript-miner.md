@@ -4,10 +4,11 @@ With this miner, you can mine [BLOC](https://bloc.money) coins using your visito
 
 BLOC offers a JavaScript miner for the [BLOC](https://bloc.money) cryptocurrency that you can embed in your website. Your users run the miner directly in their Browser and mine BLOC for you in turn for an ad-free experience, in-game currency or whatever incentives you can come up with.
 
-grant video streaming time
-offer files for download
-allow ad-free browsing on your site
-credit in-game money or items in your game
+* grant video streaming time
+* offer files for download
+* allow ad-free browsing on your site
+* credit in-game money or items in your game
+
 We are excited to see how you will use this service. We dream about it as an alternative to micro payments, artificial wait time in online games, intrusive ads and dubious marketing tactics.
 
 Your users can “pay” you with full privacy, without registering an account anywhere, without installing a browser extension and without being bombarded by shady ads. They will pay you with just their CPU power.

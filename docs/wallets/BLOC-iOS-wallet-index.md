@@ -10,6 +10,6 @@ We have 2 versions of the BLOC wallet for iOS
 
 ## **How to**
 
-
 - [How to build the BLOC Wallet for iOS](../wallets/BLOC-iOS-wallet-xcode.md)
+
 - [How to use the BLOC Wallet for iOS](../wallets/BLOC-iOS-wallet.md)

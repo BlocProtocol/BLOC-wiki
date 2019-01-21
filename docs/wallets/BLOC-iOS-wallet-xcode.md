@@ -10,12 +10,8 @@ We have 2 versions of the BLOC wallet for iOS
 
 ## **How to build video tutorial**
 
-How to build the open source BLOC iOS Wallet app with Xcode
-
 [![How to build the open source BLOC iOS Wallet app with Xcode](images/iOS-wallet/BLOC-IOS-WALLET-XCODE-VIDEO-GUIDE.jpg)](https://www.youtube.com/watch?v=Ve2GGJ-UIxE)
 
 ## **How to use the BLOC Wallet for iOS**
-
-How to use the BLOC Wallet for iOS
 
 [How to use the BLOC Wallet for iOS](../wallets/BLOC-iOS-wallet.md) 

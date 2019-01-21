@@ -11,6 +11,8 @@ A: Connecting to a remote node/daemon is a replacement for running one locally.
 #### Q: How do I get started mining?
 
  A: You can check [this guide](../mining/How-to-mine-BLOC.md)
+  A: You can check [this guide](/mining/How-to-mine-BLOC.md)
+    A: You can check [this guide](../mining/How-to-mine-BLOC)
 
 #### Q: I'm using a Mac, can I still mine?
 

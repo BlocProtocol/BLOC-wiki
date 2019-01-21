@@ -8,4 +8,4 @@ That being said we are happy to publish our iOS app [open source](https://github
 
 How to mine using the BLOC Wallet for iOS
 
-[![How to mine using the BLOC Wallet for iOS](../wallets/images/iOS-wallet/BLOC-IOS-WALLET-MINING-VIDEO-GUIDE.jpg)](https://www.youtube.com/watch?v=4dYKJW3olOk)
+[![How to mine using the BLOC Wallet for iOS](/wallets/images/iOS-wallet/BLOC-IOS-WALLET-MINING-VIDEO-GUIDE.jpg)](https://www.youtube.com/watch?v=4dYKJW3olOk)

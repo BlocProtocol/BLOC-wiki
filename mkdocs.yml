@@ -142,6 +142,7 @@ nav:
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
+        - Mining with BLOC Wallet iOS: mining/mobile-mining/Mining-with-BLOC-Wallet-iOS.md
       - Mining with BLOC GUI Miner:
         - Introduction: mining/BLOC-GUI-Miner.md
         - How to use: mining/BLOC-GUI-Miner-using.md

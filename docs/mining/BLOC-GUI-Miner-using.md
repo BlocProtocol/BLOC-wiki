@@ -138,7 +138,7 @@ You will be redirected to the available options for you to [create your BLOC wal
 
 - [Paper Wallet](../wallets/Making-a-paper-wallet.md)
 - **Desktop Wallets**: [CLI Wallet](../wallets/BLOCWallet-how-to-use.md) or [GUI Wallet](../wallets/Making-a-GUI-Wallet.md)
-- [iPhone Wallet](BLOC-iOS-wallet.md)
+- [iPhone & iPad Wallet](../wallets/BLOC-iOS-wallet-index.md)
 - [Telegram Wallet](../wallets/BLOC-Telegram-Wallet.md)
 
 Once you have created your wallet come back to the BLOC GUI Miner and select the option 1.

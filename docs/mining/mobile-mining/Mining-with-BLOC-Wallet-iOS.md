@@ -4,10 +4,7 @@ We had to remove the mining features built in the original **BLOC** app to be ab
 
 That being said we are happy to publish our iOS app [open source](https://github.com/furiousteam/BLOC-iOS-wallet) including the miner so everyone can enjoy it.
 
-[How to build the BLOC Wallet for iOS](../wallets/BLOC-iOS-wallet-xcode.md)
-[How to build the BLOC Wallet for iOS](../wallets/BLOC-iOS-wallet-xcode)
-[How to build the BLOC Wallet for iOS](/wallets/BLOC-iOS-wallet-xcode.md)
-
+[How to build the BLOC Wallet for iOS](/wallets/BLOC-iOS-wallet-xcode)
 
 How to mine using the BLOC Wallet for iOS
 

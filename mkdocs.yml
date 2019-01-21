@@ -117,7 +117,10 @@ nav:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
-      - iPhone & iPad BLOC Wallet: wallets/BLOC-iOS-wallet.md
+      - iPhone & iPad BLOC Wallet:
+        - Introduction: wallets/BLOC-iOS-wallet-index.md
+        - Overview: wallets/BLOC-iOS-wallet.md
+        - How to build with Xcode: wallets/BLOC-iOS-wallet-xcode.md
       - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
       - CLI Wallet:
         - BLOCWallet Overview: wallets/BLOCWallet-Overview.md

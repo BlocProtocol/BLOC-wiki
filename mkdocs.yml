@@ -117,7 +117,10 @@ nav:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
-      - iPhone & iPad BLOC Wallet: wallets/BLOC-iOS-wallet.md
+      - iPhone & iPad BLOC Wallet:
+      - Introduction: wallets/BLOC-iOS-wallet-index.md
+      - Overview: wallets/BLOC-iOS-wallet.md
+      - How to build with Xcode: wallets/BLOC-iOS-wallet-xcode.md
       - Telegram Wallet: wallets/BLOC-Telegram-Wallet.md
       - CLI Wallet:
         - BLOCWallet Overview: wallets/BLOCWallet-Overview.md
@@ -142,6 +145,7 @@ nav:
       - Mining on your Phone:
         - Mine BLOC from mobile: mining/mobile-mining/Mining-with-Phone.md
         - Sleep Mining: mining/mobile-mining/Sleep-Mining.md
+        - Mining with BLOC Wallet iOS: mining/mobile-mining/Mining-with-BLOC-Wallet-iOS.md
       - Mining with BLOC GUI Miner:
         - Introduction: mining/BLOC-GUI-Miner.md
         - How to use: mining/BLOC-GUI-Miner-using.md

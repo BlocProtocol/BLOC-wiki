@@ -172,7 +172,7 @@ nav:
         - Command Inline Options: service-operators/BLOCd-daemon-cli-options.md
         - JSON RPC API: service-operators/BLOCd-daemon-json-rpc-api.md
         - HTTP RPC API: service-operators/BLOCd-daemon-http-rpc-api.md
-        - Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md
+        - Using Checkpoints: service-operators/Using-checkpoints-for-BLOCd.md
     - Guides:
       - Dashboard:
         - Presentation: guides/dashboard/dashboard.md

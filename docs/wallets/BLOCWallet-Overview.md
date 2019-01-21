@@ -59,7 +59,7 @@ Because the blockchain is constantly growing, the file size always increases (th
 
 ## **Using Checkpoints**
 
-You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](../Using-checkpoints-for-BLOCd.md) to learn more.
+You can sync a fresh chain from block 0 much quicker by using checkpoints. Follow [this guide](/service-operators/Using-checkpoints-for-BLOCd) to learn more.
 
 ### Windows
 

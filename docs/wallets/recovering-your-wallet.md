@@ -1,6 +1,6 @@
 # **Recovering your Wallet**
 
-In case you have lost your wallet, but still have either your private spend and view keys *or* your 25 word mnemonic seed, you can still recover it. Below are the guides for various types of wallets.
+In case you have lost your BLOC wallet, but still have either your private spend and view keys *or* your 25 word mnemonic seed, you can still recover it. Below are the guides for various types of wallets.
 
 ## **Private Spend and View Keys**
 
@@ -10,7 +10,7 @@ Guides for recovering your **BLOC** Wallet with your private spend and view keys
 
 #### BLOC Wallet restore with private spend and view keys<a name="recover-spend-view-keys-bloc-wallet-cli"></a>
 
-View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys using [BLOC Wallet CLI](../BLOCWallet-how-to-use.md).
+View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-spend-view-keys) for steps on recovering your wallet with your private spend and view keys using [BLOC Wallet CLI](../wallets/BLOCWallet-how-to-use.md).
 
 #### BLOC-service restore with private spend and view keys<a name="recover-spend-view-keys-bloc-service"></a>
 
@@ -30,7 +30,7 @@ Guides for recovering your wallet with your 25 word mnemonic seed-
 
 #### BLOCWallet restore with mnemonic phrase (25 words) <a name="recover-seed"></a>
 
-View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using [BLOC Wallet CLI](../BLOCWallet-how-to-use.md).
+View [this guide](../wallets/BLOCWallet-how-to-use.md#recover-seed) for steps on recovering your wallet with your mnemonic phrase (25 words) using [BLOC Wallet CLI](../wallets/BLOCWallet-how-to-use.md).
 
 #### BLOC-service restore with mnemonic phrase (25 words)<a name="recover-mnemonic-bloc-service"></a>
 

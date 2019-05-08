@@ -18,9 +18,9 @@ View [this guide](../wallets/bloc-service-command-line.md#using-your-private-spe
 
 ### **GUI Wallets**<a name="keys-gui-wallet"></a>
 
-#### BLOC R0C Desktop Wallet<a name="recover-wallet-keys-bloc-r0c"></a>
+#### BLOC Electron Wallet<a name="recover-wallet-keys-bloc-electron"></a>
 
-View [this guide](../#) coming soon.
+View [this guide](../wallets/BLOC-GUI-Electron-Wallet.md#import-private-keys) to find out how to recover a BLOC wallet with your private spend and view keys using [BLOC Electron Wallet](../wallets/BLOC-GUI-Electron-Wallet.md).
 
 ## **25 Word Mnemonic Seed**
 

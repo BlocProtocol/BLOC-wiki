@@ -1,12 +1,12 @@
 # **BLOC GUI Miner**
 
-[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote.
+[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
 BLOC GUI Miner support two very popular miner backends: [xmr-stak](https://github.com/fireice-uk/xmr-stak) and [xmrig](https://github.com/xmrig/xmrig)
 
-BLOC GUI Miner comes with **XMR-STAK 2.7.1** and XMRIG **2.8.3** already built-in, including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with **XMR-STAK 2.10.4** and XMRIG **2.14.1** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
@@ -18,7 +18,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 *Home*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-home.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-welcome.png)
 
 *Select Coin to Mine*
 
@@ -26,11 +26,11 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 *Mining BLOC*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-BLOC-mining.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-mining-BLOC.png)
 
 *Mining TurtleCoin*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-TRTL-mining.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-mining-TRTL.png)
 
 ## **Supported Cryptocurrency**
 
@@ -49,8 +49,8 @@ If you would like to contribute to this project by adding or editing a mining po
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
-1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.7.1**
-2. [xmrig](../mining/XMRIG-index.md) **v2.8.3** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet implented
+1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.4**
+2. [xmrig](../mining/XMRIG-index.md) **v2.14.1** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet implented
 
 ## **Download binaries and source code**
 

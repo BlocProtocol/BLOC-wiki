@@ -2,7 +2,10 @@
 This wiki is the main source of documentation for newcomers to the **BLOC** project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
 
 ## **What is BLOC?**
-**BLOC** is a fast, easy to use and private decentralized cryptocurrency. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
+
+**BLOC.MONEY** : Symbol **Ƀ** - Ticker: **BLOC** is a fast, easy to use and private decentralized cryptocurrency - Egalitarian Proof Of Work with Cryptonight Haven algorithm - based on open source Cryptonote technology using low & fix rate fees per transaction launched in May 2018 with exclusive set of mining tools, world first features and unrivaled ecosystem to connect buyers and sellers.
+
+One of our mission is to build a more open, accessible, and fair financial future. Our technology is revolutionizing the financial services industry by empowering users across the globe to authenticate and transact worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
 
 One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerful ecosystem for users, to benefits advantages from multiple type of industries like never done before.
 

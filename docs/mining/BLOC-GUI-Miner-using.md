@@ -43,6 +43,7 @@ If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the 
 
 ## **Mac OS**<a name="mac">
 
+Watch the video: How to mine BLOC.money on mac OS with the BLOC GUI Miner
 [![How to mine BLOC.money on mac OS with the BLOC GUI Miner](images/BLOC-GUI-MINER/BLOC-cryptocurrency-mining-macos.jpg)](https://www.youtube.com/watch?v=uIAjgrjawmQ)
 
 

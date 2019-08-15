@@ -4,6 +4,11 @@ This guide will get you started mining BLOC on a Raspberry Pi or similar SBC (si
 
 Mining from a Rasberry Pi is not really efficient but it is more for the fun and there is a lot of improvements that can be done.
 
+# **Video**
+
+How to mine BLOC.money on Raspberry Pi
+[![How to mine BLOC.money on mac OS with the BLOC GUI Miner](images/rasberry/HOW-TO-MINE-BLOC-FROM-RASPBERRY-YOUTUBE.jpg)](https://www.youtube.com/watch?v=nhpBfE15TB0)
+
 ## **The fastest miner available for Raspbian on Raspberry Pi**
 
 The miner [rPi-xmrig-gcc7.3.0](https://github.com/auto-joe/rPi-xmrig-gcc7.3.0) is a compilation of [Raspbian](../mining/XMRIG-index.md) version 2.8.3, compiled with gcc/g++ 7.3.0 specifically for Raspbian Stretch on Raspberry Pi3 b published by [auto-joe](https://github.com/auto-joe).

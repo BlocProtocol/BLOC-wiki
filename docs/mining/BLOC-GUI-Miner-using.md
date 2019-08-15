@@ -41,7 +41,6 @@ You are now ready to start mining. Make sure you follow the next steps to [start
 
 If you would like to use your own binaries for XMRSTAK and/or XMRRIG inside the miner folder. Simply follow [this procedure](../mining/BLOC-GUI-Miner.md#use-my-binaries).
 
-
 ## **Mac OS**<a name="mac">
 
 [![How to mine BLOC.money on mac OS with the BLOC GUI Miner](images/BLOC-GUI-MINER/BLOC-cryptocurrency-mining-macos.jpg)](https://www.youtube.com/watch?v=uIAjgrjawmQ)

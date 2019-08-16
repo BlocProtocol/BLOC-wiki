@@ -1,4 +1,4 @@
-# **Getting Started with BLOC.MONEY - (BLOC) **
+# **Getting Started with BLOC.MONEY - (BLOC)**
 
 ## **1. Setting up a new BLOC wallet**<a name="setting-up-a-new-wallet"></a>
 

@@ -1,5 +1,5 @@
 # **Welcome to BLOC.MONEY (BLOC) Wiki**
-This wiki is the main source of documentation for newcomers to the **BLOC** project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
+This wiki is the main source of documentation for newcomers to the [(BLOC Project)](https://github.com/furiousteam/BLOC). If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
 
 [![BLOC](images/BLOC-in-out_blue.gif)](https://bloc.money)
 

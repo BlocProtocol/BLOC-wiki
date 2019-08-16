@@ -14,6 +14,8 @@ We are looking to connect with entrepreneur’s ready to build new services and 
 
 ## **Connect with developers**
 
+BLOC’s decentralised, egalitarian approach to cryptocurrency is just the beginning. We are constantly looking for entrepreneurs ready to improve the BLOC ecosystem with new services and products. These joint efforts are funded by a locked store of pre-mined BLOC coins, which guarantees funding through each project’s final release.
+
 Got skills ? Wants BLOC ? What about join us on the BLOC project and bring your own stone so we can build a better structure ? Help the project and get rewarded in BLOC. Join our [Discord Channel](https://discord.gg/5Buudya) to meet talented developers like you ready to propel BLOC to next level. We can't wait to see you !
 
 ## **About this project**

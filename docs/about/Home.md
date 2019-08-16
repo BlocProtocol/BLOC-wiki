@@ -4,6 +4,8 @@
 
 [BLOC.MONEY](https://bloc.money) - Ticker: [(BLOC)](https://github.com/furiousteam/BLOC) is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
 
+Make sure you check our [RoadMap and Timeline](https://bloc.money/#roadmap) to follow the evolution of the project.
+
 ## **Goals**
 
 Launched in May 2018, one of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a [powerful ecosystem](Ecosystem.md) for users to benefits advantages from multiple type of industries like never done before. We are building a complete ecosystem from zero. Connecting buyers and sellers with an innovative approach using full advantage of the global contactless phenomenon to escort with care the mass of users into a new era and provide the use of cryptocurrency instead of conventional payment method. BLOC aims to provide services required to [change the way we pay and get paid](PAYCHANGE.md#cryptocurrencies-mass-adoption-is-near) in our everyday life. Time changes, Payment method too. BLOC creates [PAYCHANGE](PAYCHANGE.md).

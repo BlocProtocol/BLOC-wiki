@@ -1,6 +1,8 @@
 # **Welcome to BLOC Wiki**
 This wiki is the main source of documentation for newcomers to the **BLOC** project. If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
 
+[![BLOC](images/BLOC-in-out_blue.gif)](https://bloc.money)
+
 ## **What is BLOC.MONEY (BLOC) ?**
 
 The [BLOC.MONEY](https://bloc.money) - [(BLOC Project)](https://github.com/furiousteam/BLOC) Project has been established to develop and popularise the Blockchain Technology as well as the use of cryptocurrencies in the everyday life while respecting the environment.
@@ -22,5 +24,3 @@ It's about time to take back the control of your money. Free your life today, en
 Everything you want to know about #cryptocurrency **BLOC.MONEY** - **BLOC** in this #video.
 
 [![Everything you want to know about #cryptocurrency BLOC.MONEY (BLOC) in this 5 minutes #video. See why BLOC is set to #disrupt the #mobile #industry.](images/WHAT-IS-BLOC-YOUTUBE.jpg)](https://www.youtube.com/watch?v=uQekepZesE0)
-
-[![BLOC](images/BLOC-in-out_blue.gif)](https://bloc.money)

@@ -8,9 +8,9 @@ We recommend making a paper wallet so that you can start receiving funds, and la
 
 The main purpose of a paper wallet is to quickly create a wallet to start receiving funds.
 
-**You will not be able to spend or send your funds to other people until you set up a CLI, GUI, Mobile, Telegram or Web Wallet.**
+**You will not be able to spend or send your funds to other people until you set up a CLI or Desktop (GUI) Wallet.**
 
-To view a guide on how to make a paper wallet, you can check out [this guide](../wallets/Making-a-paper-wallet.md).
+To view a guide on how to make a paper wallet, [click here](../wallets/Making-a-paper-wallet.md).
 
 ## **BLOCWallet (CLI Wallet)**
 
@@ -28,7 +28,7 @@ Please check [this guide](../wallets/bloc-service-index.md) to learn how to use 
 
 ## **BLOC Wallet for iPad & iPhone**
 
-The 1st BLOC wallet for iOS with a focus on accessibility, security and simplicity. BLOC wallet makes getting started with BLOC easier than ever. [Download from the Apple Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2) Android version is coming before the end of this year (2018).
+The 1st BLOC wallet for iOS with a focus on accessibility, security and simplicity. BLOC wallet makes getting started with BLOC easier than ever. [Download from the Apple Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2).
 
 If you would like to use BLOC Wallet for iOS, you can check out [this guide](../wallets/BLOC-iOS-wallet.md).
 
@@ -38,16 +38,9 @@ GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC wi
 
 ### **BLOC Electron Wallet**
 
-BLOC Electron Wallet is the new BLOC GUI wallet for the new BLOC core 3.0 available for Windows, macOS and Linux.
+BLOC Electron Wallet is the new BLOC GUI Desktop wallet for the new BLOC core 3.0 available for Windows, macOS and Linux.
 
 Make sure to follow the [complete instructions here](../wallets/BLOC-GUI-Electron-Wallet.md) on how to use BLOC Electron Wallet.
-
-#### **BLOC Wallet Client 2.0.2**
-
-The previous version of BLOC Wallet for desktop computer for Windows, Mac and Linux.
-**This version is no more compatible since the BLOC 3.0**
-
-You can still check the features and view the details of the old [BLOC Wallet v2.0.2](../BLOC-GUI-Desktop-Wallet-V2)
 
 ## **BLOC Telegram Wallet**
 
@@ -57,4 +50,4 @@ If you would like to use the Telegram BLOC Wallet, you can check out [this guide
 
 ## **BLOC Web Wallet**
 
-We currently are working on the first BLOC Web Wallet. We hope to be ready before the end of this year.
+Coming soon.

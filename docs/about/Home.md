@@ -1,4 +1,4 @@
-# **About BLOC**
+# **About BLOC.MONEY - (BLOC)**
 
 ## **Cryptocurrency untraceable payments meets every day life**
 
@@ -10,7 +10,7 @@ Launched in May 2018, one of our main goal is to provide a cryptocurrency which 
 
 Part of our mission is to revolutionize the sport talent management system [creating a custom hardware](TRAAKX-hardware.md) to track and record the activity of an athlete, combined with artificial inteligence to provide the world first action sport tracker based on a blockchain technology offering a whole new world to the sport industry. BLOC creates [TRAAKX](TRAAKX.md).
 
-**Decentralised Fuel to Power the Engine**
+## **Decentralised Fuel to Power the Engine**
 All the PAYCHANGE & TRAAKX products and services will be invoiced in the currency BLOC.
 
 Last but not least and maybe the most challenging goal is to connect with entrepreneur’s ready to build new services and products around BLOC to improve the ecosystem. We have so much to decentralize: Private messenger, Social media platform, music & artists, means of transport and much more. We have locked a premine specially dedicated for this kind of projects and we are ready to help you with finance. Let’s build together a better future. Contact us through our [community](../about/Community.md)
@@ -19,7 +19,7 @@ BLOC's code is forked from the [TurtleCoin](https://github.com/turtlecoin/turtle
 
 **BLOC** is the cryptocurrency for the people by the people respecting your privacy. Nobody can seize your [BLOC](https://bloc.money). You are the only reponsible of your fund. You and only you can control your fund. You are your own bank. It's about time to take back the control of your money.
 
-While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, BLOC has decided to do things differently by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
+While most of the blockchain projects are relying on ICOs to raise funding and promising never coming products, [BLOC has decided to do things differently](https://cointelegraph.com/news/too-many-disappointing-icos-crypto-payment-startup-launches-with-no-funding-strategy) by adopting a no-funding strategy and instead believe in their core mission and vision to grow in the industry.
 
 Providing exceptional products and services like [PAYCHANGE](PAYCHANGE.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
 

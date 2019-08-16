@@ -36,4 +36,4 @@ Therefore, the pool operator will take 0.02 abLoc for himself.
 
 Do you have a mining Pool for **BLOC** ?
 Would you like to be added to the official mining pools list on the BLOC MONEY website [here](https://bloc.money/mining) ?
-Just contact us using from our [community](../about/Community.md)
+Just contact us using from our [community](../about/Community.md).

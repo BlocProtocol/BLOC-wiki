@@ -7,7 +7,7 @@ This wiki is the main source of documentation for newcomers to the [BLOC Project
 
 The [BLOC.MONEY](https://bloc.money) - Ticker: [(BLOC)](https://github.com/furiousteam/BLOC) Project has been established to develop and popularise the Blockchain Technology as well as the use of cryptocurrencies in the everyday life while respecting the environment.
 
-**BLOC.MONEY** - Ticker: **BLOC** is a fast, easy to use and private decentralized cryptocurrency without involvement of financial institutions. BLOC is based on the same open-source Cryptonote technology used by Monero and runs on a secure peer-to-peer network to operate with no central authority.
+BLOC is a fast, easy to use and private decentralized cryptocurrency without involvement of financial institutions. BLOC is based on the same open-source Cryptonote technology used by Monero and runs on a secure peer-to-peer network to operate with no central authority.
 
 BLOC enables untraceable and anonymous transactions. Using a distributed public ledger, the sender, the receiver and the transacted amount are kept anonymous. You control the private keys to your funds.
 

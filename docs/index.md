@@ -3,17 +3,25 @@ This wiki is the main source of documentation for newcomers to the **BLOC** proj
 
 ## **What is BLOC?**
 
-**BLOC.MONEY** : Symbol **Ƀ** - Ticker: **BLOC** is a fast, easy to use and private decentralized cryptocurrency - Egalitarian Proof Of Work with Cryptonight Haven algorithm - based on open source Cryptonote technology using low & fix rate fees per transaction launched in May 2018 with exclusive set of mining tools, world first features and unrivaled ecosystem to connect buyers and sellers.
+**BLOC.MONEY**  - Ticker: **BLOC** is a fast, easy to use and private decentralized cryptocurrency without involvement of financial institutions. BLOC is based on the same open-source Cryptonote technology used by Monero and runs on a secure peer-to-peer network to operate with no central authority.
 
-One of our mission is to build a more open, accessible, and fair financial future. Our technology is revolutionizing the financial services industry by empowering users across the globe to authenticate and transact worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
+BLOC enables untraceable and anonymous transactions. Using a distributed public ledger, the sender, the receiver and the transacted amount are kept anonymous. You control the private keys to your funds.
 
-One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerful ecosystem for users, to benefits advantages from multiple type of industries like never done before.
+BLOC is set to disrupt the mobile industry in the developing world, as our blockchain technology is revolutionizing the financial services industry by empowering users across the globe to be rewarded in return of its use but also pay and be paid anytime, anywhere, without costly intermediaries.
+
+BLOC aims to develop an innovation-friendly and sustainable ecosystem that will enable bridging the gap between the cryptocurrencies and the everyday life. Community driven and truly decentralized, no one owns BLOC, everyone can take part. BLOC was created without an Initial Coin Offering.
 
 **BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
 It's about time to take back the control of your money.
 
 Free your life today, enjoy the BLOC lifestyle. Join us.
+
+## **Video**
+
+Everything you want to know about #cryptocurrency BLOC.MONEY ($BLOC) in this 5 minutes #video.
+
+[![Everything you want to know about #cryptocurrency BLOC.MONEY ($BLOC) in this 5 minutes #video. See why BLOC is set to #disrupt the #mobile #industry.](images/WHAT-IS-BLOC-YOUTUBE.jpg)](https://www.youtube.com/watch?v=uQekepZesE0)
 
 - [Learn more about BLOC and the community](about/Home.md)
 - [Setup your wallet to start receiving BLOC](Getting-Started.md#setting-up-a-new-wallet)

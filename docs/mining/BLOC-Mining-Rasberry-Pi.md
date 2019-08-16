@@ -4,9 +4,10 @@ This guide will get you started mining BLOC on a Raspberry Pi or similar SBC (si
 
 Mining from a Rasberry Pi is not really efficient but it is more for the fun and there is a lot of improvements that can be done.
 
-# **Video**
+## **Video**
 
 How to mine BLOC.money on Raspberry Pi
+
 [![How to mine BLOC.money on mac OS with the BLOC GUI Miner](images/rasberry/HOW-TO-MINE-BLOC-FROM-RASPBERRY-YOUTUBE.jpg)](https://www.youtube.com/watch?v=nhpBfE15TB0)
 
 ## **The fastest miner available for Raspbian on Raspberry Pi**

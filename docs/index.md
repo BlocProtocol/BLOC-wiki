@@ -21,6 +21,6 @@ It's about time to take back the control of your money. Free your life today, en
 
 ## **Video**
 
-Everything you want to know about #cryptocurrency **BLOC.MONEY** - **BLOC** in this #video.
+Everything you want to know about #cryptocurrency **BLOC.MONEY** - **BLOC** in 5 minutes.
 
 [![Everything you want to know about #cryptocurrency BLOC.MONEY (BLOC) in this 5 minutes #video. See why BLOC is set to #disrupt the #mobile #industry.](images/WHAT-IS-BLOC-YOUTUBE.jpg)](https://www.youtube.com/watch?v=uQekepZesE0)

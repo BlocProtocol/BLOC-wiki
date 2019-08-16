@@ -13,7 +13,7 @@ BLOC is set to disrupt the mobile industry in the developing world, as our block
 
 BLOC aims to develop an innovation-friendly and sustainable ecosystem that will enable bridging the gap between the cryptocurrencies and the everyday life. Community driven and truly decentralized, no one owns BLOC, everyone can take part. BLOC was created without an Initial Coin Offering.
 
-BLOC eco-friendly Proof of Work Cryptonight Haven algorithm ensures that affordable hardware is no impediment to success: everyone can mine $BLOC with roughly equal efficiency, making BLOC.money a uniquely egalitarian currency. **BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
+BLOC eco-friendly Proof of Work Cryptonight Haven algorithm ensures that affordable hardware is no impediment to success: everyone can mine BLOC with roughly equal efficiency, making BLOC.money a uniquely egalitarian currency. **BLOC** is easy to mine and makes [getting started](Getting-Started.md) with cryptocurrencies easier than ever.
 
 It's about time to take back the control of your money. Free your life today, enjoy the BLOC lifestyle. Join us.
 
@@ -21,7 +21,7 @@ It's about time to take back the control of your money. Free your life today, en
 
 Everything you want to know about #cryptocurrency **BLOC.MONEY** - **BLOC** in this #video.
 
-[![Everything you want to know about #cryptocurrency BLOC.MONEY ($BLOC) in this 5 minutes #video. See why BLOC is set to #disrupt the #mobile #industry.](images/WHAT-IS-BLOC-YOUTUBE.jpg)](https://www.youtube.com/watch?v=uQekepZesE0)
+[![Everything you want to know about #cryptocurrency BLOC.MONEY (BLOC) in this 5 minutes #video. See why BLOC is set to #disrupt the #mobile #industry.](images/WHAT-IS-BLOC-YOUTUBE.jpg)](https://www.youtube.com/watch?v=uQekepZesE0)
 
 - [Learn more about BLOC and the community](about/Home.md)
 - [Setup your wallet to start receiving BLOC](Getting-Started.md#setting-up-a-new-wallet)

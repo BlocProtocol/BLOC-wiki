@@ -1,4 +1,4 @@
-# **BLOC Features**
+# **BLOC.MONEY - (BLOC) Features**
 We are trying to do things no cryptocurrency has ever done before. We already have online few exclusive tools such as the unique [BLOC Javascript web miner](../mining/bloc-in-browser-javascript-web-miner.md) and [BLOC Gui Miner](../mining/BLOC-GUI-Miner.md) but also the **BLOC Wallet for iOS** [available on the App Store](../wallets/BLOC-iOS-wallet.md) or [BLOC Wallet for Telegram](../wallets/BLOC-Telegram-Wallet.md) which makes BLOC instantly available to over 200 million+ users worldwide.
 
 Discover the [BLOC Dashboard](../guides/dashboard/dashboard.md) and join the AirDrop mission to grab your very 1st BLOC.

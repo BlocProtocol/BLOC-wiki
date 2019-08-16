@@ -1,4 +1,4 @@
-# **Setting Up a BLOC Paper Wallet**
+# **Setting Up a BLOC.MONEY - (BLOC) Paper Wallet**
 
 ![BLOC Paper Wallet](images/Paper-wallet/paper-wallet.jpg)
 

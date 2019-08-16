@@ -18,4 +18,4 @@ You can find a complete list of the BLOC mining pools available on the [BLOC Min
 - **Official Pools** : Managed by the BLOC team
 - **Community Pools** : Managed by the BLOC community
 
-If you would like to add your mining pool into this list this can be done easily by contacting us through the [BLOC Community](BLOCd-daemon-cli-options.md)
+If you would like to add your mining pool into this list this can be done easily by contacting us through the [community](../about/Community.md)

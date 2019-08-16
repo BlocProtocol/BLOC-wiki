@@ -69,7 +69,7 @@ Once you are ready, click start mining.
 Your hashrate will be instantly updated once you connect to the mining pool and you can see a green icon next to the mining pool. That’s it! You are mining BLOC ! Congratulations!
 
 Now copy your bloc wallet address and let’s go the the mining pool website to check the activity of my account.
-I’m mining from the BLOC europe mining pool. [BLOC-MINING Europe](https://bloc-mining.eu)
+I’m mining from the BLOC Pool mining pool. [POOL.BLOC.MONEY](https://pool.bloc.money)
 
 Scroll down and paste your address from your BLOC wallet and click the search icon to display the data.
 

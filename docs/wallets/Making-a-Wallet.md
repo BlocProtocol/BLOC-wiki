@@ -34,11 +34,7 @@ If you would like to use BLOC Wallet for iOS, you can check out [this guide](../
 
 ## **BLOC Graphical Wallet (GUI Wallet)**
 
-GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface.
-
-### **BLOC Electron Wallet**
-
-BLOC Electron Wallet is the new BLOC GUI Desktop wallet for the new BLOC core 3.0 available for Windows, macOS and Linux.
+GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. **BLOC Electron Wallet** is the new BLOC GUI Desktop wallet for the new BLOC core 3.0 available for Windows, macOS and Linux.
 
 Make sure to follow the [complete instructions here](../wallets/BLOC-GUI-Electron-Wallet.md) on how to use BLOC Electron Wallet.
 

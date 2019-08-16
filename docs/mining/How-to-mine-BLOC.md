@@ -6,9 +6,9 @@ It is **likely** you will need to add exceptions and exclusions to your antiviru
 
 There are currently a few different ways in which you can start mining [BLOC](https://bloc.money):
 
-## **1. In-browser BLOC javascript web miner*
+##**1. In-browser BLOC javascript web miner*
 
-[In-browser BLOC web miner](../mining/bloc-in-browser-javascript-web-miner.md) was designed and built to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money). In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining with your computer, mobile phone or any device running a web browser.
+[In-browser BLOC web miner](../mining/bloc-in-browser-javascript-web-miner.md) was designed and built to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as [BLOC](https://bloc.money). In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining with your computer, mobile phone or any device running a web browser.
 
 To start mining **BLOC** with the **In-browser web miner**, you can check out [this guide](../mining/bloc-in-browser-javascript-web-miner.md).
 

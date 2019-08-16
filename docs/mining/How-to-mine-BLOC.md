@@ -1,4 +1,4 @@
-# **How to Mine BLOC?**<a name="how-to-mine"></a>
+# **How to Mine BLOC.MONEY - (BLOC) ?**<a name="how-to-mine"></a>
 
 Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.
 
@@ -6,13 +6,13 @@ It is **likely** you will need to add exceptions and exclusions to your antiviru
 
 There are currently a few different ways in which you can start mining [BLOC](https://bloc.money):
 
-## **1. BLOC GUI Miner**
+## **1. In-browser BLOC javascript web miner*
 
 [In-browser BLOC web miner](../mining/bloc-in-browser-javascript-web-miner.md) was designed and built to allow virtually anyone with internet access and a browser to mine the cryptocurrency known as Ƀ [BLOC](https://bloc.money). In-browser miner is easy to use and has all the latest web mining capabilities built in. You do not have to download or configure any software to get started mining with your computer, mobile phone or any device running a web browser.
 
 To start mining **BLOC** with the **In-browser web miner**, you can check out [this guide](../mining/bloc-in-browser-javascript-web-miner.md).
 
-## **2. In-browser BLOC javascript web miner**
+## **2. BLOC GUI Miner***
 
 [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining the cryptocurrency [BLOC](https://bloc.money).
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.

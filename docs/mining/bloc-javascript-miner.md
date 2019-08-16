@@ -30,7 +30,7 @@ Your users can “pay” you with full privacy, without registering an account a
 Copy all the files on a domain and change the following:
 
 ```javascript
-var mining_pool = 'bloc-mining.eu'; // mining pool domain
+var mining_pool = 'pool.bloc.money'; // mining pool domain
 ```
 
 this is the mining pool domain. we recommend leaving it untouched.

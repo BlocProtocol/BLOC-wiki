@@ -2,7 +2,7 @@
 
 If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
-This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner.md#windows), [Mac OS](../mining/BLOC-GUI-Miner.md#mac) and [Linux](../mining/BLOC-GUI-Miner.md#linux) using CPU and/or GPU hardware.
+This page describe how to use the BLOC GUI Miner and getting started mining cryptocurrency on [Windows](../mining/BLOC-GUI-Miner-using.md#windows), [Mac OS](../mining/BLOC-GUI-Miner-using.md#mac) and [Linux](../mining/BLOC-GUI-Miner-using.md#linux) using CPU and/or GPU hardware.
 
 [Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
@@ -215,9 +215,9 @@ You get paid out based upon what the pool sets the min payout amount. A pool’s
 
 Visit the mining pool you are mining from to checkout your actual payouts.
 
-### Example if you are mining from [BLOC-MINING Pool Europe](https://bloc-mining.eu)
+### Example if you are mining from [POOL.BLOC.MONEY](https://pool.bloc.money)
 
-* Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
+* Go to [POOL.BLOC.MONEY](https://pool.bloc.money).
 
 * Scroll down to **Your Stats & Payment History**
 

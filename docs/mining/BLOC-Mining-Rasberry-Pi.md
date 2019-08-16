@@ -99,9 +99,9 @@ This is what you should see while mining.
 
 You get paid out based upon what the pool sets the min payout amount. A pool’s min payout amount can vary from pool to pool. Visit the mining pool you are mining from to checkout your actual payouts.
 
-### Example if you are mining from [BLOC-MINING Pool Europe](https://bloc-mining.eu)
+### Example if you are mining from [POOL.BLOC.MONEY](https://pool.bloc.money)
 
-* Go to the [BLOC-MINING Pool Europe](https://bloc-mining.eu).
+* Go to the [POOL.BLOC.MONEY](https://pool.bloc.money).
 
 * Scroll down to `Your Stats & Payment History`
 

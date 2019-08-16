@@ -2,11 +2,17 @@
 
 [BLOC](https://bloc.money) was created by FuriousTeam and Thomas Gayet in December 2017 and launched in public the 22th may 2018
 
-## **Why the BLOC ?**
+## **Why BLOC.MONEY - (BLOC) ?**
 
-We are passionate about crypto currency and truly convinced that blockchain technology is going to change our world. Too many ICO's are popping up everday without real products at the end and a lot of disapointement. We decided to do it differently. [BLOC.MONEY](https://bloc.money) is a true and real mining crypto currency like Bitcoin, using improved adaptive features to fit our current world and economy including exclusive mining tools to offer an egalitarian money distribution. Providing exceptional products and services like [PAYCHANGE](PAYCHANGE.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
+More than 2.7 billion smartphones are in use today, and developing markets represent the greatest areas of smartphone growth. BLOC was designed to meet the needs of users in both developed and developing countries. With an unprecedented range of mining options, BLOC has solved one of the most significant impediments to global cryptocurrency adoption: lack of accessibility. BLOC’s simple, egalitarian approach to mining makes getting started with cryptocurrencies easier than ever.
+
+Too many ICO's has popped out without real products at the end and a lot of disapointement. We decided to do it differently. We have a strong belief in [our no-funding strategy](https://cointelegraph.com/news/too-many-disappointing-icos-crypto-payment-startup-launches-with-no-funding-strategy); if we make a cool product, the value will create itself.
+
+One of our main goal is to provide a cryptocurrency which is safe, easy to use and attractive combined with a powerful ecosystem for users, to benefits advantages from multiple type of industries like never done before. One of our mission is to build a more open, accessible, and fair financial future. Providing exceptional products and services like [PAYCHANGE](PAYCHANGE.md) and [TRAAKX](TRAAKX.md) (and many others to come) are key principles enforcing the project to grow at an increasing rate.
 
 ## **Why a premine ?**
+
+BLOC’s decentralised, egalitarian approach to cryptocurrency is just the beginning. We are constantly looking for entrepreneurs ready to improve the BLOC ecosystem with new services and products. These joint efforts are funded by a locked store of pre-mined BLOC coins, which guarantees funding through each project’s final release.
 
 We have a long road map and big plans coming up for BLOC that require proper funding to achive these goals on time. BLOC was created and financed by ourself since the beggining such as developer salary, web servers and all the other extra costs. We will be using parts of the premine wallet during the life time of the BLOC project to [finance researches and development of new services and applications](Contributing.md#connect-with-entrepreneur) to improve BLOC. Part of this premine wallet will be used as [BOUNTY](../guides/Bounty-Program.md) to reward users involved in the promotion of BLOC. We premined a total of 5 million BLOC which represent 10% of the maximum supply available in 2046.
 

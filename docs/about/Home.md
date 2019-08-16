@@ -2,7 +2,7 @@
 
 ## **Cryptocurrency untraceable payments meets every day life**
 
-[BLOC.MONEY](https://bloc.money) - Ticker:[(BLOC)](https://github.com/furiousteam/BLOC) is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
+[BLOC.MONEY](https://bloc.money) - Ticker: [(BLOC)](https://github.com/furiousteam/BLOC) is a fully decentralized cryptocurrency based on the open source Cryptonote technology, uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user, offering untraceable payements and respect of your private life. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
 
 ## **Goals**
 

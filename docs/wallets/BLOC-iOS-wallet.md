@@ -1,4 +1,4 @@
-# **BLOC for iPhone and iPad**
+# **BLOC.MONEY - (BLOC) iOS Wallet**
 
 Introducing the first open source [BLOC Wallet for iOS](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2) with a focus on accessibility, security and simplicity. BLOC Wallet makes getting started with [BLOC](https://bloc.money) easier than ever.
 

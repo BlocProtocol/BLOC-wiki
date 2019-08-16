@@ -1,6 +1,5 @@
 # **What is mining ?**
-
-Cryptocurrency mining includes two functions, namely: adding transactions to the blockchain (securing and verifying) and also releasing new currency. This ledger of past transactions is called the block chain as it is a chain of blocks. Mining needs a device such as a computer or mobile device and a special program, which helps miners compete with their peers in solving complicated mathematical problems. Mining is so called because it resembles the mining of other commodities: it requires exertion and it slowly makes new currency available at a rate that resembles the rate at which commodities like gold are mined from the ground.
+Mining is the process of adding transaction records to cryptocurency public ledger of past transactions. This ledger of past transactions is called the blockchain as it is a chain of blocks. Mining needs a device such as a computer or mobile device and a special program, which helps miners compete with their peers in solving complicated mathematical problems. Mining is so called because it resembles the mining of other commodities: it requires exertion and it slowly makes new currency available at a rate that resembles the rate at which commodities like gold are mined from the ground.
 
 If you want to learn about cryptocurrencies, mining is a great place to start!. [Start mining today](../mining/How-to-mine-BLOC.md) and get rewarded in **BLOC**
 

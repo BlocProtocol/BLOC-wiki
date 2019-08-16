@@ -155,7 +155,7 @@ A: Generally, this is due to an incorrectly configured config. In the directory 
 
 Open this up, and check that it looks **similar** to this:
 
-    {"pool_address" : "bloc-mining.eu:4444",
+    {"pool_address" : "pool.bloc.money:4444",
      "wallet_address" : "abLocv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW",
      "pool_password" : "x",
      "use_nicehash" : false,

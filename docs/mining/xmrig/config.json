@@ -22,7 +22,7 @@
     "max-cpu-usage": 0,
     "pools": [
         {
-            "url": "bloc-mining.eu:4444",
+            "url": "pool.bloc.money:4444",
             "user": "YOUR_WALLET_ADDRESS",
             "pass": "",
             "rig-id": null,

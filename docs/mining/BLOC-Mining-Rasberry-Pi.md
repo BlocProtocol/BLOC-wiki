@@ -65,7 +65,7 @@ This is what you need to enter with your pool address and correct abLoc mining a
 A real exemple:
 
 ```
-./xmrig -a cryptonight-heavy -k -o stratum+tcp://bloc-mining.eu:4444 -u abLoc7qZYJd7cWysPQRivNNMQMFgkXNPgiQXN1i2twdUWvwr2XMbxsAbwdL3eJjCMSgs8oWyGx7pHCX8jWHrKi8Meap3gc5TujM -p x -k --variant=xhv --av=0 -t 4
+./xmrig -a cryptonight-heavy -k -o stratum+tcp://pool.bloc.money:4444 -u abLoc7qZYJd7cWysPQRivNNMQMFgkXNPgiQXN1i2twdUWvwr2XMbxsAbwdL3eJjCMSgs8oWyGx7pHCX8jWHrKi8Meap3gc5TujM -p x -k --variant=xhv --av=0 -t 4
 
 ```
 

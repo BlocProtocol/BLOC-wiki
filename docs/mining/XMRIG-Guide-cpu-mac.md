@@ -114,7 +114,7 @@ XMRig needs to be compiled for nVidia and AMD. Instructions for compiling are li
 2.  Open the `xmrig-config-sample.json` file with Notepad
 3.  Find and change the following lines:
 
-      * `"url: "bloc-mining.eu:4444"`
+      * `"url: "pool.bloc.money:4444"`
       Change to: `[pooladdress:port]`. You'll need to choose a pool to mine towards. You can check the full list [here](https://bloc.money/mining). Make sure to keep the `"`s!
 
       * `"user: "YOUR_WALLET_ADDRESS"`

@@ -1,9 +1,11 @@
+# **How to mine TurtleCoin TRTL with BLOC GUI Miner**
+
 [TurtleCoin](https://github.com/turtlecoin/turtlecoin) is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
 *Note*: Mining TurtleCoin only works with XMRIG and support the new Chukwa algorithm.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-TRTL.jpg)
+![BLOC GUI Miner Mining TRTL](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-TRTL.jpg)
 
-# **Install BLOC GUI Miner**
+## **Install BLOC GUI Miner**
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
@@ -18,13 +20,13 @@ It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining TRTL](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
 ### **Select TurtleCoin**
 
 Select TurtleCoin
 
-![Select turtlecoin](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-select-coin.png)
+![Select turtlecoin](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
 ### **TRTL Address**
 
@@ -68,12 +70,11 @@ Congratulations ! You are mining **(TRTL)** TurtleCoin cryptocurrency. This is t
 
 The settings page allow you to customize the miner settings:
 
+- Choose another coin to mine
 - Modify your wallet mining address
 - Choose a different mining pool
 
-**Note**: *The % for CPU mining works only with XMRIG.*
-
-![TurtleCoin Miner settings](images/BLOC-GUI-MINER/TRTL-settings.png)
+![TurtleCoin Miner settings](images/BLOC-GUI-MINER/TRTL-setting.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address

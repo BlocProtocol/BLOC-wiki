@@ -2,6 +2,8 @@
 
 [RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
 
+**Note**: Mining LOKI only works with XMRIG.
+
 [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.

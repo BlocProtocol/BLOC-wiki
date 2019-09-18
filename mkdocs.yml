@@ -155,8 +155,8 @@ nav:
         - How to mine LOKI: mining/BLOC-GUI-Miner-mining-loki.md
         - How to mine SUMO: mining/BLOC-GUI-Miner-mining-sumo.md
         - How to mine GRFT: mining/BLOC-GUI-Miner-mining-graft.md
-        - How to mine CCX: BLOC-GUI-Miner-mining-ccx
-        - How to mine QRL: mining/BLOC-GUI-Miner-mining-qrl
+        - How to mine CCX: BLOC-GUI-Miner-mining-ccx.md
+        - How to mine QRL: mining/BLOC-GUI-Miner-mining-qrl.md
         - How to compile: mining/BLOC-GUI-Miner-Compile.md
         - Update Details: mining/BLOC-GUI-Miner-Update.md
       - Mining with XMR-stak: 

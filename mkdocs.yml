@@ -148,6 +148,7 @@ nav:
       - Mining with BLOC GUI Miner:
         - Introduction: mining/BLOC-GUI-Miner.md
         - How to use: mining/BLOC-GUI-Miner-using.md
+        - How to mine TRTL: mining/BLOC-GUI-Miner-mining-turtlecoin.md
         - How to compile: mining/BLOC-GUI-Miner-Compile.md
         - Update Details: mining/BLOC-GUI-Miner-Update.md
       - Mining with XMR-stak: 

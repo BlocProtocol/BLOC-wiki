@@ -1,4 +1,4 @@
-# **How to Set Up XMR-Stak for Windows**
+# **How to mine with XMR-Stak on Windows**
 
 XMR-Stak is a unified miner, which means the same program will be used to mine with both your CPU and your GPU. It will automatically detect your hardware and adjust the settings accordingly.
 

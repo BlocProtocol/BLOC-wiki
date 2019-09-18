@@ -6,7 +6,7 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 BLOC GUI Miner support two very popular miner backends: [xmr-stak](https://github.com/fireice-uk/xmr-stak) and [xmrig](https://github.com/xmrig/xmrig)
 
-BLOC GUI Miner comes with **XMR-STAK 2.10.4** and XMRIG **2.14.1** already built-in, including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with **XMR-STAK 2.10.7** and XMRIG **3.1.2** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
@@ -14,56 +14,200 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 **Note**: Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
+## What's New in v1.1.2 ?
+
+- 💎 Built-in latest XMR-STAK & XMRIG
+- ✅ Now support $BLOC $TRTL $XMR $RYO $XHV $SUMO $LOKI $QRL $CCX $GRFT
+- 🖥 Works on macOS, Windows (7, 8, 10) & Linux x64
+- 🎖 Best Mining Pools built-in
+- ❇️ Change mining pool or coin in 1 click
+- ℹ️ Complete informations about each currency with links
+- 🔸 Easy to use
+- 📈 Price & Coin Stats by CoinGecko
+- 📊 Mining Stats by Cryptunit
+- ♻️ CPU & GPU Mining
+
+### Online Support:
+
+- [Discord](https://discord.gg/5Buudya)
+- [Telegram](https://t.me/bloc_money)
+
 ## **Screenshots**
+
+*ad*
+![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.1.2.jpg)
 
 *Home*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-welcome.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/1-HOME-BLOC-GUI-Miner-v1.1.2.png)
+
+*Miner Setup*
+
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/2-MINER-SETUP-BLOC-GUI-Miner-v1.1.2.png)
 
 *Select Coin to Mine*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
-*Mining BLOC*
+*Select Mining Pool*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-mining-BLOC.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/5-MINER-POOLS-BLOC-GUI-Miner-v1.1.2.png)
 
-*Mining TurtleCoin*
+*Help*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v004-mining-TRTL.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/help.png)
 
-## **Supported Cryptocurrency**
 
-Everyone can add their own cryptocurrency to the BLOC GUI Miner as long as it is supported by **XMR-STAK** and **XMRIG**.
-In the same time everyone can add/edit a mining pool into the BLOC GUI Miner.
+## **Supported Cryptocurrencies**
 
-Curently we support :
+Everyone can add their own cryptocurrency to the BLOC GUI Miner as long as it is supported by **XMR-STAK** and **XMRIG**. In the same time everyone can add/edit a mining pool into the BLOC GUI Miner.
+
+You can mine the following cryptocurrencies with the BLOC GUI Miner :
 
 - [BLOC.MONEY](https://bloc.money) **(BLOC)**
 - [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
 - [RYO](https://ryo-currency.com) **(RYO)**
+- [Haven](https://www.havenprotocol.com) **(XHV)**
+- [Monero](https://www.getmonero.org) **(XMR)**
+- [Loki](https://loki.network) **(LOKI)**
+- [Sumokoin](https://www.sumokoin.org) **(SUMO)**
+- [GRAFT](https://www.graft.network) **(GRFT)**
+- [Conceal Network](https://conceal.network) **(CCX)**
+- [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
 
 If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instructions available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/master/coins).
+
+### **BLOC.MONEY (BLOC) mining**
+
+[BLOC.MONEY](https://bloc.money) is a fast, easy to use and private decentralized cryptocurrency. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
+
+*Mining BLOC:*
+
+[![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/4-MINING-BLOC-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/)
+
+### **TurtleCoin (TRTL) Mining**
+
+[TurtleCoin](https://github.com/turtlecoin/turtlecoin) is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
+*Note*: Mining TurtleCoin only works with XMRIG and support the new Chukwa algorithm.
+
+*Mining TRTL:*
+
+[![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-turtlecoin-trtl)
+
+### **Haven (XHV) Mining**
+
+[Haven](https://www.havenprotocol.com) protocol is a fully decentralized, private, algorithmic stablecoin that can be stored in a Haven wallet which can be seen as a private and decentralized USD-based bank account for everyone.
+
+*Mining XHV:*
+
+[![BLOC GUI Miner Mining Haven](images/BLOC-GUI-MINER/8-MINING-HAVEN-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-haven-xhv)
+
+### **Monero (XMR) Mining**
+
+[Monero](https://www.getmonero.org) Monero is cash for a connected world. It’s fast, private, and secure. With Monero, you are your own bank. You can spend safely, knowing that others cannot see your balances or track your activity.
+
+*Mining XMR:*
+
+[![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-monero-xmr)
+
+### **RYO (RYO) Mining**
+
+[RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
+
+*Mining RYO:*
+
+[![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/7-MINING-RYO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-RYO-ryo)
+
+### **LOKI (LOKI) Mining**
+
+[Loki](https://loki.network) Loki is a privacy network which will allow users to transact and communicate privately over the internet, providing a suite of tools to help maintain the maximum amount of anonymity possible while browsing, transacting and communicating online..
+
+*Mining LOKI:*
+
+[![BLOC GUI Miner Mining LOKI](images/BLOC-GUI-MINER/11-MINING-LOKI.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-loki-loki)
+
+### **SUMOKOIN (SUMO) Mining**
+
+[Sumokoin](https://www.sumokoin.org) DIGITAL CASH - Privacy Without Compromise. Private • Untraceable • Decentralized • Fungible
+
+*Mining SUMO:*
+
+[![BLOC GUI Miner Mining SUMO](images/BLOC-GUI-MINER/10-MINING-SUMO.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-sumokoin-sumo)
+
+### **GRAFT (GRFT) Mining**
+
+[GRAFT](https://www.graft.network) GRAFT is a combination (PoW, PoS, DAG) blockchain and a platform that enables a truly decentralized payment network with real-time, universal payment acceptance.
+
+*Mining GRFT:*
+
+[![BLOC GUI Miner Mining GRAFT](images/BLOC-GUI-MINER/12-MINING-GRAFT.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-graft-grft)
+
+### **CONCEAL NETWORK (CCX) Mining**
+
+[Conceal Network](https://conceal.network) Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code.
+
+*Mining CCX:*
+
+[![BLOC GUI Miner Mining CCX](images/BLOC-GUI-MINER/14-MINING-CCX.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-conceal-ccx)
+
+### **Quantum Resistant Ledger (QRL) Mining**
+
+[Quantum Resistant Ledger](https://www.theqrl.org) The Quantum Resistant Ledger. Secure digital assets for longevity. Externally audited enterprise-grade blockchain platform secure against an attack from quantum computers.
+
+*Mining QRL:*
+
+[![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-quantum-qrl)
+
 
 ## **Supported Miners**
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
-1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.4**
-2. [xmrig](../mining/XMRIG-index.md) **v2.14.1** (note: [xmrig-nvidia](https://github.com/xmrig/xmrig-nvidia) and [xmrig-amd](https://github.com/xmrig/xmrig-amd) are not yet implented
+1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.7**
+2. [xmrig](../mining/XMRIG-index.md) **v3.1.2**
 
-## **Download binaries and source code**
+### **XMRSTAK bundle support following coins**
 
-Download binaries and source code from the [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) GitHub rep.
+- [BLOC.MONEY](https://bloc.money) **(BLOC)**
+- [RYO](https://ryo-currency.com) **(RYO)**
+- [Haven](https://www.havenprotocol.com) **(XHV)**
+- [Monero](https://www.getmonero.org) **(XMR)**
+- [Sumokoin](https://www.sumokoin.org) **(SUMO)**
+- [GRAFT](https://www.graft.network) **(GRFT)**
+- [Conceal Network](https://conceal.network) **(CCX)**
+- [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
+
+![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMR-STAK.png)
+
+### **XMRIG bundle support following coins**
+
+- [BLOC.MONEY](https://bloc.money) **(BLOC)**
+- [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
+- [RYO](https://ryo-currency.com) **(RYO)**
+- [Haven](https://www.havenprotocol.com) **(XHV)**
+- [Monero](https://www.getmonero.org) **(XMR)**
+- [Loki](https://loki.network) **(LOKI)**
+- [Sumokoin](https://www.sumokoin.org) **(SUMO)**
+- [GRAFT](https://www.graft.network) **(GRFT)**
+- [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
+
+![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMRIG.png)
+
+## **Downloads Binaries and Source code**
+
+Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
+
+- Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
+- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
 
 ## **Guides**
 
-- [What is the BLOC GUI Miner ?](https://wiki.bloc.money/mining/bloc-gui-miner/)
+- [What is the BLOC GUI Miner ?](../mining/BLOC-GUI-Miner.md)
 - [How to install on Windows](../mining/BLOC-GUI-Miner-using.md#windows)
 - [How to install on macOS](../mining/BLOC-GUI-Miner-using.md#mac-os)
 - [How to install on Linux](../mining/BLOC-GUI-Miner-using.md#linux)
 - [How to use the BLOC GUI Miner to mine BLOC](../mining/BLOC-GUI-Miner-using.md)
-- [How to mine TurtleCoin](../mining/BLOC-GUI-Miner-using.md#mining-turtlecoin-trtl)
+- [How to mine TurtleCoin](../mining/BLOC-GUI-Miner-mining-turtlecoin.md)
 - [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
 
 ## **Make sure you have a wallet**

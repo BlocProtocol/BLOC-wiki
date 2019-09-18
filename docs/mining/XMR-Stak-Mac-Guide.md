@@ -1,4 +1,4 @@
-# **How to Set Up XMR-Stak on Mac OS**
+# **How to mine with XMR-Stak on Mac OS**
 
 Native binaries on Mac OS are not available for XMR-stak.
 You will need to compile yourself, follow these instructions:

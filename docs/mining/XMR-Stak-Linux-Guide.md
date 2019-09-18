@@ -1,4 +1,4 @@
-# **How to Set Up XMR-Stak on Linux**
+# **How to mine with XMR-Stak on Linux**
 
 Native binaries on linux are not available for XMR-stak.
 You will need to compile yourself, follow these instructions:

@@ -1,4 +1,4 @@
-# **How to mine Haven (XHV) with BLOC GUI Miner**
+# **How to mine Monero (XMR) with BLOC GUI Miner**
 
 [Haven](https://www.havenprotocol.com) protocol is a fully decentralized, private, algorithmic stablecoin that can be stored in a Haven wallet which can be seen as a private and decentralized USD-based bank account for everyone.
 
@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Haven (XHV)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-XHV.jpg)
+![BLOC GUI Miner Mining Monero (XMR)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-XMR.jpg)
 
 ## **Install BLOC GUI Miner**
 
@@ -16,27 +16,27 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 - Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 
-## **Mining Haven (XHV)**
+## **Mining Monero (XMR)**
 
-It is now very easy and fun to mine Haven (XHV) using the BLOC GUI Miner.
+It is now very easy and fun to mine Monero (XMR) using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining Haven (XHV)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining Monero (XMR)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
-### **Select Haven (XHV)**
+### **Select Monero (XMR)**
 
-Select Haven (XHV)
+Select Monero (XMR)
 
-![Select Haven (XHV)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Monero (XMR)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
-### **Haven (XHV) Address**
+### **Monero (XMR) Address**
 
-Enter your Haven (XHV) wallet address. It must start with **hvx** and click **OK, NEXT STEP**.
+Enter your Monero (XMR) wallet address. It must start with **hvx** and click **OK, NEXT STEP**.
 
-![Enter Haven (XHV) wallet address](images/BLOC-GUI-MINER/haven-address.png)
+![Enter Monero (XMR) wallet address](images/BLOC-GUI-MINER/monero-address.png)
 
 ### **Choose Mining Pool**
 
@@ -44,7 +44,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose Haven (XHV) mining pool](images/BLOC-GUI-MINER/haven-pool.png)
+![Choose Monero (XMR) mining pool](images/BLOC-GUI-MINER/monero-pool.png)
 
 ### **Antivirus**
 
@@ -64,13 +64,13 @@ BLOC GUI Miner will auto configure your mining hardware with the best capabiliti
 
 ### **Mining**
 
-Congratulations ! You are mining **Haven (XHV)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+Congratulations ! You are mining **Monero (XMR)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/8-MINING-HAVEN-BLOC-GUI-Miner-v1.1.2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)
 
-### **Settings** <a name="Haven (XHV)-settings"></a>
+### **Settings** <a name="Monero (XMR)-settings"></a>
 
 The settings page allow you to customize the miner settings:
 
@@ -78,21 +78,21 @@ The settings page allow you to customize the miner settings:
 - Modify your wallet mining address
 - Choose a different mining pool
 
-![Haven (XHV) Miner settings](images/BLOC-GUI-MINER/haven-settings.png)
+![Monero (XMR) Miner settings](images/BLOC-GUI-MINER/monero-settings.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address
     * Choose your mining pool
 
-![Haven (XHV) Settings another coin](images/BLOC-GUI-MINER/haven-settings2.png)
+![Monero (XMR) Settings another coin](images/BLOC-GUI-MINER/monero-settings2.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Do you need more help ? Make sure you visit this section to find out more about Haven (XHV), join the community, checkout the latest updates, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about Monero (XMR), join the community, checkout the latest updates, watch videos and much more.
 
-![Haven (XHV) Help](images/BLOC-GUI-MINER/haven-help.png)
+![Monero (XMR) Help](images/BLOC-GUI-MINER/monero-help.png)
 
 ## **I have an issue not listed here**
 

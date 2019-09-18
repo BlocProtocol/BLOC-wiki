@@ -1,6 +1,6 @@
 # **How to mine Loki (LOKI) with BLOC GUI Miner**
 
-[RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
+[Loki](https://loki.network) Loki is a privacy network which will allow users to transact and communicate privately over the internet, providing a suite of tools to help maintain the maximum amount of anonymity possible while browsing, transacting and communicating online.
 
 **Note**: Mining LOKI only works with XMRIG.
 

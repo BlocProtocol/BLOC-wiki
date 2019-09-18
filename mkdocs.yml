@@ -150,6 +150,7 @@ nav:
         - How to use: mining/BLOC-GUI-Miner-using.md
         - How to mine TRTL: mining/BLOC-GUI-Miner-mining-turtlecoin.md
         - How to mine RYO: mining/BLOC-GUI-Miner-mining-ryo.md
+        - How to mine XHV: mining/BLOC-GUI-Miner-mining-haven.md
         - How to compile: mining/BLOC-GUI-Miner-Compile.md
         - Update Details: mining/BLOC-GUI-Miner-Update.md
       - Mining with XMR-stak: 

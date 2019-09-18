@@ -1,6 +1,6 @@
 # **How to mine Loki (LOKI) with BLOC GUI Miner**
 
-[Haven](https://www.havenprotocol.com) protocol is a fully decentralized, private, algorithmic stablecoin that can be stored in a Haven wallet which can be seen as a private and decentralized USD-based bank account for everyone.
+[RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
 
 [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
@@ -34,7 +34,7 @@ Select Loki (LOKI)
 
 ### **Loki (LOKI) Address**
 
-Enter your Loki (LOKI) wallet address. It must start with **hvx** and click **OK, NEXT STEP**.
+Enter your Loki (LOKI) wallet address. It must start with **L** and click **OK, NEXT STEP**.
 
 ![Enter Loki (LOKI) wallet address](images/BLOC-GUI-MINER/loki-address.png)
 

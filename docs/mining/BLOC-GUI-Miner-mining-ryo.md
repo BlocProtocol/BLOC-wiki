@@ -32,7 +32,7 @@ Select RYO
 
 Enter your RYO wallet address. It must start with **RYo** and click **OK, NEXT STEP**.
 
-![Enter RYO wallet address](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-RYO-address.png)
+![Enter RYO wallet address](images/BLOC-GUI-MINER/RYO-address.png)
 
 ### **Choose Mining Pool**
 
@@ -40,7 +40,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose Ryo mining pool](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-RYO-pool.png)
+![Choose Ryo mining pool](images/BLOC-GUI-MINER/RYO-pools.png)
 
 ### **Antivirus**
 

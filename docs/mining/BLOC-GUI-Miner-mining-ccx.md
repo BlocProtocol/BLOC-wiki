@@ -1,4 +1,4 @@
-# **How to mine Graft (GRFT) with BLOC GUI Miner**
+# **How to mine Conceal Network (CCX) with BLOC GUI Miner**
 
 [Conceal Network](https://conceal.network) Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code.
 
@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-CCX.jpg
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-CCX.jpg
 
 ## **Install BLOC GUI Miner**
 
@@ -16,27 +16,27 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 - Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 
-## **Mining Graft (GRFT)**
+## **Mining Conceal Network (CCX)**
 
-It is now very easy and fun to mine Graft (GRFT) using the BLOC GUI Miner.
+It is now very easy and fun to mine Conceal Network (CCX) using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
-### **Select Graft (GRFT)**
+### **Select Conceal Network (CCX)**
 
-Select Graft (GRFT)
+Select Conceal Network (CCX)
 
-![Select Graft (GRFT)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Conceal Network (CCX)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
-### **Graft (GRFT) Address**
+### **Conceal Network (CCX) Address**
 
-Enter your Graft (GRFT) wallet address. It must start with **ccx** and click **OK, NEXT STEP**.
+Enter your Conceal Network (CCX) wallet address. It must start with **ccx** and click **OK, NEXT STEP**.
 
-![Enter Graft (GRFT) wallet address](images/BLOC-GUI-MINER/ccx-address.png)
+![Enter Conceal Network (CCX) wallet address](images/BLOC-GUI-MINER/ccx-address.png)
 
 ### **Choose Mining Pool**
 
@@ -44,7 +44,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose Graft (GRFT) mining pool](images/BLOC-GUI-MINER/ccx-pool.png)
+![Choose Conceal Network (CCX) mining pool](images/BLOC-GUI-MINER/ccx-pool.png)
 
 ### **Antivirus**
 
@@ -64,13 +64,13 @@ BLOC GUI Miner will auto configure your mining hardware with the best capabiliti
 
 ### **Mining**
 
-Congratulations ! You are mining **Graft (GRFT)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+Congratulations ! You are mining **Conceal Network (CCX)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
 ![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/14-MINING-CCX.png)
 
-### **Settings** <a name="Graft (GRFT)-settings"></a>
+### **Settings** <a name="Conceal Network (CCX)-settings"></a>
 
 The settings page allow you to customize the miner settings:
 
@@ -78,21 +78,21 @@ The settings page allow you to customize the miner settings:
 - Modify your wallet mining address
 - Choose a different mining pool
 
-![Graft (GRFT) Miner settings](images/BLOC-GUI-MINER/ccx-settings.png)
+![Conceal Network (CCX) Miner settings](images/BLOC-GUI-MINER/ccx-settings.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address
     * Choose your mining pool
 
-![Graft (GRFT) Settings another coin](images/BLOC-GUI-MINER/ccx-settings2.png)
+![Conceal Network (CCX) Settings another coin](images/BLOC-GUI-MINER/ccx-settings2.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Do you need more help ? Make sure you visit this section to find out more about Graft (GRFT), join the community, checkout the latest updates, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about Conceal Network (CCX), join the community, checkout the latest updates, watch videos and much more.
 
-![Graft (GRFT) Help](images/BLOC-GUI-MINER/ccx-help.png)
+![Conceal Network (CCX) Help](images/BLOC-GUI-MINER/ccx-help.png)
 
 ## **I have an issue not listed here**
 

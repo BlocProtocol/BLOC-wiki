@@ -1,4 +1,4 @@
-# **How to mine Sumokoin (SUMO) with BLOC GUI Miner**
+# **How to mine Graft (GRFT) with BLOC GUI Miner**
 
 [Sumokoin](https://www.sumokoin.org) DIGITAL CASH - Privacy Without Compromise. Private • Untraceable • Decentralized • Fungible
 
@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Sumokoin (SUMO)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-SUMO.jpg)
+![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-GRAFT.jpg)
 
 ## **Install BLOC GUI Miner**
 
@@ -16,27 +16,27 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 - Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 
-## **Mining Sumokoin (SUMO)**
+## **Mining Graft (GRFT)**
 
-It is now very easy and fun to mine Sumokoin (SUMO) using the BLOC GUI Miner.
+It is now very easy and fun to mine Graft (GRFT) using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining Sumokoin (SUMO)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
-### **Select Sumokoin (SUMO)**
+### **Select Graft (GRFT)**
 
-Select Sumokoin (SUMO)
+Select Graft (GRFT)
 
-![Select Sumokoin (SUMO)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Graft (GRFT)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
-### **Sumokoin (SUMO) Address**
+### **Graft (GRFT) Address**
 
-Enter your Sumokoin (SUMO) wallet address. It must start with **Sumo** and click **OK, NEXT STEP**.
+Enter your Graft (GRFT) wallet address. It must start with **Sumo** and click **OK, NEXT STEP**.
 
-![Enter Sumokoin (SUMO) wallet address](images/BLOC-GUI-MINER/sumo-address.png)
+![Enter Graft (GRFT) wallet address](images/BLOC-GUI-MINER/graft-address.png)
 
 ### **Choose Mining Pool**
 
@@ -44,7 +44,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose Sumokoin (SUMO) mining pool](images/BLOC-GUI-MINER/sumo-pool.png)
+![Choose Graft (GRFT) mining pool](images/BLOC-GUI-MINER/graft-pool.png)
 
 ### **Antivirus**
 
@@ -64,13 +64,13 @@ BLOC GUI Miner will auto configure your mining hardware with the best capabiliti
 
 ### **Mining**
 
-Congratulations ! You are mining **Sumokoin (SUMO)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+Congratulations ! You are mining **Graft (GRFT)** cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/10-MINING-SUMO.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/12-MINING-GRAFT.png)
 
-### **Settings** <a name="Sumokoin (SUMO)-settings"></a>
+### **Settings** <a name="Graft (GRFT)-settings"></a>
 
 The settings page allow you to customize the miner settings:
 
@@ -78,21 +78,21 @@ The settings page allow you to customize the miner settings:
 - Modify your wallet mining address
 - Choose a different mining pool
 
-![Sumokoin (SUMO) Miner settings](images/BLOC-GUI-MINER/sumo-settings.png)
+![Graft (GRFT) Miner settings](images/BLOC-GUI-MINER/graft-settings.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address
     * Choose your mining pool
 
-![Sumokoin (SUMO) Settings another coin](images/BLOC-GUI-MINER/sumo-settings2.png)
+![Graft (GRFT) Settings another coin](images/BLOC-GUI-MINER/graft-settings2.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Do you need more help ? Make sure you visit this section to find out more about Sumokoin (SUMO), join the community, checkout the latest updates, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about Graft (GRFT), join the community, checkout the latest updates, watch videos and much more.
 
-![Sumokoin (SUMO) Help](images/BLOC-GUI-MINER/sumo-help.png)
+![Graft (GRFT) Help](images/BLOC-GUI-MINER/graft-help.png)
 
 ## **I have an issue not listed here**
 

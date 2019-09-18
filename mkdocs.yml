@@ -153,6 +153,8 @@ nav:
         - How to mine XHV: mining/BLOC-GUI-Miner-mining-haven.md
         - How to mine XMR: mining/BLOC-GUI-Miner-mining-monero.md
         - How to mine LOKI: mining/BLOC-GUI-Miner-mining-loki.md
+        - How to mine LOKI: mining/BLOC-GUI-Miner-mining-sumo.md
+        - How to mine LOKI: mining/BLOC-GUI-Miner-mining-graft.md
         - How to compile: mining/BLOC-GUI-Miner-Compile.md
         - Update Details: mining/BLOC-GUI-Miner-Update.md
       - Mining with XMR-stak: 

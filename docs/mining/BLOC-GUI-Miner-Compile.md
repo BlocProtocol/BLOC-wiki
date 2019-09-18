@@ -1,4 +1,4 @@
-# **Compiling on Linux (Ubuntu)**
+# **How to Compile BLOC GUI Miner on Linux (Ubuntu)**
 
 Compiling on Linux will generate the binaries for Windows, macOS and Linux.
 

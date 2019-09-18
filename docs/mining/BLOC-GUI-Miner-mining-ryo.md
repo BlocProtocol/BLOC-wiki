@@ -1,8 +1,8 @@
-# **How to mine TurtleCoin TRTL with BLOC GUI Miner**
+# **How to mine RYO with BLOC GUI Miner**
 
-[TurtleCoin](https://github.com/turtlecoin/turtlecoin) is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses. *Note*: Mining TurtleCoin only works with XMRIG and support the new Chukwa algorithm.
+[RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
 
-![BLOC GUI Miner Mining TRTL](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-TRTL.jpg)
+![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-RYO.jpg)
 
 ## **Install BLOC GUI Miner**
 
@@ -12,27 +12,27 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 - Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 
-## **Mining TurtleCoin TRTL**
+## **Mining RYO**
 
-It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
+It is now very easy and fun to mine RYO using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining TRTL](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
+![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
-### **Select TurtleCoin**
+### **Select RYO**
 
-Select TurtleCoin
+Select RYO
 
-![Select turtlecoin](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Ryo](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
 
-### **TRTL Address**
+### **RYO Address**
 
-Enter your TRTL wallet address. It must start with **TRTL** and click **OK, NEXT STEP**.
+Enter your RYO wallet address. It must start with **RYo** and click **OK, NEXT STEP**.
 
-![Enter TRTL wallet address](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-trtl-address.png)
+![Enter RYO wallet address](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-RYO-address.png)
 
 ### **Choose Mining Pool**
 
@@ -40,7 +40,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose TurtleCoin mining pool](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-trtl-pool.png)
+![Choose Ryo mining pool](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-RYO-pool.png)
 
 ### **Antivirus**
 
@@ -60,13 +60,13 @@ BLOC GUI Miner will auto configure your mining hardware with the best capabiliti
 
 ### **Mining**
 
-Congratulations ! You are mining **(TRTL)** TurtleCoin cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
+Congratulations ! You are mining **(RYO)** Ryo cryptocurrency. This is the overview of the BLOC GUI Miner. You can see the complete informations of your mining activity and some more details about the BLOC ecosystem.
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/7-MINING-RYO-BLOC-GUI-Miner-v1.1.2.png)
 
-### **Settings** <a name="trtl-settings"></a>
+### **Settings** <a name="RYO-settings"></a>
 
 The settings page allow you to customize the miner settings:
 
@@ -74,21 +74,21 @@ The settings page allow you to customize the miner settings:
 - Modify your wallet mining address
 - Choose a different mining pool
 
-![TurtleCoin Miner settings](images/BLOC-GUI-MINER/TRTL-setting.png)
+![Ryo Miner settings](images/BLOC-GUI-MINER/RYO-settings.png)
 
 - Select another coin to mine from the selector
     * Enter your wallet address
     * Choose your mining pool
 
-![TurtleCoin Settings another coin](images/BLOC-GUI-MINER/TRTL-settings2.png)
+![Ryo Settings another coin](images/BLOC-GUI-MINER/RYO-settings2.png)
 
 Once you have made the change click the button **CLICK HERE TO SAVE THE SETTINGS**.
 
 ### **Help**
 
-Do you need more help ? Make sure you visit this section to find out more about TurtleCoin, join the community, checkout the latest updates, watch videos and much more.
+Do you need more help ? Make sure you visit this section to find out more about Ryo, join the community, checkout the latest updates, watch videos and much more.
 
-![TurtleCoin Help](images/BLOC-GUI-MINER/TurtleCoin-Help-new.png)
+![Ryo Help](images/BLOC-GUI-MINER/RYO-help.png)
 
 ## **I have an issue not listed here**
 

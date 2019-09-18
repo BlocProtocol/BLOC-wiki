@@ -1,4 +1,4 @@
-# **Updates**
+# **BLOC GUI Miner Updates History**
 
 ## **Updates history:**
 

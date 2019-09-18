@@ -1,6 +1,6 @@
 # **How to mine Graft (GRFT) with BLOC GUI Miner**
 
-[GRAFT](https://www.graft.network) GRAFT is a combination (PoW, PoS, DAG) blockchain and a platform that enables a truly decentralized payment network with real-time, universal payment acceptance.
+[Conceal Network](https://conceal.network) Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code.
 
 [BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
@@ -34,7 +34,7 @@ Select Graft (GRFT)
 
 ### **Graft (GRFT) Address**
 
-Enter your Graft (GRFT) wallet address. It must start with **G** and click **OK, NEXT STEP**.
+Enter your Graft (GRFT) wallet address. It must start with **ccx** and click **OK, NEXT STEP**.
 
 ![Enter Graft (GRFT) wallet address](images/BLOC-GUI-MINER/ccx-address.png)
 

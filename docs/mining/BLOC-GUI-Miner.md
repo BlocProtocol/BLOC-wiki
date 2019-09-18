@@ -92,7 +92,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining TRTL:*
 
-[![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-turtlecoin-trtl)
+[![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-turtlecoin/)
 
 ### **Haven (XHV) Mining**
 
@@ -100,7 +100,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining XHV:*
 
-[![BLOC GUI Miner Mining Haven](images/BLOC-GUI-MINER/8-MINING-HAVEN-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-haven-xhv)
+[![BLOC GUI Miner Mining Haven](images/BLOC-GUI-MINER/8-MINING-HAVEN-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-haven/)
 
 ### **Monero (XMR) Mining**
 
@@ -108,7 +108,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining XMR:*
 
-[![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-monero-xmr)
+[![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-monero/)
 
 ### **RYO (RYO) Mining**
 
@@ -116,7 +116,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining RYO:*
 
-[![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/7-MINING-RYO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-RYO-ryo)
+[![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/7-MINING-RYO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-ryo/)
 
 ### **LOKI (LOKI) Mining**
 
@@ -124,7 +124,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining LOKI:*
 
-[![BLOC GUI Miner Mining LOKI](images/BLOC-GUI-MINER/11-MINING-LOKI.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-loki-loki)
+[![BLOC GUI Miner Mining LOKI](images/BLOC-GUI-MINER/11-MINING-LOKI.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-loki/)
 
 ### **SUMOKOIN (SUMO) Mining**
 
@@ -132,7 +132,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining SUMO:*
 
-[![BLOC GUI Miner Mining SUMO](images/BLOC-GUI-MINER/10-MINING-SUMO.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-sumokoin-sumo)
+[![BLOC GUI Miner Mining SUMO](images/BLOC-GUI-MINER/10-MINING-SUMO.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-sumo/)
 
 ### **GRAFT (GRFT) Mining**
 
@@ -140,7 +140,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining GRFT:*
 
-[![BLOC GUI Miner Mining GRAFT](images/BLOC-GUI-MINER/12-MINING-GRAFT.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-graft-grft)
+[![BLOC GUI Miner Mining GRAFT](images/BLOC-GUI-MINER/12-MINING-GRAFT.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-graft/)
 
 ### **CONCEAL NETWORK (CCX) Mining**
 
@@ -148,7 +148,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining CCX:*
 
-[![BLOC GUI Miner Mining CCX](images/BLOC-GUI-MINER/14-MINING-CCX.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-conceal-ccx)
+[![BLOC GUI Miner Mining CCX](images/BLOC-GUI-MINER/14-MINING-CCX.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-ccx/)
 
 ### **Quantum Resistant Ledger (QRL) Mining**
 
@@ -156,7 +156,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining QRL:*
 
-[![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mining-quantum-qrl)
+[![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-qrl/)
 
 
 ## **Supported Miners**
@@ -207,7 +207,15 @@ Some antivirus packages detect cryptocurrency miners as malware and will remove 
 - [How to install on macOS](../mining/BLOC-GUI-Miner-using.md#mac-os)
 - [How to install on Linux](../mining/BLOC-GUI-Miner-using.md#linux)
 - [How to use the BLOC GUI Miner to mine BLOC](../mining/BLOC-GUI-Miner-using.md)
-- [How to mine TurtleCoin](../mining/BLOC-GUI-Miner-mining-turtlecoin.md)
+- [How to mine TurtleCoin (TRTL)](../mining/BLOC-GUI-Miner-mining-turtlecoin.md)
+- [How to mine Sumokoin (SUMO)](../mining/BLOC-GUI-Miner-mining-sumo.md)
+- [How to mine Ryo (RYO)](../mining/BLOC-GUI-Miner-mining-ryo.md)
+- [How to mine Quantum Resistant Ledger (QRL)](../mining/BLOC-GUI-Miner-mining-qrl.md)
+- [How to mine Monero (XMR)](../mining/BLOC-GUI-Miner-mining-monero.md)
+- [How to mine Loki (LOKI)](../mining/BLOC-GUI-Miner-mining-loki.md)
+- [How to mine Haven (XHV)](../mining/BLOC-GUI-Miner-mining-haven.md)
+- [How to mine Graft (GRFT)](../mining/BLOC-GUI-Miner-mining-graft.md)
+- [How to mine Conceal Network (CCX)](../mining/BLOC-GUI-Miner-mining-ccx.md)
 - [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
 
 ## **Make sure you have a wallet**

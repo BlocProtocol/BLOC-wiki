@@ -10,6 +10,21 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 ![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-CCX.jpg)
 
+## **PRE Install instruction**
+
+- Search for terminal on your mac application and open it
+- Type: ```xcode-select --install```
+- Then: ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+- Then: ```brew doctor```
+- Then the last one. Copy and paste:
+
+```
+brew install hwloc libmicrohttpd gcc openssl cmake
+cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
+make install
+```
+You should now be ready to use the BLOC GUI Miner.
+
 ## **Install BLOC GUI Miner**
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.

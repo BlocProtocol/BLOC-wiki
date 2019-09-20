@@ -41,13 +41,13 @@ It is now very easy and fun to mine Conceal Network (CCX) using the BLOC GUI Min
 
 Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
-![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/XMR-STAK.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-miner-setup.png)
 
 ### **Select Conceal Network (CCX)**
 
 Select Conceal Network (CCX)
 
-![Select Conceal Network (CCX)](images/BLOC-GUI-MINER/XMRIG.png)
+![Select Conceal Network (CCX)](images/BLOC-GUI-MINER/XMR-STAK.png)
 
 ### **Conceal Network (CCX) Address**
 

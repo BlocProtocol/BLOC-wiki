@@ -6,7 +6,7 @@ This page describe how to use the BLOC GUI Miner and getting started mining cryp
 
 [Start mining](../mining/BLOC-GUI-Miner-using.md#start-mining) today and get rewarded in your favorite cryptocurrency.
 
-## **Downloads Binaries and Source code**
+## **Download binaries and Source code**
 
 Download and install BLOC GUI Miner from:
 

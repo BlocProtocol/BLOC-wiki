@@ -193,14 +193,14 @@ BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including
 
 ![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMRIG.png)
 
-## **Downloads Binaries and Source code**
+## **Download binaries and Source code**
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
 Download and install BLOC GUI Miner from:
 
 - BLOC.MONEY - Windows, Mac and Linux binaries [Download Area](https://bloc.money/download)
-- GitHub - Source code and binaries [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
+- GitHub - Source code and Windows, Mac and Linux binaries [GitHub Rep](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 
 ## **Guides**

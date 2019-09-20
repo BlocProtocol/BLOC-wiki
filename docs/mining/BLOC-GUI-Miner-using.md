@@ -11,7 +11,7 @@ This page describe how to use the BLOC GUI Miner and getting started mining cryp
 Download and install BLOC GUI Miner from:
 
 - BLOC.MONEY - Windows, Mac and Linux binaries [Download Area](https://bloc.money/download)
-- GitHub - Source code and binaries [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
+- GitHub - Source code and Windows, Mac and Linux binaries [GitHub Rep](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
 ## **Windows**<a name="windows">
 

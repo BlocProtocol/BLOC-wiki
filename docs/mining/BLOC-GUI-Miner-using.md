@@ -18,10 +18,11 @@ It is **likely** you will need to add exceptions and exclusions to your antiviru
 
 Make sure you have disabled your antivirus and Windows defender before downloading the BLOC GUI Miner else Windows will keep delete the downloaded file.
 
-Choose the best miner following your hardware. We have 2 available binaries for Windows.
+Choose the best miner following your hardware. We have 3 available binaries for Windows.
 
 - BLOC GUI Miner with [XMR-STAK](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** + **OPENCL** + **NVIDIA** **GPU** mining
-- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining
+- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining. (Compiled with GCC)
+- BLOC GUI Miner with [XMRIG](https://github.com/furiousteam/GUI-miner/releases/latest) binaries for **CPU** mining. (Compiled with MSVC)
 
 In this example we are going to use BLOC GUI Miner with XMRSTAK CPU + NVIDIA GPU mining.
 

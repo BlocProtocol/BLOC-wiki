@@ -47,9 +47,10 @@ Watch the video: How to mine BLOC.money on mac OS with the BLOC GUI Miner
 [![How to mine BLOC.money on mac OS with the BLOC GUI Miner](images/BLOC-GUI-MINER/BLOC-cryptocurrency-mining-macos.jpg)](https://www.youtube.com/watch?v=uIAjgrjawmQ)
 
 
-BLOC GUI Miner for macOS comes with **XMRIG** binaries already built-in for **CPUmining** only.
+BLOC GUI Miner for macOS comes with **XMRIG** or **XMR-STAK** binaries already built-in for **CPUmining** only.
 
-- Download [BLOC-GUI-Miner-macOS-Downloader.zip](https://bloc.money/files/BLOC-GUI-Miner/BLOC-GUI-Miner-macOS-Downloader.zip)
+- Download [BLOC-GUI-Miner-macOS-Downloader-XMRSTAK.zip](https://bloc.money/files/BLOC-GUI-Miner/BLOC-GUI-Miner-macOS-Downloader-XMRSTAK.zip)
+- Download [BLOC-GUI-Miner-macOS-Downloader-XMRIG.zip](https://bloc.money/files/BLOC-GUI-Miner/BLOC-GUI-Miner-macOS-Downloader-XMRIG.zip)
 - Double click on the icon to unzip the file
 
 It must looks like this:

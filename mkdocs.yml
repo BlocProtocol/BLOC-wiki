@@ -3,6 +3,7 @@ site_name: 'BLOC.MONEY Wiki'
 site_description: 'Wiki for BLOC'
 site_author: 'BLOC.MONEY'
 site_url: https://wiki.bloc.money/
+google_analytics: ['UA-118709677-8', 'wiki.bloc.money']
 
 # repo
 repo_name: 'furiousteam/BLOC-wiki'

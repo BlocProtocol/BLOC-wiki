@@ -10,7 +10,7 @@ repo_name: 'furiousteam/BLOC-wiki'
 repo_url: 'https://github.com/furiousteam/BLOC-wiki'
 
 # copyright
-copyright: 'Copyright 2018 BLOC.MONEY'
+copyright: 'Copyright 2019 BLOC.MONEY'
 
 
 # config
@@ -55,7 +55,7 @@ extra:
 
 # Google Analytics
 google_analytics:
-  - 'UA-XXXXXXXX-X'
+  - 'UA-118709677-8'
   - 'auto'
 
 # extensions

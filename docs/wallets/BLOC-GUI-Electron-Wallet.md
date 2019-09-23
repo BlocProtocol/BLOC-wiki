@@ -73,7 +73,7 @@ Welcome to your BLOC wallet. There is 4 differents options available.
 
 ## **Create new wallet**<a name="create-wallet"></a>
 
-![BLOC Electron Wallet - Create a new wallet](images/BLOC-gui-wallet/V3/3-BLOC-electron-wallet-create)
+![BLOC Electron Wallet - Create a new wallet](images/BLOC-gui-wallet/V3/3-BLOC-electron-wallet-create.png)
 
 If this is your 1st time using BLOC or you just need to create a new wallet use this option.
 
@@ -89,7 +89,7 @@ You should see a message: Wallet has been imported. You can now [open the wallet
 BLOC Electron Wallet require a connection to a BLOC node to be able to work.
 You have two possibilities:
 
-![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/4-BLOC-electron-wallet-open)
+![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/4-BLOC-electron-wallet-open.png)
 
 1. Create your own node - Download and start BLOCd on your machine locally or remotely then connect to it with BLOC Electron Wallet.
 2. Use a public remote BLOC node and do not bother with the tech. Select your favorite BLOC public node and connect to it.
@@ -205,3 +205,27 @@ Transactions list all incomming and outgoing transactions from this wallet.
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/transaction-details.png)
 
 You can also view the transaction on the block explorer.
+
+## **Address Book**
+
+Each time you send a transaction using the BLOC Electron wallet the BLOC address of the receiver will be saved into your contacts.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/contacts.png)
+
+You can also add a beneficiary into the address book very easy. Simply enter the BLOC address, payment ID if you have one and the label to remember the name of this beneficiary. Once ready click `Save contact` button.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/contacts-added.png)
+
+## **BLOC Explorer**
+
+Our crypto currency BLOC explorer shows the latest blocks in the blockchain. Clicking on a specific network block will provide you with more information regarding its size, when it was found, and more importantly, which transactions it contains.
+
+Our BLOC explorer is also a valuable tool to see how the current block reward is distributed to the miners.
+BLOC explorer can also search for Payment IDs, Block hash, Block height, Transaction hash.
+
+The BLOC explorer quickly become your best friend to verify transactions on the Ƀ BLOC blockchain network.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/bloc-explorer.png)
+
+- Click the `BLOC EXPLORER WEBSITE` button to visit the official BLOC-EXPLORER
+- If you are using Telegram® we made a bot to check for a transaction and get informations without having to quit your favorite messenger.

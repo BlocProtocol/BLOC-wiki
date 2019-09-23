@@ -6,6 +6,15 @@ Make sure to follow the [complete instructions here](../wallets/BLOC-GUI-Electro
 
 Once you have install the [BLOC Electron Wallet](../wallets/BLOC-GUI-Electron-Wallet.md) click on the miner button from the left menu.
 
+## **Download**
+
+You can download the BLOC Electron Wallet from two places
+
+* BLOC Electron Wallet from [BLOC.MONEY](https://bloc.money/download)
+* BLOC Electron Wallet from [GitHub](https://github.com/furiousteam/BLOC-electron-wallet/releases)
+
+Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC Electron wallet. Select the BLOC wallet application and place it where you like.
+
 ## **Miner**
 
 If you want to learn about cryptocurrencies, mining is a great place to start!. 

@@ -244,12 +244,12 @@ Stay up to date with the latest news from the official [BLOC medium blog](https:
 
 ## **Videos**
 
-Watch the latest videos from the [BLOC.MONEY (BLOC) Youtube channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
+Watch the latest videos from the [BLOC.MONEY (BLOC) Youtube channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA).
 
-![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/news.png)
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/videos.png)
 
 ## **Ecosystem**
 
-Use, spend, buy and sell your BLOC.money (BLOC). Discover the [powerful ecosystem](https://bloc.money/ecosystem)
+Use, spend, buy and sell your BLOC.money (BLOC). Discover the [powerful BLOC ecosystem](https://bloc.money/ecosystem).
 
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/ecosystem.png)

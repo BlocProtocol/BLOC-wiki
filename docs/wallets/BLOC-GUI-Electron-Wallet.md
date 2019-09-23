@@ -253,3 +253,55 @@ Watch the latest videos from the [BLOC.MONEY (BLOC) Youtube channel](https://www
 Use, spend, buy and sell your BLOC.money (BLOC). Discover the [powerful BLOC ecosystem](https://bloc.money/ecosystem).
 
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/ecosystem.png)
+
+## **Help**
+
+This wiki is the main source of documentation for newcomers to the [BLOC Project](https://github.com/furiousteam/BLOC). If this is your first time hearing about BLOC, we recommend starting by visiting the official [BLOC.MONEY](https://bloc.money) website.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/bloc-wiki.png)
+
+## **Exchange**
+
+Find here the list where to trade BLOC with other cryptocurrencies.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/exchange.png)
+
+## **Miner**
+
+If you want to learn about cryptocurrencies, mining is a great place to start!. 
+The BLOC Electron wallet include a built-in miner for BLOC which makes it very easy to use with a one single click button to start mining.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/miner.png)
+
+The advantages of the miner built-in the BLOC Electron wallet:
+
+- The miner will not be detected as virus like any other mining software
+- Very easy to use with 1 click button to start mining using your built-in BLOC address
+- Complete mining stats provided
+- Mining from the official [POOL.BLOC.MONEY](https://pool.bloc.money).
+- CPU Mining only
+
+Once the mining is made easy, this is not the best solution if you want to mine regulary BLOC. If you are interested about mining and looking for a more efficient solution we suggest you to look at the [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md)
+
+To start mining simply swich ON the button.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/miner-mining.png)
+
+Notice a yellow box will appears on the left menu while browsing the other sections to remember you that you are mining.
+
+## **Backup**
+
+Backup your wallet with your private keys so you can restore your wallet anytime.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/backup.png)
+
+To display the private keys of your wallet click the `REVEAL THE KEYS AND MMEMONIC SEED` button.
+
+The private keys below can restore your wallet using the BLOC Electron Wallet or the [BLOCWallet](../wallets/BLOCWallet-how-to-use.md). Never share this keys with anyone.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/backup-keys.png)
+
+Click `EXPORT TO FILE` button to export the private keys of your wallet into a file.
+ 
+### 25 Word Mnemonic Seed phrase not showing ?!
+Some of the BLOC address do not have 25 Word Mnemonic Seed phrase because they were created inside a commun wallet container or it has been created before we implemented this feature.

@@ -4,7 +4,7 @@
 
 ## **Screenshot**
 
-![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/welcome.png)
+![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)
 
 **Notes**
 
@@ -22,23 +22,23 @@ If you don't trust the bundled BLOC-service file, you can download and use the b
 
 You can download the BLOC Electron Wallet from two places
 
-* BLOC Electron Wallet from [GitHub](https://github.com/furiousteam/BLOC-electron-wallet/releases)
 * BLOC Electron Wallet from [BLOC.MONEY](https://bloc.money/download)
+* BLOC Electron Wallet from [GitHub](https://github.com/furiousteam/BLOC-electron-wallet/releases)
 
-Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC wallet.
-Select the BLOC wallet application and put in where you like
+Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC Electron wallet.
+Select the BLOC wallet application and place it where you like.
 
 ## **Lanch the app**
 
 #### Windows:
 
-1. Download the latest installer here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+1. Download the latest installer [here](https://bloc.money/download)
 2. Run the installer (BLOC-Electron-Wallet-<version>-win-setup.exe) and follow the installation wizard.
 3. Run as Administrator BLOC-Electron-Wallet via start menu or desktop shortcut. (right click on the app icon and select run as Administrator)
 
 #### GNU/Linux (AppImage):
 
-1. Download latest AppImage bundle here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+1. Download latest AppImage bundle [here](https://bloc.money/download)
 2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x BLOC-Electron-Wallet-<version>-linux.AppImage`
 3. Run/execute the file, double click in file manager, or run via shell/command line.
 
@@ -46,22 +46,23 @@ See: https://docs.appimage.org/user-guide/run-appimages.html
 
 #### macOS
 
-1. Download latest archive here: https://github.com/furiousteam/BLOC-electron-wallet/releases
+1. Download latest archive [here](https://bloc.money/download)
 2. Extract downloaded zip archived into your home folder
 3. Open terminal and Run: `cd /Users/YOURNAME/BLOC-Electron-Wallet.app/Contents/MacOS && ./BLOC-Electron-Wallet`
 
 
 ## **Settings**
 
-![BLOC Electron Wallet](images/BLOC-gui-wallet/V3/settings.png)
+![BLOC Electron Wallet](images/BLOC-gui-wallet/V3/1-BLOC-electron-wallet-settings.png)
 
 The settings screen will appear the 1st time you are launching the BLOC Electron Wallet. On first launch, BLOC Electron Wallet will try to detect location/path of bundled BLOC-service binary, but if it's failed, you can manually set path to the BLOC-service binary on the Settings screen.
 
 If you are happy to use the bundled BLOC-service simply click the `SAVE` button.
+If you wish to use your own binary select the path location
 
 ## **Welcome Screen**
 
-![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/welcome.png)
+![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)
 
 Welcome to your BLOC wallet. There is 4 differents options available.
 
@@ -70,24 +71,25 @@ Welcome to your BLOC wallet. There is 4 differents options available.
 3. Import private keys to restore a wallet
 4. Import Mnemonic seed words to restore a wallet
 
-## **1. Create new wallet**<a name="create-wallet"></a>
+## **Create new wallet**<a name="create-wallet"></a>
 
-![BLOC Electron Wallet - Create a new wallet](images/BLOC-gui-wallet/V3/create-a-new-wallet.png)
+![BLOC Electron Wallet - Create a new wallet](images/BLOC-gui-wallet/V3/3-BLOC-electron-wallet-create)
 
 If this is your 1st time using BLOC or you just need to create a new wallet use this option.
 
 1. Select where the wallet file will be stored. Click on the folder icon, choose where you woud like to save your wallet, enter the name of the file and click save.
 2. Set the required password to open this wallet file
 3. Click the button `CREATE A NEW BLOC WALLET`
-4. Wallet file is saved with the following extension: `yourwallet.money`
+4. Wallet file is saved with the following extension: `mywallet.money`
 
 You should see a message: Wallet has been imported. You can now [open the wallet](../wallets/BLOC-GUI-Electron-Wallet.md#open-wallet).
 
-## **2. Open an existing wallet file .money**<a name="open-wallet"></a>
+## **Open an existing wallet file .money**<a name="open-wallet"></a>
 
-BLOC Electron Wallet require a connection to a BLOC node to be able to work. We have two possibilities:
+BLOC Electron Wallet require a connection to a BLOC node to be able to work.
+You have two possibilities:
 
-![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/OPEN-a-wallet.png)
+![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/4-BLOC-electron-wallet-open)
 
 1. Create your own node - Download and start BLOCd on your machine locally or remotely then connect to it with BLOC Electron Wallet.
 2. Use a public remote BLOC node and do not bother with the tech. Select your favorite BLOC public node and connect to it.
@@ -112,7 +114,7 @@ Find out more about [BLOC remote nodes](../wallets/Using-remote-nodes.md) and ho
 
 You are now ready to use your wallet. Please follow the next instructions on how to use your wallet.
 
-## **3. Import Private Keys to restore a wallet**<a name="import-private-keys"></a>
+## **Import Private Keys to restore a wallet**<a name="import-private-keys"></a>
 
 If you already have BLOC wallet address you can import your private keys using this method.
 
@@ -131,7 +133,7 @@ This will restore your wallet address, funds present on it but also the complete
 
 You should see a message: Wallet has been imported. You can now [open the wallet](../wallets/BLOC-GUI-Electron-Wallet.md#open-wallet).
 
-## **4. Import Mnemonic seed words to restore a wallet**<a name="import-mnemonic-seed"></a>
+## **Import Mnemonic seed words to restore a wallet**<a name="import-mnemonic-seed"></a>
 
 If you already have BLOC wallet created since the BLOC V3.0 you should already have a Mnemonic seed. You can import it using this method.
 
@@ -162,6 +164,8 @@ The overview display all the important informations about your wallet such as:
 4. `Node fee` shows the fee amount used by this node for each transaction.
 5. `Your wallet address` that can be shared to your customers/friends so they can pay you
 6. `QR Code` makes it even easier to share your BLOC address. Scan to share.
+6. `BLOC Price` display BLOC price from CoinGecko
+6. `OPTIMIZE` button optimize your wallet to send larger amount transactions. Required if you are mining with this address and receive a lot of small transactions.
 
 
 ## **Send BLOC**
@@ -173,9 +177,19 @@ Send/Transfer BLOC.MONEY to any other BLOC wallet address.
 1. Type the amount you would like to send
 2. Enter the recipient address
 3. The fees are set automatically to 0.0001 BLOC
-1. You can enter a payement ID if you have one, it must contain 64 caracters
+1. If the receiver provided you with a Payment ID you can enter it here, it must contain 64 caracters
 5. Once you are ready click. `PROCEED BLOC PAYMENT`
 
+![BLOC Electron Wallet - Send BLOC](images/BLOC-gui-wallet/V3/send-confirm.png)
+
+Confirm all the informations are correct.
+If everything is ok click `POK SEND IT` or `CANCEL` button to return to previous screen
+Transactions are sent in real time.
+
+![BLOC Electron Wallet - Send BLOC](images/BLOC-gui-wallet/V3/send-sent.png)
+
+You can checkout the Transaction Hash (Tx. hash) provided for your transaction at the bottom part.
+If an error happen it will appear here.
 
 ## **Transactions**
 
@@ -183,6 +197,11 @@ Transactions list all incomming and outgoing transactions from this wallet.
 
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/transactions.png)
 
-The BLOCK Explorer shows you blocks details from the blockchain including the transaction that it contains.
+- Search transaction by transaction hash or payment ID
+- Transactions can be sorted by amount, date or status
+- Click on a transaction to get more details
+- Export transactions as .csv file
 
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/transaction-details.png)
+
+You can also view the transaction on the block explorer.

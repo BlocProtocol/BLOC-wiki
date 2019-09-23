@@ -116,7 +116,7 @@ nav:
     - Wallets:
       - Making a Wallet: wallets/Making-a-Wallet.md
       - Paper Wallet: wallets/Making-a-paper-wallet.md
-      - BLOC Electron Wallet v3.0: wallets/BLOC-GUI-Electron-Wallet.md
+      - BLOC Electron Wallet: wallets/BLOC-GUI-Electron-Wallet.md
       - Recovering your Wallet: wallets/recovering-your-wallet.md
       - iPhone & iPad BLOC Wallet:
         - Introduction: wallets/BLOC-iOS-wallet-index.md

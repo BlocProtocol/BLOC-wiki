@@ -228,4 +228,28 @@ The BLOC explorer quickly become your best friend to verify transactions on the 
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/bloc-explorer.png)
 
 - Click the `BLOC EXPLORER WEBSITE` button to visit the official BLOC-EXPLORER
-- If you are using Telegram® we made a bot to check for a transaction and get informations without having to quit your favorite messenger.
+- If you are using Telegram® we made a `TELEGRAM BOT EXPLORER` to check for a transaction and get informations without having to quit your favorite messenger.
+
+## **Tools**
+
+Discover and download the exlusive range of BLOC.MONEY (BLOC) softwares from the tools section.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/tools.png)
+
+## **News**
+
+Stay up to date with the latest news from the official BLOC medium blog.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/news.png)
+
+## **Videos**
+
+Watch the latest videos from the [BLOC.MONEY (BLOC) Youtube channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/news.png)
+
+## **Ecosystem**
+
+Use, spend, buy and sell your BLOC.money (BLOC). Discover the powerful ecosystem.
+
+![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/ecosystem.png)

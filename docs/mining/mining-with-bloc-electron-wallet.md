@@ -1,6 +1,6 @@
 # **Mining with BLOC Electron Wallet for Desktop**
 
-[BLOC Electron GUI Wallet](https://github.com/furiousteam/BLOC-electron-wallet) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC money](https://bloc.money), view your transactions and much more. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
+[BLOC Electron GUI Wallet](https://bloc.money/download) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC money](https://bloc.money), view your transactions and much more. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
 
 Make sure to follow the [complete instructions here](../wallets/BLOC-GUI-Electron-Wallet.md) on how to download, install and setup the BLOC Electron Wallet for Windows, Linux or macOS.
 
@@ -11,7 +11,7 @@ Once you have install the [BLOC Electron Wallet](../wallets/BLOC-GUI-Electron-Wa
 If you want to learn about cryptocurrencies, mining is a great place to start!. 
 The BLOC Electron wallet include a built-in miner for BLOC which makes it very easy to use with a one single click button to start mining.
 
-![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/miner.png)
+![BLOC Electron Wallet - Transactions](https://wiki.bloc.money/wallets/images/BLOC-gui-wallet/V3/miner.png)
 
 The advantages of the miner built-in the BLOC Electron wallet:
 
@@ -25,7 +25,7 @@ Once the mining is made easy, this is not the best solution if you want to mine 
 
 To start mining simply swich ON the button.
 
-![BLOC Electron Wallet - Transactions](wallets/images/BLOC-gui-wallet/V3/miner-mining.png)
+![BLOC Electron Wallet - Transactions](https://wiki.bloc.money/wallets/images/BLOC-gui-wallet/V3/miner-mining.png)
 
 Notice a yellow box will appears on the left menu while browsing the other sections to remember you that you are mining.
 

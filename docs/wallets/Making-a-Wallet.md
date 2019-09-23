@@ -16,7 +16,7 @@ To view a guide on how to make a paper wallet, [click here](../wallets/Making-a-
 
 The CLI Wallet, called [BLOCWallet](../wallets/BLOCWallet-how-to-use.md), is a multi-platform program (Win/Linux/Mac) that requires you to enter commands for it to work and you cannot use your mouse. It is text only application that does not have a graphical interface. However, it is currently the most stable and gets the newest updates first.
 
-If you would like to use BLOCWallet, you can check out [this guide](../wallets/BLOCWallet-how-to-use.md)
+If you would like to use BLOCWallet, you can check out [this guide](../wallets/BLOCWallet-how-to-use.md).
 
 ## **BLOC Wallet for iPad & iPhone**
 
@@ -26,7 +26,7 @@ If you would like to use BLOC Wallet for iOS, you can check out [this guide](../
 
 ## **BLOC Graphical Wallet (GUI Wallet)**
 
-[BLOC Electron GUI Wallet](https://bloc.money/download) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC money](https://bloc.money), view your transactions, stay connected with the BLOC ecosystem and also CPU mine BLOC with a simple one click button. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
+[BLOC Electron GUI Wallet](https://bloc.money/download) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC](https://bloc.money), view your transactions, stay connected with the BLOC ecosystem and also CPU mine BLOC with a simple one click button. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
 
 Make sure to follow the [complete instructions here](../wallets/BLOC-GUI-Electron-Wallet.md) on how to use BLOC Electron Wallet.
 

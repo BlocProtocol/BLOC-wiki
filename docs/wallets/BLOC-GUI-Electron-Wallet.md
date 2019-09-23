@@ -2,6 +2,9 @@
 
 [BLOC Electron GUI Wallet](https://bloc.money/download) - GUI Stands for Graphical User Interface. It makes it easy for you to use BLOC with a friendly user interface. The BLOC Electron Wallet client allow you to create your wallet, store and send your [BLOC](https://bloc.money), view your transactions, stay connected with the BLOC ecosystem and also CPU mine BLOC with a simple one click button. BLOC Electron GUI Wallet is available for Windows, macOS and linux desktop and laptop computers.
 
+Presentation:
+![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/BLOC-Electron-wallet-gif-v3.5.2.gif)
+
 ## **Screenshot**
 
 ![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)

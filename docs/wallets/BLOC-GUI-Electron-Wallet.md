@@ -25,8 +25,7 @@ You can download the BLOC Electron Wallet from two places
 * BLOC Electron Wallet from [BLOC.MONEY](https://bloc.money/download)
 * BLOC Electron Wallet from [GitHub](https://github.com/furiousteam/BLOC-electron-wallet/releases)
 
-Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC Electron wallet.
-Select the BLOC wallet application and place it where you like.
+Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC Electron wallet. Select the BLOC wallet application and place it where you like.
 
 ## **Lanch the app**
 
@@ -302,6 +301,6 @@ The private keys below can restore your wallet using the BLOC Electron Wallet or
 ![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/backup-keys.png)
 
 Click `EXPORT TO FILE` button to export the private keys of your wallet into a file.
- 
+
 ### 25 Word Mnemonic Seed phrase not showing ?!
 Some of the BLOC address do not have 25 Word Mnemonic Seed phrase because they were created inside a commun wallet container or it has been created before we implemented this feature.

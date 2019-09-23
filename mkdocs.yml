@@ -137,6 +137,7 @@ nav:
       - What is Mining ?: mining/What-is-mining.md
       - How to Mine BLOC: mining/How-to-mine-BLOC.md
       - Mining Pools: mining/Pools.md
+      - Mining with BLOC Wallet: mining/mining-with-bloc-electron-wallet.md
       - In-browser Miner: mining/bloc-in-browser-javascript-web-miner.md
       - Javascript Miner: mining/bloc-javascript-miner.md
       - Mining on your Phone:

@@ -20,13 +20,20 @@ BLOC GUI miner makes getting started with BLOC mining easier than ever.
 
 To start mining **BLOC** with the **BLOC GUI Miner**, you can check out [this guide](../mining/BLOC-GUI-Miner.md).
 
-## **3. Javascript WebMiner - for webmasters**
+## **3. BLOC Electron Wallet**
+
+Mining [BLOC](https://bloc.money) has never been that easy with the [BLOC Electron wallet](../wallets/BLOC-GUI-Electron-Wallet.md) including a built-in miner with a one click button easy to use. Mine from Windows, macOS or Linux in no time.
+
+To start mining **BLOC** with the **BLOC Electron wallet**, you can check out [this guide](../mining/mining-with-bloc-electron-wallet.md).
+
+
+## **4. Javascript WebMiner - for webmasters**
 
 BLOC offers a JavaScript miner for the [BLOC](https://bloc.money) cryptocurrency that you can embed in your website. Your users run the miner directly in their Browser and mine BLOC for you in turn for an ad-free experience, in-game currency or whatever incentives you can come up with.
 
 To start mining **BLOC** with the visitors from your website you can check out [this guide](../mining/bloc-javascript-miner.md)
 
-## **4. XMR-Stak - Cryptonight All-in-One Mining Software**
+## **5. XMR-Stak - Cryptonight All-in-One Mining Software**
 
 [XMR-STAK](../mining/XMR-Stak-index.md) is the only program that supports mining with CPU, NVIDIA GPUs and AMD GPUs. Also it is available for Windows, Linux, Mac OS and more. **XMR-stak** is a universal stratum pool miner to mine crypto currencies like Monero, Electroneum, [BLOC](https://bloc.money) and basically any coins that are powered by cryptonight algorithm.
 
@@ -34,13 +41,13 @@ XMR Stak is well optimized and it is known to significantly generate more hashra
 
 To start mining **BLOC** with **XMR-stak**, you can check out [this guide](../mining/XMR-Stak-index.md)
 
-## **5. XMRig Miner**
+## **6. XMRig Miner**
 
 [XMRig](../mining/XMRIG-index.md) is a little bit different to XMR-Stak, you need to download a CPU and GPU miner separately and run two separate instances in your computer. One will use your CPU and the other one will use your GPU. **XMRig** is a high performance Monero (XMR) and [BLOC](https://bloc.money) CPU miner, with official support for Windows, Mac Linux and more. 
 
 To start mining **BLOC** with **XMRig**, you can check out [this guide](../mining/XMRIG-index.md)
 
-## **6. Mobile Mining**
+## **7. Mobile Mining**
 
 Using your mobile to mine **BLOC** 24/7 is not advised and should only be done for the fun. It may also cause the phone to overheat and result in premature silicon degradation, shortening the lifespan of your phone. However mining during the night while you are sleeping and not using your mobile phone can be an interesting option and may be profitable.
 
@@ -48,12 +55,12 @@ Check out the two options available to mine BLOC from a mobile phone:
 
 * The most easy way to mine **BLOC** from your mobile phone is using the [BLOC Web Miner](../mining/bloc-in-browser-javascript-web-miner.md)
 
-* Introducing [Sleep Mining for BLOC](../mining/mobile-mining/Sleep-Mining.md) — Make extra cash while you are sleeping using your mobile phone
+* You can also try [sleep Mining for BLOC](../mining/mobile-mining/Sleep-Mining.md) — Make extra cash while you are sleeping using your mobile phone
 
-## **7. SBC/Raspberry Pi Mining**
+## **8. SBC/Raspberry Pi Mining**
 
 his guide will get you started [mining BLOC on a Raspberry Pi](../mining/BLOC-Mining-Rasberry-Pi.md) or similar SBC (single-board computer).
 
-## **8. Mining Pools**
+## **9. Mining Pools**
 
 Checkout the complete list of [BLOC Mining Pools](../mining/Pools.md) available. Always select the nearest mining pool from your location for the best results.

@@ -25,7 +25,7 @@ Once the mining is made easy, this is not the best solution if you want to mine 
 
 To start mining simply swich ON the button.
 
-![BLOC Electron Wallet - Transactions](images/BLOC-gui-wallet/V3/miner-mining.png)
+![BLOC Electron Wallet - Transactions](wallets/images/BLOC-gui-wallet/V3/miner-mining.png)
 
 Notice a yellow box will appears on the left menu while browsing the other sections to remember you that you are mining.
 

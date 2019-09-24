@@ -84,7 +84,7 @@ The 3rd 64 characters of your long key is the `spendSecretKey`:
 The 4th 64 characters of your long key is the `viewSecretKey`:
 e0f6b406153379b0c32c18e12510700fba3d6c99dc889e294520b48fc6a2cb05
 
-Now with this details simply use the [BLOC Electron Wallet](/wallets/BLOC-GUI-Electron-Wallet.md#import-private-keys) and import your iOS wallet on your desktop computer.
+Now with this details simply use the [BLOC Electron Wallet](/wallets/BLOC-GUI-Electron-Wallet#import-private-keys) and import your iOS wallet on your desktop computer.
 
 ## **Mining from iOS**
 

@@ -164,7 +164,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining LTHN:* [How to mine Lethean (LTHN)](../mining/BLOC-GUI-Miner-mining-lethean.md)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-lethean/)
 
-![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/lethean-mining.jpg)
+![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/lethean-mining.png)
 
 ### **X-CASH (XCASH) Mining**
 
@@ -172,7 +172,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining XCASH:* [How to mine X-CASH (XCASH) ](../mining/BLOC-GUI-Miner-mining-xcash.md)
 
-![BLOC GUI Miner Mining X-CASH (XCASH))](images/BLOC-GUI-MINER/xcash-mining.jpg)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-xcash/)
+![BLOC GUI Miner Mining X-CASH (XCASH))](images/BLOC-GUI-MINER/xcash-mining.png)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-xcash/)
 
 ### **TUBE (TUBE) Mining**
 
@@ -180,7 +180,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining TUBE:* [How to mine TUBE (TUBE) ](../mining/BLOC-GUI-Miner-mining-tube.md)
 
-![BLOC GUI Miner Mining TUBE)](images/BLOC-GUI-MINER/tube-mining.jpg)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-tube/)
+![BLOC GUI Miner Mining TUBE)](images/BLOC-GUI-MINER/tube-mining.png)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-tube/)
 
 ### **Masari (MSR) Mining**
 
@@ -188,7 +188,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Masari (MSR) :* [How to mine Masari (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
 
-![BLOC GUI Miner Mining Masari (MSR))](images/BLOC-GUI-MINER/masari-mining.jpg)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-masari/)
+![BLOC GUI Miner Mining Masari (MSR))](images/BLOC-GUI-MINER/masari-mining.png)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-masari/)
 
 ### **Iridium (IRD) Mining**
 
@@ -196,7 +196,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Iridium (IRD):* [How to mine Iridium (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
 
-![BLOC GUI Miner Mining Iridium (IRD))](images/BLOC-GUI-MINER/iridium-mining.jpg)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-iridium/)
+![BLOC GUI Miner Mining Iridium (IRD))](images/BLOC-GUI-MINER/iridium-mining.png)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-iridium/)
 
 ### **ArQmA (ARQ) Mining**
 
@@ -212,7 +212,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Aeon (AEON):* [How to mine Aeon (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
 
-![BLOC GUI Miner Mining Aeon (AEON))](images/BLOC-GUI-MINER/aeon-mining.jpg)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-aeon/)
+![BLOC GUI Miner Mining Aeon (AEON))](images/BLOC-GUI-MINER/aeon-mining.png)(https://wiki.bloc.money/mining/bloc-gui-miner-mining-aeon/)
 
 
 ## **Supported Miners**

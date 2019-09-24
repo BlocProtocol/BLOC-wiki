@@ -70,7 +70,7 @@ b5931a8937989b45c3d3651f9474fa2dde75c13af15c2d139e0999cf0275afbdbdbe88916e65aede
 
 ### **How to backup your wallet and restore it on the BLOC Electron Wallet for Desktop ?**<a name="from-iphone-to-desktop"></a>
 
-You need only the Private Spend Key and the Private View key to import your wallet into the [BLOC Electron Wallet](../BLOC-Electron-Wallet) for desktop.
+You need only the Private Spend Key and the Private View key to import your wallet into the [BLOC Electron Wallet](../wallets/BLOC-iGUI-Electron-Wallet.md) for desktop.
 
 The 1st 64 characters of your long key is the `spendPublicKey`:
 b5931a8937989b45c3d3651f9474fa2dde75c13af15c2d139e0999cf0275afbd
@@ -84,7 +84,7 @@ The 3rd 64 characters of your long key is the `spendSecretKey`:
 The 4th 64 characters of your long key is the `viewSecretKey`:
 e0f6b406153379b0c32c18e12510700fba3d6c99dc889e294520b48fc6a2cb05
 
-Now with this details simply use the [BLOC Electron Wallet](/wallets/BLOC-Electron-wallet.md#import-private-keys) and import your iOS wallet on your desktop computer.
+Now with this details simply use the [BLOC Electron Wallet](/wallets/BLOC-GUI-Electron-Wallet.md#import-private-keys) and import your iOS wallet on your desktop computer.
 
 ## **Mining from iOS**
 

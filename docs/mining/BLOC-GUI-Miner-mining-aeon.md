@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Aeon (AEON)](images/BLOC-GUI-MINER/SCREEN-AEON.jpg)
+![BLOC GUI Miner Mining Aeon (AEON)](images/BLOC-GUI-MINER/SCREEN/screen-AEON.jpg)
 
 ## **Install BLOC GUI Miner**
 

@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining ArQmA (ARQ)](images/BLOC-GUI-MINER/SCREEN-ARQMA.jpg)
+![BLOC GUI Miner Mining ArQmA (ARQ)](images/BLOC-GUI-MINER/SCREEN/screen-ARQMA.jpg)
 
 ## **Install BLOC GUI Miner**
 

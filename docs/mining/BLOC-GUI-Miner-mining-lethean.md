@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/SCREEN-LETHEAN.jpg)
+![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/SCREEN/screen-LETHEAN.jpg)
 
 ## **Install BLOC GUI Miner**
 

@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Sumokoin (SUMO)](images/BLOC-GUI-MINER/SCREEN-SUMO.jpg)
+![BLOC GUI Miner Mining Sumokoin (SUMO)](images/BLOC-GUI-MINER/SCREEN/screen-SUMO.jpg)
 
 ## **Install BLOC GUI Miner**
 

@@ -164,7 +164,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining LTHN:* [How to mine Quantum Resistant Ledger (QRL)](../mining/BLOC-GUI-Miner-mining-lethean.md)
 
-![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/SCREEN-LETHEAN.jpg)
+![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/SCREEN/screen-LETHEAN.jpg)
 
 ### **X-CASH (XCASH) Mining**
 
@@ -172,7 +172,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining XCASH:* [How to mine X-CASH (XCASH) ](../mining/BLOC-GUI-Miner-mining-xcash.md)
 
-![BLOC GUI Miner Mining X-CASH (XCASH))](images/BLOC-GUI-MINER/SCREEN-XCASH.jpg)
+![BLOC GUI Miner Mining X-CASH (XCASH))](images/BLOC-GUI-MINER/SCREEN/screen-XCASH.jpg)
 
 ### **TUBE (TUBE) Mining**
 
@@ -180,7 +180,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining TUBE:* [How to mine TUBE (TUBE) ](../mining/BLOC-GUI-Miner-mining-tube.md)
 
-![BLOC GUI Miner Mining TUBE)](images/BLOC-GUI-MINER/SCREEN-TUBE.jpg)
+![BLOC GUI Miner Mining TUBE)](images/BLOC-GUI-MINER/SCREEN/screen-TUBE.jpg)
 
 ### **Masari (MSR) Mining**
 
@@ -188,7 +188,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Masari (MSR) :* [How to mine Masari (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
 
-![BLOC GUI Miner Mining Masari (MSR))](images/BLOC-GUI-MINER/SCREEN-MASARI.jpg)
+![BLOC GUI Miner Mining Masari (MSR))](images/BLOC-GUI-MINER/SCREEN/screen-MASARI.jpg)
 
 ### **Iridium (IRD) Mining**
 
@@ -196,7 +196,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Iridium (IRD):* [How to mine Iridium (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
 
-![BLOC GUI Miner Mining Iridium (IRD))](images/BLOC-GUI-MINER/SCREEN-IRIDIUM.jpg)
+![BLOC GUI Miner Mining Iridium (IRD))](images/BLOC-GUI-MINER/SCREEN/screen-IRIDIUM.jpg)
 
 ### **ArQmA (ARQ) Mining**
 
@@ -204,7 +204,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining ArQmA (ARQ):* [How to mine ArQmA (ARQ)](../mining/BLOC-GUI-Miner-mining-arqma.md)
 
-![BLOC GUI Miner Mining ArQmA (ARQ))](images/BLOC-GUI-MINER/SCREEN-ARQMA.jpg)
+![BLOC GUI Miner Mining ArQmA (ARQ))](images/BLOC-GUI-MINER/SCREEN/screen-ARQMA.jpg)
 
 ### **Aeon (AEON) Mining**
 
@@ -212,7 +212,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining Aeon (AEON):* [How to mine Aeon (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
 
-![BLOC GUI Miner Mining Aeon (AEON))](images/BLOC-GUI-MINER/SCREEN-AEON.jpg)
+![BLOC GUI Miner Mining Aeon (AEON))](images/BLOC-GUI-MINER/SCREEN/screen-AEON.jpg)
 
 
 ## **Supported Miners**

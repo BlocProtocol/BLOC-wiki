@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Quantum Resistant Ledger (QRL)](images/BLOC-GUI-MINER/SCREEN-QRL.jpg)
+![BLOC GUI Miner Mining Quantum Resistant Ledger (QRL)](images/BLOC-GUI-MINER/SCREEN/screen-QRL.jpg)
 
 ## **Install BLOC GUI Miner**
 

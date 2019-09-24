@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/SCREEN-GRAFT.jpg)
+![BLOC GUI Miner Mining Graft (GRFT)](images/BLOC-GUI-MINER/SCREEN/screen-GRAFT.jpg)
 
 ## **Install BLOC GUI Miner**
 

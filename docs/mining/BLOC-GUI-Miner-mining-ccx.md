@@ -8,7 +8,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/SCREEN-CCX.jpg)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/SCREEN/screen-CCX.jpg)
 
 ## **Install BLOC GUI Miner**
 

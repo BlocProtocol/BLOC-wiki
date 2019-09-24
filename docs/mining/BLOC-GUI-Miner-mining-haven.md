@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Haven (XHV)](images/BLOC-GUI-MINER/SCREEN-HAVEN.jpg)
+![BLOC GUI Miner Mining Haven (XHV)](images/BLOC-GUI-MINER/SCREEN/screen-HAVEN.jpg)
 
 ## **Install BLOC GUI Miner**
 

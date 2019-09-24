@@ -8,7 +8,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Loki (LOKI)](images/BLOC-GUI-MINER/SCREEN-LOKI.jpg)
+![BLOC GUI Miner Mining Loki (LOKI)](images/BLOC-GUI-MINER/SCREEN/screen-LOKI.jpg)
 
 ## **Install BLOC GUI Miner**
 

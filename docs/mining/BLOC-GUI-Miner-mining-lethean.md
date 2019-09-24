@@ -20,7 +20,7 @@ Download and Install:
 
 ## **Mining Lethean (LTHN)**
 
-It is now very easy and fun to mine Lethean (LTHN)using the BLOC GUI Miner.
+It is now very easy and fun to mine Lethean (LTHN) using the BLOC GUI Miner.
 
 ### **Launch the BLOC GUI Miner**
 
@@ -36,7 +36,7 @@ Select Lethean (LTHN)
 
 ### **Lethean (LTHN)Address**
 
-Enter your Lethean (LTHN)wallet address. It must start with **hvx** and click **OK, NEXT STEP**.
+Enter your Lethean (LTHN) wallet address. It must start with **iz** and click **OK, NEXT STEP**.
 
 ![Enter Lethean (LTHN) wallet address](images/BLOC-GUI-MINER/lethean-address.png)
 

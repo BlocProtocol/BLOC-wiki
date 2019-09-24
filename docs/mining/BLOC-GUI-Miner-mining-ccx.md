@@ -20,6 +20,7 @@ Download and Install:
 
 - From BLOC.MONEY [Download Area](https://bloc.money/download)
 - From [GitHub](https://github.com/furiousteam/GUI-miner/releases/latest)
+- [Follow instructions for your system](../mining/BLOC-GUI-Miner-using.md) Windows, macOS or Linux 
 
 ## **PRE Install instruction for macOS with XMR-STAK**
 

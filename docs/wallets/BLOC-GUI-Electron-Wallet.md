@@ -120,6 +120,8 @@ You are now ready to use your wallet. Please follow the next instructions on how
 
 If you already have BLOC wallet address you can import your private keys using this method.
 
+[How to import my wallet from the BLOC Wallet iOS app. Click here.](../wallets/BLOC-iOS-wallet.md#from-iphone-to-desktop).
+
 If you were using the previous BLOC Wallet v2.0.2 you can checkout [this guide to find out how to export your wallet private keys](../wallets/BLOC-GUI-Desktop-Wallet-V2.md#1-export-key-best-solution) and follow this procedure to restore your wallet:
 
 This will restore your wallet address, funds present on it but also the complete history of your transactions. All you need is your private view key & spend key.

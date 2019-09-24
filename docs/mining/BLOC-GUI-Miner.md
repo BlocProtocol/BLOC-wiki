@@ -158,7 +158,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-qrl/)
 
-## **Supported Miners**<a name="supported-miners"></a>
+## **Supported Miners**
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 

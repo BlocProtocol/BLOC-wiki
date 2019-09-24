@@ -1,6 +1,6 @@
 # **How to mine ArQmA (ARQ) with BLOC GUI Miner**
 
-[TUBE](https://bittubeapp.com) **(TUBE)** BitTube reshapes how web monetization should work. Browse privately, ad free and support every publisher you visit. Your time powers the new attention economy without compromise. AirTime rewards you and the publisher while browsing the web. Reward any website, social account and creator with your time and donations
+[ARQMA](https://arqma.com) **(ARQ)** the heart of ArQ-Network, which was created by crypto enthusiasts to connect merchants big to small with seamless transactions and minimal fees to zero ! ArQmA creates a full and brilliant currency exchange platform which aims to provide more advanced features than any previously developed protocol.
 
 [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 

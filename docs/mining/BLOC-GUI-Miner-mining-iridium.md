@@ -1,6 +1,6 @@
 # **How to mine Iridium (IRD) with BLOC GUI Miner**
 
-[TUBE](https://bittubeapp.com) **(TUBE)** BitTube reshapes how web monetization should work. Browse privately, ad free and support every publisher you visit. Your time powers the new attention economy without compromise. AirTime rewards you and the publisher while browsing the web. Reward any website, social account and creator with your time and donations
+[IRIDIUM](https://ird.cash) **(IRD)** takes advantage of the technology behind CryptoNote by pulling together the best features that privacy coins can offer the world. 
 
 [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 

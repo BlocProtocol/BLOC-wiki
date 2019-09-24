@@ -1,6 +1,6 @@
 # **How to mine Aeon (AEON) with BLOC GUI Miner**
 
-[TUBE](https://bittubeapp.com) **(TUBE)** BitTube reshapes how web monetization should work. Browse privately, ad free and support every publisher you visit. Your time powers the new attention economy without compromise. AirTime rewards you and the publisher while browsing the web. Reward any website, social account and creator with your time and donations
+[AEON](http://www.aeon.cash) **(AEON)** is about enabling this era, enabling an age where all people everywhere have the freedom to privately send and receive money with whatever gadget they already own.
 
 [BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 

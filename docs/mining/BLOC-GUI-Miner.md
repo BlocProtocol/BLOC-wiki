@@ -81,7 +81,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [BLOC.MONEY](https://bloc.money) is a fast, easy to use and private decentralized cryptocurrency. Send money spacewide, worldwide or locally, immediately and without costly intermediaries using the blockchain technology.
 
-*Mining BLOC:*
+*Mining BLOC:* [How to use the BLOC GUI Miner to mine BLOC](../mining/BLOC-GUI-Miner-using.md)
 
 [![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/4-MINING-BLOC-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-using/)
 
@@ -90,7 +90,7 @@ If you would like to contribute to this project by adding or editing a mining po
 [TurtleCoin](https://github.com/turtlecoin/turtlecoin) is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
 *Note*: Mining TurtleCoin only works with XMRIG and support the new Chukwa algorithm.
 
-*Mining TRTL:*
+*Mining TRTL:* [How to mine TurtleCoin (TRTL)](../mining/BLOC-GUI-Miner-mining-turtlecoin.md)
 
 [![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-turtlecoin/)
 
@@ -98,7 +98,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Haven](https://www.havenprotocol.com) protocol is a fully decentralized, private, algorithmic stablecoin that can be stored in a Haven wallet which can be seen as a private and decentralized USD-based bank account for everyone.
 
-*Mining XHV:*
+*Mining XHV:* [How to mine Haven (XHV)](../mining/BLOC-GUI-Miner-mining-haven.md)
 
 [![BLOC GUI Miner Mining Haven](images/BLOC-GUI-MINER/8-MINING-HAVEN-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-haven/)
 
@@ -106,7 +106,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Monero](https://www.getmonero.org) Monero is cash for a connected world. It’s fast, private, and secure. With Monero, you are your own bank. You can spend safely, knowing that others cannot see your balances or track your activity.
 
-*Mining XMR:*
+*Mining XMR:* [How to mine Monero (XMR)](../mining/BLOC-GUI-Miner-mining-monero.md)
 
 [![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-monero/)
 
@@ -114,7 +114,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [RYO](https://ryo-currency.com) RYO Currency confidently transact with the highest degree of anonymity.
 
-*Mining RYO:*
+*Mining RYO:* [How to mine Ryo (RYO)](../mining/BLOC-GUI-Miner-mining-ryo.md)
 
 [![BLOC GUI Miner Mining RYO](images/BLOC-GUI-MINER/7-MINING-RYO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-ryo/)
 
@@ -122,7 +122,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Loki](https://loki.network) Loki is a privacy network which will allow users to transact and communicate privately over the internet, providing a suite of tools to help maintain the maximum amount of anonymity possible while browsing, transacting and communicating online..
 
-*Mining LOKI:*
+*Mining LOKI:* [How to mine Loki (LOKI)](../mining/BLOC-GUI-Miner-mining-loki.md)
 
 [![BLOC GUI Miner Mining LOKI](images/BLOC-GUI-MINER/11-MINING-LOKI.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-loki/)
 
@@ -130,7 +130,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Sumokoin](https://www.sumokoin.org) DIGITAL CASH - Privacy Without Compromise. Private • Untraceable • Decentralized • Fungible
 
-*Mining SUMO:*
+*Mining SUMO:* [How to mine Sumokoin (SUMO)](../mining/BLOC-GUI-Miner-mining-sumo.md)
 
 [![BLOC GUI Miner Mining SUMO](images/BLOC-GUI-MINER/10-MINING-SUMO.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-sumo/)
 
@@ -138,7 +138,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [GRAFT](https://www.graft.network) GRAFT is a combination (PoW, PoS, DAG) blockchain and a platform that enables a truly decentralized payment network with real-time, universal payment acceptance.
 
-*Mining GRFT:*
+*Mining GRFT:* [How to mine Graft (GRFT)](../mining/BLOC-GUI-Miner-mining-graft.md)
 
 [![BLOC GUI Miner Mining GRAFT](images/BLOC-GUI-MINER/12-MINING-GRAFT.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-graft/)
 
@@ -146,7 +146,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Conceal Network](https://conceal.network) Conceal.Network is a decentralized blockchain bank, with deposits and investments paying interest rates, without involvement of financial institutions, powered by 100% open source code.
 
-*Mining CCX:*
+*Mining CCX:* [How to mine Conceal Network (CCX)](../mining/BLOC-GUI-Miner-mining-ccx.md)
 
 [![BLOC GUI Miner Mining CCX](images/BLOC-GUI-MINER/14-MINING-CCX.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-ccx/)
 
@@ -154,7 +154,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [Quantum Resistant Ledger](https://www.theqrl.org) The Quantum Resistant Ledger. Secure digital assets for longevity. Externally audited enterprise-grade blockchain platform secure against an attack from quantum computers.
 
-*Mining QRL:*
+*Mining QRL:* [How to mine Quantum Resistant Ledger (QRL)](../mining/BLOC-GUI-Miner-mining-qrl.md)
 
 [![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-qrl/)
 

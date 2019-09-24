@@ -2,7 +2,7 @@
 
 [Quantum Resistant Ledger](https://www.theqrl.org) The Quantum Resistant Ledger. Secure digital assets for longevity. Externally audited enterprise-grade blockchain platform secure against an attack from quantum computers.
 
-[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
+[BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
@@ -12,9 +12,11 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
-- Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
+Download and Install:
 
+- From BLOC.MONEY [Download Area](https://bloc.money/download)
+- From [GitHub](https://github.com/furiousteam/GUI-miner/releases/latest)
+- Follow [instructions for your system](../mining/BLOC-GUI-Miner-using.md) Windows, macOS or Linux 
 
 ## **Mining Quantum Resistant Ledger (QRL)**
 

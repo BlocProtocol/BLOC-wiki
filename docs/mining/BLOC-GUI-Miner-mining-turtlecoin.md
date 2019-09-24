@@ -4,7 +4,7 @@
 
 **Note**: Mining TurtleCoin only works with XMRIG and support the new Chukwa algorithm.
 
-[BLOC GUI Miner](https://github.com/furiousteam/BLOC-GUI-Miner) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
+[BLOC GUI Miner](../mining/BLOC-GUI-Miner.md) is a beautiful, easy to use, Graphical User interface for mining multiple cryptocurrencies based on cryptonote. The BLOC GUI Miner is easy to use and makes you getting started with mining cryptocurrency on Windows, MacOS and Linux in no time.
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
@@ -24,6 +24,8 @@ Download and Install:
 ## **Mining TurtleCoin TRTL**
 
 It is now very easy and fun to mine TurtleCoin using the BLOC GUI Miner.
+
+- Mining with integrated address is supported
 
 ### **Launch the BLOC GUI Miner**
 
@@ -101,4 +103,4 @@ Do you need more help ? Make sure you visit this section to find out more about 
 
 ## **I have an issue not listed here**
 
-If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/GUI-miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).
+If you have an issue not listed here or if you would like to add a new feature to the BLOC GUI Miner pelase visit us on [GitHub](https://github.com/furiousteam/BLOC-GUI-Miner) and log a new issue, alternatively, you can [contact us](../about/Community.md).

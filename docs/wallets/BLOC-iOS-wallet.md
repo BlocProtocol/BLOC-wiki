@@ -70,7 +70,7 @@ b5931a8937989b45c3d3651f9474fa2dde75c13af15c2d139e0999cf0275afbdbdbe88916e65aede
 
 ### **How to backup your wallet and restore it on the BLOC Electron Wallet for Desktop ?**<a name="from-iphone-to-desktop"></a>
 
-You need only the Private Spend Key and the Private View key to import your wallet into the [BLOC Electron Wallet](../wallets/BLOC-Electron-Wallet.md) for desktop.
+You need only the Private Spend Key and the Private View key to import your wallet into the [BLOC Electron Wallet](../BLOC-Electron-Wallet.md) for desktop.
 
 The 1st 64 characters of your long key is the `spendPublicKey`:
 b5931a8937989b45c3d3651f9474fa2dde75c13af15c2d139e0999cf0275afbd

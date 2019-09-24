@@ -53,13 +53,13 @@ Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
 Select Conceal Network (CCX)
 
-![Select Conceal Network (CCX)](images/BLOC-GUI-MINER/XMR-STAK.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/XMR-STAK.png)
 
 ### **Conceal Network (CCX) Address**
 
 Enter your Conceal Network (CCX) wallet address. It must start with **ccx** and click **OK, NEXT STEP**.
 
-![Enter Conceal Network (CCX) wallet address](images/BLOC-GUI-MINER/ccx-address.png)
+![Enter mining Conceal Network (CCX)](images/BLOC-GUI-MINER/ccx-address.png)
 
 ### **Choose Mining Pool**
 
@@ -67,7 +67,7 @@ We suggest you to select the nearest mining pool following your location for the
 
 Select your favorite mining pool from the list and click **OK, NEXT STEP**.
 
-![Choose Conceal Network (CCX) mining pool](images/BLOC-GUI-MINER/ccx-pool.png)
+![Select Mining pool Conceal Network (CCX)](images/BLOC-GUI-MINER/ccx-pool.png)
 
 ### **Antivirus**
 
@@ -77,13 +77,13 @@ In order for the BLOC GUI miner to function, you'll need to exclude the miner fr
 
 Once you are ready click **OK,I'VE ALLOWED THE MINER**
 
-![BLOC GUI Miner Start Mining 6](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-antivirus.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-antivirus.png)
 
 ### **Configuring**
 
 BLOC GUI Miner will auto configure your mining hardware with the best capabilities in the most cases. The configuration process is almost instant or take few seconds.
 
-![BLOC GUI Miner Start Mining 7](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-ready.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-ready.png)
 
 ### **Mining**
 
@@ -91,7 +91,7 @@ Congratulations ! You are mining **Conceal Network (CCX)** cryptocurrency. This 
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/14-MINING-CCX.png)
+![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/14-MINING-CCX.png)
 
 ### **Settings** <a name="Conceal Network (CCX)-settings"></a>
 

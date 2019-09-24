@@ -175,7 +175,7 @@ We suggest macOS users to always use XMRIG bundle if possible for a simple insta
 - [Monero](https://www.getmonero.org) **(XMR)**
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
-- [Conceal Network](https://conceal.network) **(CCX)** **ONLY XMR-STAK**
+- [Conceal Network](https://conceal.network) **(CCX)** - **ONLY XMR-STAK**
 - [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
 - [LETHEAN](https://lethean.io) **(LTHN)**
 - [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
@@ -190,11 +190,11 @@ We suggest macOS users to always use XMRIG bundle if possible for a simple insta
 ### **XMRIG bundle support following coins**
 
 - [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [TurtleCoin](https://turtlecoin.lol) **(TRTL)** **ONLY XMR-STAK**
+- [TurtleCoin](https://turtlecoin.lol) **(TRTL)** - **ONLY XMR-STAK**
 - [RYO](https://ryo-currency.com) **(RYO)**
 - [Haven](https://www.havenprotocol.com) **(XHV)**
 - [Monero](https://www.getmonero.org) **(XMR)**
-- [Loki](https://loki.network) **(LOKI)** **ONLY XMR-STAK**
+- [Loki](https://loki.network) **(LOKI)** - **ONLY XMR-STAK**
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
 - [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**

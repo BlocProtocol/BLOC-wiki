@@ -158,13 +158,14 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-qrl/)
 
-
-## **Supported Miners**
+## **Supported Miners**<a name="supported-miners"></a>
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.7**
 2. [xmrig](../mining/XMRIG-index.md) **v3.1.2**
+
+We suggest macOS users to always use XMRIG bundle if possible for a simple installation as XMR-STAK require extra library.
 
 ### **XMRSTAK bundle support following coins**
 
@@ -174,22 +175,36 @@ BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including
 - [Monero](https://www.getmonero.org) **(XMR)**
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
-- [Conceal Network](https://conceal.network) **(CCX)**
+- [Conceal Network](https://conceal.network) **(CCX)** **ONLY XMR-STAK**
 - [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
+- [LETHEAN](https://lethean.io) **(LTHN)**
+- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
+- [MASARI](https://getmasari.org) **(MSR)**
+- [TUBE](https://bittubeapp.com) **(TUBE)**
+- [AEON](http://www.aeon.cash) **(BLOC)**
+- [ARQMA](https://arqma.com) **(ARQ)**
+- [IRIDIUM](https://ird.cash) **(IRD)**
 
 ![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMR-STAK.png)
 
 ### **XMRIG bundle support following coins**
 
 - [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
+- [TurtleCoin](https://turtlecoin.lol) **(TRTL)** **ONLY XMR-STAK**
 - [RYO](https://ryo-currency.com) **(RYO)**
 - [Haven](https://www.havenprotocol.com) **(XHV)**
 - [Monero](https://www.getmonero.org) **(XMR)**
-- [Loki](https://loki.network) **(LOKI)**
+- [Loki](https://loki.network) **(LOKI)** **ONLY XMR-STAK**
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
 - [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
+- [LETHEAN](https://lethean.io) **(LTHN)**
+- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
+- [MASARI](https://getmasari.org) **(MSR)**
+- [TUBE](https://bittubeapp.com) **(TUBE)**
+- [AEON](http://www.aeon.cash) **(BLOC)**
+- [ARQMA](https://arqma.com) **(ARQ)**
+- [IRIDIUM](https://ird.cash) **(IRD)**
 
 ![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMRIG.png)
 
@@ -202,6 +217,24 @@ Download and install BLOC GUI Miner from:
 - BLOC.MONEY - Windows, Mac and Linux binaries [Download Area](https://bloc.money/download)
 - GitHub - Source code and Windows, Mac and Linux binaries [GitHub Rep](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
 
+## **PRE Install instruction for macOS with XMR-STAK**
+
+Some libraries are required to be able to use XMR-STAK on macOS.
+
+- Search for terminal on your mac application and open it
+- Type: ```xcode-select --install```
+- Then: ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+- Then: ```brew doctor```
+- Then the last one. Copy and paste:
+
+```
+brew install hwloc libmicrohttpd gcc openssl cmake
+cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
+make install
+```
+You should now be ready to use the BLOC GUI Miner.
+
+If you do not want to bother with this PRE-installation simply use XMR-RIG version.
 
 ## **Guides**
 

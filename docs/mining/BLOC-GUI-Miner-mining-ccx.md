@@ -10,7 +10,20 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 ![BLOC GUI Miner Mining Conceal Network (CCX)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-CCX.jpg)
 
-## **PRE Install instruction**
+## **Install BLOC GUI Miner**
+
+- XMRRIG do not support mining for CCX. You will need to use the BLOC GUI Miner with the XMR-STAK bundle built-in.
+
+Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
+
+Download and Install:
+
+- From BLOC.MONEY [Download Area](https://bloc.money/download)
+- From [GitHub](https://github.com/furiousteam/GUI-miner/releases/latest)
+
+## **PRE Install instruction for macOS with XMR-STAK**
+
+Some libraries are required to be able to use XMR-STAK on macOS.
 
 - Search for terminal on your mac application and open it
 - Type: ```xcode-select --install```
@@ -24,14 +37,6 @@ cmake . -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DCUDA_ENABLE=OFF -DOpenCL_ENA
 make install
 ```
 You should now be ready to use the BLOC GUI Miner.
-
-## **Install BLOC GUI Miner**
-
-Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
-
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
-- Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
-
 
 ## **Mining Conceal Network (CCX)**
 

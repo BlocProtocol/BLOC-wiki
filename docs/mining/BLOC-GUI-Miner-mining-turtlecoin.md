@@ -12,11 +12,14 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 ## **Install BLOC GUI Miner**
 
+- XMR-STAK does not support mining for TRTL. You will need to use the BLOC GUI Miner with the XMRRIG bundle built-in.
+
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
-- From the [Download Area](https://bloc.money/download) of BLOC.MONEY
-- Download and install BLOC GUI Miner for [Windows, Mac and Linux](https://github.com/furiousteam/GUI-miner/releases/latest) from GitHub
+Download and Install:
 
+- From BLOC.MONEY [Download Area](https://bloc.money/download)
+- From [GitHub](https://github.com/furiousteam/GUI-miner/releases/latest)
 
 ## **Mining TurtleCoin TRTL**
 

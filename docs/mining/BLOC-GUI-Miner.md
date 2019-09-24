@@ -34,6 +34,9 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 ## **Screenshots**
 
+*GIF*
+![BLOC GUI Miner 20 cryptocurrencies supported](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-1.1.3-GIF.gif)
+
 *ad*
 ![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.1.2.jpg)
 

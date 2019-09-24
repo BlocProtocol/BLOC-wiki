@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining Monero (XMR)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-XMR.jpg)
+![BLOC GUI Miner Mining Monero (XMR)](images/BLOC-GUI-MINER/SCREEN-XMR.jpg)
 
 ## **Install BLOC GUI Miner**
 

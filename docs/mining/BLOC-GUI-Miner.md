@@ -158,6 +158,63 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/13-MINING-QRL.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-qrl/)
 
+### **Lethean (LTHN) Mining**
+
+[Lethean (LTHN)](https://lethean.io) allow users to quickly and seamlessly use VPN services by choosing an exit node that best suits their needs. Simply download the wallet, add Lethean, and visit the integrated VPN marketplace to begin using the VPN services.
+
+*Mining LTHN:* [How to mine Quantum Resistant Ledger (QRL)](../mining/BLOC-GUI-Miner-mining-lethean.md)
+
+![BLOC GUI Miner Mining Lethean (LTHN)](images/BLOC-GUI-MINER/SCREEN-LETHEAN.jpg)
+
+### **X-CASH (XCASH) Mining**
+
+[X-CASH](https://www.x-network.io/xcash/) **(XCASH)** is public blockchain network & innovative digital asset powering the X network allowing the creation of customizable blockchains secured by a worldwide network.
+
+*Mining XCASH:* [How to mine X-CASH (XCASH) ](../mining/BLOC-GUI-Miner-mining-xcash.md)
+
+![BLOC GUI Miner Mining X-CASH (XCASH))](images/BLOC-GUI-MINER/SCREEN-XCASH.jpg)
+
+### **TUBE (TUBE) Mining**
+
+[TUBE](https://bittubeapp.com) **(TUBE)** BitTube reshapes how web monetization should work. Browse privately, ad free and support every publisher you visit. Your time powers the new attention economy without compromise. AirTime rewards you and the publisher while browsing the web. Reward any website, social account and creator with your time and donations
+
+*Mining TUBE:* [How to mine TUBE (TUBE) ](../mining/BLOC-GUI-Miner-mining-tube.md)
+
+![BLOC GUI Miner Mining TUBE)](images/BLOC-GUI-MINER/SCREEN-TUBE.jpg)
+
+### **Masari (MSR) Mining**
+
+[MASARI](https://getmasari.org) **(MSR)** is a privacy-centric innovative cryptocurrency that allows users to send money around the globe with low fees very quickly. Masari is a fast, fungible, secure, private and soon-to-be scalable currency.
+
+*Mining Masari (MSR) :* [How to mine Masari (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
+
+![BLOC GUI Miner Mining Masari (MSR))](images/BLOC-GUI-MINER/SCREEN-MASARI.jpg)
+
+### **Iridium (IRD) Mining**
+
+[IRIDIUM](https://ird.cash) **(IRD)** takes advantage of the technology behind CryptoNote by pulling together the best features that privacy coins can offer the world. 
+
+*Mining Iridium (IRD):* [How to mine Iridium (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
+
+![BLOC GUI Miner Mining Iridium (IRD))](images/BLOC-GUI-MINER/SCREEN-IRIDIUM.jpg)
+
+### **ArQmA (ARQ) Mining**
+
+[ARQMA](https://arqma.com) **(ARQ)** the heart of ArQ-Network, which was created by crypto enthusiasts to connect merchants big to small with seamless transactions and minimal fees to zero ! ArQmA creates a full and brilliant currency exchange platform which aims to provide more advanced features than any previously developed protocol.
+
+*Mining ArQmA (ARQ):* [How to mine ArQmA (ARQ)](../mining/BLOC-GUI-Miner-mining-arqma.md)
+
+![BLOC GUI Miner Mining ArQmA (ARQ))](images/BLOC-GUI-MINER/SCREEN-ARQMA.jpg)
+
+### **Aeon (AEON) Mining**
+
+[ARQMA](https://arqma.com) **(ARQ)** the heart of ArQ-Network, which was created by crypto enthusiasts to connect merchants big to small with seamless transactions and minimal fees to zero ! ArQmA creates a full and brilliant currency exchange platform which aims to provide more advanced features than any previously developed protocol.
+
+*Mining Aeon (AEON):* [How to mine Aeon (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
+
+![BLOC GUI Miner Mining Aeon (AEON))](images/BLOC-GUI-MINER/SCREEN-AEON.jpg)
+
+
 ## **Supported Miners**
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.

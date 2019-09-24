@@ -6,7 +6,7 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-![BLOC GUI Miner Mining X-CASH (XCASH)](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v1.1.2-mining-XHV.jpg)
+![BLOC GUI Miner Mining X-CASH (XCASH)](images/BLOC-GUI-MINER/SCREEN-XCASH.jpg)
 
 ## **Install BLOC GUI Miner**
 

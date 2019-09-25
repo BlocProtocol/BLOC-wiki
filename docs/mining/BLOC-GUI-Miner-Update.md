@@ -2,7 +2,7 @@
 
 ## **v1.1.3**
 
-- *24 September 2019*
+- *25 September 2019*
 - [BLOC GUI Miner v1.1.1](https://github.com/furiousteam/BLOC-GUI-Miner/releases/tag/1.1.3)
 
 Update details:
@@ -10,6 +10,7 @@ Update details:
 - Updated XMRIG to latest version 3.1.3
 - 63 mining pools added for all coins
 - Now 17 cryptocurrencies supported
+- 17 tutorials added "how to mine"
 
 Added +7 cryptocurrency:
 
@@ -20,6 +21,33 @@ Added +7 cryptocurrency:
 - [AEON](http://www.aeon.cash) **(AEON)**
 - [ARQMA](https://arqma.com) **(ARQ)**
 - [IRIDIUM](https://ird.cash) **(IRD)**
+
+## **Guides**
+
+Make sure to check the guides how to use:
+
+- [What is BLOC GUI Miner ?](https://wiki.bloc.money/mining/bloc-gui-miner/)
+- [How to install on Windows](https://wiki.bloc.money/mining/bloc-gui-miner-using/#windows)
+- [How to install on macOS](https://wiki.bloc.money/mining/bloc-gui-miner-using/#mac-os)
+- [How to install on Linux](https://wiki.bloc.money/mining/bloc-gui-miner-using/#linux)
+- [How to use BLOC GUI Miner to mine BLOC](https://wiki.bloc.money/mining/bloc-gui-miner-using/#start-mining)
+- [How to mine TurtleCoin (TRTL)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-turtlecoin/)
+- [How to mine Sumokoin (SUMO)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-sumo/)
+- [How to mine Ryo (RYO)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-ryo/)
+- [How to mine Quantum Resistant Ledger (QRL)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-qrl/)
+- [How to mine Monero (XMR)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-monero/)
+- [How to mine Loki (LOKI)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-loki/)
+- [How to mine Haven (XHV)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-haven/)
+- [How to mine Graft (GRFT)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-graft/)
+- [How to mine Lethean (LTHN)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-lethean/)
+- [How to mine Tube (TUBE)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-tube/)
+- [How to mine Masari (MSR)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-masari/)
+- [How to mine Iridium (IRD)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-iridium/)
+- [How to mine ArQmA (ARQ)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-arqma/)
+- [How to mine Aeon (AEON)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-aeon/)
+- [How to mine X-CASH (XCASH)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-xcash/)
+- [How to mine Conceal Network (CCX)](https://wiki.bloc.money/mining/BLOC-GUI-Miner-mining-ccx/)
+- [How to compile the BLOC GUI Miner](https://wiki.bloc.money/mining/BLOC-GUI-Miner-Compile)
 
 ## **v1.1.2**
 
@@ -135,4 +163,4 @@ This is the a BETA release. A complete tutorial and instructions on how to use t
 
 ## **Last update:**
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.1.2.jpg)
+![BLOC GUI Miner Mining BLOC](https://raw.githubusercontent.com/furiousteam/BLOC-wiki/master/docs/mining/images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-5-CURRENCY-UPDATE-1.1.3.jpg)

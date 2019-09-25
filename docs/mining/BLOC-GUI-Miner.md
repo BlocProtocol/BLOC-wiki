@@ -19,7 +19,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 - 💎 Built-in latest XMR-STAK & XMRIG
 - ✅ Now support 17 Cryptocurrencies
 - 🖥 Works on macOS, Windows (7, 8, 10) & Linux x64
-- 🎖 Best Mining Pools built-in
+- 🎖 63 Best Mining Pools built-in
 - ❇️ Change mining pool or coin in 1 click
 - ℹ️ Complete informations about each currency with links
 - 🔸 Easy to use

@@ -1,5 +1,26 @@
 # **BLOC GUI Miner Updates History**
 
+## **v1.1.3**
+
+- *24 September 2019*
+- [BLOC GUI Miner v1.1.1](https://github.com/furiousteam/BLOC-GUI-Miner/releases/tag/1.1.3)
+
+Update details:
+- Added support for Subo address. SUMOKOIN (SUMO)
+- Updated XMRIG to latest version 3.1.3
+- 63 mining pools added for all coins
+- Now 17 cryptocurrencies supported
+
+Added +7 cryptocurrency:
+
+- [LETHEAN](https://lethean.io) **(LTHN)**
+- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
+- [MASARI](https://getmasari.org) **(MSR)**
+- [TUBE](https://bittubeapp.com) **(TUBE)**
+- [AEON](http://www.aeon.cash) **(AEON)**
+- [ARQMA](https://arqma.com) **(ARQ)**
+- [IRIDIUM](https://ird.cash) **(IRD)**
+
 ## **v1.1.2**
 
 - *17 September 2019*

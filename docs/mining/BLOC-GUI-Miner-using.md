@@ -154,7 +154,8 @@ Once you have created your wallet come back to the BLOC GUI Miner and select the
 
 ### **Address Setup**
 
-Enter your BLOC wallet address and click **OK, NEXT STEP**.
+- Enter your BLOC wallet address and click **OK, NEXT STEP**.
+- Mining with integrated address is supported
 
 ![BLOC GUI Miner Start Mining 4](images/BLOC-GUI-MINER/BLOC-GUI-Miner-v0.0.3-wallet-address.png)
 

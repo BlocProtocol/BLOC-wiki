@@ -6,7 +6,7 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 BLOC GUI Miner support two very popular miner backends: [xmr-stak](https://github.com/fireice-uk/xmr-stak) and [xmrig](https://github.com/xmrig/xmrig)
 
-BLOC GUI Miner comes with **XMR-STAK 2.10.7** and XMRIG **3.1.2** already built-in, including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with **XMR-STAK 2.10.7** and XMRIG **3.1.3** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
@@ -14,10 +14,10 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 **Note**: Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
 
-## What's New in v1.1.2 ?
+## BLOC GUI Miner Features
 
 - 💎 Built-in latest XMR-STAK & XMRIG
-- ✅ Now support $BLOC $TRTL $XMR $RYO $XHV $SUMO $LOKI $QRL $CCX $GRFT
+- ✅ Now support 17 Cryptocurrencies
 - 🖥 Works on macOS, Windows (7, 8, 10) & Linux x64
 - 🎖 Best Mining Pools built-in
 - ❇️ Change mining pool or coin in 1 click
@@ -26,6 +26,10 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 - 📈 Price & Coin Stats by CoinGecko
 - 📊 Mining Stats by Cryptunit
 - ♻️ CPU & GPU Mining
+
+## **Previous Updates**
+
+[Previous Updates](../mining/BLOC-GUI-Miner-Update.md)
 
 ### Online Support:
 
@@ -68,15 +72,32 @@ Everyone can add their own cryptocurrency to the BLOC GUI Miner as long as it is
 You can mine the following cryptocurrencies with the BLOC GUI Miner :
 
 - [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [TurtleCoin](https://turtlecoin.lol) **(TRTL)**
+- [TurtleCoin](https://turtlecoin.lol) **(TRTL)** - *ONLY XMRIG*
 - [RYO](https://ryo-currency.com) **(RYO)**
 - [Haven](https://www.havenprotocol.com) **(XHV)**
 - [Monero](https://www.getmonero.org) **(XMR)**
-- [Loki](https://loki.network) **(LOKI)**
+- [Loki](https://loki.network) **(LOKI)** *ONLY XMRIG*
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
-- [Conceal Network](https://conceal.network) **(CCX)**
+- [Conceal Network](https://conceal.network) **(CCX)** *ONLY XMRSTAK*
 - [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
+- [LETHEAN](https://lethean.io) **(LTHN)**
+- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
+- [MASARI](https://getmasari.org) **(MSR)**
+- [TUBE](https://bittubeapp.com) **(TUBE)**
+- [AEON](http://www.aeon.cash) **(AEON)**
+- [ARQMA](https://arqma.com) **(ARQ)**
+- [IRIDIUM](https://ird.cash) **(IRD)**
+
+XMR-STAK Version:
+
+![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMR-STAK.png)
+
+XMRIG Version:
+
+We suggest macOS users to always use XMRIG bundle if possible for a simple installation as XMR-STAK require extra library.
+
+![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMRIG.png)
 
 If you would like to contribute to this project by adding or editing a mining pool but also to add a new cryptonote currency please checkout the [instructions available](https://github.com/furiousteam/BLOC-GUI-Miner/tree/master/coins).
 
@@ -217,56 +238,14 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [![BLOC GUI Miner Mining](images/BLOC-GUI-MINER/aeon-mining.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-aeon)
 
-
 ## **Supported Miners**
 
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.7**
-2. [xmrig](../mining/XMRIG-index.md) **v3.1.2**
+2. [xmrig](../mining/XMRIG-index.md) **v3.1.3**
 
 We suggest macOS users to always use XMRIG bundle if possible for a simple installation as XMR-STAK require extra library.
-
-### **XMRSTAK bundle support following coins**
-
-- [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [RYO](https://ryo-currency.com) **(RYO)**
-- [Haven](https://www.havenprotocol.com) **(XHV)**
-- [Monero](https://www.getmonero.org) **(XMR)**
-- [Sumokoin](https://www.sumokoin.org) **(SUMO)**
-- [GRAFT](https://www.graft.network) **(GRFT)**
-- [Conceal Network](https://conceal.network) **(CCX)** - **ONLY XMR-STAK**
-- [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
-- [LETHEAN](https://lethean.io) **(LTHN)**
-- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
-- [MASARI](https://getmasari.org) **(MSR)**
-- [TUBE](https://bittubeapp.com) **(TUBE)**
-- [AEON](http://www.aeon.cash) **(BLOC)**
-- [ARQMA](https://arqma.com) **(ARQ)**
-- [IRIDIUM](https://ird.cash) **(IRD)**
-
-![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMR-STAK.png)
-
-### **XMRIG bundle support following coins**
-
-- [BLOC.MONEY](https://bloc.money) **(BLOC)**
-- [TurtleCoin](https://turtlecoin.lol) **(TRTL)** - **ONLY XMRIG**
-- [RYO](https://ryo-currency.com) **(RYO)**
-- [Haven](https://www.havenprotocol.com) **(XHV)**
-- [Monero](https://www.getmonero.org) **(XMR)**
-- [Loki](https://loki.network) **(LOKI)** - **ONLY XMRIG**
-- [Sumokoin](https://www.sumokoin.org) **(SUMO)**
-- [GRAFT](https://www.graft.network) **(GRFT)**
-- [Quantum Resistant Ledger](https://www.theqrl.org) **(QRL)**
-- [LETHEAN](https://lethean.io) **(LTHN)**
-- [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
-- [MASARI](https://getmasari.org) **(MSR)**
-- [TUBE](https://bittubeapp.com) **(TUBE)**
-- [AEON](http://www.aeon.cash) **(BLOC)**
-- [ARQMA](https://arqma.com) **(ARQ)**
-- [IRIDIUM](https://ird.cash) **(IRD)**
-
-![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/XMRIG.png)
 
 ## **Download binaries and Source code**
 
@@ -311,6 +290,13 @@ If you do not want to bother with this PRE-installation simply use XMR-RIG versi
 - [How to mine Loki (LOKI)](../mining/BLOC-GUI-Miner-mining-loki.md)
 - [How to mine Haven (XHV)](../mining/BLOC-GUI-Miner-mining-haven.md)
 - [How to mine Graft (GRFT)](../mining/BLOC-GUI-Miner-mining-graft.md)
+- [How to mine Graft (LTHN)](../mining/BLOC-GUI-Miner-mining-lethean.md)
+- [How to mine Graft (TUBE)](../mining/BLOC-GUI-Miner-mining-tube.md)
+- [How to mine Graft (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
+- [How to mine Graft (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
+- [How to mine Graft (ARQ)](../mining/BLOC-GUI-Miner-mining-arqma.md)
+- [How to mine Graft (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
+- [How to mine Graft (XCASH)](../mining/BLOC-GUI-Miner-mining-xcash.md)
 - [How to mine Conceal Network (CCX)](../mining/BLOC-GUI-Miner-mining-ccx.md)
 - [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
 

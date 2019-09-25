@@ -42,7 +42,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 ![BLOC GUI Miner 20 cryptocurrencies supported](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-1.1.3-GIF.gif)
 
 *ad*
-![BLOC GUI Miner Mining QRL](images/BLOC-GUI-MINER/BLOC-GUI-MINER-1.1.2.jpg)
+![BLOC GUI Miner Mining cryptocurrency](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-5-CURRENCY-UPDATE-1.1.3.jpg)
 
 *Home*
 
@@ -54,7 +54,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 *Select Coin to Mine*
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/XMRIG.png)
 
 *Select Mining Pool*
 

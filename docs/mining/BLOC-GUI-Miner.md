@@ -116,7 +116,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining TRTL:* [How to mine TurtleCoin (TRTL)](../mining/BLOC-GUI-Miner-mining-turtlecoin.md)
 
-[![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-turtlecoin/)
+[![BLOC GUI Miner Mining TurtleCoin](images/BLOC-GUI-MINER/turtlecoin-mining.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-turtlecoin/)
 
 ### **Haven (XHV) Mining**
 

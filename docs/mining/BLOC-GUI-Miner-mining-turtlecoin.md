@@ -75,7 +75,7 @@ Congratulations ! You are mining **(TRTL)** TurtleCoin cryptocurrency. This is t
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/6-MINING-TRTL-BLOC-GUI-Miner-v1.1.2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/turtlecoin-mining.png)
 
 ### **Settings** <a name="trtl-settings"></a>
 

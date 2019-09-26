@@ -34,7 +34,7 @@ Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
 Select Haven (XHV)
 
-![Select Haven (XHV)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Haven (XHV)](images/BLOC-GUI-MINER/XMRIG.png)
 
 ### **Haven (XHV) Address**
 

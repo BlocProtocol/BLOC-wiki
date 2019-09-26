@@ -32,7 +32,7 @@ Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
 Select Graft (GRFT)
 
-![Select Graft (GRFT)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Graft (GRFT)](images/BLOC-GUI-MINER/XMRIG.png)
 
 ### **Graft (GRFT) Address**
 

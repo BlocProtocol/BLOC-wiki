@@ -35,7 +35,7 @@ Launch the BLOC GUI Miner and select **I want to mine other cryptocurrencies**
 
 Select Sumokoin (SUMO)
 
-![Select Sumokoin (SUMO)](images/BLOC-GUI-MINER/3-MINE-OTHER-CRYPTOCURRENCIES-BLOC-GUI-Miner-v1.1.2.png)
+![Select Sumokoin (SUMO)](images/BLOC-GUI-MINER/XMRIG.png)
 
 ### **Sumokoin (SUMO) Address**
 

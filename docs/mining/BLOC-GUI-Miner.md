@@ -42,7 +42,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 ![BLOC GUI Miner 20 cryptocurrencies supported](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-1.1.3-GIF.gif)
 
 *ad*
-![BLOC GUI Miner Mining cryptocurrency](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-5-CURRENCY-UPDATE-1.1.3.jpg)
+![BLOC GUI Miner Mining cryptocurrency](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-5-CURRENCY-UPDATE-1.1.4.jpg)
 
 *Home*
 

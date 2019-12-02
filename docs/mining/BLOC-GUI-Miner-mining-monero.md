@@ -8,6 +8,8 @@ It is aimed at getting people that have never tried mining before with a focus o
 
 ![BLOC GUI Miner Mining Monero (XMR)](images/BLOC-GUI-MINER/SCREEN/screen-XMR.jpg)
 
+**Monero has changed PoW algorithm to RandomX on November 30 2019. BLOC GUI Miner support RandomX Mining from version 1.1.4 (3rd december 2019).**
+
 ## **Install BLOC GUI Miner**
 
 Some antivirus packages detect cryptocurrency miners as malware and will remove the miner as soon as it's started. In order for the BLOC GUI miner to function, you'll need to exclude the miner from being scanned by your antivirus software.
@@ -72,7 +74,7 @@ Congratulations ! You are mining **Monero (XMR)** cryptocurrency. This is the ov
 
 - You can change the mining pool by clicking here. It will open the settings page.
 
-![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)
+![BLOC GUI Miner Mining BLOC](images/BLOC-GUI-MINER/MONERO-BLOC-GUI-Miner-v1.1.4.png)
 
 ### **Settings** <a name="Monero (XMR)-settings"></a>
 

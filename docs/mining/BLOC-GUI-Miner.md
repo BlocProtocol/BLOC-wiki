@@ -4,9 +4,9 @@
 
 It is aimed at getting people that have never tried mining before with a focus on accessibility, security and simplicity.
 
-BLOC GUI Miner support two very popular miner backends: [xmr-stak](https://github.com/fireice-uk/xmr-stak) and [xmrig](https://github.com/xmrig/xmrig)
+BLOC GUI Miner support two very popular miner backends: [xmr-stak](https://github.com/fireice-uk/xmr-stak) and [xmrig](https://github.com/xmrig/xmrig) the best RandomX, CryptoNight and Argon2 CPU miner.
 
-BLOC GUI Miner comes with **XMR-STAK 2.10.7** and XMRIG **3.1.3** already built-in, including configuration files for CPU and GPU mining in most of the cases.
+BLOC GUI Miner comes with **XMR-STAK 2.10.7** and XMRIG **5.1.0** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.md) is a great place to start!
 
@@ -75,8 +75,8 @@ You can mine the following cryptocurrencies with the BLOC GUI Miner :
 - [TurtleCoin](https://turtlecoin.lol) **(TRTL)** - *ONLY XMRIG*
 - [RYO](https://ryo-currency.com) **(RYO)**
 - [Haven](https://www.havenprotocol.com) **(XHV)**
-- [Monero](https://www.getmonero.org) **(XMR)**
-- [Loki](https://loki.network) **(LOKI)** *ONLY XMRIG*
+- [Monero](https://www.getmonero.org) **(XMR)** (New RandomX algo supported) - *ONLY XMRIG*
+- [Loki](https://loki.network) **(LOKI)** - *ONLY XMRIG*
 - [Sumokoin](https://www.sumokoin.org) **(SUMO)**
 - [GRAFT](https://www.graft.network) **(GRFT)**
 - [Conceal Network](https://conceal.network) **(CCX)** *ONLY XMRSTAK*
@@ -85,8 +85,8 @@ You can mine the following cryptocurrencies with the BLOC GUI Miner :
 - [X-CASH](https://www.x-network.io/xcash/) **(XCASH)**
 - [MASARI](https://getmasari.org) **(MSR)**
 - [TUBE](https://bittubeapp.com) **(TUBE)**
-- [AEON](http://www.aeon.cash) **(AEON)**
-- [ARQMA](https://arqma.com) **(ARQ)**
+- [Wonero](http://wownero.org) **(WOW)** - *ONLY XMRIG*
+- [ARQMA](https://arqma.com) **(ARQ)** (New RandomX rx/arq algo supported) - *ONLY XMRIG*
 - [IRIDIUM](https://ird.cash) **(IRD)**
 
 XMR-STAK Version:
@@ -232,11 +232,11 @@ If you would like to contribute to this project by adding or editing a mining po
 
 ### **Aeon (AEON) Mining**
 
-[AEON](http://www.aeon.cash) **(AEON)** is about enabling this era, enabling an age where all people everywhere have the freedom to privately send and receive money with whatever gadget they already own.
+[WOW](http://wownero.org) **(WOW)** Wownero is a fork of the cryptocurrency Monero with primary alterations.  Wownero’s emission is capped and supply is finite. Wownero is a fairly launched coin with no premine.
 
-*Mining Aeon (AEON):* [How to mine Aeon (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
+*Mining Wonero (WOW):* [How to mine WOW (Wonero)](../mining/BLOC-GUI-Miner-mining-wonero.md)
 
-[![BLOC GUI Miner Mining](images/BLOC-GUI-MINER/aeon-mining.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-aeon)
+[![BLOC GUI Miner Mining](images/BLOC-GUI-MINER/wonero-mining.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-wonero)
 
 ## **Supported Miners**
 

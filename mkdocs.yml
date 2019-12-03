@@ -147,22 +147,22 @@ nav:
       - Mining with BLOC GUI Miner:
         - Introduction: mining/BLOC-GUI-Miner.md
         - How to use: mining/BLOC-GUI-Miner-using.md
-        - How to mine TRTL: mining/BLOC-GUI-Miner-mining-turtlecoin.md
+        - How to mine (TRTL) TurtleCoin: mining/BLOC-GUI-Miner-mining-turtlecoin.md
         - How to mine RYO: mining/BLOC-GUI-Miner-mining-ryo.md
-        - How to mine XHV: mining/BLOC-GUI-Miner-mining-haven.md
-        - How to mine XMR: mining/BLOC-GUI-Miner-mining-monero.md
+        - How to mine (XHV) Haven: mining/BLOC-GUI-Miner-mining-haven.md
+        - How to mine (XMR) Monero: mining/BLOC-GUI-Miner-mining-monero.md
         - How to mine LOKI: mining/BLOC-GUI-Miner-mining-loki.md
-        - How to mine SUMO: mining/BLOC-GUI-Miner-mining-sumo.md
-        - How to mine GRFT: mining/BLOC-GUI-Miner-mining-graft.md
-        - How to mine CCX: mining/BLOC-GUI-Miner-mining-ccx.md
-        - How to mine QRL: mining/BLOC-GUI-Miner-mining-qrl.md
-        - How to mine LTHN: mining/BLOC-GUI-Miner-mining-lethean.md
+        - How to mine (SUMO) Sumokoin: mining/BLOC-GUI-Miner-mining-sumo.md
+        - How to mine (GRFT) Graft: mining/BLOC-GUI-Miner-mining-graft.md
+        - How to mine (CCX) Conceal: mining/BLOC-GUI-Miner-mining-ccx.md
+        - How to mine (QRL) Quantum Resistant Ledger: mining/BLOC-GUI-Miner-mining-qrl.md
+        - How to mine (LTHN) Lethean: mining/BLOC-GUI-Miner-mining-lethean.md
         - How to mine XCASH: mining/BLOC-GUI-Miner-mining-xcash.md
         - How to mine TUBE: mining/BLOC-GUI-Miner-mining-tube.md
-        - How to mine MSR: mining/BLOC-GUI-Miner-mining-masari.md
-        - How to mine IRD: mining/BLOC-GUI-Miner-mining-iridium.md
-        - How to mine ARQ: mining/BLOC-GUI-Miner-mining-arqma.md
-        - How to mine WOW: mining/BLOC-GUI-Miner-mining-wonero.md
+        - How to mine (MSR) Masari: mining/BLOC-GUI-Miner-mining-masari.md
+        - How to mine (IRD) Iridium: mining/BLOC-GUI-Miner-mining-iridium.md
+        - How to mine (ARQ) ArQmA: mining/BLOC-GUI-Miner-mining-arqma.md
+        - How to mine (WOW) Wonero: mining/BLOC-GUI-Miner-mining-wonero.md
         - How to compile: mining/BLOC-GUI-Miner-Compile.md
         - Update Details: mining/BLOC-GUI-Miner-Update.md
       - Mining with XMR-stak: 

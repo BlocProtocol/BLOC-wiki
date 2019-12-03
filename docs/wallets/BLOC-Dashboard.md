@@ -6,19 +6,19 @@ Cryptocurrency for everyone made it easy, safe and private.
 
 ## **Features**
 
-Send and receive BLOC at the touch of a button, anytime, anywhere and to anyone.
-Backup and recover your wallet on any device with the recovery keys by the app.
-Even if you loose your phone you will not lose your BLOC.
-Pay and get Paid using the QR code feature without having to know the recipient BLOC address
-Receive notifcations for transactions
-Use the BLOC Widget to get real time informations about BLOC
-Join the BLOC community on the private chat room
+- Send and receive BLOC at the touch of a button, anytime, anywhere and to anyone.
+- Backup and recover your wallet on any device with the recovery keys by the app.
+- Even if you loose your phone you will not lose your BLOC.
+- Pay and get Paid using the QR code feature without having to know the recipient BLOC address
+- Receive notifcations for transactions
+- Use the BLOC Widget to get real time informations about BLOC
+- Join the BLOC community on the private chat room
 
 Spin and roll the BLOC coin in augmented reality including 3 different colors and 2 animation with sound (require iOS 12)
 
-They aren't any hidden servers to backup or store your coins, you are in control 100%
-A simplified codebase makes BLOC Dashboard quick, lightweight and responsive
-Connect directly to the BLOC network without having the need to download the full blockchain on your phone
+- They aren't any hidden servers to backup or store your coins, you are in control 100%
+- A simplified codebase makes BLOC Dashboard quick, lightweight and responsive
+- Connect directly to the BLOC network without having the need to download the full blockchain on your phone
 
 ## **BLOC world at your fingertips**
 
@@ -104,6 +104,7 @@ Find all the latest and important BLOC informations at a glance on the Dashboard
 If this is your 1st time using BLOC dashboard you will be able to create a BLOC wallet.
 
 Quickly create a BLOC wallet address to start receiving funds and enable all the features from the BLOC Dashboard.
+
 Customise your own QR code with two colours and support Eco friendly payment with BLOC.
 
 1. Select your favorite colors. (Can not be changed)
@@ -141,22 +142,22 @@ Send BLOC anywhere, anytime
 12. Get the transaction hash instantly by notification
 13. Checkout the status of your transaction in `Transactions`
 
-## **Transactions*<a name="transactions></a>
+## **Transactions**<a name="transactions></a>
 
 The transactions list display all the transactions related to your account.
 
 ### **Pending Transaction**
 
-A pending transaction means the transaction is currently being confirmed.
-BLOC require 2 block confirmations to be able to validate the transaction on the blockchain.
-All pending transactions sent or receive will appears here
-Once the transation has been confirmed, it is moved to the transaction history list and disapear from pending list
+- A pending transaction means the transaction is currently being confirmed.
+- BLOC require 2 block confirmations to be able to validate the transaction on the blockchain.
+- All pending transactions sent or receive will appears here
+- Once the transation has been confirmed, it is moved to the transaction history list and disapear from pending list
 
 ### **Transaction History**
 
-Find here all the confirmed transactions made from/to this address.
-Click on the transaction hash to display the transaction details
-View the transaction on the BLOC-EXPLORER
+- Find here all the confirmed transactions made from/to this address.
+- Click on the transaction hash to display the transaction details
+- View the transaction on the BLOC-EXPLORER
 
 *Note: The information field is available ONLY on the BLOC dashboard. If you restore your wallet using another softwaren the information field will not be available.*
 

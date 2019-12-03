@@ -211,6 +211,50 @@ All the latest news embedded directly from [BLOC Medium Blog](https://medium.com
 
 All the latest videos embedded directly from [BLOC Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
 
+## **Ecosystem**<a name="ecosystem"></a>
+
+Ecosystem display projects using BLOC. If you have a project that you would like to be added here. Contact us.
+
+## **Tools**<a name="tools"></a>
+
+Tools gives you access to all other BLOC softwares
+
+## **Developer**<a name="developer"></a>
+
+The developer area allow you to connect your website with your BLOC dashboard wallet address and receive instant notification
+
+## **Help**<a name="help"></a>
+
+Get help for using BLOC with tutorials and videos from this BLOC wiki
+
+## **Chat**<a name="chat"></a>
+
+Private chat room reserved for the BLOC Dashboard members
+
+## **Back-up**<a name="chat"></a>
+
+This is a web wallet created by BLOC Dashboard. For large amount, more security and better privacy please create a cold-storage paper wallet and use the BLOC dashboard wallet as a daily wallet. The BLOC Dashboard is safe and secure but it is an online wallet. The less funds available on this wallet, the better it is.
+
+- Each BLOC wallet gets a unique set of 64 characters private keys called spendSecretKey and viewSecretKey.
+- Write down your private keys. It is the only way to restore your wallet.
+- Keep it secret and safe. If you save it an insecure location you might loose your funds.
+- Do not store on your smartphone, tablet or computer. Only you are responsible for the security of your funds.
+
+You can delete your wallet here
+
+## **Air Drop Missions**<a name="airdrop"></a>
+
+In the cryptocurrency world, Airdrop refers to the free distribution of small amounts of a certain virtual currency tokens to its community members either for free or for performing small tasks.
+
+To qualify for the free gift, you need to perform certain tasks that include liking our social profiles or posting on social media forums, we have setup few different missions.
+
+Airdrop can be viewed as a promotional activity to bootstrap the BLOC.MONEY project. Its aim is to spread awareness about the cryptocurrency project BLOC, and to get the maximum people in the game.
+
+The Airdrop can be claimed only one time per account and per mission. Only one account per person is allowed. 
+
+Airdrop are executed in real time 24/7 and the reward is kept in pending balance until you ask for withdraw. BLOC airdrops are available for a limited time only.
+
+
 
 
 

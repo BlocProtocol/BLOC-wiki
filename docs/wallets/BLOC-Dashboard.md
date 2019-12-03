@@ -48,8 +48,6 @@ Access the same BLOC Dashboard account from multiple devices easily.
 - iOS version for iPhone and iPad
 - Web version for any device using a web browser
 
-f12878f2730940029b78199bfde73b40754764a379f5a8591fe453ba67b29e03
-
 Presentation:
 ![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/BLOC-Electron-wallet-gif-v3.5.2.gif)
 
@@ -73,17 +71,13 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 * Download [BLOC Dashboard for Android](https://dashboard.bloc.money) from the Google Play Store
 * Download [BLOC Dashboard for iOS](https://dashboard.bloc.money) from the Apple App Store
 
-## **Register an account**
-
-![BLOC Electron Wallet](images/BLOC-gui-wallet/V3/1-BLOC-electron-wallet-settings.png)
+## **Register an account**<a name="accountCreate"></a>
 
 1. In order to use the BLOC Dashboard you need to register an account. Go to [Register an account](https://dashboard.bloc.money/en/register) and fill the form with the required details then tap create your account.
 2. Check your email and confirm your account creation by clicking the link from the email we sent you.
 3. You should get a confirmation message: `your account is now confirmed.` You can now sign-in into your account.
 
-## **Sign-In to an account**
-
-![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)
+## **Sign-In to an account**<a name="accountSignIn"></a>
 
 1. Go to [Sign-in to an account](https://dashboard.bloc.money/)
 2. Enter your email or username
@@ -92,11 +86,18 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 
 In case you are using `Two factors authentifiation` you will have to check your email and enter the verification code to sign-in to your account.
 
-## **Create new wallet**<a name="create-wallet"></a>
+## **Password Lost**<a name="passwordLost"></a>
 
-![BLOC Electron Wallet - Create a new wallet](images/BLOC-gui-wallet/V3/3-BLOC-electron-wallet-create.png)
+In case you have lost your password you can use the recover form to reset your password.
 
-If this is your 1st time using BLOC or you just need to create a new wallet use this option.
+1. Go to [Recover my password](https://dashboard.bloc.money/en/forgot-password)
+2. Enter the email address you used to create your account and tap `Send my credentials` button
+3. Check your email and click on the link to reset your password
+4. Enter your new password and Sign-in to your account
+
+## **Dashboard Overview**<a name="accountOverview"></a>
+
+If this is your 1st time using BLOC dashboard you will be able to create a BLOC wallet.
 
 1. Select where the wallet file will be stored. Click on the folder icon, choose where you woud like to save your wallet, enter the name of the file and click save.
 2. Set the required password to open this wallet file

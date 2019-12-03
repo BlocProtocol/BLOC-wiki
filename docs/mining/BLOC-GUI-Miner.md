@@ -231,7 +231,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 [![BLOC GUI Miner Mining](images/BLOC-GUI-MINER/arqma-mining.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-arqma)
 
-### **Aeon (AEON) Mining**
+### **Wonero (WOW) Mining**
 
 [WOW](http://wownero.org) **(WOW)** Wownero is a fork of the cryptocurrency Monero with primary alterations.  Wownero’s emission is capped and supply is finite. Wownero is a fairly launched coin with no premine.
 

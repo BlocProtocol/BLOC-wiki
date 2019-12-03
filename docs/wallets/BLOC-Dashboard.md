@@ -161,18 +161,34 @@ The transactions list display all the transactions related to your account.
 
 *Note: The information field is available ONLY on the BLOC dashboard. If you restore your wallet using another softwaren the information field will not be available.*
 
+## **Address Book**<a name="addressBook></a>
+
+Save the BLOC address of your contact so you can send BLOC faster without typing the address.
+
+1. Enter the BLOC address of your contact
+2. Enter the contact name
+3. Tap `Add Contact`
+4. From now you can select this contact while sending a transaction and do not need to remember the BLOC address 
+
+## **Settings**<a name="settings></a>
+
+Manage your BLOC dashboard settings
+
+1. Your username can not be changed. If you want to change the username you will need to create a new account with that username
+2. Changing your email address require verification, confirm the new email address to change your email.
+3. Select your country and the prefered language to receive email and notifications
+4. Use `2FA (Two-factor auth.` to secure your account. If enabled, you will have to enter a custom code each time you woud like to login into your account. The custom code will be sent into your email
+5. Notification settings let you which informations you would like to receive or not from the BLOC Dashboard. By default all the notifications are enabled.
+6. Once you are ready with your custom settings, click `Save settings`. You should get confirmations that the settings has been saved.
+7. To change your password tap `Change password` enter your old password, enter your new password, confirm your new password and tap `Change Password`
+8. Subscribe or Un-subscribe the newsletter
+
+## **Block Explorer**<a name="blockExplorer></a>
+
+The block explorer shows the latest blocks in the BLOC blockchain. Clicking on a specific network block will provide you with more information regarding its size, when it was found, and more importantly, which transactions it contains.
 
 
 
-* To use a local BLOC node running on the same machine as the BLOC Electron wallet enter `127.0.0.1` as Daemon address with RPC Port: `2086`
-
-![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/opening-wallet.png)
-
-* if you are using BLOC public remote node, you might get a notification displaying the node fee price.
-
-![BLOC Electron Wallet - Public Node Fee notification](images/BLOC-gui-wallet/V3/node-fee-notification.png)
-
-You are now ready to use your wallet. Please follow the next instructions on how to use your wallet.
 
 ## **Import Private Keys to restore a wallet**<a name="import-private-keys"></a>
 

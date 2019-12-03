@@ -244,7 +244,7 @@ If you would like to contribute to this project by adding or editing a mining po
 BLOC GUI Miner comes with **XMR-STAK** and **XMRIG** already built-in, including configuration files for CPU and GPU mining in most of the cases.
 
 1. [xmr-stak](../mining/XMR-Stak-index.md) **v2.10.7**
-2. [xmrig](../mining/XMRIG-index.md) **v3.1.3**
+2. [xmrig](../mining/XMRIG-index.md) **v5.1.0**
 
 We suggest macOS users to always use XMRIG bundle if possible for a simple installation as XMR-STAK require extra library.
 

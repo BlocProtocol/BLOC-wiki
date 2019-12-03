@@ -68,8 +68,10 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 ## **Download**
 
 * Visit [BLOC Dashboard](https://dashboard.bloc.money) from any device with a web browser and login to your account
-* Download [BLOC Dashboard for Android](https://dashboard.bloc.money) from the Google Play Store
 * Download [BLOC Dashboard for iOS](https://dashboard.bloc.money) from the Apple App Store
+* Download [BLOC Dashboard for Android](https://dashboard.bloc.money) from the Google Play Store
+* Download [BLOC Dashboard for Android with mining included](https://bloc.money/download) from BLOC.MONEY website
+
 
 ## **Register an account**<a name="accountCreate"></a>
 
@@ -186,6 +188,33 @@ Manage your BLOC dashboard settings
 ## **Block Explorer**<a name="blockExplorer"></a>
 
 The block explorer shows the latest blocks in the BLOC blockchain. Clicking on a specific network block will provide you with more information regarding its size, when it was found, and more importantly, which transactions it contains.
+
+## **Mining**<a name="mining"></a>
+
+Mining is available only from the [BLOC Dashboard website](https://dashboard.bloc.money) or from the [BLOC Dashboard for Android with mining included](https://bloc.money/download)
+
+1. Switch the button to start mining
+2. Your BLOC Dashboard address will be used to mine from the [Official BLOC Mining Pool](https://pool.bloc.money)
+3. Checkout your stats in real time
+4. If you close the page mining will automatically stops
+
+## **Charts**<a name="charts"></a>
+
+The BLOC charts show the market capitalization, trading volume and trading price for BLOC on the available exchanges.
+Get 24h data and advanced charts for a year.
+
+## **News**<a name="news"></a>
+
+All the latest news embedded directly from [BLOC Medium Blog](https://medium.com/@bloc.money)
+
+## **Videos**<a name="videos"></a>
+
+All the latest videos embedded directly from [BLOC Youtube Channel](https://www.youtube.com/channel/UCdvnEPWhqGtZUEx3EFBrXvA)
+
+
+
+
+
 
 
 

@@ -161,7 +161,7 @@ The transactions list display all the transactions related to your account.
 
 *Note: The information field is available ONLY on the BLOC dashboard. If you restore your wallet using another softwaren the information field will not be available.*
 
-## **Address Book**<a name="addressBook></a>
+## **Address Book**<a name="addressBook"></a>
 
 Save the BLOC address of your contact so you can send BLOC faster without typing the address.
 
@@ -170,7 +170,7 @@ Save the BLOC address of your contact so you can send BLOC faster without typing
 3. Tap `Add Contact`
 4. From now you can select this contact while sending a transaction and do not need to remember the BLOC address 
 
-## **Settings**<a name="settings></a>
+## **Settings**<a name="settings"></a>
 
 Manage your BLOC dashboard settings
 
@@ -183,7 +183,7 @@ Manage your BLOC dashboard settings
 7. To change your password tap `Change password` enter your old password, enter your new password, confirm your new password and tap `Change Password`
 8. Subscribe or Un-subscribe the newsletter
 
-## **Block Explorer**<a name="blockExplorer></a>
+## **Block Explorer**<a name="blockExplorer"></a>
 
 The block explorer shows the latest blocks in the BLOC blockchain. Clicking on a specific network block will provide you with more information regarding its size, when it was found, and more importantly, which transactions it contains.
 

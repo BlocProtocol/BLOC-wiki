@@ -142,7 +142,7 @@ Send BLOC anywhere, anytime
 12. Get the transaction hash instantly by notification
 13. Checkout the status of your transaction in `Transactions`
 
-## **Transactions**<a name="transactions></a>
+## **Transactions**<a name="transactionsList"></a>
 
 The transactions list display all the transactions related to your account.
 

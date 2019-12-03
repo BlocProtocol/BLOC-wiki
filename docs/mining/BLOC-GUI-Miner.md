@@ -18,14 +18,15 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 
 - 💎 Built-in latest XMR-STAK & XMRIG
 - ✅ Now support 17 Cryptocurrencies
-- 🖥 Works on macOS, Windows (7, 8, 10) & Linux x64
-- 🎖 63 Best Mining Pools built-in
+- 🖥 Works on macOS all versions included Catalina, Windows (7, 8, 10) & Linux x64
+- 🎖 67 Best Mining Pools built-in
 - ❇️ Change mining pool or coin in 1 click
 - ℹ️ Complete informations about each currency with links
 - 🔸 Easy to use
 - 📈 Price & Coin Stats by CoinGecko
 - 📊 Mining Stats by Cryptunit
 - ♻️ CPU & GPU Mining
+- ⛏ RandomX, CryptoNight and Argon2 CPU miner
 
 ## **Previous Updates**
 
@@ -39,7 +40,7 @@ If you want to learn about cryptocurrencies, [mining](../mining/What-is-mining.m
 ## **Screenshots**
 
 *GIF*
-![BLOC GUI Miner 20 cryptocurrencies supported](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-1.1.3-GIF.gif)
+![BLOC GUI Miner 20 cryptocurrencies supported](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-1.1.4-GIF.gif)
 
 *ad*
 ![BLOC GUI Miner Mining cryptocurrency](images/BLOC-GUI-MINER/SCREEN/BLOC-GUI-MINER-5-CURRENCY-UPDATE-1.1.4.jpg)

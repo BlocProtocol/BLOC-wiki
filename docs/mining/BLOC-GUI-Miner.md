@@ -132,7 +132,7 @@ If you would like to contribute to this project by adding or editing a mining po
 
 *Mining XMR:* [How to mine Monero (XMR)](../mining/BLOC-GUI-Miner-mining-monero.md)
 
-[![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/9-MINING-MONERO-BLOC-GUI-Miner-v1.1.2.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-monero/)
+[![BLOC GUI Miner Mining Monero](images/BLOC-GUI-MINER/MONERO-BLOC-GUI-Miner-v1.1.4.png)](https://wiki.bloc.money/mining/bloc-gui-miner-mining-monero/)
 
 ### **RYO (RYO) Mining**
 
@@ -278,6 +278,7 @@ If you do not want to bother with this PRE-installation simply use XMR-RIG versi
 ## **Guides**
 
 - [What is the BLOC GUI Miner ?](../mining/BLOC-GUI-Miner.md)
+- [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
 - [How to install on Windows](../mining/BLOC-GUI-Miner-using.md#windows)
 - [How to install on macOS](../mining/BLOC-GUI-Miner-using.md#mac-os)
 - [How to install on Linux](../mining/BLOC-GUI-Miner-using.md#linux)
@@ -290,15 +291,14 @@ If you do not want to bother with this PRE-installation simply use XMR-RIG versi
 - [How to mine Loki (LOKI)](../mining/BLOC-GUI-Miner-mining-loki.md)
 - [How to mine Haven (XHV)](../mining/BLOC-GUI-Miner-mining-haven.md)
 - [How to mine Graft (GRFT)](../mining/BLOC-GUI-Miner-mining-graft.md)
-- [How to mine Graft (LTHN)](../mining/BLOC-GUI-Miner-mining-lethean.md)
-- [How to mine Graft (TUBE)](../mining/BLOC-GUI-Miner-mining-tube.md)
-- [How to mine Graft (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
-- [How to mine Graft (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
-- [How to mine Graft (ARQ)](../mining/BLOC-GUI-Miner-mining-arqma.md)
-- [How to mine Graft (AEON)](../mining/BLOC-GUI-Miner-mining-aeon.md)
+- [How to mine Lethean (LTHN)](../mining/BLOC-GUI-Miner-mining-lethean.md)
+- [How to mine Tube (TUBE)](../mining/BLOC-GUI-Miner-mining-tube.md)
+- [How to mine Masari (MSR)](../mining/BLOC-GUI-Miner-mining-masari.md)
+- [How to mine Iridium (IRD)](../mining/BLOC-GUI-Miner-mining-iridium.md)
+- [How to mine ArQma (ARQ)](../mining/BLOC-GUI-Miner-mining-arqma.md)
+- [How to mine Wonero (WOW)](../mining/BLOC-GUI-Miner-mining-wonero.md)
 - [How to mine Graft (XCASH)](../mining/BLOC-GUI-Miner-mining-xcash.md)
 - [How to mine Conceal Network (CCX)](../mining/BLOC-GUI-Miner-mining-ccx.md)
-- [How to compile the BLOC GUI Miner](../mining/BLOC-GUI-Miner-Compile.md)
 
 ## **Make sure you have a wallet**
 

@@ -97,6 +97,8 @@ In case you have lost your password you can use the recover form to reset your p
 
 ## **Dashboard Overview**<a name="accountOverview"></a>
 
+Find all the latest and important BLOC informations at a glance on the Dashboard overview. 
+
 ### **Create a new wallet**
 
 If this is your 1st time using BLOC dashboard you will be able to create a BLOC wallet.
@@ -121,25 +123,45 @@ Only the `private spend key` is required to restore your wallet on the BLOC Dash
 3. Click import
 4. Your wallet should be imported with the same custom QR code you created
 
-## **Open an existing wallet file .money**<a name="open-wallet"></a>
+## **Send BLOC**<a name="sendBloc"></a>
 
-BLOC Electron Wallet require a connection to a BLOC node to be able to work.
-You have two possibilities:
+Send BLOC anywhere, anytime
 
-![BLOC Electron Wallet - Open an existing wallet file .money](images/BLOC-gui-wallet/V3/4-BLOC-electron-wallet-open.png)
+1. Enter the amount you would like to sent. (BLOC use 4 decimal)
+2. Enter the BLOC recipient address
+3. Tap on the `Contact icon` to import the BLOC address from your address book
+4. Tap on the `Contact icon` to scan a BLOC QR code address using the camera of your device
+5. Add this contact to your address book directly so you do not have to remember the BLOC address of your contact next time
+6. Enter an optional payment id provided by the recipient
+7. Enter optional informations about this transaction. (School fees, Restaurant etc...) (Max 255 characters)
+8. BLOC network fees are set automatically
+9. Click `SEND BLOC`
+10. Check all the details are ok and click `CONFIRM`
+11. Your transaction will be processed in real time
+12. Get the transaction hash instantly by notification
+13. Checkout the status of your transaction in `Transactions`
 
-1. Create your own node - Download and start BLOCd on your machine locally or remotely then connect to it with BLOC Electron Wallet.
-2. Use a public remote BLOC node and do not bother with the tech. Select your favorite BLOC public node and connect to it.
+## **Transactions*<a name="transactions></a>
 
-*Note:* Public remote node may charge extra fees per transaction.
+The transactions list display all the transactions related to your account.
 
-Find out more about [BLOC remote nodes](../wallets/Using-remote-nodes.md) and how you could make extra passive income.
+### **Pending Transaction**
 
-1. Click on the folder icon to open your system explorer and select your wallet file `(.money)`
-2. Type the password for this wallet
-3. Type hostname or IP address of the BLOC daemon or public node to connect to*
-4. Enter RPC port number of the BLOC daemon or public node
-5. Click the button `OPEN THE WALLET`
+A pending transaction means the transaction is currently being confirmed.
+BLOC require 2 block confirmations to be able to validate the transaction on the blockchain.
+All pending transactions sent or receive will appears here
+Once the transation has been confirmed, it is moved to the transaction history list and disapear from pending list
+
+### **Transaction History**
+
+Find here all the confirmed transactions made from/to this address.
+Click on the transaction hash to display the transaction details
+View the transaction on the BLOC-EXPLORER
+
+*Note: The information field is available ONLY on the BLOC dashboard. If you restore your wallet using another softwaren the information field will not be available.*
+
+
+
 
 * To use a local BLOC node running on the same machine as the BLOC Electron wallet enter `127.0.0.1` as Daemon address with RPC Port: `2086`
 

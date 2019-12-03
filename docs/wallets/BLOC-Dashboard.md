@@ -254,9 +254,23 @@ The Airdrop can be claimed only one time per account and per mission. Only one a
 
 Airdrop are executed in real time 24/7 and the reward is kept in pending balance until you ask for withdraw. BLOC airdrops are available for a limited time only.
 
+## **Affiliating System**<a name="affiliates"></a>
 
+The automated affiliate program from BLOC is very easy to use. Webmasters just have to place the BLOC.MONEY's banner ads or buttons on their own Web site. Webmasters will receive a referral fee or commission for each registered account coming from the affiliated link. (The account needs to be verified and complete 2 airdrop missions to receive the reward).
 
+You can also invite your friend or business partner by filling their email address and click the Send invite button, a custom message will be sent including your custom affiliate link.
 
+Or simply share your affiliate link on your preferred social network to invite your friends.
+
+**Listing details of your Affiliates**
+All your affiliates rewards indicated in the table below
+
+- Pending : Your affiliate invitation was sent but the user did not registered
+- Confirmed : The user registered using your invitation
+- Completed : The user has done the minimum airdrop mission. The reward got added into your pending balance.
+
+**Tools to promote the BLOC**
+Banners and ads to help you promote the BLOC to add on your blog or website, Copy the html code and paste it into your page.
 
 
 

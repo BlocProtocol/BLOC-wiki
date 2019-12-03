@@ -40,7 +40,7 @@ By registering an account on the BLOC dashboard you will have access to the foll
 - Access to the private BLOC chatroom
 - Backup your wallet and restore it on your computer
 
-## Available for multiple devices
+## **Available for multiple devices**
 
 Access the same BLOC Dashboard account from multiple devices easily.
 
@@ -67,50 +67,18 @@ Each BLOC wallet gets a unique set of 64 characters private keys called spendSec
 
 This is a web wallet created by BLOC Dashboard. For large amount, more security and better privacy please create a cold-storage [paper walet](../wallets/Making-a-paper-wallet.md) and use the BLOC dashboard wallet as a daily wallet. The BLOC Dashboard is safe and secure but it is an online wallet. The less funds available on this wallet, the better it is.
 
-## **Source Code**
-
-* [BLOC Electron Wallet on GitHub](https://github.com/furiousteam/BLOC-electron-wallet)
-
 ## **Download**
 
-You can download the BLOC Electron Wallet from two places
+* Visit [BLOC Dashboard](https://dashboard.bloc.money) from any device with a web browser and login to your account
+* Download [BLOC Dashboard for Android](https://dashboard.bloc.money) from the Google Play Store
+* Download [BLOC Dashboard for iOS](https://dashboard.bloc.money) from the Apple App Store
 
-* BLOC Electron Wallet from [BLOC.MONEY](https://bloc.money/download)
-* BLOC Electron Wallet from [GitHub](https://github.com/furiousteam/BLOC-electron-wallet/releases)
-
-Once you have downloaded the file, go to your computer and double click the installation package to install the BLOC Electron wallet. Select the BLOC wallet application and place it where you like.
-
-## **Lanch the app**
-
-#### Windows:
-
-1. Download the latest installer [here](https://bloc.money/download)
-2. Run the installer (BLOC-Electron-Wallet-<version>-win-setup.exe) and follow the installation wizard.
-3. Run as Administrator BLOC-Electron-Wallet via start menu or desktop shortcut. (right click on the app icon and select run as Administrator)
-
-#### GNU/Linux (AppImage):
-
-1. Download latest AppImage bundle [here](https://bloc.money/download)
-2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x BLOC-Electron-Wallet-<version>-linux.AppImage`
-3. Run/execute the file, double click in file manager, or run via shell/command line.
-
-See: https://docs.appimage.org/user-guide/run-appimages.html
-
-#### macOS
-
-1. Download latest archive [here](https://bloc.money/download)
-2. Extract downloaded zip archived into your home folder
-3. Open terminal and Run: `cd /Users/YOURNAME/BLOC-Electron-Wallet.app/Contents/MacOS && ./BLOC-Electron-Wallet`
-
-
-## **Settings**
+## **Register an account**
 
 ![BLOC Electron Wallet](images/BLOC-gui-wallet/V3/1-BLOC-electron-wallet-settings.png)
 
-The settings screen will appear the 1st time you are launching the BLOC Electron Wallet. On first launch, BLOC Electron Wallet will try to detect location/path of bundled BLOC-service binary, but if it's failed, you can manually set path to the BLOC-service binary on the Settings screen.
-
-If you are happy to use the bundled BLOC-service simply click the `SAVE` button.
-If you wish to use your own binary select the path location
+1. In order to use the BLOC Dashboard you need to register an account. Go to the register page and fill the form with the required details then create tap create your account.
+2. Check your email and confirm your account creation by clicking the link from the email we sent you.
 
 ## **Welcome Screen**
 

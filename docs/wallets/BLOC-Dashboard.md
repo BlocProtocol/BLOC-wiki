@@ -97,14 +97,29 @@ In case you have lost your password you can use the recover form to reset your p
 
 ## **Dashboard Overview**<a name="accountOverview"></a>
 
+### **Create a new wallet**
+
 If this is your 1st time using BLOC dashboard you will be able to create a BLOC wallet.
 
-1. Select where the wallet file will be stored. Click on the folder icon, choose where you woud like to save your wallet, enter the name of the file and click save.
-2. Set the required password to open this wallet file
-3. Click the button `CREATE A NEW BLOC WALLET`
-4. Wallet file is saved with the following extension: `mywallet.money`
+Quickly create a BLOC wallet address to start receiving funds and enable all the features from the BLOC Dashboard.
+Customise your own QR code with two colours and support Eco friendly payment with BLOC.
 
-You should see a message: Wallet has been imported. You can now [open the wallet](../wallets/BLOC-GUI-Electron-Wallet.md#open-wallet).
+1. Select your favorite colors. (Can not be changed)
+2. Click `Create a new wallet`
+3. Your BLOC address is now created
+4. Share your custom QR code to receive BLOC payment into your address
+5. Save the private keys of your wallet. This is the only way to recover access to your funds.
+
+### **Import a new wallet**
+
+If you already created a BLOC wallet on this same BLOC dashboard you can re-import your wallet with the private keys.
+BLOC wallet created using another software can not be imported into the BLOC dashboard. You need to create a new wallet.
+Only the `private spend key` is required to restore your wallet on the BLOC Dashboard
+
+1. Tap `restore a wallet`
+2. Make sure the `private spend key` you enter here belongs to a BLOC dashboard wallet ONLY, else another address will be generated.
+3. Click import
+4. Your wallet should be imported with the same custom QR code you created
 
 ## **Open an existing wallet file .money**<a name="open-wallet"></a>
 

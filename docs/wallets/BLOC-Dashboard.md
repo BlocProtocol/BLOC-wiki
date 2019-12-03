@@ -77,19 +77,20 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 
 ![BLOC Electron Wallet](images/BLOC-gui-wallet/V3/1-BLOC-electron-wallet-settings.png)
 
-1. In order to use the BLOC Dashboard you need to register an account. Go to the register page and fill the form with the required details then create tap create your account.
+1. In order to use the BLOC Dashboard you need to register an account. Go to [Register an account](https://dashboard.bloc.money/en/register) and fill the form with the required details then tap create your account.
 2. Check your email and confirm your account creation by clicking the link from the email we sent you.
+3. You should get a confirmation message: `your account is now confirmed.` You can now sign-in into your account.
 
-## **Welcome Screen**
+## **Sign-In to an account**
 
 ![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)
 
-Welcome to your BLOC wallet. There is 4 differents options available.
+1. Go to [Sign-in to an account](https://dashboard.bloc.money/)
+2. Enter your email or username
+3. Enter your password
+4. Click Sign-in
 
-1. Create new wallet
-2. Open an existing wallet already created by the BLOC Electron Wallet Client
-3. Import private keys to restore a wallet
-4. Import Mnemonic seed words to restore a wallet
+In case you are using `Two factors authentifiation` you will have to check your email and enter the verification code to sign-in to your account.
 
 ## **Create new wallet**<a name="create-wallet"></a>
 

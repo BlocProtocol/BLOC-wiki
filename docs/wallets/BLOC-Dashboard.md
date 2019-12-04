@@ -2,7 +2,9 @@
 
 The official BLOC.MONEY [(BLOC) Dashboard](https://dashboard.bloc.money) makes cryptocurrency accessible by anyone in the world regardless of their geographic location or status and gives access to financial services with respect of user privacy. Create your wallet to receive and send BLOC, discover a new disruptive ecosystem and get involved with the community.
 
-Cryptocurrency for everyone made it easy, safe and private. 
+Cryptocurrency for everyone made it easy, safe and private.
+
+![BLOC Dashboard All oS together](images/BLOC-Dashboard/BLOC-DASHBOARD-ALL-OS-2000.png)
 
 ## **Features**
 
@@ -47,9 +49,6 @@ Access the same BLOC Dashboard account from multiple devices easily.
 - Android version for mobile phone and tablet
 - iOS version for iPhone and iPad
 - Web version for any device using a web browser
-
-Presentation:
-![BLOC Dashboard All oS together](images/BLOC-Dashboard/BLOC-DASHBOARD-ALL-OS-2000.png)
 
 ## **Screenshot**
 

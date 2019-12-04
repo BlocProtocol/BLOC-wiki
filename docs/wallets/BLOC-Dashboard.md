@@ -53,7 +53,7 @@ Presentation:
 
 ## **Screenshot**
 
-![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/2-BLOC-electron-wallet-welcome.png)
+![BLOC Electron Wallet - Welcome screen](images/BLOC-Dashboard/BLOC-DASHBOARD-ANDROID-APP-MOCKUP-2500.jpg)
 
 **Notes**
 
@@ -68,8 +68,8 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 ## **Download**
 
 * Visit [BLOC Dashboard](https://dashboard.bloc.money) from any device with a web browser and login to your account
-* Download [BLOC Dashboard for iOS](https://dashboard.bloc.money) from the Apple App Store
-* Download [BLOC Dashboard for Android](https://dashboard.bloc.money) from the Google Play Store
+* Download [BLOC Dashboard for iOS](https://apps.apple.com/app/bloc-dashboard/id1483066028) from the Apple App Store
+* Download [BLOC Dashboard for Android](https://play.google.com/store/apps/details?id=money.dashboard.bloc.android) from the Google Play Store
 * Download [BLOC Dashboard for Android with mining included](https://bloc.money/download) from BLOC.MONEY website
 
 

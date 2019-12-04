@@ -63,7 +63,6 @@ iOS App
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-03.png)
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-05.png)
 
-
 **Notes**
 
 Each BLOC wallet gets a unique set of 64 characters private keys called spendSecretKey and viewSecretKey.
@@ -80,6 +79,17 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 * Download [BLOC Dashboard for iOS](https://apps.apple.com/app/bloc-dashboard/id1483066028) from the Apple App Store
 * Download [BLOC Dashboard for Android](https://play.google.com/store/apps/details?id=money.dashboard.bloc.android) from the Google Play Store
 * Download [BLOC Dashboard for Android with mining included](https://bloc.money/download) from BLOC.MONEY website
+
+## **Get your first BLOC cryptocurrency coin for FRE**
+
+* Download the BLOC Dashboard app for Android or iOS
+* Register an account
+* Create your BLOC wallet
+* Come say hello on the private BLOC Chat room
+* Get 1.0000 BLOC added to your affiliate account as welcome bonus
+* Checkout airdrop section and get more rewards
+
+[![BLOC Dashboard App - Get your 1st cryptocurrency BLOC coin for FREE](https://img.youtube.com/vi/CwWN_3iLmyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CwWN_3iLmyI)
 
 
 ## **Register an account**<a name="accountCreate"></a>

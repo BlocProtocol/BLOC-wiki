@@ -50,16 +50,16 @@ Access the same BLOC Dashboard account from multiple devices easily.
 - iOS version for iPhone and iPad
 - Web version for any device using a web browser
 
-## **Screenshot**
+## **Screenshots**
 
 Android App
 ![BLOC Dashboard Android Google Play Store ap](images/BLOC-Dashboard/BLOC-DASHBOARD-ANDROID-APP-MOCKUP-2500.jpg)
 
 iOS App
+
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-01.png)
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-02.png)
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-03.png)
-![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-04.png)
 ![BLOC Dashboard iOS](images/BLOC-Dashboard/mobile-app-05.png)
 
 

@@ -18,6 +18,14 @@ The CLI Wallet, called [BLOCWallet](../wallets/BLOCWallet-how-to-use.md), is a m
 
 If you would like to use BLOCWallet, you can check out [this guide](../wallets/BLOCWallet-how-to-use.md).
 
+## **BLOC Dashboard**
+
+The official BLOC.MONEY [(BLOC) Dashboard](https://dashboard.bloc.money) makes cryptocurrency accessible by anyone in the world regardless of their geographic location or status and gives access to financial services with respect of user privacy. Create your wallet to receive and send BLOC, discover a new disruptive ecosystem and get involved with the community. Cryptocurrency for everyone made it easy, safe and private.
+
+BLOC Dashboard is available for iOS iPhone & iPad and Android mobile and Tablet but also desktop and laptop computers or any device that include a web browser.
+
+If you would like to use BLOC Dashboard, you can check out [this guide](../wallets/BLOC-Dashboard.md).
+
 ## **BLOC Wallet for iPad & iPhone**
 
 The 1st BLOC wallet for iOS with a focus on accessibility, security and simplicity. BLOC wallet makes getting started with BLOC easier than ever. [Download from the Apple Store](https://itunes.apple.com/us/app/bloc-wallet-by-furiousteam-ltd/id1437924269?mt=8&ign-mpt=uo%3D2).
@@ -43,7 +51,3 @@ BLOC-service RPC Wallet is a HTTP server which provides a [JSON 2.0 RPC interfac
 If you are looking to integrate BLOC payment and process transactions into your website or application, **BLOC-service** is what you need.
 
 Please check [this guide](../wallets/bloc-service-index.md) to learn how to use the **BLOC-service RPC wallet**.
-
-## **BLOC Web Wallet**
-
-Coming soon.

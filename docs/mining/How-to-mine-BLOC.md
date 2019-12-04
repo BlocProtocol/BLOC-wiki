@@ -61,6 +61,10 @@ Check out the two options available to mine BLOC from a mobile phone:
 
 his guide will get you started [mining BLOC on a Raspberry Pi](../mining/BLOC-Mining-Rasberry-Pi.md) or similar SBC (single-board computer).
 
-## **9. Mining Pools**
+## **9. Mine BLOC from the BLOC Dashboard**
+
+Mining [BLOC](https://bloc.money) has never been that easy with the [BLOC Dashboard](../wallets/BLOC-Dashboard.md) including a built-in miner with a one click button easy to use. Mine from Android mobile and Tablet but also desktop and laptop computers or any device that include a web browser.
+
+## **10. Mining Pools**
 
 Checkout the complete list of [BLOC Mining Pools](../mining/Pools.md) available. Always select the nearest mining pool from your location for the best results.

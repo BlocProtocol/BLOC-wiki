@@ -49,11 +49,11 @@ Access the same BLOC Dashboard account from multiple devices easily.
 - Web version for any device using a web browser
 
 Presentation:
-![BLOC Electron Wallet - Welcome screen](images/BLOC-gui-wallet/V3/BLOC-Electron-wallet-gif-v3.5.2.gif)
+![BLOC Dashboard All oS together](images/BLOC-Dashboard/BLOC-DASHBOARD-ALL-OS-2000.png)
 
 ## **Screenshot**
 
-![BLOC Electron Wallet - Welcome screen](images/BLOC-Dashboard/BLOC-DASHBOARD-ANDROID-APP-MOCKUP-2500.jpg)
+![BLOC Dashboard Android Google Play Store add](images/BLOC-Dashboard/BLOC-DASHBOARD-ANDROID-APP-MOCKUP-2500.jpg)
 
 **Notes**
 

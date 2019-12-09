@@ -4,6 +4,8 @@ The official BLOC.MONEY [(BLOC) Dashboard](https://dashboard.bloc.money) makes c
 
 Cryptocurrency for everyone made it easy, safe and private.
 
+* [BLOC Dashboard App is available on the App Store and Play Store](https://medium.com/@bloc.money/bloc-dashboard-app-is-available-on-the-app-store-and-play-store-5b5db063a7d9)
+
 ![BLOC Dashboard All oS together](images/BLOC-Dashboard/BLOC-DASHBOARD-ALL-OS-2000.png)
 
 ## **Features**
@@ -79,18 +81,6 @@ This is a web wallet created by BLOC Dashboard. For large amount, more security 
 * Download [BLOC Dashboard for iOS](https://apps.apple.com/app/bloc-dashboard/id1483066028) from the Apple App Store
 * Download [BLOC Dashboard for Android](https://play.google.com/store/apps/details?id=money.dashboard.bloc.android) from the Google Play Store
 * Download [BLOC Dashboard for Android with mining included](https://bloc.money/download) from BLOC.MONEY website
-
-## **Get your first BLOC cryptocurrency coin for FRE**
-
-* Download the BLOC Dashboard app for Android or iOS
-* Register an account
-* Create your BLOC wallet
-* Come say hello on the private BLOC Chat room
-* Get 1.0000 BLOC added to your affiliate account as welcome bonus
-* Checkout airdrop section and get more rewards
-
-[![BLOC Dashboard App - Get your 1st cryptocurrency BLOC coin for FREE](https://img.youtube.com/vi/CwWN_3iLmyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CwWN_3iLmyI)
-
 
 ## **Register an account**<a name="accountCreate"></a>
 
@@ -286,6 +276,35 @@ Airdrop can be viewed as a promotional activity to bootstrap the BLOC.MONEY proj
 The Airdrop can be claimed only one time per account and per mission. Only one account per person is allowed. 
 
 Airdrop are executed in real time 24/7 and the reward is kept in pending balance until you ask for withdraw. BLOC airdrops are available for a limited time only.
+
+### **Chat AirDrop**
+
+⬇️ Download the BLOC Dashboard app for Android or iOS
+📳 Register an account
+🔑 Create your BLOC wallet
+🚀 Go AirDrop mission menu and select Chat achievement
+✋ Come say hello on the private BLOC Chat room
+💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
+✅ Checkout airdrop section and get more rewards
+
+[![BLOC Dashboard App - Get your 1st cryptocurrency BLOC coin for FREE](https://img.youtube.com/vi/CwWN_3iLmyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CwWN_3iLmyI)
+
+### **CryptoCanary Review AirDrop**
+
+⬇️ Download the BLOC Dashboard app for Android or iOS
+📳 Register an account
+🔑 Create your BLOC wallet
+🚀 Go AirDrop mission menu and select CryptoCanary Review
+✋ Tap Claim. (You will need to register an account on CryptoCanary)
+⭐️ Rate 5 stars and enter your review
+📲 Go back to the BLOC Dashboard AirDrop Mission and verify your CryptoCanary username
+💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
+✅ Checkout airdrop section and get more rewards
+
+[![BLOC Dashboard AirDrop Mission | CryptoCanary Review](https://img.youtube.com/vi/yr4UoN5tFf4/maxresdefault.jpg)](https://www.youtube.com/watch?v=yr4UoN5tFf4)
+
+
+**Note: To withdraw your reward click Withdrawals menu and enter your BLOC address where to withdraw your BLOC coins.**
 
 ## **Affiliating System**<a name="affiliates"></a>
 

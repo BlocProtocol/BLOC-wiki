@@ -279,27 +279,27 @@ Airdrop are executed in real time 24/7 and the reward is kept in pending balance
 
 ### **Chat AirDrop**
 
-⬇️ Download the BLOC Dashboard app for Android or iOS
-📳 Register an account
-🔑 Create your BLOC wallet
-🚀 Go AirDrop mission menu and select Chat achievement
-✋ Come say hello on the private BLOC Chat room
-💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
-✅ Checkout airdrop section and get more rewards
+- ⬇️ Download the BLOC Dashboard app for Android or iOS
+- 📳 Register an account
+- 🔑 Create your BLOC wallet
+- 🚀 Go AirDrop mission menu and select Chat achievement
+- ✋ Come say hello on the private BLOC Chat room
+- 💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
+- ✅ Checkout airdrop section and get more rewards
 
 [![BLOC Dashboard App - Get your 1st cryptocurrency BLOC coin for FREE](https://img.youtube.com/vi/CwWN_3iLmyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CwWN_3iLmyI)
 
 ### **CryptoCanary Review AirDrop**
 
-⬇️ Download the BLOC Dashboard app for Android or iOS
-📳 Register an account
-🔑 Create your BLOC wallet
-🚀 Go AirDrop mission menu and select CryptoCanary Review
-✋ Tap Claim. (You will need to register an account on CryptoCanary)
-⭐️ Rate 5 stars and enter your review
-📲 Go back to the BLOC Dashboard AirDrop Mission and verify your CryptoCanary username
-💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
-✅ Checkout airdrop section and get more rewards
+- ⬇️ Download the BLOC Dashboard app for Android or iOS
+- 📳 Register an account
+- 🔑 Create your BLOC wallet
+- 🚀 Go AirDrop mission menu and select CryptoCanary Review
+- ✋ Tap Claim. (You will need to register an account on CryptoCanary)
+- ⭐️ Rate 5 stars and enter your review
+- 📲 Go back to the BLOC Dashboard AirDrop Mission and verify your CryptoCanary username
+- 💎 Get 1.0000 BLOC added to your affiliate account as welcome bonus
+- ✅ Checkout airdrop section and get more rewards
 
 [![BLOC Dashboard AirDrop Mission | CryptoCanary Review](https://img.youtube.com/vi/yr4UoN5tFf4/maxresdefault.jpg)](https://www.youtube.com/watch?v=yr4UoN5tFf4)
 

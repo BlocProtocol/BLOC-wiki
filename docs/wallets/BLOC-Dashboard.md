@@ -289,7 +289,8 @@ Airdrop are executed in real time 24/7 and the reward is kept in pending balance
 
 [![BLOC Dashboard App - Get your 1st cryptocurrency BLOC coin for FREE](https://img.youtube.com/vi/CwWN_3iLmyI/maxresdefault.jpg)](https://www.youtube.com/watch?v=CwWN_3iLmyI)
 
-**Error**: This account already connected and got rewards for this mission
+**Error**: This account already connected and got rewards for this mission:
+
 - The device you are using already claimed a reward for this airdrop mission using another username. Only 1 reward per device is allowed.
 
 ### **CryptoCanary Review AirDrop**
@@ -309,11 +310,13 @@ Write a review about BLOC and give 5 stars rating on CryptoCanary website
 
 [![BLOC Dashboard AirDrop Mission | CryptoCanary Review](https://img.youtube.com/vi/yr4UoN5tFf4/maxresdefault.jpg)](https://www.youtube.com/watch?v=yr4UoN5tFf4)
 
-**Error**: Username not found on Cryptocanary website
+**Error**: Username not found on Cryptocanary website:
+
 - Make sure you have wait at least 30 minutes before verifying your username
 - Verify the username is correct including spaces and special characters if any
 
-**Error**: This account already connected and got rewards for this mission
+**Error**: This account already connected and got rewards for this mission:
+
 - The device you are using already claimed a reward for this airdrop mission using another username. Only 1 reward per device is allowed.
 
 **Note: To withdraw your reward click Withdrawals menu and enter your BLOC address where to withdraw your BLOC coins.**
